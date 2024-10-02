@@ -1,0 +1,298 @@
+<?php
+
+namespace App\Controller;
+
+use App\Entity\Categorie;
+use App\Entity\Information;
+use App\Entity\Magasin;
+use App\Entity\Message;
+use App\Entity\PieceJointe;
+use App\Entity\Status;
+use App\Entity\Ticket;
+use App\Entity\User;
+use App\Entity\Avis;
+use App\Entity\Notification;
+use App\Form\MagasinType;
+use App\Form\MessageType;
+use App\Form\TicketType;
+use App\Repository\TicketRepository;
+use Doctrine\ORM\EntityManagerInterface;
+use Knp\Component\Pager\Paginator;
+use Knp\Component\Pager\PaginatorInterface;
+use Symfony\Bridge\Doctrine\Form\Type\EntityType;
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+use Symfony\Component\Form\ChoiceList\ArrayChoiceList;
+use Symfony\Component\Form\Extension\Core\Type\ChoiceType;
+use Symfony\Component\Form\Extension\Core\Type\CollectionType;
+use Symfony\Component\Form\Extension\Core\Type\SubmitType;
+use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\Mailer\MailerInterface;
+use Symfony\Component\Mime\Email;
+use Symfony\Component\Routing\Annotation\Route;
+
+use Symfony\Component\HttpFoundation\File\UploadedFile;
+
+use Symfony\Component\HttpFoundation\File\Exception\FileException;
+
+
+class UserController extends AbstractController
+{
+    private $repository;
+    /**
+     * @var EntityManagerInterface
+     */
+    private $em;
+
+    public function __construct(TicketRepository $repository, EntityManagerInterface $em, private \Doctrine\Persistence\ManagerRegistry $managerRegistry)
+    {
+        $this->repository = $repository;
+        $this->em = $em;
+    }
+
+
+    /**
+     * @return Response
+     */
+    #[Route(path: '/user', name: 'user.index')]
+    public function index(Request $request) :Response
+    {
+        $this->denyAccessUnlessGranted('IS_AUTHENTICATED_FULLY');
+
+        $mag = $this->managerRegistry->getRepository(Magasin::class)->find(1);
+
+        $magasinChoix = new magasin();
+        $magIn= $this->getUser()->getMagasin();
+
+        // rajouter champs magasins
+        $ticketsPack=[];
+
+        foreach ($magIn as $value)
+        {
+            $tickets = $this->managerRegistry
+                ->getRepository(Ticket::class)
+                ->findBy(['Mag'=>$value]);
+            array_push($ticketsPack,$tickets);
+        }
+        $ticketsLast=[];
+
+        foreach ($ticketsPack as $value)
+        {
+            foreach ($value as $item)
+            {
+                array_push($ticketsLast,$item);
+            }
+        }
+
+        $tickets = $ticketsLast;
+
+        /*$tickets = $this->getDoctrine()
+            ->getRepository(Ticket::class)
+            ->findBy(['Mag'=>$this->getUser()->getMagasin()[0]]);*/
+
+        $informations = $this->managerRegistry
+            ->getRepository(Information::class)
+            ->findBy(array('Active' => true), array('dateInsert'=>'DESC'));
+
+        return $this->render('user/index.html.twig', [
+            'controller_name' => 'UserController',
+            'tickets'=>$tickets,
+            'informations'=>$informations,
+            'magasins' =>$magIn,
+        ]);
+    }
+
+
+    /**
+     * @param $id
+     * @param Request $request
+     * @return \Symfony\Component\HttpFoundation\Response
+     */
+    #[Route(path: 'user/tickets/{id}/message/add', name: 'user.ticket.show', methods: 'GET|POST')]
+    public function addMessage( Ticket $ticket, Message $message)
+    {
+	$this->denyAccessUnlessGranted('ROLE_USER');    
+	$message->setTicket($ticket);
+	$ticket->addMessage();
+        //ajouter message au ticket sans form
+    }
+
+
+    /**
+     * @param $id
+     * @param Request $request
+     * @return \Symfony\Component\HttpFoundation\Response
+     */
+    #[Route(path: 'user/tickets/{id}', name: 'user.ticket.show')]
+    public function show( $id, Request $request)
+    {
+        $this->denyAccessUnlessGranted('ROLE_USER');
+
+        $ticket = $this->managerRegistry
+            ->getRepository(Ticket::class)
+            ->find($id);
+
+        $messages =$this->managerRegistry
+            ->getRepository(Message::class)
+            ->findBy(['Ticket'=>$id]);
+
+        $message =new Message();
+
+        $form_message = $this->createForm(MessageType::class, $message);
+
+        $ticket->setMessageNonLu(0);
+
+        $entityManager = $this->managerRegistry->getManager();
+        $entityManager->persist($ticket);
+        $entityManager->flush();
+
+        $form_message->handleRequest($request);
+
+        if ($form_message->isSubmitted() && $form_message->isValid())
+        {
+            $message->setUser($this->getUser());
+            $message->setDateRegister(new \DateTime());
+            $message->setTicket($ticket);
+            $message->setUser($this->getUser());
+	    $ticket->getMessage()->add($message);
+	    $ticket->setMessageNonLuAdmin($ticket->getMessageNonLuAdmin() + 1);
+            $ticket->setDateUpdate(new \DateTime());
+
+            $entityManager = $this->managerRegistry->getManager();
+            $entityManager->persist($ticket);
+            $entityManager->persist($message);
+            $entityManager->flush();
+
+
+
+            return $this->redirectToRoute('user.ticket.show', ['id'=>$ticket->getId()]);
+
+        }
+
+        if (!$ticket) {
+            //return $this->render('Erreur');
+            throw $this->createNotFoundException(
+                'Pas de Tickets Trouvés ' . $id
+            );
+        }
+        return $this->render('user/User_TicketView.html.twig', [
+            'ticket' => $ticket,
+            'messages'=>$messages,
+            'form_message' => $form_message->createView(),
+        ]);
+
+    }
+
+
+    // creation avec formulaire EDITABLE
+    /**
+     * @param Request $request
+     * @return
+     * @throws \Exception
+     */
+    #[Route(path: 'user/ticket/create', name: 'user.create.ticket')]
+    public function createTicket(Request $request, MailerInterface $mailer)
+    {
+        $this->denyAccessUnlessGranted('ROLE_USER');
+
+        $ticket = new Ticket();
+
+        $message = new Message();
+
+        $ticket->getMessage()->add($message);
+
+        $message->setTicket($ticket);
+
+        $mymag= $this->getUser()->getMagasin();
+
+        $form = $this->createForm(TicketType::class, $ticket)
+            ->add('Mag', EntityType::class, [ 'label'=> 'Magasin','class' => Magasin::class,
+        'choice_label' => 'nom','choices' => $mymag,'expanded' => false]);
+
+        // modification Formulaire
+
+        $form->handleRequest($request);
+
+        $status =$this->managerRegistry
+            ->getRepository(Status::class)
+            ->find(1);
+
+        $avis = $this->managerRegistry
+            ->getRepository(Avis::class)
+            ->find(1);
+
+        if ($form->isSubmitted() && $form->isValid())
+        {
+            $ChoixMag = $form->get("Mag")->getData();
+
+            $ticket->setMag($ChoixMag);
+            $ticket->setDateRegister(new \DateTime());
+            $ticket->setStatus($status);
+            $ticket->setUser($this->getUser());
+            $ticket->setMessageNonLu(1);
+            $ticket->setDateUpdate(new \DateTime());
+            $ticket->setMessageNonLuAdmin(1);
+            $ticket->setAvis($avis);
+            $message->setUser($this->getUser());
+            $message->setDateRegister(new \DateTime());
+
+            // We create a notification for new ticket
+            $notification = new Notification();
+            $notification->setTicket($ticket);
+            $notification->setUser($this->getUser());  
+            $notification->setMagasin($ticket->getMag());
+            $notification->setType('created');
+            $notification->setCreatedAt(new \DateTimeImmutable());
+
+            $entityManager = $this->managerRegistry->getManager();
+            $entityManager->persist($ticket);
+            $entityManager->persist($message);
+            $entityManager->persist($notification);
+            $entityManager->flush();
+
+
+            // Envoi du mail
+            $email =(new Email())
+                ->from('support@cashconverters.fr')
+                ->to($ticket->getUser()->getEmail())
+                ->priority(Email::PRIORITY_HIGH)
+                ->subject(' Support Cash Converters : Ticket n° '.$ticket->getId().' est crée')
+                ->html('<p> Bonjour '.$ticket->getUser()->getLogin().', <br><br> Votre ticket n°'.$ticket->getId().' a été créé avec succès.<br> Catégorie '.$ticket->GetCategorie().'<br> Message : '.$ticket->GetMessage()[0].'<br>Votre demande a été transmise au technicien en charge de votre ticket. Nous reviendrons vers vous dans les meilleurs délais. <br> Cordialement,<br> <br> Service Support,<br><b>Cash Converters</b></p>');
+
+            //$sentEmail = $mailer->send($email);
+	
+            return $this->redirectToRoute('user.ticket.show', ['id'=> $ticket->getId()]);
+        }
+
+        return $this->render('user/User_create_ticket.html.twig', [
+            'form' => $form->createView(),
+        ]);
+
+    }
+
+
+    // <------------------------- Page Admin Ticket.Resolve -------------------------->
+    /**
+     * @param $id, $note
+     * @param Request $request
+     * @return Response
+     * @throws \Exception
+     */
+    #[Route(path: 'user/tickets/{id}/{note}', name: 'user.tickets.satisfaction')]
+    public function satisfaction_tickets($id, $note, Request $request )
+    {
+        $this->denyAccessUnlessGranted('ROLE_USER');
+        // $this->denyAccessUnlessGranted('ROLE_ROOT');
+        $ticket = $this->managerRegistry->getRepository(Ticket::class)->find($id);
+        $avis = $this->managerRegistry->getRepository(Avis::class)->find($note);;
+        $ticket->setAvis($avis);
+        // en base de donnée
+
+        $entityManager = $this->managerRegistry->getManager();
+        $entityManager->persist($ticket);
+        $entityManager->flush();
+        // redirection vers show
+
+        return $this->render('user/User_ticket_satisfaction.html.twig');
+    }
+}

@@ -1,0 +1,349 @@
+﻿{% extends 'base.html.twig' %}
+{% block title %}Support Cash Converters - Admin {% endblock %}
+{% block body %}
+    <div id="content" class="col-sm-12">
+        <div class="container-fluid">
+            <br>
+            <div class="row"> <!-- Première partie -->
+                <div class="col-xl-2 col-md-6 mb-4">
+                    <div class="card border-left-danger shadow mx-sm-1 py-2 ">
+                        <div class="card border-danger shadow text-danger p-3 my-card" ><span class="fas fa-times" aria-hidden="true"></span></div>
+                        <div class="text-danger text-center mt-3"><h4>Tickets non Résolu</h4></div>
+                        <div class="text-danger text-center mt-2"><h2>{% if tNOK is defined %}{{ tNOK }} {% endif %}</h2></div>
+                        <small class="text-muted text-center mt-2"> Dernière mise à jour le {% if date_rec is defined %}{{ date_rec.format('d-m-Y à H:i:s') }}{% endif %}</small>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-md-6 mb-4">
+                    <div class="card border-left-warning shadow mx-sm-1 py-2">
+                        <div class="card border-warning shadow text-warning p-3 my-card"><span class="fas fa-ellipsis-h" aria-hidden="true"></span></div>
+                        <div class="text-warning text-center mt-3"><h4>Tickets attente</h4></div>
+                        <div class="text-warning text-center mt-2"><h2>{% if tW is defined %}{{ tW }} {% endif %}</h2></div>
+                        <small class="text-muted text-center mt-2"> Dernière mise à jour le {% if date_rec is defined %}{{ date_rec.format('d-m-Y à H:i:s') }}{% endif %}</small>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-md-6 mb-4">
+                    <div class="card border-left-success shadow mx-sm-1 py-2">
+                        <div class="card border-success shadow text-success p-3 my-card" ><span class="fas fa-check" aria-hidden="true"></span></div>
+                        <div class="text-success text-center mt-3"><h4>Tickets Clos</h4></div>
+                        <div class="text-success text-center mt-2"><h2>{% if tOK is defined %}{{ tOK }} {% endif %}</h2></div>
+                        <small class="text-muted text-center mt-2">  Dernière mise à jour le {% if date_rec is defined %}{{ date_rec.format('d-m-Y à H:i:s') }}{% endif %}</small>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-md-6 mb-4">
+                    <div class="card border-left-primary shadow mx-sm-1 py-2">
+                        <div class="card border-primary shadow text-primary p-3 my-card" ><span class="fas fa-ticket-alt" aria-hidden="true"></span></div>
+                        <div class="text-primary text-center mt-3"><h4>Total tickets {{ "now"|date("Y") }} </h4></div>
+                        <div class="text-primary text-center mt-2"><h2> {% if TY is defined %}{{ TY }} {% endif %} </h2></div>
+                        <small class="text-muted text-center mt-2"> Dernière mise à jour le {% if date_rec is defined %}{{ date_rec.format('d-m-Y à H:i:s') }}{% endif %}</small>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-md-6 mb-4">
+                    <div class="card border-left-info shadow mx-sm-1 py-2">
+                        <div class="card border-info shadow text-info p-3 my-card" ><span class="fas fa-calendar-alt" aria-hidden="true"></span></div>
+                        <div class="text-info text-center mt-3"><h4>Tickets mensuel</h4></div>
+                        <div class="text-info text-center mt-2"><h2> {% if TM is defined %}{{ TM }} {% endif %}</h2></div>
+                        <small class="text-muted text-center mt-2"> Dernière mise à jour le {% if date_rec is defined %}{{ date_rec.format('d-m-Y à H:i:s') }}{% endif %}</small>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-md-6 mb-4">
+                    <div class="card border-left-dark shadow mx-sm-1 py-2">
+                        <div class="card border-dark shadow text-dark p-3 my-card" ><span class="far fa-smile" aria-hidden="true"></span></div>
+                        <div class="text-dark text-center mt-3"><h4>Satisfaction</h4></div>
+                        <div class="text-dark text-center mt-2">
+                         <h5> {% if satisfaction is defined %}{{ satisfaction.0.status_insatisfait }} {% endif %} <i class="far fa-frown"></i></h5>
+                          <h5> {% if satisfaction is defined %}{{ satisfaction.0.status_neutre }} {% endif %} <i class="far fa-meh"></i></h5>
+                           <h5> {% if satisfaction is defined %}{{ satisfaction.0.status_satisfait }} {% endif %} <i class="far fa-smile"></i></h5>
+                        </div>
+                        <small class="text-muted text-center mt-2"> Dernière mise à jour le {% if date_rec is defined %}{{ date_rec.format('d-m-Y à H:i:s') }}{% endif %}</small>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            <div class="row"> <!-- Deuxième partie -->
+                <div class="col-xl-12 col-lg-12">
+                    <div class="card shadow mb-12">
+                        <div class="card-header row justify-content-between" style="margin: 0;">
+                                <div class="col-lg-8">
+                                    <h6 class="m-0 font-weight-bold"> <i class="fas fa-store"></i> Liste des magasins </h6>
+                                </div>
+                                <div class="col-lg-3">
+                                        {{ form_start (searchForm) }}
+                                        {{ form_row (searchForm._token) }}
+                                        {{ form_widget (searchForm.Nom) }}
+                                </div>
+
+                                <div class="col-lg-1">
+                            <button type="submit" role="button" class="btn btn-success"><i class="fas fa-spinner"></i> Charger </button>
+                        </div>
+
+                </div>
+            <div class="row"> <!-- Troisième partie -->
+                <div class="col-xl-4 col-lg-6 col-sm-8"> <!-- Rapport Tickets par Techniciens -->
+                    <div class="card shadow mb-4">
+                        <!-- Card header - dropdown -->
+                        <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                            <h6 class="m-0 font-weight-bold"><i class="fas fa-chart-bar"></i> Rapport des Tickets par Techniciens</h6>
+                        </div>
+                        <div class="card-body">
+                            <div class="chartjs-size-monitor">
+                                <div class="chartjs-size-monitor-expand">
+                                    <div class=""></div>
+                                </div>
+                                <figure id="myBarChart" width="379" height="189" class="highcharts-figure" style="display: block; width: 379px; height: 189px;">
+                                    <script>
+                                        Highcharts.chart('myBarChart', {
+                                            chart: {
+                                                type: 'bar'
+                                            },
+                                            title: {
+                                                text: 'Nb Tickets résolu du Magasin'
+                                            },
+                                            xAxis: {
+                                                categories: ['Abdel', 'Wassim', 'Anthony', 'Subarnan'],
+                                                title: {
+                                                    text: 'Opérateurs',
+                                                    align: 'middle'
+                                                }
+                                            },
+                                            yAxis: {
+                                                min: 0,
+                                                title: {
+                                                    text: 'Nb Tickets Résolu ',
+                                                    align: 'middle'
+                                                },
+                                                labels: {
+                                                    overflow: 'justify'
+                                                }
+                                            },
+                                            tooltip: {
+                                                valueSuffix: ' Tickets'
+                                            },
+                                            plotOptions: {
+                                                bar: {
+                                                    dataLabels: {
+                                                        enabled: true
+                                                    }
+                                                }
+                                            },
+                                            legend: {
+                                                layout: 'vertical',
+                                                align: 'right',
+                                                verticalAlign: 'top',
+                                                x: -40,
+                                                y: 60,
+                                                floating: true,
+                                                borderWidth: 1,
+                                                backgroundColor:
+                                                    Highcharts.defaultOptions.legend.backgroundColor || '#FFFFFF',
+                                                shadow: true
+                                            },
+                                            credits: {
+                                                enabled: false
+                                            },
+                                            series: [{
+                                                name: 'Mois Courant',
+                                                data: [85, 35, 20, 15]
+                                            },
+                                            ]
+                                        });
+                                    </script>
+                                </figure>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-sm-8"> <!-- Statistiques Catégories -->
+                    <div class="card shadow mb-4">
+                        <!-- Card header - dropdown -->
+                        <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                            <h6 class="m-0 font-weight-bold"><i class="fas fa-chart-bar"></i> Statistiques Catégories </h6>
+                        </div>
+                        <div class="card-body">
+                            <div class="chartjs-size-monitor">
+                                <div class="chartjs-size-monitor-expand">
+                                    <div class=""></div>
+                                </div>
+                                <figure id="myBarChart" width="379" height="189" class="highcharts-figure" style="display: block; width: 379px; height: 189px;">
+                                    <script>
+                                        Highcharts.chart('myBarChart', {
+                                            chart: {
+                                                type: 'bar'
+                                            },
+                                            title: {
+                                                text: 'Nb Tickets résolu du Magasin'
+                                            },
+                                            xAxis: {
+                                                categories: ['Anthony', 'Wassim', 'Abdel', 'Subarnan'],
+                                                title: {
+                                                    text: 'Opérateurs',
+                                                    align: 'middle'
+                                                }
+                                            },
+                                            yAxis: {
+                                                min: 0,
+                                                title: {
+                                                    text: 'Nb Tickets Résolu ',
+                                                    align: 'middle'
+                                                },
+                                                labels: {
+                                                    overflow: 'justify'
+                                                }
+                                            },
+                                            tooltip: {
+                                                valueSuffix: ' Tickets'
+                                            },
+                                            plotOptions: {
+                                                bar: {
+                                                    dataLabels: {
+                                                        enabled: true
+                                                    }
+                                                }
+                                            },
+                                            legend: {
+                                                layout: 'vertical',
+                                                align: 'right',
+                                                verticalAlign: 'top',
+                                                x: -40,
+                                                y: 60,
+                                                floating: true,
+                                                borderWidth: 1,
+                                                backgroundColor:
+                                                    Highcharts.defaultOptions.legend.backgroundColor || '#FFFFFF',
+                                                shadow: true
+                                            },
+                                            credits: {
+                                                enabled: false
+                                            },
+                                            series: [{
+                                                name: 'Mois Courant',
+                                                data: [85, 35, 20, 15]
+                                            },
+                                            ]
+                                        });
+                                    </script>
+                                </figure>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-sm-8"> <!-- Info Magasin -->
+                    <div class="row" id="info_mag">
+                        <div class="col-lg-6 mb-4"> <!-- Id_Mag -->
+                            <div class="card border-left-info shadow mx-sm-1 py-2">
+                                <div class="card-body">
+                                    <div class="now-no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-xs font-weight-bold text-info text-uppercase mb-1"> Id Magasin </div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">
+                                                <div class="size-text" id="id_mag"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-auto">
+                                            <i class="fas fa-store fa-2x text-gray-300"></i>
+                                            {{ MagChoice.Id }}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 mb-4"> <!-- Ville -->
+                            <div class="card border-left-info shadow py-2">
+                                <div class="card-body">
+                                    <div class="now-no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-xs font-weight-bold text-info text-uppercase mb-1"> Ville </div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">
+                                                <div class="size-text" id="ville_mag"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-auto">
+                                            <i class="fas fa-city fa-2x text-gray-300"></i>
+                                            {{ MagChoice.Nom }}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 mb-4"> <!-- Responsable -->
+                            <div class="card border-left-info shadow py-2">
+                                <div class="card-body">
+                                    <div class="now-no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-xs font-weight-bold text-info text-uppercase mb-1"> Responsable </div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">
+                                                <div class="size-text" id="resp_mag"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-auto">
+                                            <i class="fas fa-id-card fa-2x text-gray-300"></i>
+                                            {{ MagChoice.RespName }}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 mb-4"> <!-- Téléphone -->
+                            <div class="card border-left-info shadow py-2">
+                                <div class="card-body">
+                                    <div class="now-no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-xs font-weight-bold text-info text-uppercase mb-1"> Téléphone </div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">
+                                                <div class="size-text" id="tel_mag"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-auto">
+                                            <i class="fas fa-phone fa-2x text-gray-300"></i>
+                                            {% if MagChoice.tel is not empty %}0{% endif %}{{ MagChoice.Tel }}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 mb-4"> <!-- Mail -->
+                            <div class="card border-left-info shadow py-2">
+                                <div class="card-body">
+                                    <div class="now-no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-xs font-weight-bold text-info text-uppercase mb-1"> Mail </div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">
+                                                <div class="size-text" id="mail_mag"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-auto">
+                                            <i class="fas fa-at fa-2x text-gray-300"></i>
+                                            {{ MagChoice.Email }}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 mb-4">  <!--IP -->
+                            <div class="card border-left-info shadow py-2">
+                                <div class="card-body">
+                                    <div class="now-no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-xs font-weight-bold text-info text-uppercase mb-1"> IP </div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">
+                                                <div class="size-text" id="IP_mag"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-auto">
+                                            <i class="fas fa-network-wired fa-2x text-gray-300"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+{% endblock %}

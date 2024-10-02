@@ -1,0 +1,64 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} Support Cash Converters - Admin UsersAll {% endblock %}
+
+{% block body %}
+    <div class="card card_ticket">
+        <div class="card-header">
+            <h3> <i class="fas fa-list"> Liste des Utilisateurs </i></h3>
+        </div>
+        <div class="card-body">
+            <div class="row"> <a href="{{ path('admin.create.user') }}" class="btn btn-outline-info button_space"> <i class="fas fa-user-plus"> Créer un Utilisateur </i></a></div>
+            {% if users is defined %}
+                {% if users is not empty %}
+                    <br>
+                    <table id="Utilisateurs" class="table table-striped table-bordered table-hover" style="width: 100%">
+                        <thead class="thead-dark ">
+                        <tr>
+                            <th scope="col">Id</th>
+                            <th scope="col">Nom</th>
+                            <th scope="col">Prénom</th>
+                            <th scope="col">Login</th>
+                            <th scope="col">Type</th>
+                            <th scope="col">Action</th>
+
+                        </tr>
+                        </thead>
+
+                        <tbody>
+
+                        {% for user in users %}
+                            <tr class="font_background" onClick="document.location.href='{{ path("admin.user.show", {id : user.id}) }}'">
+                                <th scope="row"> {{ user.id }} </th>
+                                <td>{{ user.nom }} </td>
+                                <td><a href={{ path("admin.user.show", {id : user.id}) }} >{{ user.prenom}}</td>
+                                <td> <span class="badge badge-light">{{ user.Login }}</a></span> </td>
+                                {% if user.profil.id == 1 %}
+                                    <td> <span class="badge badge-info">{{ user.profil }}</span></td>
+                                {% elseif user.profil.id == 2 %}
+                                    <td><span class="badge badge-danger">{{ user.profil }}</span></td>
+                                {% else %}
+                                    <td><span class="badge badge-dark">{{ user.profil }}</span></td>
+                                {% endif %}
+
+                                <td> <a href="{{ path('admin.user.delete', {id : user.id}) }}" class="btn btn-outline-danger button_space"> <i class="fa fa-trash-o"> Supprimer </i></a> </td>
+
+                            </tr>
+
+                        {% endfor %}
+
+                        </tbody>
+                    </table>
+                {% else %}
+                    <span class="badge badge-danger">Pas de D'Utilisateurs</span>
+                    <div class="alert alert-primary" role="alert">
+
+                        <!--Vous n'avez pas de ticket pour l'instant.<a href="#" class="alert-link">Creation Ticket</a> Vous pouvez en creer un si vous le souhaité.-->
+                    </div>
+
+                {% endif %}
+            {% endif %}
+
+        </div>
+    </div>
+{% endblock %}
