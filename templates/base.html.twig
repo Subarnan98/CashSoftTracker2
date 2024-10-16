@@ -1,17 +1,427 @@
-<!DOCTYPE html>
-<html>
+﻿<!DOCTYPE html>
+<html lang="fr" dir="ltr">
     <head>
+        <!-- Meta Tags Required -->
         <meta charset="UTF-8">
-        <title>{% block title %}Welcome!{% endblock %}</title>
-        <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22><text y=%221.2em%22 font-size=%2296%22>⚫️</text><text y=%221.3em%22 x=%220.2em%22 font-size=%2276%22 fill=%22%23fff%22>sf</text></svg>">
-        {% block stylesheets %}
-        {% endblock %}
+        <meta name="viewport" content="width=device-width, initial-scale=1,shrink-to-fit=no">
+        <link rel="icon" href="{{ asset('Logo/icon.ico') }}"/>
 
-        {% block javascripts %}
-            {% block importmap %}{{ importmap('app') }}{% endblock %}
+        <title>{% block title %}{% endblock %}</title>
+
+        {% block stylesheets %}
+            {# fichiers CSS #}
+            <link href="{{ asset('css/style.css') }}" rel="stylesheet" >
+            <link href="{{ asset('css/style_login.css') }}" rel="stylesheet" >
+            
+            <!-- Bootstrap CSS -->
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"  {# "{{ asset('Source/bootstrap.min.css') }}" #} >
+            
+            <!-- DataTables CSS -->
+            <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.css"  {# "{{ asset('Source/jquery.dataTables.css') }}" #}>
+            
+            <!-- ChartJS
+            <link rel="stylesheet" type="text/css" href="path/to/chartjs/dist/Chart.min.css">-->
+
+            <!-- HighCharts -->
+            <script src={{ asset('Source/highcharts.js') }} {#"https://code.highcharts.com/highcharts.js"#}></script>
         {% endblock %}
     </head>
-    <body>
-        {% block body %}{% endblock %}
+
+    <body id="Corps"> 
+        <div class="Header">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="{{ path('home.index') }}"><img src="{{ asset('Logo/logo.png') }}" class="logo_size" alt="logo"></a>
+                
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="perfStat">
+                        {% if app.user %} Identifié en tant que {{ app.user.login }} {% endif %}
+                    </div>
+                    
+                    <div class="navbar-nav">
+                        {% if is_granted('ROLE_ADMIN') %}
+                            <li class="nav-item header_black">
+                                <a class="nav-link header_black {% if current_menu is defined and current_menu == '' %}active{% endif %}" href="{{ path('admin.index') }}">
+                                    <i class="fas fa-tachometer-alt"></i> Accueil
+                                </a>
+                            </li>
+
+                            <!-- Menu Annuaire -->
+                            <!--<div class="dropdown {% if current_menu is defined and current_menu == '' %}active{% endif %}" >
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"> <i class="fas fa-scroll"></i> Annuaire</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#"> <i class="fas fa-users"></i> Intégrées</a>
+                                    <a class="dropdown-item" href="#"><i class="fas fa-user-secret"></i> Franchisées</a>
+                                    <a class="dropdown-item" href="#"> <i class="fas fa-user-tie"></i> Siège</a>
+                                    <a class="dropdown-item" href="#"> <i class="fas fa-store-alt"></i> Magasins</a>
+                                </div>
+                            </div> -->
+
+                            <!-- Menu Statistiques -->
+                            <div class="dropdown {% if current_menu is defined and current_menu == '' %}active{% endif %}">
+                                <a class="nav-link header_black dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"> 
+                                    <i class="fas fa-chart-bar"></i> Statistiques
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="{{path('admin.stats.ticket')}}"> <i class="fas fa-ticket-alt"></i> Tickets</a>
+                                    <a class="dropdown-item" href="{{path('admin.stats.categorie')}}">  <i class="fas fa-bars"></i> Catégories</a>
+                                </div>
+                            </div>
+
+                            <!-- Menu Technique -->
+                            <div class="dropdown {% if current_menu is defined and current_menu == '' %}active{% endif %}">
+                                <a class="nav-link header_black dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"> 
+                                    <i class="fas fa-wrench"></i> Technique
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="{{ path('admin.mag.all') }}"> <i class="fas fa-store-alt"></i> Magasins</a>
+                                    <a class="dropdown-item" href="{{ path('admin.user.all') }}"><i class="fas fa-users"></i> Utilisateurs</a>
+                                    <a class="dropdown-item" href="{{ path('admin.tickets.all') }}"> <i class="fas fa-ticket-alt"></i> Tickets</a>
+                                    <a class="dropdown-item" href="{{ path('admin.categorie.all') }}"><i class="fas fa-bars"></i> Catégories</a>
+                                    <a class="dropdown-item" href="{{ path('admin.information.all') }}"><i class="fas fa-info-circle"></i> Information</a>
+                                <!-- <a class="dropdown-item" href="#"><i class="fas fa-id-badge"></i> Licences CashSoft</a> -->
+                                </div>
+                            </div>
+                            <!-- <li class="nav-item">
+                                <a class="nav-link" href="#"> <i class="fas fa-undo-alt"></i> Historique</a>
+                            </li> -->
+                        {% endif %}
+
+                        {% if is_granted('IS_AUTHENTICATED_FULLY') %}
+                             <!-- Menu Notifications -->
+                            <div class="dropdown {% if current_menu is defined and current_menu == '' %}active{% endif %}">
+                                <a class="nav-link header_black dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"> 
+                                    <i class="fas fa-bell"></i> Notifications 
+                                    <span id="notification-count"></span>
+                                </a>
+                                <div id="notification-list" class="dropdown-menu"></div>
+                            </div>
+                            <li class="nav-item" id="logout">
+                                <a href="{{ path('app_logout') }}"><button type="button" class="btn btn-outline-danger logout"> <i class="fas fa-sign-out-alt"></i> Déconnexion </button></a>
+                            </li>
+                            {#<li class="nav-item">
+                                <button type="button" class="btn btn-outline-light" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus." >
+                                    <i class="far fa-comment-dots" > Notifications </i>
+                                    <span class="badge badge-pill badge-dark">10</span>
+                                </button>
+                            </li>#}
+                        {% endif %}
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        {#<form class="form-inline my-2 my-lg-0">
+
+            <input class="form-control mr-sm-2" type="search" placeholder="" aria-label="Search">
+
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Recherche</button>
+
+        </form>#}
+
+        <div id="content" class="col-sm-12">
+            {% block body %}{% endblock %}
+        </div>
+
+        <footer class="page-footer font-small fixed-bottom" id="pied">
+                <div class="footer-copyright text-center py-3"> CASH CONVERTERS © - {{"now"|date("Y") }}        </div>
+        </footer>
+
+        {% block javascripts %}
+            <!-- Font Awesome kits -->
+            <script src="https://kit.fontawesome.com/7bbb385f41.js" crossorigin="anonymous"></script>
+
+            {# Bootstrap JS #}
+            <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+            
+            <!-- HighCharts JS -->
+            <script src="https://code.highcharts.com/modules/exporting.js"></script>
+            <script src="https://code.highcharts.com/modules/export-data.js"></script>
+            <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+
+            {# Datatables JS #}
+            <script src="//cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+            
+            <script>
+                $(document).ready(function() 
+                {
+                    // This prevents the notification dropdown menu from closing on click
+                    $('.dropdown-menu').on('click', function(event){
+                        event.stopPropagation(); 
+                    });
+
+                    // Affichage nom fichier uploadé
+                    $('.custom-file-input').on('change', function(event) 
+                    {
+                        var inputFile = event.currentTarget;
+                        
+                        if(inputFile.files.length === 0)
+                        {
+                            $(inputFile).parent().find('.custom-file-label').html("Select one or many images");
+                        }
+                        else 
+                        {
+                            var placeholder = "";
+
+                            $.each(inputFile.files, function(index , value)
+                            {
+                                placeholder += value.name+" ";
+                            });
+                            
+                            $(inputFile).parent().find('.custom-file-label').html(placeholder);
+                        }
+                    });
+
+                    // Liste des Tickets 
+                    $('#tickets').DataTable(
+                        {
+                            "order": [[0,"desc"], [1, 'asc']]
+                        },
+                        {
+                            columnDefs: [ 
+                                {targets: [1], orderData: [1, 0]}, 
+                                {targets: [5], orderData: [0, 1]}
+                            ]
+                        }
+                    );
+                
+                    // Liste des Magasins
+                    $('#Magasin').DataTable(
+                        {
+                            "order": [[1,"asc"]]
+                        },
+                        {
+                            columnDefs: [ 
+                                {targets: [0], orderData: [0, 1]}, 
+                                {targets: [1], orderData: [1, 0]}, 
+                                {targets: [3], orderData: [3, 0]} 
+                            ]
+                        }
+                    );
+
+                    // Liste des Utilisateurs 
+                    $('#Utilisateurs').DataTable(
+                        {
+                            columnDefs: [ 
+                                {targets: [0], orderData: [0, 1]}, 
+                                {targets: [1], orderData: [1, 0]}, 
+                                {targets: [3], orderData: [3, 0]} 
+                            ]
+                        }
+                    );
+
+                    // Liste des Catégories 
+                    $('#Catégories').DataTable(
+                        {
+                            "order": [[1, "asc"]],
+                            "columnDefs": [ 
+                                {"targets": [0], "orderData": [0, 1]}, 
+                                {"targets": [1], "orderData": [1, 0]}, 
+                                {"targets": [2], "orderData": [2, 0]} 
+                            ],
+                            "aoColumnDefs" : [ 
+                                {"bSortable" : false, "aTargets" : [ "no-sort"]} 
+                            ]
+                        } 
+                    );
+
+                    // Liste des StatsTickets
+                    $('#StatsView').DataTable(
+                        {
+                            "order": [[0, "asc"]],
+                            "columnDefs": [
+                                {"targets": [0], "orderData": [0, 1]},
+                                {"targets": [1], "orderData": [1, 0]},
+                                {"targets": [2], "orderData": [2, 0]}
+                            ],
+                            "aoColumnDefs": [
+                                {"bSortable": false, "aTargets": ["no-sort"]}
+                            ]
+                        }
+                    );
+
+                   
+                    // This function checks for unread notifications from the database and displays them in the notification bell.
+                    async function fetchNotifications() 
+                    {
+                        try {
+                           // We get current user's ID from Twig's app global variable
+                            const userId = {{ app.user.id is defined ? app.user.id : 'null' }};
+
+                            if (userId !== null) 
+                            {
+                                // JS fetch() API calls getNotifications() method of NotificationController which returns an object containing list of notifications for current user 
+                                const response = await fetch(`{{ path('get_notifications', {'user_id': '__USER_ID__'}) }}`.replace('__USER_ID__', userId));
+
+                                const data = await response.json();  // json() method converts response object into JSON format (serialization process)
+                                
+                                const notificationList = document.getElementById('notification-list');
+                                const notificationItem = document.createElement('a');
+                                notificationItem.className = 'dropdown-item';
+                            
+                                if(data.length > 0)
+                                {
+                                    const notificationCount = document.getElementById('notification-count');
+                                    notificationCount.className = 'badge text-white rounded-circle';
+                                    notificationCount.style.backgroundColor = '#5EBEB4';
+                                    notificationCount.textContent = data.length;
+
+                                    // We loop through data object
+                                    data.forEach(item => {
+                                        // Create a new Date object
+                                        const date = new Date(item.notification.createdAt);
+
+                                        // Get the day, month, year, hours, and minutes
+                                        const day = String(date.getUTCDate()).padStart(2, '0');
+                                        const month = String(date.getUTCMonth() + 1).padStart(2, '0'); // Months are zero-indexed
+                                        const year = date.getUTCFullYear();
+                                        const hours = String(date.getUTCHours()).padStart(2, '0');
+                                        const minutes = String(date.getUTCMinutes()).padStart(2, '0');
+
+                                        // Format the date and time as required
+                                        const formattedDate = `${day}-${month}-${year} à ${hours}:${minutes}`;
+
+                                        // We get the role of a connected user
+                                        {% if app.user.Profil is defined %}
+                                            let userRole = "{{app.user.Profil}}";
+                                        {% endif %} 
+
+                                        let path = userRole=='ROLE_ADMIN' ? 'admin' : 'user';
+
+                                        // Customize the message display
+                                        if(item.notification.type === "created")
+                                        {
+                                            notificationItem.innerHTML += `
+                                                <div>
+                                                    Le ticket <strong><a href="/${path}/tickets/${item.notification.ticket.id}">${item.notification.ticket.id}</a></strong> a été crée par ${item.notification.ticket.Nom} ${item.notification.ticket.Prenom} (${item.notification.magasin.Nom})
+                                                    <span class="mark-read ml-2" data-id="${item.id}" style="cursor:pointer;color:red;">X</span>
+                                                    <p><small>${formattedDate}</small></p>
+                                                </div>
+                                            `
+                                        }
+                                        else if(item.notification.type === "modified")
+                                        {
+                                            notificationItem.innerHTML += `
+                                                <div>
+                                                    Le ticket <strong><a href="/${path}/tickets/${item.notification.ticket.id}">${item.notification.ticket.id}</a></strong> a été modifié par ${item.notification.ticket.Nom} ${item.notification.ticket.Prenom} (${item.notification.magasin.Nom})
+                                                    <span class="mark-read ml-2" data-id="${item.id}" style="cursor:pointer;color:red;">X</span>
+                                                    <p><small>${formattedDate}</small></p>
+                                                </div>
+                                            `
+                                        }
+                                        else if(item.notification.type === "message")
+                                        {
+                                            notificationItem.innerHTML += `
+                                                <div>
+                                                    Il y a un nouveau message sur le ticket <strong><a href="/${path}/tickets/${item.notification.ticket.id}">${item.notification.ticket.id}</a></strong>
+                                                    <span class="mark-read ml-2" data-id="${item.id}" style="cursor:pointer;color:red;">X</span>
+                                                    <p><small>${formattedDate}</small></p>
+                                                </div>
+                                            `
+                                        }
+                                    });
+                                }
+                                else
+                                {
+                                    notificationItem.innerHTML =  "Il n'y a aucune notification.";
+                                }
+
+                                notificationList.innerHTML = '';
+
+                                // Append the notification item to the list
+                                notificationList.appendChild(notificationItem);
+
+                                // Add event listeners to all 'x' buttons
+                                document.querySelectorAll('.mark-read').forEach(button => {
+                                    button.addEventListener('click', function() {
+                                        const notificationUserId = this.getAttribute('data-id');
+                                        markNotificationAsRead(notificationUserId, this);
+                                    });
+                                });
+                            } 
+                            else 
+                            {
+                                console.error('User ID is not defined.');
+                            }
+                        } 
+                        catch (error) {
+                            console.error('Error fetching notifications:', error);
+                        }
+                    }
+
+                    // Fetch notifications on page load
+                    fetchNotifications();
+
+                    // Poll for new notifications every 3 seconds
+                    setInterval(fetchNotifications, 3000);
+
+
+                    async function markNotificationAsRead(notificationUserId, element) 
+                    {
+                        try {
+                            // JS fetch() API calls setNotificationAsRead() method of NotificationController which returns an object containing list of notifications for current user Send a POST request to mark the notification as read
+                            const response = await fetch(`{{ path('set_notification_read', { 'id': 'DUMMY_ID' }) }}`.replace('DUMMY_ID', notificationUserId), {
+                                                        method: 'POST',
+                                                        headers: {'Content-Type': 'application/json'}
+                                                    });
+
+                            // Check if the request was successful
+                            if (response.ok) 
+                            {
+                                const data = await response.json();
+
+                                // If the update was successful
+                                if (data.success) 
+                                {
+                                    // Remove the notification from the list
+                                    element.parentElement.remove();
+
+                                    // Optionally update the notification count
+                                    const notificationCountElement = document.getElementById('notification-count');
+                                    let notificationCount = parseInt(notificationCountElement.textContent);
+                                    notificationCount = notificationCount > 0 ? notificationCount - 1 : 0;
+
+                                    notificationCountElement.textContent = notificationCount > 0 ? notificationCount : '';
+
+                                    if(notificationCount==='')
+                                    {
+                                        const notificationItem = document.createElement('a');
+                                        notificationItem.className = 'dropdown-item';
+                                        notificationItem.innerHTML =  "Il n'y a aucune notification.";
+                                        
+                                        // Append the notification item to the list
+                                        const notificationList = document.getElementById('notification-list');
+                                        notificationList.appendChild(notificationItem);
+                                    }
+                                } 
+                                else 
+                                {
+                                    console.error('Error marking notification as read:', data.error);
+                                }
+                            } 
+                            else 
+                            {
+                                console.error('Failed to mark notification as read');
+                            }
+                        } 
+                        catch(error) 
+                        {
+                            console.error('Error in markNotificationAsRead:', error);
+                        }
+                    }
+
+
+
+
+
+                });
+            </script>
+        {% endblock %}
+    
     </body>
 </html>

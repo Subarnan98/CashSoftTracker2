@@ -1,0 +1,152 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} Support Cash Converters - Admin TicketView {% endblock %}
+
+{% block body %}
+    <div class="card card_ticket">
+        <div class="card-header">
+            <h3>
+                Ticket n° {{ ticket.id }} 
+                {% if ticket.status == "En Attente d'Assignation" %}
+                    <span class="badge badge-pill badge-danger"> {{ ticket.status}} </span>
+                {% elseif ticket.status == 'En Traitement' %}
+                    <span class="badge badge-pill badge-warning"> {{ ticket.status}} par {{ ticket.admin }}</span>
+                {% elseif ticket.status == 'Résolu' %}
+                    <span class="badge badge-pill badge-success"> {{ ticket.status}} par {{ ticket.admin }}</span>
+                {% elseif ticket.status == 'Clos' %}
+                    <span class="badge badge-pill badge-dark"> {{ ticket.status}} par {{ ticket.admin }}</span>
+                {% endif %}
+            </h3>
+        </div>
+
+        <div class="card-body">
+            <div class="col-md-12 .offset-md-12">
+                <a href="{{ path('admin.tickets.all') }}" class="btn btn-outline-dark"><i class="fas fa-undo"> Retour à la liste du Tickets</i></a>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-6 col-xl-6 pl-md-6">
+                   <h4> {% if ticket.admin is null %} </h4>
+
+                        {% if ticket.Status.id != 4  %}
+                            <a href="{{ path('admin.tickets.activer', {'id': ticket.id }) }}" class="btn btn-outline-info"><i class="fas fa-lock-open"> Ouvrir Ticket</i></a>
+                        {% endif %}
+                    {% elseif ticket.DateResolve is null %}
+                        <a href="{{ path('admin.tickets.resolve', {'id': ticket.id }) }}" class="btn btn-outline-success"><i class="fas fa-check"> Résoudre Ticket </i></a>
+                    {% elseif ticket.DateClosed is null  %}
+                        <a href="{{ path('admin.tickets.close', {'id': ticket.id }) }}" class="btn btn-outline-danger"><i class="fas fa-lock"> Clôturer Ticket </i></a>
+                    {% endif %}
+                </div>
+                <div class="col-md-6 col-xl-6 pl-md-6">
+                    <h5><b> Tél : 0{{ ticket.mag.tel }} </span>  </b></h5>
+                </div>
+            </div>
+
+            <h5>{{ ticket.titre }} </h5>
+            
+            <form_ticket>
+                <fieldset disabled>
+                    <div class="form-group">
+                        <label for="disabledTextInput"> Date de création : </label>
+                        <input type="text" id="disabledTextInput" class="form-control" placeholder="{{ ticket.DateRegister|date('d-m-Y H:i') }}">
+
+                        <label for="disabledTextInput">Magasin :</label>
+                        <input type="text" id="disabledTextInput" class="form-control" placeholder="{{ ticket.mag.nom }}">
+
+                        <label for="disabledTextInput">Auteur : </label>
+                        <input type="text" id="disabledTextInput" class="form-control" placeholder="{{ ticket.nom }} {{ ticket.prenom }} ">
+
+                        <label for="disabledSelect">Catégorie : </label>
+                        <select id="disabledSelect" class="form-control">
+                            <option>{{ ticket.categorie.nom }}</option>
+                        </select>
+
+                        {% if ticket.Admin is not empty %}
+                            <label for="disabledTextInput">Admin</label>
+                            <input type="text" id="disabledTextInput" class="form-control" placeholder="{{ ticket.Admin.prenom }}">
+                        {% endif %}
+
+                        {% if ticket.IdTeamVw is not empty %}
+                            <label for="disabledTextInput">ID TeamViewer</label>
+                            <input type="text" id="disabledTextInput" class="form-control" placeholder="{{ ticket.IdTeamVw }}">
+                        {% endif %}
+			
+                        {% if ticket.CodeTeamWV is not empty %}
+                            <label for="disabledTextInput"> MDP TeamViewer </label>
+                            <input type="text" id="disabledTextInput" class="form-control" placeholder="{{ ticket.CodeTeamWV }}">
+                        {% endif %}
+                    </div>
+                </fieldset>
+                
+                <h5>Messages</h5>
+                <div class="row px-lg-2 px-2">
+                    <div class="col-md-12 col-xl-12 pl-md-12 px-lg-auto px-0">
+                        <div class="chat-message">
+                            <ul class="list-unstyled chat">
+                                {% if messages is empty %}
+                                    <p>Ce ticket ne contient aucun message.</p>
+                                {% else %}
+                                    {% for message in messages %}
+                                        {% if message.User.id == app.user.id %}
+                                            <li class="d-flex flex-row-reverse mb-4 color_msg_user">
+                                                <div class="chat-body white p-3 ml-2 z-depth-1">
+                                                    <div class="header">
+                                                        <small class="pull-right text-muted"><i class="far fa-clock"></i> {{  message.DateRegister.format('d-m-Y à H:i:s') }}</small>
+                                                        <strong class="primary-font">{{ message.User }}</strong>
+                                                    </div>
+                                                    <hr class="w-100">
+                                                    <p class="d-flex flex-row-reverse mb-0">
+                                                        {{ message.Message }}
+                                                    </p>
+                                                </div>
+                                            </li>
+                                        {% else %}
+                                            <li class="d-flex justify-content-between mb-4  color_msg_support">
+                                                <div class="chat-body white p-3 z-depth-1">
+                                                    <div class="header">
+                                                        <strong class="primary-font">{{ message.User }}</strong>
+                                                        <small class="pull-right text-muted"><i class="far fa-clock"></i>{{  message.DateRegister.format('d-m-Y à H:i:s') }}</small>
+                                                    </div>
+                                                    <hr class="w-100">
+                                                    <p class="mb-0">
+                                                        {{ message.Message }}
+                                                    </p>
+                                                </div>
+                                            </li>
+                                        {% endif %}
+                                    {% endfor %}
+                                {% endif %}
+                                
+                                <li class="white">
+                                    {# When we click on "Envoyer" button it calls show() method of AdminController #}
+                                    {% if ticket.Admin is not empty %}
+                                        {{ form_start(form_message) }}
+                                            {{ form_widget(form_message) }}
+                                            <button type="submit" role="button" class="btn btn-info btn-rounded btn-sm waves-effect waves-light float-right"> <i class="fas fa-paper-plane"> Envoyer </i></button>
+                                        {{form_end(form_message) }}
+                                    {% endif %}
+
+                                    {% if ticket.Fichiers %}
+                                        {% for fichier in ticket.Fichiers %}
+                                            {% if fichier.filename[-3:3] == "csv" %}
+                                                <textarea id="Fichier" name="fichier" rows="10" cols="150"  disabled></textarea>
+                                            {% else %}
+                                                <img src="/files/tickets/{{ fichier.filename }}" alt="card-img-bottom" style="width: auto; height: auto;">
+                                            {% endif %}
+                                        {% endfor %}
+                                    {% endif %}
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </form_ticket>
+        </div>
+
+    </div>
+    <br>
+
+
+
+
+{% endblock %}

@@ -1,0 +1,43 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Support Cash Converters - User NewTicket{% endblock %}
+
+{% block body %}
+        <div class="card card_ticket">
+            <div class="card-header">
+                <h3>Création Ticket</h3>
+
+            </div>
+            <div class="card-body">
+            <div class="row">
+                <div class="col-md-12 offset-md-12">
+                  <a href="{{ path('user.index') }}"> <button type="button"class="btn display-1 btn_style_retour button_space"><i class="fas fa-undo" aria-hidden="true"></i>  Retour</button></a>
+
+                </div>
+                </div>
+                {{ form_start(form) }}
+                    <div class="row">
+                    <div class="col contour_form">{{ form_row(form.Mag) }}</div>
+                    <div class="col">{{ form_row(form.Categorie) }}</div>
+                    </div>
+                    <div class="row">
+                    <div class="col">{{ form_row(form.IdTeamVw) }}</div>
+                    <div class="col">{{ form_row(form.CodeTeamWV) }}</div>
+                    </div>
+                    <div class="row">
+                    <div class="col">{{ form_row(form.nom) }}</div>
+                    <div class="col">{{ form_row(form.prenom) }}</div>
+                    </div>
+
+                    {# {{ form_row(form.Mag) }} #}
+
+                    {{ form_widget(form) }}
+
+
+                <button type="submit" role="button" class="btn display-1 btn_style_retour button_space"> <i class="fas fa-plus"> Valider </i></button>
+                {{form_end(form)}}
+            </div>
+        </div>
+    <br>
+
+{% endblock %}

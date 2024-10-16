@@ -1,0 +1,117 @@
+{% extends 'base.html.twig' %}
+
+
+{% block title %}Support Cash Converters - User AllTickets {% endblock %}
+
+{% block body %}
+    {% if is_granted('ROLE_USER') %}
+        <div class="row top_decalage">
+            {% if magasins is not empty %}
+                {% for magasin in magasins %}
+                    <div class="col-sm-2">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title"><img src="{{ asset('img/magasin.png')}}" style="width: 50px;" alt="icon_magasin">  {{magasin.nom}}</h5>
+                                <p class="card-text">Licence : {{ magasin.licence }}</p>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            {% endif %}
+        </div>
+    {% endif %}
+    
+    <div class="card card_ticket">
+        <div class="card-header card_info">
+            <h5> <i class="fas fa-info-circle"></i> Information Support Cash Converters</h5>
+        </div>
+    
+        <div class="card-body">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+                
+            {% if informations is not empty %}
+                {% for information in informations %}
+                    <h6>{{ information.message}}</h6>
+                {% endfor %}
+            {% endif %}
+        </div>
+    </div>
+
+    <div class="card card_ticket">
+        <div class="card-header">
+            <h3> <i class="fas fa-list"></i> Liste des Tickets</h3>
+        </div>
+        
+        <div class="card-body">
+            <div class="row">
+                <a href="{{ path('user.create.ticket') }}"> 
+                    <button type="button"class="btn display-1 btn_style button_space"><i class="fas fa-plus" aria-hidden="true"></i> Créer</button>
+                </a>
+            </div>
+            
+            {% if tickets is not empty %}
+                <br>
+                <table id="tickets" class="table table-striped table-bordered table-hover" style="width: 100%">
+                    <thead class="thead-dark ">
+                        <tr>
+                            <th scope="col">Id</th>
+                            <th scope="col">Notifications</th>
+                            <th scope="col">Utilisateur</th>
+                            <th scope="col">Catégorie</th>
+                            <th scope="col">Titre</th>
+                            <th scope="col">Status</th>
+                            <th scope="col">Administrateur</th>
+                            <th scope="col">Magasin</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        {% for ticket in tickets %}
+
+                            <tr class="font_background" onClick="document.location.href='{{ path("user.ticket.show", {id : ticket.id}) }}'">
+                                <th scope="row"> <a style="text-decoration:none; color: #343a40;"> {{ ticket.id }} </a>
+                                    <td>
+                                        {% if ticket.Messagenonlu > 0 %}
+                                            <button type="button" class="btn btn-warning"> 
+                                                Notifications <span class="badge badge-light">{{ ticket.Messagenonlu }}</span>
+                                            </button>
+                                        {% endif %}
+                                    </td>
+                                </th>
+                                <td><a href="{{ path("user.ticket.show", {id : ticket.id}) }}" >   <span class="badge badge-pill badge-dark"> {{ ticket.user.nom }} </span> </a></td>
+                                <td><a href="{{ path("user.ticket.show", {id : ticket.id}) }}">   {{ ticket.categorie.nom }}</a></td>
+                                <td><a href="{{ path("user.ticket.show", {id : ticket.id}) }}">   {{ ticket.titre}}</a></td>
+                                {% if ticket.status =="En Attente d'Assignation" %}
+                                    <td><a href="{{ path("user.ticket.show", {id : ticket.id}) }}"><span class="badge badge-pill badge-danger"> {{ ticket.status}} </span></a></td>
+                                {% elseif ticket.status == 'En Traitement' %}
+                                    <td><a href="{{ path("user.ticket.show", {id : ticket.id}) }}"><span class="badge badge-pill badge-warning"> {{ ticket.status}} </span></a></td>
+                                {% elseif ticket.status == 'Résolu' %}
+                                    <td><a href="{{ path("user.ticket.show", {id : ticket.id}) }}"><span class="badge badge-pill badge-success"> {{ ticket.status}} </span></a></td>
+                                {% elseif ticket.status == 'Clos' %}
+                                    <td><a href="{{ path("user.ticket.show", {id : ticket.id}) }}"><span class="badge badge-pill badge-dark"> {{ ticket.status}} </span></a></td>
+                                {% endif %}
+                                
+                                {% if ticket.admin is null %}
+                                    <td> <span class="badge badge-pill badge-secondary"></span> </td>
+                                {% else %} <a href="{{ path("user.ticket.show", {id : ticket.id}) }}">   <td> <span class="badge badge-pill badge-info">  {{ ticket.admin }} {% endif %} </span></td></a>
+                                    <td> <a href="{{ path("user.ticket.show", {id : ticket.id}) }}">{{ ticket.mag.nom }} </a></td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+
+                <div class="pagination">
+                    {#{{ knp_pagination_render(tickets) }}#}
+                </div>
+
+            {% else %}
+                <span class="badge badge-danger">Pas de Tickets</span>
+                {#<div class="alert alert-primary" role="alert">
+                    Vous n'avez pas de ticket pour l'instant.<a href="#" class="alert-link">Creation Ticket</a> Vous pouvez en creer un si vous le souhaité.
+                </div>#}
+            {% endif %}
+        </div>
+    </div>
+{% endblock %}

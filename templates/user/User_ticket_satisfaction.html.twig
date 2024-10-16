@@ -1,0 +1,21 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Support Cash Converters - User Satisfaction{% endblock %}
+
+{% block body %}
+
+<div class="card text-center">
+  <div class="card-header">
+    Avis
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Toute l’équipe Support Cash Converters vous remercie d'avoir répondu a son enquête de satisfaction.</h5>
+    <p class="card-text"><img src="{{ asset('img/satisfaction.png') }}"  style="width: 329px;"></p>
+    <a href="{{ path('user.index') }}" class="btn btn-primary">Accueil</a>
+  </div>
+  <div class="card-footer text-muted">
+    Support Informatique Cash Converters
+  </div>
+</div>
+
+{% endblock %}
