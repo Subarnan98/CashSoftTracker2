@@ -149,15 +149,17 @@ class UserController extends AbstractController
 	        $ticket->setMessageNonLuAdmin($ticket->getMessageNonLuAdmin() + 1);
             $ticket->setDateUpdate(new \DateTime());
 
-            // We create a notification for new message on a ticket
-            // This notification will be send to all admins
+            // When a user writes a new message on ticket we create a notification
             $notification = new Notification();
             $notification->setTicket($ticket);
             $notification->setMagasin($ticket->getMag());
             $notification->setType('message');
             $notification->setCreatedAt(new \DateTimeImmutable());
 
-            // We get the list of all admins
+            $entityManager = $this->managerRegistry->getManager();
+            
+            // This notification will be send to all admins 
+            // So, we get the list of all admins
             $allAdmins = $this->managerRegistry->getRepository(User::class)->findBy(['Profil' => 1]);
 
             // We add a notification for each admin 
@@ -170,7 +172,6 @@ class UserController extends AbstractController
                 $entityManager->persist($notificationUser);   
             }
 
-            $entityManager = $this->managerRegistry->getManager();
             $entityManager->persist($ticket);
             $entityManager->persist($message);
             $entityManager->persist($notification);
@@ -260,7 +261,7 @@ class UserController extends AbstractController
             $message->setUser($this->getUser());
             $message->setDateRegister(new \DateTime());
 
-            // We a user creates a new ticket we create a notification
+            // When a user creates a new ticket we create a notification
             $notification = new Notification();
             $notification->setTicket($ticket);
             $notification->setMagasin($ticket->getMag());
