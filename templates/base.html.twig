@@ -246,7 +246,7 @@
                     );
 
                    
-                    // This function checks for unread notifications from the database and displays them in the notification bell.
+                    // This function checks for unread notifications from the database and displays them in the notification bell on navbar menu.
                     async function fetchNotifications() 
                     {
                         try {
@@ -273,6 +273,7 @@
 
                                     // We loop through data object
                                     data.forEach(item => {
+                                        console.log(item)
                                         // Create a new Date object
                                         const date = new Date(item.notification.createdAt);
 
@@ -308,7 +309,7 @@
                                         {
                                             notificationItem.innerHTML += `
                                                 <div>
-                                                    Le ticket <strong><a href="/${path}/tickets/${item.notification.ticket.id}">${item.notification.ticket.id}</a></strong> a été modifié par ${item.notification.ticket.Nom} ${item.notification.ticket.Prenom} (${item.notification.magasin.Nom})
+                                                    Le ticket <strong><a href="/${path}/tickets/${item.notification.ticket.id}">${item.notification.ticket.id}</a></strong> est ${item.notification.ticket.Status.Status} par ${item.notification.ticket.Admin.Prenom} ${item.notification.ticket.Admin.Nom} (${item.notification.magasin.Nom})
                                                     <span class="mark-read ml-2" data-id="${item.id}" style="cursor:pointer;color:red;">X</span>
                                                     <p><small>${formattedDate}</small></p>
                                                 </div>

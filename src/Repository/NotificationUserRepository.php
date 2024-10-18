@@ -27,12 +27,13 @@ class NotificationUserRepository extends ServiceEntityRepository
     {
         $queryBuilder = $this->createQueryBuilder('nu')     // 'nu' is the alias for the NotificationUser entity
             ->select('nu')                                  // Selecting all columns from NotificationUser entity
-            ->addSelect('n', 'u')                           // Selecting all columns from Notification and User entity
+            ->addSelect('n', 'u')                           // Selecting all columns from Notification entity and User entity
             ->innerJoin('nu.notification', 'n')             // Joining the Notification entity using the alias 'n'
             ->innerJoin('nu.user', 'u')                     // Joining the User entity using the alias 'u'
             ->where('nu.user = :userId')                    // Filtering by user id
             ->andWhere('nu.isRead = false')
             ->setParameter('userId', $userId)
+            ->orderBy('nu.id', 'DESC')
             ->getQuery()
             ->getResult();
         

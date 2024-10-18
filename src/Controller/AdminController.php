@@ -691,18 +691,18 @@ class AdminController extends AbstractController
 
 
     // <------------------------- Page Admin Ticket.open -------------------------->
+    // This method changes ticket status from 1 (En Attente d'Assignation) to 2 (En Traitement)
     /**
      * @param $id
      * @return Response
      * @throws \Exception
      */
     #[Route(path: 'admin/tickets/{id}/activer', name: 'admin.tickets.activer')]
-    public function active_tickets($id, MailerInterface $mailer)
+    public function active_tickets($id, MailerInterface $mailer, UserRepository $userRepository)
     {
         $this->denyAccessUnlessGranted('ROLE_ADMIN');
 
         $ticket = $this->managerRegistry->getRepository(Ticket::class)->find($id);
-
 
         $admin = $this->getUser();
 
@@ -711,13 +711,47 @@ class AdminController extends AbstractController
         $ticket->setStatus($StatusOuvert);
         $ticket->setAdmin($admin);
         $ticket->setMessageNonLu(0);
-        // en base de donnée
+
+        // When an admin opens a newly created ticket it's status passes from 1 (En Attente d'Assignation) to 2 (En Traitement).
+        // So, we create a status change notification.
+        $notification = new Notification();
+        $notification->setTicket($ticket);
+        $notification->setMagasin($ticket->getMag());
+        $notification->setType('modified');
+        $notification->setCreatedAt(new \DateTimeImmutable());
+
+        // This notification will be send to user who created this ticket and to all admins except the admin who opened the ticket
+        // So, we get the user who created this ticket 
+        $ticketOwner = $userRepository->findOneBy(['id' => $ticket->getUser()->getId()]);
 
         $entityManager = $this->managerRegistry->getManager();
-        $entityManager->persist($ticket);
-        $entityManager->flush();
 
-        // redirection vers show
+        // We add a status change notification for user who created this ticket
+        $notificationUser = new NotificationUser();
+        $notificationUser->setNotification($notification);
+        $notificationUser->setUser($ticketOwner);
+        $notificationUser->setIsRead(false);
+        $entityManager->persist($notificationUser);
+    
+        // We get the list of all admins
+        $allAdmins = $this->managerRegistry->getRepository(User::class)->findBy(['Profil' => 1]);
+
+        // We add a status change notification for all admins except the admin who opened the ticket 
+        foreach($allAdmins as $admin)
+        {
+            if($admin !== $this->getUser())
+            {
+                $notificationUser = new NotificationUser();
+                $notificationUser->setNotification($notification);
+                $notificationUser->setUser($admin);
+                $notificationUser->setIsRead(false);
+                $entityManager->persist($notificationUser);
+            }
+        }
+
+        $entityManager->persist($ticket);
+        $entityManager->persist($notification);
+        $entityManager->flush();
 
         $email =(new Email())
             ->from('noreply@siege.cashconverters.fr')
@@ -743,7 +777,6 @@ class AdminController extends AbstractController
     public function rappelTickets($id,MailerInterface $mailer)
     {
         $this->denyAccessUnlessGranted('ROLE_ADMIN');
-
 
         $ticket = $this->managerRegistry->getRepository(Ticket::class)->find($id);
         $DateRegister = $ticket->getDateRegister();

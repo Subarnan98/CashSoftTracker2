@@ -4,6 +4,7 @@ namespace App\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 use Symfony\Component\Validator\Constraints as Assert;
+use Symfony\Component\Serializer\Annotation\Groups;
 
 #[ORM\Entity(repositoryClass: \App\Repository\StatusRepository::class)]
 class Status
@@ -14,6 +15,7 @@ class Status
     private $id;
     
     #[ORM\Column(type: 'string', length: 24)]
+    #[Groups(['notification'])]
     private $Status;
 
     public function getId(): ?int

@@ -34,6 +34,7 @@ class Ticket
 
     #[ORM\Column(type: 'string', length: 255)]
     #[Assert\Length(min: 2, max: 255, minMessage: 'Votre titre est trop court {{ limit }} caractères', maxMessage: 'Votre titre est trop long {{ limit }} caractères')]
+    #[Groups(['notification'])]
     private $Titre;
 
     #[ORM\OneToMany(targetEntity: \App\Entity\Message::class, mappedBy: 'Ticket', cascade: ['all'], orphanRemoval: true)]
@@ -45,6 +46,7 @@ class Ticket
 
     #[ORM\ManyToOne(targetEntity: \App\Entity\Status::class)]
     #[ORM\JoinColumn(name: 'status_id', referencedColumnName: 'id')]
+    #[Groups(['notification'])]
     private $Status;
 
     #[ORM\Column(type: 'string', nullable: true)]
@@ -52,9 +54,9 @@ class Ticket
 
     #[ORM\Column(type: 'string', length: 32, nullable: true)]
     private $CodeTeamWV;
-
-    
+   
     #[ORM\ManyToOne(targetEntity: \App\Entity\User::class)]
+    #[Groups(['notification'])]
     private $Admin;
 
     #[ORM\Column(type: 'datetime')]

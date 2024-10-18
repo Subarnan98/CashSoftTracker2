@@ -26,17 +26,19 @@
             
             <div class="row">
                 <div class="col-md-6 col-xl-6 pl-md-6">
-                   <h4> {% if ticket.admin is null %} </h4>
+                    {% if ticket.Status.id != 4  %}
+                        <a href="{{ path('admin.tickets.activer', {'id': ticket.id }) }}" class="btn btn-outline-info"><i class="fas fa-lock-open"> Ouvrir Ticket</i></a>
+                    {% endif %}
 
-                        {% if ticket.Status.id != 4  %}
-                            <a href="{{ path('admin.tickets.activer', {'id': ticket.id }) }}" class="btn btn-outline-info"><i class="fas fa-lock-open"> Ouvrir Ticket</i></a>
-                        {% endif %}
-                    {% elseif ticket.DateResolve is null %}
+                    {% if ticket.DateResolve is null %}
                         <a href="{{ path('admin.tickets.resolve', {'id': ticket.id }) }}" class="btn btn-outline-success"><i class="fas fa-check"> Résoudre Ticket </i></a>
-                    {% elseif ticket.DateClosed is null  %}
+                    {% endif %}
+                    
+                    {% if ticket.DateClosed is null  %}
                         <a href="{{ path('admin.tickets.close', {'id': ticket.id }) }}" class="btn btn-outline-danger"><i class="fas fa-lock"> Clôturer Ticket </i></a>
                     {% endif %}
                 </div>
+                
                 <div class="col-md-6 col-xl-6 pl-md-6">
                     <h5><b> Tél : 0{{ ticket.mag.tel }} </span>  </b></h5>
                 </div>
