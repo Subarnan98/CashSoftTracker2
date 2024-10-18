@@ -572,19 +572,7 @@ class AdminController extends AbstractController
                 ->subject(' Support Cash Converters : Ticket n° '.$ticket->getId().' est crée')
                 ->html('<p> Bonjour '.$ticket->getUser()->getLogin().', <br><br> Votre ticket n°'.$ticket->getId().' a été créé avec succès.<br> Catégorie '.$ticket->GetCategorie().'<br> Message : '.$ticket->GetMessage()[0].'<br> <br> Votre ticket sera traité dans les meilleurs délai <br> Cordialement,<br> <br> Service Support,<br><b>Cash Converters</b></p>');
 
-            $sentEmail = $mailer->send($email);
-            
-
-            /*$email =(new Email())
-                ->from('bilal.salmi@siege.cashconverters.fr')
-                ->to($ticket->getUser()->getEmail())
-                //->cc('support@siege.cashconverters.fr')
-                //->bcc('bcc@example.com') en copie cache
-                ->priority(Email::PRIORITY_HIGH)
-                ->subject(' Support Cash Converters : Ticket n° '.$ticket->getId().' est crée')
-                ->html('<p> Bonjour '.$ticket->getUser()->getLogin().', <br><br> Votre ticket n°'.$ticket->getId().' a été créé avec succès.<br> Catégorie '.$ticket->GetCategorie().'<br> Message : '.$ticket->GetMessage()[0].'<br> <br> Cordialement,<br> <br> Service Support,<br><b>Cash Converters</b></p>');
-
-            $sentEmail = $mailer->send($email);*/
+            $mailer->send($email);
 
             return $this->redirectToRoute('admin.ticket.show', ['id'=>$ticket->getId()]);
         }
@@ -712,7 +700,7 @@ class AdminController extends AbstractController
         $ticket->setAdmin($admin);
         $ticket->setMessageNonLu(0);
 
-        // When an admin opens a newly created ticket it's status passes from 1 (En Attente d'Assignation) to 2 (En Traitement).
+        // When an admin opens a newly created ticket it's status changes from 1 (En Attente d'Assignation) to 2 (En Traitement).
         // So, we create a status change notification.
         $notification = new Notification();
         $notification->setTicket($ticket);
@@ -761,7 +749,7 @@ class AdminController extends AbstractController
             ->subject('Support Cash Converters : Ticket n° '.$ticket->getId().' est ouvert !')
             ->html('<p> Bonjour '.$ticket->getUser()->getLogin().', <br><br> Votre ticket n°'.$ticket->getId().' est en cours de traitement. <br> <br> <b> <u> Catégorie : </u></b>'.$ticket->GetCategorie().'<br> <br> Cordialement,<br> <b>Support Cash Converters</b></p>');
 
-        $sentEmail = $mailer->send($email);
+        $mailer->send($email);
 
         return $this->redirectToRoute('admin.ticket.show', ['id'=>$ticket->getId()]);
     }
@@ -774,7 +762,7 @@ class AdminController extends AbstractController
      * @throws \Exception
      */
     #[Route(path: 'admin/tickets/{id}/rappel', name: 'admin.tickets.rappel')]
-    public function rappelTickets($id,MailerInterface $mailer)
+    public function rappelTickets($id, MailerInterface $mailer)
     {
         $this->denyAccessUnlessGranted('ROLE_ADMIN');
 
@@ -798,7 +786,7 @@ class AdminController extends AbstractController
             ->subject('Support Cash Converters : Ticket n° '.$ticket->getId().' est toujours en traitement !')
             ->html('<p> Bonjour '.$ticket->getUser()->getLogin().', <br><br> Votre ticket n°'.$ticket->getId().' est toujours en cours de traitement. <br> <br> <b> <u> Catégorie : </u></b>'.$ticket->GetCategorie().'<br> <br> Cordialement,<br> <b>Support Cash Converters</b></p>');
 
-            $sentEmail = $mailer->send($email); 
+            $mailer->send($email); 
 
             return $this->redirectToRoute('admin.ticket.show',['id'=>$ticket->getId()]);
         } 
@@ -808,15 +796,17 @@ class AdminController extends AbstractController
         
 
     // <------------------------- Page Admin Ticket.Resolve -------------------------->
+    // This method changes ticket status from 2 (En Traitement) to 3 (Résolu)
     /**
      * @param $id
      * @return Response
      * @throws \Exception
      */
     #[Route(path: 'admin/tickets/{id}/resolve', name: 'admin.tickets.resolve')]
-    public function resolve_tickets($id, MailerInterface $mailer)
+    public function resolve_tickets($id, MailerInterface $mailer, UserRepository $userRepository)
     {
         $this->denyAccessUnlessGranted('ROLE_ADMIN');
+        
         $ticket = $this->managerRegistry->getRepository(Ticket::class)->find($id);
 
         $admin = $this->getUser();
@@ -825,13 +815,47 @@ class AdminController extends AbstractController
 
         $ticket->setStatus($StatusResolve);
         $ticket->setAdmin($admin);
-
         $ticket->setDateResolve(new \DateTime());
 
-        // en base de donnée
+        // When an admin clicks on the button "Résoudre Ticket" the status of ticket changes from 2 (En Attente d'Assignation) to 3 (Résolu).
+        // So, we create a status change notification.
+        $notification = new Notification();
+        $notification->setTicket($ticket);
+        $notification->setMagasin($ticket->getMag());
+        $notification->setType('modified');
+        $notification->setCreatedAt(new \DateTimeImmutable());
+
+        // This notification will be send to user who created this ticket and to all admins except the admin who resolved the ticket
+        // So, we get the user who created this ticket 
+        $ticketOwner = $userRepository->findOneBy(['id' => $ticket->getUser()->getId()]);
 
         $entityManager = $this->managerRegistry->getManager();
+
+        // We add a status change notification for user who created this ticket
+        $notificationUser = new NotificationUser();
+        $notificationUser->setNotification($notification);
+        $notificationUser->setUser($ticketOwner);
+        $notificationUser->setIsRead(false);
+        $entityManager->persist($notificationUser);
+    
+        // We get the list of all admins
+        $allAdmins = $this->managerRegistry->getRepository(User::class)->findBy(['Profil' => 1]);
+
+        // We add a status change notification for all admins except the admin who resolved the ticket 
+        foreach($allAdmins as $admin)
+        {
+            if($admin !== $this->getUser())
+            {
+                $notificationUser = new NotificationUser();
+                $notificationUser->setNotification($notification);
+                $notificationUser->setUser($admin);
+                $notificationUser->setIsRead(false);
+                $entityManager->persist($notificationUser);
+            }
+        }
+
         $entityManager->persist($ticket);
+        $entityManager->persist($notification);
         $entityManager->flush();
 
         $email = (new TemplatedEmail())
@@ -845,14 +869,14 @@ class AdminController extends AbstractController
                 'categorie' =>$ticket->getCategorie()->getNom(),
             ]);
         
-            $sentEmail = $mailer->send($email);
+            $mailer->send($email);
 
         // redirection vers show
         return $this->redirectToRoute('admin.ticket.show', ['id'=>$ticket->getId()]);
     }
     
     
-    // <------------------------- Page Admin Ticket.Resolve -------------------------->
+    // <------------------------- Page Admin Ticket.Satisfaction -------------------------->
     /**
      * @param $id, $note
      * @return Response

@@ -273,7 +273,6 @@
 
                                     // We loop through data object
                                     data.forEach(item => {
-                                        console.log(item)
                                         // Create a new Date object
                                         const date = new Date(item.notification.createdAt);
 
@@ -309,7 +308,7 @@
                                         {
                                             notificationItem.innerHTML += `
                                                 <div>
-                                                    Le ticket <strong><a href="/${path}/tickets/${item.notification.ticket.id}">${item.notification.ticket.id}</a></strong> est ${item.notification.ticket.Status.Status} par ${item.notification.ticket.Admin.Prenom} ${item.notification.ticket.Admin.Nom} (${item.notification.magasin.Nom})
+                                                    Le ticket <strong><a href="/${path}/tickets/${item.notification.ticket.id}">${item.notification.ticket.id}</a></strong> est ${item.notification.ticket.Status.Status} par ${item.notification.ticket.Admin.Prenom} ${item.notification.ticket.Admin.Nom}
                                                     <span class="mark-read ml-2" data-id="${item.id}" style="cursor:pointer;color:red;">X</span>
                                                     <p><small>${formattedDate}</small></p>
                                                 </div>

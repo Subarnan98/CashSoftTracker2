@@ -276,16 +276,19 @@ class UserController extends AbstractController
 
             $allUsersOfMagasin_id = [];
 
-            // We add a notification for each user related to same magasin
-            foreach($allUsersOfMagasin as $item)
+            // We add a notification for each user related to same magasin except the user who created the ticket
+            foreach($allUsersOfMagasin as $user)
             {
-                $notificationUser = new NotificationUser();
-                $notificationUser->setNotification($notification);
-                $notificationUser->setUser($item->getUser());
-                $notificationUser->setIsRead(false);
-                $entityManager->persist($notificationUser);
+                if($user->getUser() !== $this->getUser())
+                {
+                    $notificationUser = new NotificationUser();
+                    $notificationUser->setNotification($notification);
+                    $notificationUser->setUser($user->getUser());
+                    $notificationUser->setIsRead(false);
+                    $entityManager->persist($notificationUser);
+                }
 
-                array_push($allUsersOfMagasin_id, $item->getUser()->getId());
+                array_push($allUsersOfMagasin_id, $user->getUser()->getId());
             }
 
             // We get the list of all admins
