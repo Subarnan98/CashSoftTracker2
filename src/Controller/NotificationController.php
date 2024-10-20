@@ -38,4 +38,24 @@ class NotificationController extends AbstractController
         return new JsonResponse(['success' => true]);
     }
 
+
+    // This function returns the latest notifications from database
+    #[Route('/notifications/delete/{user_id}/{role}', name: 'delete_all_notifications', methods: ['GET'])]
+    public function deleteAllNotifications($user_id, $role, NotificationUserRepository $notificationUserRepository, EntityManagerInterface $entityManager)
+    {
+        $allNotifications = $notificationUserRepository->findBy(['user' => $user_id]);
+
+        if(count($allNotifications) > 0)
+        {
+            foreach($allNotifications as $notification)
+            {
+                $notification->setIsRead(1);
+                $entityManager->persist($notification);
+                $entityManager->flush();
+            }
+        }
+
+        return $this->redirectToRoute($role.'.index');
+    }
+
 }

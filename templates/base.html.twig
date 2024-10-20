@@ -97,7 +97,7 @@
                                     <i class="fas fa-bell"></i> Notifications 
                                     <span id="notification-count"></span>
                                 </a>
-                                <div id="notification-list" class="dropdown-menu"></div>
+                                <div id="notification-list" class="dropdown-menu scrollContent"></div>
                             </div>
                             <li class="nav-item" id="logout">
                                 <a href="{{ path('app_logout') }}"><button type="button" class="btn btn-outline-danger logout"> <i class="fas fa-sign-out-alt"></i> Déconnexion </button></a>
@@ -261,7 +261,7 @@
                                 const data = await response.json();  // json() method converts response object into JSON format (serialization process)
                                 
                                 const notificationList = document.getElementById('notification-list');
-                                const notificationItem = document.createElement('a');
+                                const notificationItem = document.createElement('p');
                                 notificationItem.className = 'dropdown-item';
                             
                                 if(data.length > 0)
@@ -270,6 +270,13 @@
                                     notificationCount.className = 'badge text-white rounded-circle';
                                     notificationCount.style.backgroundColor = '#5EBEB4';
                                     notificationCount.textContent = data.length;
+
+                                    // We get the role of a connected user
+                                    {% if app.user.Profil is defined %}
+                                        let userRole = "{{app.user.Profil}}";
+                                    {% endif %} 
+
+                                    let role = userRole=='ROLE_ADMIN' ? 'admin' : 'user';
 
                                     // We loop through data object
                                     data.forEach(item => {
@@ -286,19 +293,12 @@
                                         // Format the date and time as required
                                         const formattedDate = `${day}-${month}-${year} à ${hours}:${minutes}`;
 
-                                        // We get the role of a connected user
-                                        {% if app.user.Profil is defined %}
-                                            let userRole = "{{app.user.Profil}}";
-                                        {% endif %} 
-
-                                        let path = userRole=='ROLE_ADMIN' ? 'admin' : 'user';
-
                                         // Customize the message display
                                         if(item.notification.type === "created")
                                         {
                                             notificationItem.innerHTML += `
                                                 <div>
-                                                    Le ticket <strong><a href="/${path}/tickets/${item.notification.ticket.id}">${item.notification.ticket.id}</a></strong> a été crée par ${item.notification.ticket.Nom} ${item.notification.ticket.Prenom} (${item.notification.magasin.Nom})
+                                                    Le ticket <strong><a href="/${role}/tickets/${item.notification.ticket.id}">${item.notification.ticket.id}</a></strong> a été crée par ${item.notification.ticket.Nom} ${item.notification.ticket.Prenom} (${item.notification.magasin.Nom})
                                                     <span class="mark-read ml-2" data-id="${item.id}" style="cursor:pointer;color:red;">X</span>
                                                     <p><small>${formattedDate}</small></p>
                                                 </div>
@@ -308,7 +308,7 @@
                                         {
                                             notificationItem.innerHTML += `
                                                 <div>
-                                                    Le ticket <strong><a href="/${path}/tickets/${item.notification.ticket.id}">${item.notification.ticket.id}</a></strong> est ${item.notification.ticket.Status.Status} par ${item.notification.ticket.Admin.Prenom} ${item.notification.ticket.Admin.Nom}
+                                                    Le ticket <strong><a href="/${role}/tickets/${item.notification.ticket.id}">${item.notification.ticket.id}</a></strong> est ${item.notification.ticket.Status.Status} par ${item.notification.ticket.Admin.Prenom} ${item.notification.ticket.Admin.Nom}
                                                     <span class="mark-read ml-2" data-id="${item.id}" style="cursor:pointer;color:red;">X</span>
                                                     <p><small>${formattedDate}</small></p>
                                                 </div>
@@ -318,16 +318,25 @@
                                         {
                                             notificationItem.innerHTML += `
                                                 <div>
-                                                    Il y a un nouveau message sur le ticket <strong><a href="/${path}/tickets/${item.notification.ticket.id}">${item.notification.ticket.id}</a></strong>
+                                                    Il y a un nouveau message sur le ticket <strong><a href="/${role}/tickets/${item.notification.ticket.id}">${item.notification.ticket.id}</a></strong>
                                                     <span class="mark-read ml-2" data-id="${item.id}" style="cursor:pointer;color:red;">X</span>
                                                     <p><small>${formattedDate}</small></p>
                                                 </div>
                                             `
                                         }
                                     });
+
+                                    notificationItem.innerHTML += `
+                                        <div class="text-center">
+                                            <button class="bg-danger border border-danger rounded">
+                                                <a href="/notifications/delete/${userId}/${role}" class="text-light text-decoration-none">Tout effacer</a>
+                                            </button>
+                                        </div>
+                                    `
                                 }
                                 else
                                 {
+                                    notificationList.className = 'dropdown-menu';
                                     notificationItem.innerHTML =  "Il n'y a aucune notification.";
                                 }
 
@@ -357,8 +366,8 @@
                     // Fetch notifications on page load
                     fetchNotifications();
 
-                    // Poll for new notifications every 3 seconds
-                    setInterval(fetchNotifications, 3000);
+                    // Poll for new notifications every 5 seconds
+                    setInterval(fetchNotifications, 5000);
 
 
                     async function markNotificationAsRead(notificationUserId, element) 

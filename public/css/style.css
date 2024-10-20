@@ -396,3 +396,11 @@ tr.font_background:hover{
     padding: 0px;
     height: 15px;
  }
+
+ .scrollContent {
+    width: 500px;      /* Set the width of the scrollable area */
+    height: 20vh;     /* Set the height of the scrollable area */
+    overflow-y: scroll; /* Enable vertical scroll */
+    overflow-x: scroll; /* Hide horizontal scroll if not needed */
+    border: 1px solid #ccc; /* Optional: to see the area clearly */
+ }

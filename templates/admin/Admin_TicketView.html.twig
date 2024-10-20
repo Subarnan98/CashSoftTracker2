@@ -26,17 +26,15 @@
             
             <div class="row">
                 <div class="col-md-6 col-xl-6 pl-md-6">
-                    {# When page admin clicks on the button "Ouvrir Ticket" it calls active_tickets() method of AdminController #}
-                    {% if ticket.Status.id != 4  %}
-                        <a href="{{ path('admin.tickets.activer', {'id': ticket.id }) }}" class="btn btn-outline-info"><i class="fas fa-lock-open"> Ouvrir Ticket</i></a>
-                    {% endif %}
-
+                    {# When page admin clicks on the button " Ticket" it calls active_tickets() method of AdminController #}
+                    <a href="{{ path('admin.tickets.activer', {'id': ticket.id }) }}" class="btn btn-outline-info"><i class="fas fa-lock-open"> Ouvrir Ticket</i></a>
+                    
                     {# When page admin clicks on the button "Résoudre Ticket" it calls resolve_tickets() method of AdminController #}
                     {% if ticket.DateResolve is null %}
                         <a href="{{ path('admin.tickets.resolve', {'id': ticket.id }) }}" class="btn btn-outline-success"><i class="fas fa-check"> Résoudre Ticket </i></a>
                     {% endif %}
                     
-                    {# When page admin clicks on the button "Clôturer  Ticket" it calls close_tickets() method of AdminController #}
+                    {# When page admin clicks on the button "Clôturer Ticket" it calls close_tickets() method of AdminController #}
                     {% if ticket.DateClosed is null  %}
                         <a href="{{ path('admin.tickets.close', {'id': ticket.id }) }}" class="btn btn-outline-danger"><i class="fas fa-lock"> Clôturer Ticket </i></a>
                     {% endif %}
@@ -150,8 +148,5 @@
 
     </div>
     <br>
-
-
-
 
 {% endblock %}

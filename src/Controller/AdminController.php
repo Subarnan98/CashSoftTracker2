@@ -699,6 +699,8 @@ class AdminController extends AbstractController
         $ticket->setStatus($StatusOuvert);
         $ticket->setAdmin($admin);
         $ticket->setMessageNonLu(0);
+        $ticket->setDateResolve(null);
+        $ticket->setDateClosed(null);
 
         // When an admin opens a newly created ticket it's status changes from 1 (En Attente d'Assignation) to 2 (En Traitement).
         // So, we create a status change notification.
@@ -816,6 +818,7 @@ class AdminController extends AbstractController
         $ticket->setStatus($StatusResolve);
         $ticket->setAdmin($admin);
         $ticket->setDateResolve(new \DateTime());
+        $ticket->setDateClosed(null);
 
         // When an admin clicks on the button "Résoudre Ticket" the status of ticket changes from 2 (En Attente d'Assignation) to 3 (Résolu).
         // So, we create a status change notification.
@@ -882,34 +885,36 @@ class AdminController extends AbstractController
      * @return Response
      * @throws \Exception
      */
-    #[Route(path: 'admin/tickets/{id}/{note}', name: 'admin.tickets.satisfaction')]
-    public function satisfaction_tickets($id, $note)
-    {
-        $this->denyAccessUnlessGranted('ROLE_ADMIN');
-        $ticket = $this->managerRegistry->getRepository(Ticket::class)->find($id);
-        $avis = $this->managerRegistry->getRepository(Avis::class)->find($note);;
-        $ticket->setAvis($avis);
-        // en base de donnée
+    // #[Route(path: 'admin/tickets/{id}/{note}', name: 'admin.tickets.satisfaction')]
+    // public function satisfaction_tickets($id, $note)
+    // {
+    //     $this->denyAccessUnlessGranted('ROLE_ADMIN');
+    //     $ticket = $this->managerRegistry->getRepository(Ticket::class)->find($id);
+    //     $avis = $this->managerRegistry->getRepository(Avis::class)->find($note);;
+    //     $ticket->setAvis($avis);
+    //     // en base de donnée
 
-        $entityManager = $this->managerRegistry->getManager();
-        $entityManager->persist($ticket);
-        $entityManager->flush();
-        // redirection vers show
+    //     $entityManager = $this->managerRegistry->getManager();
+    //     $entityManager->persist($ticket);
+    //     $entityManager->flush();
+    //     // redirection vers show
 
-        return $this->render('user/User_ticket_satisfaction.html.twig');
-    }
+    //     return $this->render('user/User_ticket_satisfaction.html.twig');
+    // }
 
 
-    // <------------------------- Page Admin Remerciements ------------------------->
+    // <------------------------- Page Admin Ticket.Clos ------------------------->
+    // This method changes ticket status to 4 (Clos)
     /**
      * @param $id
      * @return Response
      * @throws \Exception
      */
     #[Route(path: 'admin/tickets/{id}/close', name: 'admin.tickets.close')]
-    public function close_tickets($id, MailerInterface $mailer)
+    public function close_tickets($id, MailerInterface $mailer, UserRepository $userRepository)
     {
         $this->denyAccessUnlessGranted('ROLE_ADMIN');
+
         $admin = $this->getUser();
 
         $ticket = $this->managerRegistry->getRepository(Ticket::class)->find($id);
@@ -919,13 +924,48 @@ class AdminController extends AbstractController
         // mise a jour de l'admin qui le cloture
         $ticket->setAdmin($admin);
         $ticket->setStatus($StatusClos);
-
+        $ticket->setDateResolve(new \DateTime());
         $ticket->setDateClosed(new \DateTime());
 
-        // Update base de donnee
+        // When an admin clicks on the button "Clôturer Ticket" the status of ticket changes to 4 (Clos).
+        // So, we create a status change notification.
+        $notification = new Notification();
+        $notification->setTicket($ticket);
+        $notification->setMagasin($ticket->getMag());
+        $notification->setType('modified');
+        $notification->setCreatedAt(new \DateTimeImmutable());
+
+        // This notification will be send to user who created this ticket and to all admins except the admin who closed the ticket
+        // So, we get the user who created this ticket 
+        $ticketOwner = $userRepository->findOneBy(['id' => $ticket->getUser()->getId()]);
 
         $entityManager = $this->managerRegistry->getManager();
+
+        // We add a status change notification for user who created this ticket
+        $notificationUser = new NotificationUser();
+        $notificationUser->setNotification($notification);
+        $notificationUser->setUser($ticketOwner);
+        $notificationUser->setIsRead(false);
+        $entityManager->persist($notificationUser);
+    
+        // We get the list of all admins
+        $allAdmins = $this->managerRegistry->getRepository(User::class)->findBy(['Profil' => 1]);
+
+        // We add a status change notification for all admins except the admin who closed the ticket 
+        foreach($allAdmins as $admin)
+        {
+            if($admin !== $this->getUser())
+            {
+                $notificationUser = new NotificationUser();
+                $notificationUser->setNotification($notification);
+                $notificationUser->setUser($admin);
+                $notificationUser->setIsRead(false);
+                $entityManager->persist($notificationUser);
+            }
+        }
+
         $entityManager->persist($ticket);
+        $entityManager->persist($notification);
         $entityManager->flush();
 
         $email =(new Email())
@@ -937,7 +977,7 @@ class AdminController extends AbstractController
             ->subject(' Support Cash Converters : Ticket n° '.$ticket->getId().' est Clos !')
             ->html('<p> Bonjour '.$ticket->getUser()->getLogin().', <br><br> Votre ticket n°'.$ticket->getId().' a été clos ! Vous ne pouvez plus envoyer de nouveau message.<br> <br> Cordialement,<br> <br><b> Support Cash Converters</b></p>');
 
-        $sentEmail = $mailer->send($email);
+        $mailer->send($email);
 
         return $this->redirectToRoute('admin.ticket.show', ['id'=>$ticket->getId()]);
     }
@@ -955,9 +995,7 @@ class AdminController extends AbstractController
     {
         $this->denyAccessUnlessGranted('ROLE_ADMIN');
 
-        $tickets = $this->managerRegistry
-            ->getRepository(Ticket::class)
-            ->findByStatus();
+        $tickets = $this->managerRegistry->getRepository(Ticket::class)->findByStatus();
             //->findAll();
 
         return $this->render('admin/Admin_Ticket_All.html.twig', [
