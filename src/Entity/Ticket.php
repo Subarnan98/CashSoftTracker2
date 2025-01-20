@@ -5,17 +5,11 @@ namespace App\Entity;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
-use Symfony\Component\HttpFoundation\File\File;
-use Symfony\Component\HttpFoundation\File\UploadedFile;
-use Vich\UploaderBundle\Mapping\Annotation as Vich;
 use Symfony\Component\Validator\Constraints as Assert;
 use App\Entity\Fichier;
 use Symfony\Component\Serializer\Annotation\Groups;
 
 
-/**
- * @Vich\Uploadable()
- */
 #[ORM\Entity(repositoryClass: \App\Repository\TicketRepository::class)]
 class Ticket
 {
@@ -25,11 +19,11 @@ class Ticket
     #[Groups(['notification'])]
     private $id;
 
-    #[ORM\ManyToOne(targetEntity: \App\Entity\Categorie::class)]
+    #[ORM\ManyToOne(targetEntity: Categorie::class)]
     #[ORM\JoinColumn(nullable: false)]
     private $Categorie;
 
-    #[ORM\ManyToOne(targetEntity: \App\Entity\User::class)]
+    #[ORM\ManyToOne(targetEntity: User::class)]
     private $User;
 
     #[ORM\Column(type: 'string', length: 255)]
@@ -37,14 +31,17 @@ class Ticket
     #[Groups(['notification'])]
     private $Titre;
 
-    #[ORM\OneToMany(targetEntity: \App\Entity\Message::class, mappedBy: 'Ticket', cascade: ['all'], orphanRemoval: true)]
-    private $Message;
+    /**
+     * @var Collection<int, Message>
+     */
+    #[ORM\OneToMany(targetEntity: Message::class, mappedBy: 'Ticket', cascade: ['all'], orphanRemoval: true)]
+    private Collection $Message;
 
-    #[ORM\ManyToOne(targetEntity: \App\Entity\Magasin::class)]
+    #[ORM\ManyToOne(targetEntity: Magasin::class)]
     #[ORM\JoinColumn(name: 'mag_id', referencedColumnName: 'id')]
     private $Mag;
 
-    #[ORM\ManyToOne(targetEntity: \App\Entity\Status::class)]
+    #[ORM\ManyToOne(targetEntity: Status::class)]
     #[ORM\JoinColumn(name: 'status_id', referencedColumnName: 'id')]
     #[Groups(['notification'])]
     private $Status;
@@ -55,7 +52,7 @@ class Ticket
     #[ORM\Column(type: 'string', length: 32, nullable: true)]
     private $CodeTeamWV;
    
-    #[ORM\ManyToOne(targetEntity: \App\Entity\User::class)]
+    #[ORM\ManyToOne(targetEntity: User::class)]
     #[Groups(['notification'])]
     private $Admin;
 
@@ -67,20 +64,6 @@ class Ticket
 
     #[ORM\Column(type: 'datetime', nullable: true)]
     private $DateClosed;
-
-
-    #[ORM\OneToMany(targetEntity: \App\Entity\Fichier::class, mappedBy: 'Ticket', orphanRemoval: true, cascade: ['persist'])]
-    private $Fichiers;
-
-    /**
-     * @Assert\All({
-     * @Assert\File(maxSize="3M",
-     *     mimeTypes = {"application/pdf", "application/csv" , "text/plain", "image/jpeg", "image/png"}
-     *      )
-     *
-     * })
-     */
-    private $FichiersFiles;
 
     #[ORM\Column(type: 'integer')]
     private $MessageNonLu;
@@ -109,12 +92,18 @@ class Ticket
     #[ORM\OneToMany(targetEntity: Notification::class, mappedBy: 'ticket', orphanRemoval: true)]
     private Collection $notifications;
 
+    /**
+     * @var Collection<int, Fichier>
+     */
+    #[ORM\OneToMany(targetEntity: Fichier::class, mappedBy: 'ticket', orphanRemoval: true, cascade: ['persist'])]
+    private Collection $fichiers;
+
    
 
     public function __construct()
     {
         $this->Message = new ArrayCollection();
-        $this->Fichiers = new ArrayCollection();
+        $this->fichiers = new ArrayCollection();
         $this->notifications = new ArrayCollection();
     }
 
@@ -336,13 +325,14 @@ class Ticket
      */
     public function getFichiers(): Collection
     {
-        return $this->Fichiers;
+        return $this->fichiers;
     }
 
     public function addFichier(Fichier $fichier): self
     {
-        if (!$this->Fichiers->contains($fichier)) {
-            $this->Fichiers[] = $fichier;
+        if (!$this->fichiers->contains($fichier)) 
+        {
+            $this->fichiers[] = $fichier;
             $fichier->setTicket($this);
         }
 
@@ -351,37 +341,14 @@ class Ticket
 
     public function removeFichier(Fichier $fichier): self
     {
-        if ($this->Fichiers->contains($fichier)) {
-            $this->Fichiers->removeElement($fichier);
+        if ($this->fichiers->contains($fichier)) {
+            $this->fichiers->removeElement($fichier);
             // set the owning side to null (unless already changed)
             if ($fichier->getTicket() === $this) {
                 $fichier->setTicket(null);
             }
         }
 
-        return $this;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getFichiersFiles()
-    {
-        return $this->FichiersFiles;
-    }
-
-    /**
-     * @param mixed $FichiersFiles
-     */
-    public function setFichiersFiles($FichiersFiles): self
-    {
-        foreach ($FichiersFiles as $fichiersFile){
-            $nFichier = new Fichier();
-            $nFichier->setFile($fichiersFile);
-            $this->addFichier($nFichier);
-
-    }
-        $this->FichiersFiles = $FichiersFiles;
         return $this;
     }
 

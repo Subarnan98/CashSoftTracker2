@@ -1,132 +1,245 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Support Cash Converters - User TicketView {% endblock %}
+{% block title %}Support Cash Converters - User TicketView
+{% endblock %}
 
 {% block body %}
 
-    <div class="card card_ticket">
-        <div class="card-header">
-            <h3>Ticket n° {{ ticket.id }} {% if ticket.status == "En Attente d'Assignation" %}
-                    <span class="badge badge-pill badge-danger"> {{ ticket.status}} </span>
-                {% elseif ticket.status == 'En Traitement' %}
-                    <span class="badge badge-pill badge-warning"> {{ ticket.status}} par {{ ticket.admin }}</span>
-                {% elseif ticket.status == 'Résolu' %}
-                    <span class="badge badge-pill badge-success"> {{ ticket.status}} par {{ ticket.admin }}</span>
-                {% elseif ticket.status == 'Clos' %}
-                    <span class="badge badge-pill badge-dark"> {{ ticket.status}} par {{ ticket.admin }}</span>
-                {% endif %}</h3>
+	<div class="card card_ticket">
+		<div class="card-header">
+			<h3>Ticket n°
+				{{ ticket.id }}
+				{% if ticket.status == "En Attente d'Assignation" %}
+					<span class="badge badge-pill badge-danger">
+						{{ ticket.status}}
+					</span>
+				{% elseif ticket.status == 'En Traitement' %}
+					<span class="badge badge-pill badge-warning">
+						{{ ticket.status}}
+						par
+						{{ ticket.admin }}</span>
+				{% elseif ticket.status == 'Résolu' %}
+					<span class="badge badge-pill badge-success">
+						{{ ticket.status}}
+						par
+						{{ ticket.admin }}</span>
+				{% elseif ticket.status == 'Clos' %}
+					<span class="badge badge-pill badge-dark">
+						{{ ticket.status}}
+						par
+						{{ ticket.admin }}</span>
+				{% endif %}
+			</h3>
 
-        </div>
-        <div class="card-body">
-            <div class="col-md-12 offset-md-12">
-                <a href="{{ path('user.index') }}" class="btn btn-outline-dark"><i class="fas fa-undo"> Retour à la liste du Tickets</i></a>
-            </div>
+		</div>
+		<div class="card-body">
+			<div class="col-md-12 offset-md-12">
+				<a href="{{ path('user.index') }}" class="btn btn-outline-dark">
+					<i class="fas fa-undo">
+						Retour à la liste du Tickets</i>
+				</a>
+			</div>
 
-            <h5>{{ ticket.titre }} </h5>
+			<h5>{{ ticket.titre }}
+			</h5>
 
-            <form_ticket>
-                <fieldset disabled>
-                    <div class="form-group">
+			<form_ticket>
+				<fieldset disabled>
+					<div class="form-group">
 
-                        <label for="disabledTextInput">Magasin</label>
-                        <input type="text" id="disabledTextInput" class="form-control" placeholder="{{ ticket.user.nom }}">
+						<label for="disabledTextInput">Magasin</label>
+						<input type="text" id="disabledTextInput" class="form-control" placeholder="{{ ticket.user.nom }}">
 
-                        <label for="disabledTextInput">Auteur</label>
-                        <input type="text" id="disabledTextInput" class="form-control" placeholder="{{ ticket.nom }} {{ ticket.prenom }}">
+						<label for="disabledTextInput">Auteur</label>
+						<input type="text" id="disabledTextInput" class="form-control" placeholder="{{ ticket.nom }} {{ ticket.prenom }}">
 
-                        <label for="disabledSelect">Catégorie</label>
-                        <select id="disabledSelect" class="form-control">
-                            <option>{{ ticket.categorie.nom }}</option>
-                        </select>
+						<label for="disabledSelect">Catégorie</label>
+						<select id="disabledSelect" class="form-control">
+							<option>{{ ticket.categorie.nom }}</option>
+						</select>
 
-                        {% if ticket.Admin is not empty %}
-                            <label for="disabledTextInput">Admin</label>
-                            <input type="text" id="disabledTextInput" class="form-control" placeholder="{{ ticket.Admin.nom }}">
-                        {% endif %}
+						{% if ticket.Admin is not empty %}
+							<label for="disabledTextInput">Admin</label>
+							<input type="text" id="disabledTextInput" class="form-control" placeholder="{{ ticket.Admin.nom }}">
+						{% endif %}
 
-                        {% if ticket.IdTeamVw is not empty %}
-                            <label for="disabledTextInput">TeamViewer</label>
-                            <input type="text" id="disabledTextInput" class="form-control" placeholder="{{ ticket.IdTeamVw }}">
-                        {% endif %}
+						{% if ticket.IdTeamVw is not empty %}
+							<label for="disabledTextInput">TeamViewer</label>
+							<input type="text" id="disabledTextInput" class="form-control" placeholder="{{ ticket.IdTeamVw }}">
+						{% endif %}
 
-                    </div>
+					</div>
 
-                </fieldset>
-                <!--<label for="disabledTextInput">Dernier Message</label>
-                    <input type="text" id="disabledTextInput" class="form-control" placeholder="{#ticket.message#}"> -->
-                <h5>Messages</h5>
-                <div class="row px-lg-2 px-2">
-                    <!-- Grid column -->
+				</fieldset>
+				<!--<label for="disabledTextInput">Dernier Message</label>
+				                    <input type="text" id="disabledTextInput" class="form-control" placeholder="{#ticket.message#}"> -->
+				<h5>Messages</h5>
+				<div class="row px-lg-2 px-2">
+					<!-- Grid column -->
 
-                    <!-- Grid column -->
-                    <div class="col-md-12 col-xl-12 pl-md-12 px-lg-auto px-0">
+					<!-- Grid column -->
+						<div class="col-md-12 col-xl-12 pl-md-12 px-lg-auto px-0"> <div class="chat-message">
 
-                        <div class="chat-message">
+							<ul class="list-unstyled chat">
+								{% if messages is empty %}
+									<p>Ce ticket ne comptient aucun message.</p>
+								{% else %}
+									{% for message in messages %}
+										{% if message.User.id == app.user.id %}
+											<li class="d-flex justify-content-between mb-4 color_msg_user">
+												<div class="chat-body white p-3 ml-2 z-depth-1">
+													<div class="header">
+														<strong class="primary-font">{{ message.User }}</strong>
+														<small class="pull-right text-muted">
+															<i class="far fa-clock"></i>
+															{{  message.DateRegister.format('d-m-Y à H:i:s') }}</small>
+													</div>
+													<hr class="w-100">
+													<p class="mb-0">
+														{{ message.Message|raw }}
+													</p>
+												</div>
+											</li>
+										{% else %}
+											<li class="d-flex justify-content-between mb-4  color_msg_support">
+												<div class="chat-body white p-3 z-depth-1">
+													<div class="header">
+														<strong class="primary-font">{{ message.User }}</strong>
+														<small class="pull-right text-muted">
+															<i class="far fa-clock"></i>
+															{{  message.DateRegister.format('d-m-Y à H:i:s') }}</small>
+													</div>
+													<hr class="w-100">
+													<p class="mb-0">
+														{{ message.Message|raw }}
+													</p>
+												</div>
 
-                            <ul class="list-unstyled chat">
-                                {% if messages is empty %}
-                                    <p>Ce ticket ne comptient aucun message.</p>
-                                {% else %}
-                                    {% for message in messages %}
-                                        {% if message.User.id == app.user.id %}
-                                            <li class="d-flex justify-content-between mb-4 color_msg_user">
-                                                <div class="chat-body white p-3 ml-2 z-depth-1">
-                                                    <div class="header">
-                                                        <strong class="primary-font">{{ message.User }}</strong>
-                                                        <small class="pull-right text-muted"><i class="far fa-clock"></i> {{  message.DateRegister.format('d-m-Y à H:i:s') }}</small>
-                                                    </div>
-                                                    <hr class="w-100">
-                                                    <p class="mb-0">
-                                                        {{ message.Message }}
-                                                    </p>
-                                                </div>
-                                            </li>
-                                        {% else %}
-                                            <li class="d-flex justify-content-between mb-4  color_msg_support">
-                                                <div class="chat-body white p-3 z-depth-1">
-                                                    <div class="header">
-                                                        <strong class="primary-font">{{ message.User }}</strong>
-                                                        <small class="pull-right text-muted"><i class="far fa-clock"></i>{{  message.DateRegister.format('d-m-Y à H:i:s') }}</small>
-                                                    </div>
-                                                    <hr class="w-100">
-                                                    <p class="mb-0">
-                                                        {{ message.Message }}
-                                                    </p>
-                                                </div>
+											</li>
+										{% endif %}
+									{% endfor %}
+								{% endif %}
 
-                                            </li>
-                                        {% endif %}
-                                    {% endfor %}
-                                {% endif %}
+								<li
+									class="white">
+									{# When we click on "Envoyer" button it calls show() method of UserController #}
+									{% if ticket.DateClosed is empty %}
+										{{ form_start(form_message) }}
+										{{ form_widget(form_message) }}
 
-                                <li class="white">
-                                    {# When we click on "Envoyer" button it calls show() method of UserController #}
-                                    {% if ticket.DateClosed is empty %}
-                                        {{ form_start(form_message) }}
-                                            {{ form_widget(form_message) }}
-                                            <button type="submit" role="button" class="btn btn-info btn-rounded btn-sm waves-effect waves-light float-right"> 
-                                                <i class="fas fa-paper-plane"> Envoyer </i>
-                                            </button>
-                                        {{ form_end(form_message) }}
-                                    {% endif %}
+										{# On ajoute un champ caché dans le formulaire pour transmettre tempId au backend lors de la création du ticket #}
+                						<input type="hidden" name="temp_id" id="temp_id" value="">
 
-                                    {% if ticket.Fichiers %}
-                                        {% for fichier in ticket.Fichiers %}
-                                            {% if fichier.filename[-3:3] == "csv" %}
-                                                <textarea id="Fichier" name="fichier" rows="10" cols="150"  disabled></textarea>
-                                            {% else %}
-                                                <img src="/files/tickets/{{ fichier.filename }}" alt="card-img-bottom" style="width: auto; height: auto;">
-                                            {% endif %}
-                                        {% endfor %}
-                                    {% endif %}
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </form_ticket>
-        </div>
-    </div>
-    <br>
+										{# When we click on "Envoyer" button it calls show() method of UserController  #}
+										<button type="submit" role="button" class="btn btn-info btn-rounded btn-sm waves-effect waves-light float-right">
+											<i class="fas fa-paper-plane"> Envoyer </i>
+										</button>
+										{{ form_end(form_message) }}
+									{% endif %}
 
+									{# {% if ticket.Fichiers %}
+										{% for fichier in ticket.Fichiers %}
+											{% if fichier.filename[-3:3] == "csv" %}
+												<textarea id="Fichier" name="fichier" rows="10" cols="150" disabled></textarea>
+											{% else %}
+												<img src="/uploads/{{ fichier.filename }}" alt="card-img-bottom" style="width: auto; height: auto;">
+											{% endif %}
+										{% endfor %}
+									{% endif %} #}
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</form_ticket>
+		</div>
+	</div>
+	<br>
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }} {# Imports javascript block from parent template (base.html.twig) #}
+
+	{# CKEditor configuration #}
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // We create temporary ids for uploaded files
+            const tempId = 'temp_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
+            
+            document.getElementById('temp_id').value = tempId;
+            
+            // We create a javaScript adapter "MyUploadAdapter" to handle the file upload with CKEditor
+            class MyUploadAdapter 
+            {
+                constructor(loader) 
+                {
+                    this.loader = loader;
+                }
+
+                // This method is called automatically during file upload
+                upload() 
+                {
+                    return this.loader.file
+                        .then(file => new Promise((resolve, reject) => {
+                            const formData = new FormData();
+                            formData.append('upload', file);
+                            formData.append('temp_id', tempId); 
+
+                            fetch('/upload/image', { // Here we call uploadImage() method of CKEFileUploadController
+                                method: 'POST',
+                                body: formData
+                            })
+                                .then(response => response.json())
+                                .then(data => {
+                                    if (!data || !data.url) {
+                                        reject(data && data.message ? data.message : 'Erreur lors de l\'upload');
+                                    } else {
+                                        resolve({ default: data.url });
+                                    }
+                                })
+                                .catch(error => {
+                                    reject('Erreur lors de l\'upload : ' + error.message);
+                                });
+                        }));
+                }
+
+                // Method called if the upload is canceled
+                abort() 
+                {
+                    // Cancellation logic (optional)
+                }
+            }
+
+            // This function integrates the adapter
+            function MyCustomUploadAdapterPlugin(editor) 
+            {
+                editor.plugins.get('FileRepository').createUploadAdapter = loader => {
+                    return new MyUploadAdapter(loader);
+                };
+            }
+            
+            ClassicEditor.create(document.querySelector('.ckeditor'), {
+                extraPlugins: [MyCustomUploadAdapterPlugin],
+                toolbar: [
+                    'bold', 'italic', 'link', 'bulletedList', 'numberedList', 'blockQuote', 
+                    'insertTable', 'imageUpload', 'undo', 'redo'
+                ],
+                
+            })
+            .then(editor => {
+                const form = document.querySelector('form');
+                form.addEventListener('submit', (event) => {
+                    const editorData = editor.getData();
+                    if (!editorData.trim()) 
+                    { // Check if content is empty
+                        event.preventDefault(); // Stop form submission
+                        alert('Veuillez remplir le champ message.');
+                    }
+                });
+            })
+            .catch(error => {
+                console.error(error);
+            });
+        })
+    </script>
 {% endblock %}

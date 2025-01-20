@@ -18,7 +18,7 @@ class Message
     #[ORM\ManyToOne(targetEntity: \App\Entity\User::class)]
     private $User;
 
-    #[ORM\Column(type: 'text')]
+    #[ORM\Column(type: 'text', nullable:false)]
     private $Message;
 
     

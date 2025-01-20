@@ -6,38 +6,152 @@
         <div class="card card_ticket">
             <div class="card-header">
                 <h3>Création Ticket</h3>
-
             </div>
             <div class="card-body">
-            <div class="row">
-                <div class="col-md-12 offset-md-12">
-                  <a href="{{ path('user.index') }}"> <button type="button"class="btn display-1 btn_style_retour button_space"><i class="fas fa-undo" aria-hidden="true"></i>  Retour</button></a>
-
-                </div>
-                </div>
+                <a href="{{ path('user.index') }}" class="btn btn-outline-dark" role="button"><i class="fas fa-undo"> Retour à la liste des Tickets </i> </a>
+                <br>
                 {{ form_start(form) }}
-                    <div class="row">
-                    <div class="col contour_form">{{ form_row(form.Mag) }}</div>
-                    <div class="col">{{ form_row(form.Categorie) }}</div>
-                    </div>
-                    <div class="row">
-                    <div class="col">{{ form_row(form.IdTeamVw) }}</div>
-                    <div class="col">{{ form_row(form.CodeTeamWV) }}</div>
-                    </div>
-                    <div class="row">
-                    <div class="col">{{ form_row(form.nom) }}</div>
-                    <div class="col">{{ form_row(form.prenom) }}</div>
-                    </div>
-
-                    {# {{ form_row(form.Mag) }} #}
-
+                    {{ form_row(form.Mag) }}
                     {{ form_widget(form) }}
 
+                    {# On ajoute un champ caché dans le formulaire pour transmettre tempId au backend lors de la création du ticket #}
+                    <input type="hidden" name="temp_id" id="temp_id" value="">
 
-                <button type="submit" role="button" class="btn display-1 btn_style_retour button_space"> <i class="fas fa-plus"> Valider </i></button>
+                    {# When we click on "Valider" button it calls createTicket() method of UserController  #}
+                    <button type="submit" role="button" class="btn display-1 btn_style_retour button_space"> 
+                        <i class="fas fa-plus"> Valider </i>
+                    </button>
                 {{form_end(form)}}
             </div>
         </div>
     <br>
 
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }} {# Imports javascript block from parent template (base.html.twig) #}
+
+    {# CKEditor configuration #}
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // We create temporary ids for uploaded files
+            const tempId = 'temp_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
+            
+            document.getElementById('temp_id').value = tempId;
+            
+            // We create a javaScript adapter "MyUploadAdapter" to handle the file upload with CKEditor
+            class MyUploadAdapter 
+            {
+                constructor(loader) 
+                {
+                    this.loader = loader;
+                }
+
+                // This method is called automatically during file upload
+                upload() 
+                {
+                    return this.loader.file
+                        .then(file => new Promise((resolve, reject) => {
+                            const formData = new FormData();
+                            formData.append('upload', file);
+                            formData.append('temp_id', tempId); 
+
+                            fetch('/upload/image', { // Here we call uploadImage() method of CKEFileUploadController
+                                method: 'POST',
+                                body: formData
+                            })
+                                .then(response => response.json())
+                                .then(data => {
+                                    if (!data || !data.url) {
+                                        reject(data && data.message ? data.message : 'Erreur lors de l\'upload');
+                                    } else {
+                                        resolve({ default: data.url });
+                                    }
+                                })
+                                .catch(error => {
+                                    reject('Erreur lors de l\'upload : ' + error.message);
+                                });
+                        }));
+                }
+
+                // Method called if the upload is canceled
+                abort() 
+                {
+                    // Cancellation logic (optional)
+                }
+            }
+
+            // This function integrates the adapter
+            function MyCustomUploadAdapterPlugin(editor) 
+            {
+                editor.plugins.get('FileRepository').createUploadAdapter = loader => {
+                    return new MyUploadAdapter(loader);
+                };
+            }
+            
+            ClassicEditor.create(document.querySelector('.ckeditor'), {
+                extraPlugins: [MyCustomUploadAdapterPlugin],
+                toolbar: [
+                    'bold', 'italic', 'link', 'bulletedList', 'numberedList', 'blockQuote', 
+                    'insertTable', 'imageUpload', 'undo', 'redo'
+                ],
+                
+            })
+            .then(editor => {
+                const form = document.querySelector('form');
+                form.addEventListener('submit', (event) => {
+                    const editorData = editor.getData();
+                    if (!editorData.trim()) 
+                    { // Check if content is empty
+                        event.preventDefault(); // Stop form submission
+                        alert('Veuillez remplir le champ message.');
+                    }
+                });
+            })
+            .catch(error => {
+                console.error(error);
+            });
+        })
+    </script>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#ticket_Categorie').on('change', function() {
+                let selectedText = $('#ticket_Categorie option:selected').text();
+
+                switch(selectedText) 
+                {
+                    case "Autres":
+                        problem = ""
+                        break;
+                    case "Box internet":
+                        problem = "Panne internet"
+                        break;
+                    case "Carte Fidélité":
+                        problem = "Ajout point ou activation carte"
+                        break;
+                    case "CashSoft":
+                        problem = "Problème"
+                        break;
+                    case "Compte utilisateur":
+                        problem = "Création ou modification du compte"
+                        break;
+                    case "Matériel informatique":
+                        problem = "Panne matériel informatique"
+                        break;
+                    case "Site internet":
+                        problem = "Extranet ou Revendre"
+                        break;
+                    default:
+                        problem = "";
+                }
+                
+                $('#ticket_Titre').val(problem);
+
+               
+            });
+        });
+    </script>
 {% endblock %}

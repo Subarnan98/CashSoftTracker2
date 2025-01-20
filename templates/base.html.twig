@@ -99,15 +99,11 @@
                                 </a>
                                 <div id="notification-list" class="dropdown-menu scrollContent"></div>
                             </div>
+                            
+                            <!-- Déconnexion -->
                             <li class="nav-item" id="logout">
                                 <a href="{{ path('app_logout') }}"><button type="button" class="btn btn-outline-danger logout"> <i class="fas fa-sign-out-alt"></i> Déconnexion </button></a>
                             </li>
-                            {#<li class="nav-item">
-                                <button type="button" class="btn btn-outline-light" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus." >
-                                    <i class="far fa-comment-dots" > Notifications </i>
-                                    <span class="badge badge-pill badge-dark">10</span>
-                                </button>
-                            </li>#}
                         {% endif %}
                     </div>
                 </div>
@@ -130,7 +126,11 @@
                 <div class="footer-copyright text-center py-3"> CASH CONVERTERS © - {{"now"|date("Y") }}        </div>
         </footer>
 
+
         {% block javascripts %}
+            {# CKEditor CDN #}
+            <script src="https://cdn.ckeditor.com/ckeditor5/39.0.1/classic/ckeditor.js"></script>
+
             <!-- Font Awesome kits -->
             <script src="https://kit.fontawesome.com/7bbb385f41.js" crossorigin="anonymous"></script>
 
@@ -246,7 +246,7 @@
                     );
 
                    
-                    // This function checks for unread notifications from the database and displays them in the notification bell on navbar menu.
+                    // This function checks for unread notifications from the database and displays them in the notification bell on Navbar menu - Nijat_16/10/2024.
                     async function fetchNotifications() 
                     {
                         try {
@@ -370,9 +370,11 @@
                     setInterval(fetchNotifications, 5000);
 
 
+                    // This function deletes notifications from notification bell on Navbar menu - Nijat_16/10/2024.
                     async function markNotificationAsRead(notificationUserId, element) 
                     {
-                        try {
+                        try 
+                        {
                             // JS fetch() API calls setNotificationAsRead() method of NotificationController which returns an object containing list of notifications for current user Send a POST request to mark the notification as read
                             const response = await fetch(`{{ path('set_notification_read', { 'id': 'DUMMY_ID' }) }}`.replace('DUMMY_ID', notificationUserId), {
                                                         method: 'POST',
@@ -423,9 +425,7 @@
                             console.error('Error in markNotificationAsRead:', error);
                         }
                     }
-
-
-
+                    
 
 
                 });

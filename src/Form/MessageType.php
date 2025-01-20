@@ -15,7 +15,15 @@ class MessageType extends AbstractType
     {
         $builder
             ->add('Message',  TextareaType::class,
-                ['attr' => ['class' => 'form-control pl-2 my-0', 'rows' => '3', 'placeholder'=> 'Tapez votre message']]);
+                [
+                    'attr' => [
+                        'class' => 'form-control pl-2 my-0 ckeditor', 
+                        'rows' => '5', 
+                        'placeholder'=> 'Tapez votre message'
+                    ],
+                    'required' => false
+                
+                ]);
     }
 
     public function configureOptions(OptionsResolver $resolver)

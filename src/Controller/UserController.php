@@ -11,6 +11,7 @@ use App\Entity\Status;
 use App\Entity\Ticket;
 use App\Entity\User;
 use App\Entity\Avis;
+use App\Entity\Fichier;
 use App\Entity\Notification;
 use App\Entity\NotificationUser;
 use App\Entity\UserMagasin;
@@ -117,6 +118,152 @@ class UserController extends AbstractController
     }
 
 
+    // creation avec formulaire EDITABLE
+    /**
+     * @param Request $request
+     * @return
+     * @throws \Exception
+     */
+    #[Route(path: 'user/ticket/create', name: 'user.create.ticket')]
+    public function createTicket(Request $request, UserMagasinRepository $userMagasinRepository, MailerInterface $mailer)
+    {
+        $this->denyAccessUnlessGranted('ROLE_USER');
+
+        $ticket = new Ticket();
+        $message = new Message();
+
+        $ticket->getMessage()->add($message);
+        $message->setTicket($ticket);
+
+        $userId = $this->getUser()->getId();
+
+        // We get the list of all magasins related to current user
+        $user_magasin_info = $userMagasinRepository->findMagasinAndUserByUserId($userId);
+
+        $magasinInfo = [];
+
+        foreach ($user_magasin_info as $value)
+        {
+            array_push($magasinInfo, $value->getMagasin()); 
+        }
+
+        // The array $magasinInfo contains the list of all magasins of current user
+
+        $form = $this->createForm(TicketType::class, $ticket)
+            ->add('Mag', EntityType::class, [ 
+                'label' => 'Magasins',
+                'class' => Magasin::class,
+                'choice_label' => 'nom',
+                'choices' => $magasinInfo,
+                'expanded' => false
+            ]);
+
+        $form->handleRequest($request);
+
+        if($form->isSubmitted() && $form->isValid())
+        {
+            $entityManager = $this->managerRegistry->getManager();
+            $status =$this->managerRegistry->getRepository(Status::class)->find(1);
+            $avis = $this->managerRegistry->getRepository(Avis::class)->find(1);
+            $ChoixMag = $form->get("Mag")->getData();
+
+            $ticket->setMag($ChoixMag);
+            $ticket->setDateRegister(new \DateTime());
+            $ticket->setStatus($status);
+            $ticket->setUser($this->getUser());
+            $ticket->setMessageNonLu(1);
+            $ticket->setMessageNonLuAdmin(1);
+            $ticket->setAvis($avis);
+           
+            $message->setUser($this->getUser());
+            $message->setDateRegister(new \DateTime());
+
+            // When a user creates a new ticket we create a notification
+            $notification = new Notification();
+            $notification->setTicket($ticket);
+            $notification->setMagasin($ticket->getMag());
+            $notification->setType('created');
+            $notification->setCreatedAt(new \DateTimeImmutable());
+
+            // This notification will be send to all users related to same magasin except the user who created the ticket and to all admins
+            // So, we get the list of all users related to same magasin
+            $allUsersOfMagasin = $userMagasinRepository->findMagasinAndUserByMagasinId($ChoixMag->getId());
+
+            $allUsersOfMagasin_id = [];
+
+            // We add a notification for each user related to same magasin except the user who created the ticket
+            foreach($allUsersOfMagasin as $user)
+            {
+                if($user->getUser() !== $this->getUser())
+                {
+                    $notificationUser = new NotificationUser();
+                    $notificationUser->setNotification($notification);
+                    $notificationUser->setUser($user->getUser());
+                    $notificationUser->setIsRead(false);
+                    $entityManager->persist($notificationUser);
+                }
+
+                array_push($allUsersOfMagasin_id, $user->getUser()->getId());
+            }
+
+            // We get the list of all admins
+            $allAdmins = $this->managerRegistry->getRepository(User::class)->findBy(['Profil' => 1]);
+
+            // We add a notification for each admin who is not among the users related to same magasin 
+            foreach($allAdmins as $admin)
+            {
+                if(!in_array($admin->getId(), $allUsersOfMagasin_id)) 
+                {
+                    $notificationUser = new NotificationUser();
+                    $notificationUser->setNotification($notification);
+                    $notificationUser->setUser($admin);
+                    $notificationUser->setIsRead(false);
+                    $entityManager->persist($notificationUser);
+                }
+            }
+
+            $entityManager->persist($ticket);
+            $entityManager->persist($message);
+            $entityManager->persist($notification);
+
+            // We get temporary ids for uploaded files
+            $tempId = $request->get('temp_id');
+            
+            if ($tempId) 
+            {
+                $fichiers = $entityManager->getRepository(Fichier::class)->findBy(['tempId' => $tempId]);
+                
+                foreach ($fichiers as $fichier) 
+                {
+                    $fichier->setTicket($ticket);
+                    $fichier->setTempId(null);
+                    $ticket->addFichier($fichier);
+                }
+            }
+
+            $entityManager->flush();
+
+            // Envoi du mail
+            $email =(new Email())
+                ->from('support@cashconverters.fr')
+                ->to($ticket->getUser()->getEmail())
+                ->priority(Email::PRIORITY_HIGH)
+                ->subject(' Support Cash Converters : Ticket n° '.$ticket->getId().' est crée')
+                ->html('<p> Bonjour '.$ticket->getUser()->getLogin().', <br><br> Votre ticket n°'.$ticket->getId().' a été créé avec succès.<br> Catégorie '.$ticket->GetCategorie().'<br> Message : '.$ticket->GetMessage()[0].'<br>Votre demande a été transmise au technicien en charge de votre ticket. Nous reviendrons vers vous dans les meilleurs délais. <br> Cordialement,<br> <br> Service Support,<br><b>Cash Converters</b></p>');
+
+            $mailer->send($email);
+	
+            return $this->redirectToRoute('user.ticket.show', ['id'=> $ticket->getId()]);
+        }
+
+        return $this->render('user/User_create_ticket.html.twig', [
+            'form' => $form->createView(),
+        ]);
+
+    }
+
+
+    // <------------------------- Page User Tickets View -------------------------->
     /**
      * @param $id
      * @param Request $request
@@ -175,6 +322,22 @@ class UserController extends AbstractController
             $entityManager->persist($ticket);
             $entityManager->persist($message);
             $entityManager->persist($notification);
+
+            // We get temporary ids for uploaded files
+            $tempId = $request->get('temp_id');
+        
+            if ($tempId) 
+            {
+                $fichiers = $entityManager->getRepository(Fichier::class)->findBy(['tempId' => $tempId]);
+                
+                foreach ($fichiers as $fichier) 
+                {
+                    $fichier->setTicket($ticket);
+                    $fichier->setTempId(null); // Supprimez l'identifiant temporaire
+                    $ticket->addFichier($fichier);
+                }
+            }
+
             $entityManager->flush();
 
             return $this->redirectToRoute('user.ticket.show', ['id'=>$ticket->getId()]);
@@ -200,139 +363,7 @@ class UserController extends AbstractController
     }
 
 
-    // creation avec formulaire EDITABLE
-    /**
-     * @param Request $request
-     * @return
-     * @throws \Exception
-     */
-    #[Route(path: 'user/ticket/create', name: 'user.create.ticket')]
-    public function createTicket(Request $request, UserMagasinRepository $userMagasinRepository)
-    {
-        $this->denyAccessUnlessGranted('ROLE_USER');
-
-        $ticket = new Ticket();
-        $message = new Message();
-
-        $ticket->getMessage()->add($message);
-        $message->setTicket($ticket);
-
-        $userId = $this->getUser()->getId();
-
-        // We get the list of all magasins related to current user
-        $user_magasin_info = $userMagasinRepository->findMagasinAndUserByUserId($userId);
-
-        $magasinInfo = [];
-
-        foreach ($user_magasin_info as $value)
-        {
-            array_push($magasinInfo, $value->getMagasin()); 
-        }
-
-        // The array $magasinInfo contains the list of all magasins of current user
-
-        $form = $this->createForm(TicketType::class, $ticket)
-            ->add('Mag', EntityType::class, [ 
-                'label' => 'Magasins',
-                'class' => Magasin::class,
-                'choice_label' => 'nom',
-                'choices' => $magasinInfo,
-                'expanded' => false
-            ]);
-
-        $form->handleRequest($request);
-
-        $status =$this->managerRegistry->getRepository(Status::class)->find(1);
-        $avis = $this->managerRegistry->getRepository(Avis::class)->find(1);
-
-        if($form->isSubmitted() && $form->isValid())
-        {
-            $ChoixMag = $form->get("Mag")->getData();
-
-            $ticket->setMag($ChoixMag);
-            $ticket->setDateRegister(new \DateTime());
-            $ticket->setStatus($status);
-            $ticket->setUser($this->getUser());
-            $ticket->setMessageNonLu(1);
-            $ticket->setDateUpdate(new \DateTime());
-            $ticket->setMessageNonLuAdmin(1);
-            $ticket->setAvis($avis);
-            
-            $message->setUser($this->getUser());
-            $message->setDateRegister(new \DateTime());
-
-            // When a user creates a new ticket we create a notification
-            $notification = new Notification();
-            $notification->setTicket($ticket);
-            $notification->setMagasin($ticket->getMag());
-            $notification->setType('created');
-            $notification->setCreatedAt(new \DateTimeImmutable());
-
-            $entityManager = $this->managerRegistry->getManager();
-
-            // This notification will be send to all users related to same magasin except the user who created the ticket and to all admins
-            // So, we get the list of all users related to same magasin
-            $allUsersOfMagasin = $userMagasinRepository->findMagasinAndUserByMagasinId($ChoixMag->getId());
-
-            $allUsersOfMagasin_id = [];
-
-            // We add a notification for each user related to same magasin except the user who created the ticket
-            foreach($allUsersOfMagasin as $user)
-            {
-                if($user->getUser() !== $this->getUser())
-                {
-                    $notificationUser = new NotificationUser();
-                    $notificationUser->setNotification($notification);
-                    $notificationUser->setUser($user->getUser());
-                    $notificationUser->setIsRead(false);
-                    $entityManager->persist($notificationUser);
-                }
-
-                array_push($allUsersOfMagasin_id, $user->getUser()->getId());
-            }
-
-            // We get the list of all admins
-            $allAdmins = $this->managerRegistry->getRepository(User::class)->findBy(['Profil' => 1]);
-
-            // We add a notification for each admin who is not among the users related to same magasin 
-            foreach($allAdmins as $admin)
-            {
-                if(!in_array($admin->getId(), $allUsersOfMagasin_id)) 
-                {
-                    $notificationUser = new NotificationUser();
-                    $notificationUser->setNotification($notification);
-                    $notificationUser->setUser($admin);
-                    $notificationUser->setIsRead(false);
-                    $entityManager->persist($notificationUser);
-                }
-            }
-
-            $entityManager->persist($ticket);
-            $entityManager->persist($message);
-            $entityManager->persist($notification);
-            $entityManager->flush();
-
-            // Envoi du mail
-            $email =(new Email())
-                ->from('support@cashconverters.fr')
-                ->to($ticket->getUser()->getEmail())
-                ->priority(Email::PRIORITY_HIGH)
-                ->subject(' Support Cash Converters : Ticket n° '.$ticket->getId().' est crée')
-                ->html('<p> Bonjour '.$ticket->getUser()->getLogin().', <br><br> Votre ticket n°'.$ticket->getId().' a été créé avec succès.<br> Catégorie '.$ticket->GetCategorie().'<br> Message : '.$ticket->GetMessage()[0].'<br>Votre demande a été transmise au technicien en charge de votre ticket. Nous reviendrons vers vous dans les meilleurs délais. <br> Cordialement,<br> <br> Service Support,<br><b>Cash Converters</b></p>');
-
-            //$sentEmail = $mailer->send($email);
-	
-            return $this->redirectToRoute('user.ticket.show', ['id'=> $ticket->getId()]);
-        }
-
-        return $this->render('user/User_create_ticket.html.twig', [
-            'form' => $form->createView(),
-        ]);
-
-    }
-
-
-    // <------------------------- Page Admin Ticket.Resolve -------------------------->
+    // <------------------------- Page User Ticket.Resolve -------------------------->
     /**
      * @param $id, $note
      * @param Request $request

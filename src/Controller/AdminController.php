@@ -62,6 +62,7 @@ use Symfony\Component\Form\Extension\Core\Type\{CollectionType,
     SubmitType,
     NumberType,
     DateType,CheckboxType, DateTimeType as TypeDateTimeType};
+use Symfony\Component\HttpFoundation\File\Exception\FileException;
 use Symfony\Component\HttpFoundation\JsonResponse;
 
 
@@ -505,19 +506,17 @@ class AdminController extends AbstractController
         $message = new Message();
         
         $ticket->getMessage()->add($message);
-
         $message->setTicket($ticket);
 
         $form = $this->createForm(TicketType::class, $ticket);
           
         $form->handleRequest($request);
 
-        $status = $this->managerRegistry->getRepository(Status::class)->find(1);
-
-        $avis = $this->managerRegistry->getRepository(Avis::class)->find(1);
-
         if($form->isSubmitted() && $form->isValid() )
         {
+            $entityManager = $this->managerRegistry->getManager();
+            $status = $this->managerRegistry->getRepository(Status::class)->find(1);
+            $avis = $this->managerRegistry->getRepository(Avis::class)->find(1);
             $ChoixMag = $form->get("Mag")->getData();
 
             $ticket->setMag($ChoixMag);
@@ -538,13 +537,11 @@ class AdminController extends AbstractController
             $notification->setType('created');
             $notification->setCreatedAt(new \DateTimeImmutable());
 
-            $entityManager = $this->managerRegistry->getManager();
-
             // This notification will be send to all admins except the admin who created the ticket
             // So we get the list of all admins
             $allAdmins = $this->managerRegistry->getRepository(User::class)->findBy(['Profil' => 1]);
             
-            // We add a notification for admins except the admin who created the ticket
+            // We add a notification for all admins except the admin who created the ticket
             foreach($allAdmins as $admin)
             {
                 if($admin !== $this->getUser())
@@ -560,6 +557,22 @@ class AdminController extends AbstractController
             $entityManager->persist($ticket);
             $entityManager->persist($message);
             $entityManager->persist($notification);
+
+            // We get temporary ids for uploaded files
+            $tempId = $request->get('temp_id');
+            
+            if ($tempId) 
+            {
+                $fichiers = $entityManager->getRepository(Fichier::class)->findBy(['tempId' => $tempId]);
+                
+                foreach ($fichiers as $fichier) 
+                {
+                    $fichier->setTicket($ticket);
+                    $fichier->setTempId(null); 
+                    $ticket->addFichier($fichier);
+                }
+            }
+
             $entityManager->flush();
 
             // Envoi du mail
@@ -596,6 +609,7 @@ class AdminController extends AbstractController
 
         // We get current ticket by id
         $ticket = $this->managerRegistry->getRepository(Ticket::class)->find($id);
+        
         $ticket->setMessageNonLuAdmin(0);
         
         $entityManager = $this->managerRegistry->getManager();
@@ -656,6 +670,22 @@ class AdminController extends AbstractController
             $entityManager->persist($ticket);
             $entityManager->persist($message);
             $entityManager->persist($notification);
+
+            // We get temporary ids for uploaded files
+            $tempId = $request->get('temp_id');
+            
+            if ($tempId) 
+            {
+                $fichiers = $entityManager->getRepository(Fichier::class)->findBy(['tempId' => $tempId]);
+                
+                foreach ($fichiers as $fichier) 
+                {
+                    $fichier->setTicket($ticket);
+                    $fichier->setTempId(null); // Supprimez l'identifiant temporaire
+                    $ticket->addFichier($fichier);
+                }
+            }
+
             $entityManager->flush();
 
             return $this->redirectToRoute('admin.ticket.show', ['id'=>$ticket->getId()]);
