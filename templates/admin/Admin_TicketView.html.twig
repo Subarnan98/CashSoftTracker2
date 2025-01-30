@@ -133,66 +133,88 @@
 							{% else %}
 								{% for message in messages %}
 									{% if message.User.id == app.user.id %}
-										<li class="d-flex flex-row-reverse mb-4 color_msg_user">
+										<li class="mb-5 color_msg_support">
+									{% else %}
+										<li class="mb-5 color_msg_user">
+									{% endif %}
 											<div class="chat-body white p-3 ml-2 z-depth-1">
 												<div class="header">
 													<small class="pull-right text-muted">
 														<i class="far fa-clock"></i>
-														{{  message.DateRegister.format('d-m-Y à H:i:s') }}</small>
+														{{ message.DateRegister.format('d-m-Y à H:i:s') }}
+													</small>
 													<strong class="primary-font">{{ message.User }}</strong>
 												</div>
 												<hr class="w-100">
 												<p class="d-flex flex-row-reverse mb-0">
-													{{ message.Message|raw }}
+													{% set content = message.Message %}
+													
+													{# We created a Twig extension: src/Twig/TextFileExtractorExtension.php and the function extractTextAndFiles() is inside it. #}
+													{% set text_filenames = extract_text_and_files(content) %}
+
+													{% for filename in text_filenames %}
+														{% if filename[-3:] == "csv" %}
+															{# We created a Twig extension: src/Twig/CsvExtension.php and the function read_csv() is inside it.   #}
+															{% set csv_data = read_csv('uploads/' ~ filename) %}
+															<table class="csv-table">
+																{% for row in csv_data %}
+																	{% if loop.first %}
+																		<thead>
+																			<tr>
+																				{% for cell in row %}
+																					<th>{{ cell }}</th>
+																				{% endfor %}
+																			</tr>
+																		</thead>
+																		<tbody>
+																	{% elseif loop.index <= 6 %}
+																		<tr>
+																			{% for cell in row %}
+																				<td>{{ cell }}</td>
+																			{% endfor %}
+																		</tr>
+																	{% elseif loop.index <= 9 %}
+																		<tr>
+																			{% for cell in row %}
+																				<td>-</td>
+																			{% endfor %}
+																		</tr>
+																	{% endif %}
+																{% endfor %}
+															</table>
+															<a title="{{ filename }}" href="{{ asset('uploads/' ~ filename) }}" class="d-block mt-2 mb-5">
+																<button class="btn btn-primary">Télécharger le fichier CSV</button>
+															</a>
+														{% elseif filename[-3:] == "pdf" %}
+															<iframe src="{{ asset('uploads/' ~ filename) }}" width="80%" height="600px" style="margin:20px 20px"></iframe>
+														{% elseif filename[-3:] == "txt" %}
+															{# We created a Twig extension: src/Twig/TxtExtension.php and the function read_file() is inside it.   #}
+															{% set lines = read_file('public/uploads/' ~ filename)|split('\n') %}
+															<div class="txt-frame">
+																<a title="{{ filename }}" href="{{ asset('uploads/' ~ filename) }}" class="d-block mt-2 mb-5">
+																	<button class="btn btn-primary">Télécharger le fichier Text</button>
+																</a>
+																{% for line in lines %}
+																	<p>{{ line }}</p>
+																{% endfor %}
+															</div>
+														{% elseif filename[-3:] in ['jpg', 'png'] or filename[-4:] == 'jpeg' %}
+															<div>
+																<img src="{{ asset('uploads/' ~ filename) }}" alt="card-img-bottom" height="600px" width="600px" style="margin: 20px 20px">
+															</div>
+														{% else %}
+															<p>{{ filename }}</p>
+														{% endif %}
+													{% endfor %}
 												</p>
 											</div>
 										</li>
-									{% else %}
-										<li class="d-flex justify-content-between mb-4  color_msg_support">
-											<div class="chat-body white p-3 z-depth-1">
-												<div class="header">
-													<strong class="primary-font">{{ message.User }}</strong>
-													<small class="pull-right text-muted">
-														<i class="far fa-clock"></i>
-														{{  message.DateRegister.format('d-m-Y à H:i:s') }}</small>
-												</div>
-												<hr class="w-100">
-												<p class="mb-0">
-													{{ message.Message|raw }}
-												</p>
-											</div>
-										</li>
-									{% endif %}
 								{% endfor %}
 							{% endif %}
 
 							<li class="white">
-							{#
-								{% if ticket.Fichiers %}
-									{% for fichier in ticket.Fichiers %}
-										{% if fichier.filename[-3:3] == "csv" %}
-											// We created a custom Twig extension: src/Twig/CsvExtension.php and the function read_csv() is inside it.  
-											{% set csv_data = read_csv('public/uploads/' ~ fichier.filename) %}
-
-											{% for row in csv_data %}
-												{% for cell in row %}
-													{{ cell }}
-												{% endfor %}
-											{% endfor %}
-										{% elseif fichier.filename[-3:3] == "pdf" %}
-											<iframe src="{{ asset('uploads/' ~ fichier.filename) }}" width="70%" height="600px" style="margin: 20px 20px"></iframe>
-										{% elseif fichier.filename[-3:3] == "txt" %}
-											// We created a custom Twig extension: src/Twig/TxtExtension.php and the function read_file() is inside it.  
-											<pre>{{ read_file('public/uploads/' ~ fichier.filename) }}</pre>
-										{% else %}
-											<img src="{{ asset('uploads/' ~ fichier.filename) }}" alt="card-img-bottom" width="70%" height="70%" style="margin: 20px 20px">
-										{% endif %}
-									{% endfor %}
-								{% endif %}
-							#}
-
                                 {% if ticket.Admin is not empty %}
-									{{ form_start(form_message) }}
+									{{ form_start(form_message, {'attr': {'novalidate': 'novalidate'}}) }}
 										{{ form_widget(form_message) }}
 
 										{# We add a hidden field in the form to pass tempId to the backend when displaying the ticket #}
@@ -216,168 +238,4 @@
 
 {% block javascripts %}
     {{ parent() }} {# Imports javascript block from parent template (base.html.twig) #}
-
-	{# CKEditor configuration #}
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            // We create temporary ids for uploaded files
-            const tempId = 'temp_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
-            
-            document.getElementById('temp_id').value = tempId;
-            
-            // We create a javaScript adapter "MyUploadAdapter" to handle the file upload with CKEditor
-            class MyUploadAdapter 
-            {
-                constructor(loader) {
-                    this.loader = loader;
-                }
-
-                // This method is called automatically during file upload
-                upload() 
-                {
-                    return this.loader.file
-                        .then(file => new Promise((resolve, reject) => 
-                        {
-                            // La liste des types MIME autorisés
-                            const acceptedFileTypes = ['image/*', 'application/pdf', 'text/plain', 'text/csv'];
-
-                            // Vérification du type de fichier
-                            if (!acceptedFileTypes.some(type => file.type.match(type))) 
-                            {
-                                reject('Type de fichier non supporté');
-                                return; // Stop the upload process
-                            }
-                            
-                            const formData = new FormData();
-                            formData.append('upload', file);
-                            formData.append('temp_id', tempId); 
-
-                            // With JS fetch() API we call uploadImage() method of CKEFileUploadController
-                            fetch('/upload/file', { 
-                                method: 'POST',
-                                body: formData
-                            })
-                                .then(response => response.json())
-                                .then(data => {
-                                    if (!data || !data.url) {
-                                        reject(data && data.message ? data.message : 'Erreur lors de l\'upload');
-                                    } else {
-                                        // Ajout de la logique pour gérer les images et les autres fichiers
-                                        if (file.type.startsWith('image/')) {
-                                            resolve({ default: data.url }); // Affiche une image
-                                        } else {
-                                            resolve({
-                                                default: `<a href="${data.url}" target="_blank">${file.name}</a>` // Insère un lien
-                                            });
-                                        }
-                                    }
-                                })
-                                .catch(error => {
-                                    reject('Erreur lors de l\'upload : ' + error.message);
-                                });
-                        }));
-                }
-
-                // Method called if the upload is canceled
-                abort() 
-                {
-                    // Cancellation logic (optional)
-                }
-            }
-
-            // This function integrates the adapter
-            function MyCustomUploadAdapterPlugin(editor) 
-            {
-                editor.plugins.get('FileRepository').createUploadAdapter = loader => {
-                    return new MyUploadAdapter(loader);
-                };
-            }
-
-            function MyFileUploadAdapterPlugin(editor) 
-            {
-                editor.ui.componentFactory.add('fileUpload', locale => {
-                    const view = new editor.ui.button.ButtonView(locale);
-
-                    view.set({
-                        label: 'Téléverser un fichier',
-                        icon: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>', // Ajoutez un icône personnalisé ici
-                        tooltip: true
-                    });
-
-                    view.on('execute', () => {
-                        // Logic to handle file upload dialog
-                        const input = document.createElement('input');
-                        input.type = 'file';
-                        input.accept = '.pdf,.txt,.csv';
-                        input.onchange = () => {
-                            const file = input.files[0];
-                            if (file) {
-                                // Téléverser le fichier via fetch ou AJAX
-                                const formData = new FormData();
-                                formData.append('upload', file);
-
-                                fetch('/upload/file', {
-                                    method: 'POST',
-                                    body: formData
-                                })
-                                    .then(response => response.json())
-                                    .then(data => {
-                                        if (data.url) {
-                                            const link = `<a href="${data.url}" target="_blank">${file.name}</a>`;
-                                            editor.model.change(writer => {
-                                                const insertPosition = editor.model.document.selection.getFirstPosition();
-                                                writer.insertText(link, insertPosition);
-                                            });
-                                        }
-                                    })
-                                    .catch(error => console.error('Erreur lors du téléversement de fichier:', error));
-                            }
-                        };
-
-                        input.click();
-                    });
-
-                    return view;
-                });
-            }
-
-            
-            ClassicEditor.create(document.querySelector('.ckeditor'), {
-                extraPlugins: [MyCustomUploadAdapterPlugin],
-                toolbar: [
-                    'bold', 'italic', 'link', 'bulletedList', 'numberedList', 'blockQuote', 
-                    'insertTable', 'imageUpload', 'fileUpload', 'undo', 'redo'
-                ],
-                
-                
-                fileUpload: {
-                    types: ['pdf', 'txt', 'csv']
-                },
-                
-
-                /**
-                // Allows us to manage different types of files
-                mediaEmbed: { 
-                    previewsInData: true
-                } 
-                */
-                
-                
-            })
-            .then(editor => {
-                const form = document.querySelector('form');
-                form.addEventListener('submit', (event) => {
-                    const editorData = editor.getData();
-                    if (!editorData.trim()) 
-                    { // Check if content is empty
-                        event.preventDefault(); // Stop form submission
-                        alert('Veuillez remplir le champ message.');
-                    }
-                });
-            })
-            .catch(error => {
-                console.error(error);
-            });
-        })
-    </script>
 {% endblock %}

@@ -8,13 +8,10 @@ use App\Entity\Ticket;
 use Symfony\Bridge\Doctrine\Form\Type\EntityType;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\Extension\Core\Type\CollectionType;
-use Symfony\Component\Form\Extension\Core\Type\FileType;
 use Symfony\Component\Form\Extension\Core\Type\TextType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 use Doctrine\ORM\EntityRepository;
-use Symfony\Component\Validator\Constraints\File;
-use Symfony\Component\Validator\Constraints\All;
 
 
 class TicketType extends AbstractType
@@ -62,32 +59,6 @@ class TicketType extends AbstractType
                         'label' => 'Mot de Passe TeamViewer', 
                         'required'=>false
                 ]);
-                // ->add('fichiers', FileType::class, [
-                //     'label' => 'Ajouter des fichiers',
-                //     'required' => false,
-                //     'multiple' => true,
-                //     'mapped' => false,
-                //     'attr' => ['accept' => 'application/pdf, application/csv, text/plain, image/jpeg, image/jpg,, image/png'],
-                //     'constraints' => [
-                //         new All([
-                //             'constraints' => [
-                //               new File([
-                //                 'maxSize' => '10M',
-                //                 'maxSizeMessage' => 'La taille du fichier ne peut pas dépasser 10MB',
-                //                 'mimeTypes' => [
-                //                    'application/pdf',
-                //                    'application/csv',
-                //                    'text/plain',
-                //                    'image/jpeg',
-                //                    'image/jpg',
-                //                    'image/png'
-                //                  ],
-                //                 'mimeTypesMessage' => 'Veuillez télécharger un fichier PDF, PNG, JPEG, JPG, CSV ou texte valide',
-                //               ])
-                //             ],
-                //         ])
-                //     ]
-                // ]);
     }
 
 

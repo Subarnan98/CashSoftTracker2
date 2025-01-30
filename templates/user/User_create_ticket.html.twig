@@ -10,7 +10,7 @@
             <div class="card-body">
                 <a href="{{ path('user.index') }}" class="btn btn-outline-dark" role="button"><i class="fas fa-undo"> Retour à la liste des Tickets </i> </a>
                 <br>
-                {{ form_start(form) }}
+                {{ form_start(form, {'attr': {'novalidate': 'novalidate'}}) }}
                     {{ form_row(form.Mag) }}
                     {{ form_widget(form) }}
 
@@ -31,91 +31,8 @@
 {% block javascripts %}
     {{ parent() }} {# Imports javascript block from parent template (base.html.twig) #}
 
-    {# CKEditor configuration #}
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            // We create temporary ids for uploaded files
-            const tempId = 'temp_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
-            
-            document.getElementById('temp_id').value = tempId;
-            
-            // We create a javaScript adapter "MyUploadAdapter" to handle the file upload with CKEditor
-            class MyUploadAdapter 
-            {
-                constructor(loader) 
-                {
-                    this.loader = loader;
-                }
-
-                // This method is called automatically during file upload
-                upload() 
-                {
-                    return this.loader.file
-                        .then(file => new Promise((resolve, reject) => {
-                            const formData = new FormData();
-                            formData.append('upload', file);
-                            formData.append('temp_id', tempId); 
-
-                            fetch('/upload/image', { // Here we call uploadImage() method of CKEFileUploadController
-                                method: 'POST',
-                                body: formData
-                            })
-                                .then(response => response.json())
-                                .then(data => {
-                                    if (!data || !data.url) {
-                                        reject(data && data.message ? data.message : 'Erreur lors de l\'upload');
-                                    } else {
-                                        resolve({ default: data.url });
-                                    }
-                                })
-                                .catch(error => {
-                                    reject('Erreur lors de l\'upload : ' + error.message);
-                                });
-                        }));
-                }
-
-                // Method called if the upload is canceled
-                abort() 
-                {
-                    // Cancellation logic (optional)
-                }
-            }
-
-            // This function integrates the adapter
-            function MyCustomUploadAdapterPlugin(editor) 
-            {
-                editor.plugins.get('FileRepository').createUploadAdapter = loader => {
-                    return new MyUploadAdapter(loader);
-                };
-            }
-            
-            ClassicEditor.create(document.querySelector('.ckeditor'), {
-                extraPlugins: [MyCustomUploadAdapterPlugin],
-                toolbar: [
-                    'bold', 'italic', 'link', 'bulletedList', 'numberedList', 'blockQuote', 
-                    'insertTable', 'imageUpload', 'undo', 'redo'
-                ],
-                
-            })
-            .then(editor => {
-                const form = document.querySelector('form');
-                form.addEventListener('submit', (event) => {
-                    const editorData = editor.getData();
-                    if (!editorData.trim()) 
-                    { // Check if content is empty
-                        event.preventDefault(); // Stop form submission
-                        alert('Veuillez remplir le champ message.');
-                    }
-                });
-            })
-            .catch(error => {
-                console.error(error);
-            });
-        })
-    </script>
-
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
     <script>
         $(document).ready(function() {
             $('#ticket_Categorie').on('change', function() {

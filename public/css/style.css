@@ -391,6 +391,7 @@ tr.font_background:hover{
  input.form-control,select.form-control, textarea.form-control{
   border-color: #9DCE9B  !important;
  }
+ 
  .satisfaction_case{
     margin: 0px;
     padding: 0px;
@@ -404,3 +405,28 @@ tr.font_background:hover{
     overflow-x: scroll; /* Hide horizontal scroll if not needed */
     border: 1px solid #ccc; /* Optional: to see the area clearly */
  }
+
+ .csv-table {
+    margin-top: 20px !important;
+    border-collapse:collapse; 
+    width:100%;
+ }
+
+ .csv-table, .csv-table > th, td {
+    border: 1px solid black;
+}
+
+.csv-table th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+.txt-frame {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 90%;
+    height: 150px;
+    overflow-y: auto;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+}

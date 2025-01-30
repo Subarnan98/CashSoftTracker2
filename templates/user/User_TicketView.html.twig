@@ -75,48 +75,90 @@
 				                    <input type="text" id="disabledTextInput" class="form-control" placeholder="{#ticket.message#}"> -->
 				<h5>Messages</h5>
 				<div class="row px-lg-2 px-2">
-					<!-- Grid column -->
-
-					<!-- Grid column -->
-						<div class="col-md-12 col-xl-12 pl-md-12 px-lg-auto px-0"> <div class="chat-message">
-
+					<div class="col-md-12 col-xl-12 pl-md-12 px-lg-auto px-0"> 
+						<div class="chat-message">
 							<ul class="list-unstyled chat">
 								{% if messages is empty %}
 									<p>Ce ticket ne comptient aucun message.</p>
 								{% else %}
 									{% for message in messages %}
 										{% if message.User.id == app.user.id %}
-											<li class="d-flex justify-content-between mb-4 color_msg_user">
+											<li class="mb-5 color_msg_support">
+										{% else %}
+											<li class="mb-5 color_msg_user">
+										{% endif %}
 												<div class="chat-body white p-3 ml-2 z-depth-1">
 													<div class="header">
-														<strong class="primary-font">{{ message.User }}</strong>
 														<small class="pull-right text-muted">
 															<i class="far fa-clock"></i>
-															{{  message.DateRegister.format('d-m-Y à H:i:s') }}</small>
-													</div>
-													<hr class="w-100">
-													<p class="mb-0">
-														{{ message.Message|raw }}
-													</p>
-												</div>
-											</li>
-										{% else %}
-											<li class="d-flex justify-content-between mb-4  color_msg_support">
-												<div class="chat-body white p-3 z-depth-1">
-													<div class="header">
+															{{ message.DateRegister.format('d-m-Y à H:i:s') }}
+														</small>
 														<strong class="primary-font">{{ message.User }}</strong>
-														<small class="pull-right text-muted">
-															<i class="far fa-clock"></i>
-															{{  message.DateRegister.format('d-m-Y à H:i:s') }}</small>
 													</div>
 													<hr class="w-100">
-													<p class="mb-0">
-														{{ message.Message|raw }}
-													</p>
-												</div>
+													<p class="d-flex flex-row-reverse mb-0">
+														{% set content = message.Message %}
 
+														{# We created a Twig extension: src/Twig/TextFileExtractorExtension.php and the function extractTextAndFiles() is inside it. #}
+														{% set text_filenames = extract_text_and_files(content) %}
+
+														{% for filename in text_filenames %}
+															{% if filename[-3:] == "csv" %}
+																{# We created a Twig extension: src/Twig/CsvExtension.php and the function read_csv() is inside it.   #}
+																{% set csv_data = read_csv('uploads/' ~ filename) %}
+																<table class="csv-table">
+																	{% for row in csv_data %}
+																		{% if loop.first %}
+																			<thead>
+																				<tr>
+																					{% for cell in row %}
+																						<th>{{ cell }}</th>
+																					{% endfor %}
+																				</tr>
+																			</thead>
+																			<tbody>
+																		{% elseif loop.index <= 6 %}
+																			<tr>
+																				{% for cell in row %}
+																					<td>{{ cell }}</td>
+																				{% endfor %}
+																			</tr>
+																		{% elseif loop.index <= 9 %}
+																			<tr>
+																				{% for cell in row %}
+																					<td>-</td>
+																				{% endfor %}
+																			</tr>
+																		{% endif %}
+																	{% endfor %}
+																</table>
+																<a title="{{ filename }}" href="{{ asset('uploads/' ~ filename) }}" class="d-block mt-2 mb-5">
+																	<button class="btn btn-primary">Télécharger le fichier CSV</button>
+																</a>
+															{% elseif filename[-3:] == "pdf" %}
+																<iframe src="{{ asset('uploads/' ~ filename) }}" width="80%" height="600px" style="margin:20px 20px"></iframe>
+															{% elseif filename[-3:] == "txt" %}
+																{# We created a Twig extension: src/Twig/TxtExtension.php and the function read_file() is inside it.   #}
+																{% set lines = read_file('public/uploads/' ~ filename)|split('\n') %}
+																<div class="txt-frame">
+																	<a title="{{ filename }}" href="{{ asset('uploads/' ~ filename) }}" class="d-block mt-2 mb-5">
+																		<button class="btn btn-primary">Télécharger le fichier Text</button>
+																	</a>
+																	{% for line in lines %}
+																		<p>{{ line }}</p>
+																	{% endfor %}
+																</div>
+															{% elseif filename[-3:] in ['jpg', 'png'] or filename[-4:] == 'jpeg' %}
+																<div>
+																	<img src="{{ asset('uploads/' ~ filename) }}" alt="card-img-bottom" height="600px" width="600px" style="margin: 20px 20px">
+																</div>
+															{% else %}
+																<p>{{ filename }}</p>
+															{% endif %}
+														{% endfor %}
+													</p>
+												</div>
 											</li>
-										{% endif %}
 									{% endfor %}
 								{% endif %}
 
@@ -136,16 +178,6 @@
 										</button>
 										{{ form_end(form_message) }}
 									{% endif %}
-
-									{# {% if ticket.Fichiers %}
-										{% for fichier in ticket.Fichiers %}
-											{% if fichier.filename[-3:3] == "csv" %}
-												<textarea id="Fichier" name="fichier" rows="10" cols="150" disabled></textarea>
-											{% else %}
-												<img src="/uploads/{{ fichier.filename }}" alt="card-img-bottom" style="width: auto; height: auto;">
-											{% endif %}
-										{% endfor %}
-									{% endif %} #}
 								</li>
 							</ul>
 						</div>
@@ -159,87 +191,4 @@
 
 {% block javascripts %}
     {{ parent() }} {# Imports javascript block from parent template (base.html.twig) #}
-
-	{# CKEditor configuration #}
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            // We create temporary ids for uploaded files
-            const tempId = 'temp_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
-            
-            document.getElementById('temp_id').value = tempId;
-            
-            // We create a javaScript adapter "MyUploadAdapter" to handle the file upload with CKEditor
-            class MyUploadAdapter 
-            {
-                constructor(loader) 
-                {
-                    this.loader = loader;
-                }
-
-                // This method is called automatically during file upload
-                upload() 
-                {
-                    return this.loader.file
-                        .then(file => new Promise((resolve, reject) => {
-                            const formData = new FormData();
-                            formData.append('upload', file);
-                            formData.append('temp_id', tempId); 
-
-                            fetch('/upload/image', { // Here we call uploadImage() method of CKEFileUploadController
-                                method: 'POST',
-                                body: formData
-                            })
-                                .then(response => response.json())
-                                .then(data => {
-                                    if (!data || !data.url) {
-                                        reject(data && data.message ? data.message : 'Erreur lors de l\'upload');
-                                    } else {
-                                        resolve({ default: data.url });
-                                    }
-                                })
-                                .catch(error => {
-                                    reject('Erreur lors de l\'upload : ' + error.message);
-                                });
-                        }));
-                }
-
-                // Method called if the upload is canceled
-                abort() 
-                {
-                    // Cancellation logic (optional)
-                }
-            }
-
-            // This function integrates the adapter
-            function MyCustomUploadAdapterPlugin(editor) 
-            {
-                editor.plugins.get('FileRepository').createUploadAdapter = loader => {
-                    return new MyUploadAdapter(loader);
-                };
-            }
-            
-            ClassicEditor.create(document.querySelector('.ckeditor'), {
-                extraPlugins: [MyCustomUploadAdapterPlugin],
-                toolbar: [
-                    'bold', 'italic', 'link', 'bulletedList', 'numberedList', 'blockQuote', 
-                    'insertTable', 'imageUpload', 'undo', 'redo'
-                ],
-                
-            })
-            .then(editor => {
-                const form = document.querySelector('form');
-                form.addEventListener('submit', (event) => {
-                    const editorData = editor.getData();
-                    if (!editorData.trim()) 
-                    { // Check if content is empty
-                        event.preventDefault(); // Stop form submission
-                        alert('Veuillez remplir le champ message.');
-                    }
-                });
-            })
-            .catch(error => {
-                console.error(error);
-            });
-        })
-    </script>
 {% endblock %}

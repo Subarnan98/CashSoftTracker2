@@ -1,0 +1,2352 @@
+﻿SKU;Type;Désignation;Marque;Modèle;Modèle Constructeur;Capa / Stockage;Etat Cashconverters
+1;Smartphone;Apple iPhone Xr 64 Go;Apple;iPhone Xr;A1984;64 Go;Intact
+2;Smartphone;Apple iPhone Xs 64 Go;Apple;iPhone Xs;A2484;64 Go;Intact
+3;Smartphone;Apple Iphone 7 32 Go;Apple;Iphone 7;A1660;32 Go;Intact
+4;Smartphone;Apple iPhone 4 16 Go;Apple;iPhone 4;A1349;16 Go;Intact
+6;Smartphone;Apple iPhone 7 PLUS 32 Go;Apple;iPhone 7 PLUS;A1661;32 Go;Intact
+7;Smartphone;Apple iPhone 11 64 Go;Apple;iPhone 11;A2111;64 Go;Intact
+8;Smartphone;Apple iPhone 11 Pro 64 Go;Apple;iPhone 11 Pro;A2160;64 Go;Intact
+9;Smartphone;Apple iPhone 11 Pro Max 64 Go;Apple;iPhone 11 Pro Max;A2161;64 Go;Intact
+10;Smartphone;Apple iPhone 4S 16 Go;Apple;iPhone 4S;A1387;16 Go;Intact
+11;Smartphone;Apple iPhone 5 16 Go;Apple;iPhone 5;A1428;16 Go;Intact
+12;Smartphone;Apple iPhone 5C 8 Go;Apple;iPhone 5C;A1456;8 Go;Intact
+13;Smartphone;Apple iPhone 5S 16 Go;Apple;iPhone 5S;A1453;16 Go;Intact
+14;Smartphone;Apple iPhone 6 16 Go;Apple;iPhone 6;A1549;16 Go;Intact
+14;Smartphone;Apple iPhone 6 16 Go;Apple;iPhone 6;A1549;16 Go;Intact
+15;Smartphone;Apple iPhone 6 PLUS 16 Go;Apple;iPhone 6 PLUS;A1522;16 Go;Intact
+15;Smartphone;Apple iPhone 6 PLUS 16 Go;Apple;iPhone 6 PLUS;A1522;16 Go;Intact
+17;Smartphone;Apple iPhone 8 64 Go;Apple;iPhone 8;A1863;64 Go;Intact
+18;Smartphone;Apple iPhone 8 PLUS 64 Go;Apple;iPhone 8 PLUS;A1864;64 Go;Intact
+19;Smartphone;Apple iPhone SE 128 Go;Apple;iPhone SE;A1724;128 Go;Intact
+20;Smartphone;Apple iPhone SE 2020 64 Go;Apple;iPhone SE 2020;A2275;64 Go;Intact
+21;Smartphone;Apple iPhone X 64 Go;Apple;iPhone X;A1865;64 Go;Intact
+22;Smartphone;Apple iPhone XS MAX 64 Go;Apple;iPhone XS MAX;A1921;64 Go;Intact
+23;Smartphone;Apple Iphone 12 mini 64 Go;Apple;Iphone 12 mini;A2176;64 Go;Intact
+24;Smartphone;Apple Iphone 12 64 Go;Apple;Iphone 12;A2172;64 Go;Intact
+25;Smartphone;Apple Iphone 12 Pro 128 Go;Apple;Iphone 12 Pro;A2341;128 Go;Intact
+26;Smartphone;Apple Iphone 12 Pro Max 128 Go;Apple;Iphone 12 Pro Max;A2342;128 Go;Intact
+27;Smartphone;Samsung Galaxy S20 Ultra 128 Go;Samsung;Galaxy S20 Ultra;SM-G988B;128 Go;Intact
+28;Smartphone;Samsung Galaxy S20+ 128 Go;Samsung;Galaxy S20+;SM-G985F;128 Go;Intact
+29;Smartphone;Samsung Galaxy S20 128 Go;Samsung;Galaxy S20;SM-G981B;128 Go;Intact
+30;Smartphone;Samsung Galaxy S10+ 128 Go;Samsung;Galaxy S10+;SM-G975F/DS;128 Go;Intact
+31;Smartphone;Samsung Galaxy S10e 128 Go;Samsung;Galaxy S10e;SM-G970F/DS;128 Go;Intact
+32;Smartphone;Samsung Galaxy S10 128 Go;Samsung;Galaxy S10;SM-G973F/DS;128 Go;Intact
+33;Smartphone;Samsung Galaxy S11 512 Go;Samsung;Galaxy S11;;512 Go;Intact
+34;Smartphone;Samsung Galaxy S9+ 64 Go;Samsung;Galaxy S9+;SM-G965FZPDECT;64 Go;Intact
+35;Smartphone;Samsung Galaxy S9 64 Go;Samsung;Galaxy S9;SM-G960F;64 Go;Intact
+36;Smartphone;Samsung Galaxy S8+ 64 Go;Samsung;Galaxy S8+;SM-G955F;64 Go;Intact
+37;Smartphone;Samsung Galaxy S8 64 Go;Samsung;Galaxy S8;SM-G950F;64 Go;Intact
+38;Smartphone;Samsung Galaxy S7 Active 32 Go;Samsung;Galaxy S7 Active;SM-G891A;32 Go;Intact
+39;Smartphone;Samsung Galaxy S7 32 Go;Samsung;Galaxy S7;SM-G930F;32 Go;Intact
+40;Smartphone;Samsung Galaxy S7 Edge 32 Go;Samsung;Galaxy S7 Edge;SM-G935F;32 Go;Intact
+41;Smartphone;Samsung Galaxy S6 Active 32 Go;Samsung;Galaxy S6 Active;SM-G891A;32 Go;Intact
+42;Smartphone;Samsung Galaxy S6 Edge Plus 32 Go;Samsung;Galaxy S6 Edge Plus;SM-G928F;32 Go;Intact
+43;Smartphone;Samsung Galaxy S6 Edge 32 Go;Samsung;Galaxy S6 Edge;SM-G925F;32 Go;Intact
+44;Smartphone;Samsung Galaxy S6 32 Go;Samsung;Galaxy S6;SM-G920F;32 Go;Intact
+45;Smartphone;Samsung Galaxy S5 4G+;Samsung;Galaxy S5 4G+;SM-G900;;Intact
+46;Smartphone;Samsung Galaxy S4 Active;Samsung;Galaxy S4 Active;GT-i9295;;Intact
+47;Smartphone;Samsung Galaxy S3;Samsung;Galaxy S3;GT-i9305;;Intact
+48;Smartphone;Samsung Galaxy S2 Plus;Samsung;Galaxy S2 Plus;GT-i9105;;Intact
+49;Smartphone;Samsung Galaxy S5 Plus;Samsung;Galaxy S5 Plus;SM-G901F;;Intact
+50;Smartphone;Samsung Galaxy S5 Neo;Samsung;Galaxy S5 Neo;SM-G903;;Intact
+51;Smartphone;Samsung Galaxy S4 4G (I9505);Samsung;Galaxy S4 4G (I9505);GT-i9505;;Intact
+52;Smartphone;Samsung Galaxy S2;Samsung;Galaxy S2;GT-I9100;;Intact
+53;Smartphone;Samsung Galaxy S5;Samsung;Galaxy S5;SM-G900;;Intact
+54;Smartphone;Samsung Galaxy S5 Active;Samsung;Galaxy S5 Active;SM-G870A;;Intact
+55;Smartphone;Samsung Galaxy S4 Zoom;Samsung;Galaxy S4 Zoom;3G SM-C101;;Intact
+56;Smartphone;Samsung Galaxy S4 Value Edition;Samsung;Galaxy S4 Value Edition;GT-i9515;;Intact
+57;Smartphone;Samsung Galaxy S4;Samsung;Galaxy S4;GT-i9505;;Intact
+58;Smartphone;Samsung Galaxy S4 Advance 4G;Samsung;Galaxy S4 Advance 4G;GT-i9506;;Intact
+59;Smartphone;Samsung Galaxy S Plus;Samsung;Galaxy S Plus;GT-I9001;;Intact
+60;Smartphone;Samsung Galaxy S Duos;Samsung;Galaxy S Duos;GT-S7562;;Intact
+61;Smartphone;Samsung Galaxy S5 Mini;Samsung;Galaxy S5 Mini;SM-G800;;Intact
+62;Smartphone;Samsung Galaxy S4 Mini 4G;Samsung;Galaxy S4 Mini 4G;GT-i9195;;Intact
+63;Smartphone;Samsung Galaxy S4 Mini;Samsung;Galaxy S4 Mini;GT-i9190;;Intact
+64;Smartphone;Samsung Galaxy S3 Mini;Samsung;Galaxy S3 Mini;GT-I8190;;Intact
+65;Smartphone;Samsung Galaxy Note20 Ultra 256 Go;Samsung;Galaxy Note20 Ultra;SM-N986B;256 Go;Intact
+66;Smartphone;Samsung Galaxy Note20 128 Go;Samsung;Galaxy Note20;SM-N981B;128 Go;Intact
+67;Smartphone;Samsung Galaxy Note 10+ 256 Go;Samsung;Galaxy Note 10+;SM-N975;256 Go;Intact
+68;Smartphone;Samsung Galaxy Note 10 256 Go;Samsung;Galaxy Note 10;SM-N970F/DS;256 Go;Intact
+69;Smartphone;Samsung Galaxy Note 9 128 Go;Samsung;Galaxy Note 9;SM-N960F/DS;128 Go;Intact
+70;Smartphone;Samsung Galaxy Note 8 64 Go;Samsung;Galaxy Note 8;SM-N950F;64 Go;Intact
+71;Smartphone;Samsung Galaxy Note 5 32 Go;Samsung;Galaxy Note 5;SM-N920A;32 Go;Intact
+72;Smartphone;Samsung Galaxy Note 4;Samsung;Galaxy Note 4;SM-N910C;;Intact
+73;Smartphone;Samsung Galaxy Note Edge 32 Go;Samsung;Galaxy Note Edge;SM-N915F;32 Go;Intact
+74;Smartphone;Samsung Galaxy Note 3 Neo 16 Go;Samsung;Galaxy Note 3 Neo;3G SM-N750;16 Go;Intact
+75;Smartphone;Samsung Galaxy Note 3 LTE 32 Go;Samsung;Galaxy Note 3 LTE;SM-N9005;32 Go;Intact
+76;Smartphone;Samsung Galaxy Note 3 Dual;Samsung;Galaxy Note 3 Dual;SM-N9002;;Intact
+77;Smartphone;Samsung Galaxy Note 3;Samsung;Galaxy Note 3;GT-N9005;;Intact
+78;Smartphone;Samsung Galaxy Note 2 LTE;Samsung;Galaxy Note 2 LTE;GT-N7105;;Intact
+79;Smartphone;Samsung Galaxy Note 2;Samsung;Galaxy Note 2;GT-N7100;;Intact
+80;Smartphone;Samsung Galaxy Ace 4 4 Go;Samsung;Galaxy Ace 4;SM-G357FZ;4 Go;Intact
+81;Smartphone;Samsung Galaxy Ace 3 S7270;Samsung;Galaxy Ace 3 S7270;GT-S7270;;Intact
+82;Smartphone;Samsung Galaxy Ace 3;Samsung;Galaxy Ace 3;GT-S7275;;Intact
+84;Smartphone;Samsung Galaxy Grand Prime 8 Go;Samsung;Galaxy Grand Prime;SM-G5306W|SM-G5308W|SM-G5309W|SM-G530BT|SM-G530F|SM-G530FQ|SM-G530FZ|SM-G530FZ|SM-G530H|SM-G531F|SM-G531H|SM-G530T|SM-G530W|SM-G530Y|SM-G530AZ|SM-G531Y|SM-G530T1|SM-G531M|SM-G530A|SM-G530M|SM-G531BT;8 Go;Intact
+85;Smartphone;Samsung Grand Plus 8 Go;Samsung;Grand Plus;GT-I960I;8 Go;Intact
+86;Smartphone;Samsung Galaxy Grand 2 8 Go;Samsung;Galaxy Grand 2;G7102;8 Go;Intact
+87;Smartphone;Samsung Galaxy Grand Neo 8 Go;Samsung;Galaxy Grand Neo;GT-i9060;8 Go;Intact
+88;Smartphone;Samsung Galaxy Grand Duos 8 Go;Samsung;Galaxy Grand Duos;GT-I9082;8 Go;Intact
+89;Smartphone;Samsung galaxy A80 128 Go;Samsung;galaxy A80;SM-A805F;128 Go;Intact
+90;Smartphone;Samsung Galaxy A20 32 Go;Samsung;Galaxy A20;SM-A205WZKAXAC;32 Go;Intact
+91;Smartphone;Samsung A20e 32 Go;Samsung;A20e;SM-A202/DS;32 Go;Intact
+92;Smartphone;Samsung A10 32 Go;Samsung;A10;SM-A105F/DS;32 Go;Intact
+93;Smartphone;Samsung Galaxy A8 2018 32 Go;Samsung;Galaxy A8 2018;SM-A530F;32 Go;Intact
+94;Smartphone;Samsung Galaxy A71 128 Go;Samsung;Galaxy A71;SM-A715F/DS;128 Go;Intact
+95;Smartphone;Samsung Galaxy A51 64 Go;Samsung;Galaxy A51;SM-A515F;64 Go;Intact
+96;Smartphone;Samsung Galaxy A7 (2018) 64 Go;Samsung;Galaxy A7 (2018);SM-A750GN/DS;64 Go;Intact
+97;Smartphone;Samsung Galaxy A6 32 Go;Samsung;Galaxy A6;SM-A600FN;32 Go;Intact
+98;Smartphone;Samsung Galaxy A6 Plus 32 Go;Samsung;Galaxy A6 Plus;SM-A605FN/DS;32 Go;Intact
+99;Smartphone;Samsung Galaxy A9 64 Go;Samsung;Galaxy A9;SM-A920F/DS;64 Go;Intact
+100;Smartphone;Samsung Galaxy A8 32 Go;Samsung;Galaxy A8;SM-A530F;32 Go;Intact
+101;Smartphone;Samsung Galaxy A7 (2017) 32 Go;Samsung;Galaxy A7 (2017);SM-A720F;32 Go;Intact
+102;Smartphone;Samsung Galaxy A3;Samsung;Galaxy A3;SM-A300F;;Intact
+103;Smartphone;Samsung Galaxy A3 (2016) 16 Go;Samsung;Galaxy A3 (2016);SM-A310F;16 Go;Intact
+104;Smartphone;Samsung Galaxy A7 (2016) 16 Go;Samsung;Galaxy A7 (2016);SM-A710F;16 Go;Intact
+105;Smartphone;Samsung Galaxy A5 (2017) 32 Go;Samsung;Galaxy A5 (2017);SM-A520F;32 Go;Intact
+106;Smartphone;Samsung Galaxy A5 (2016) 16 Go;Samsung;Galaxy A5 (2016);SM-A500FZDUORX;16 Go;Intact
+107;Smartphone;Samsung Galaxy A7 16 Go;Samsung;Galaxy A7;SM-A700F;16 Go;Intact
+108;Smartphone;Samsung Galaxy A5 (2015) 16 Go;Samsung;Galaxy A5 (2015);SM-A500F (couleur or);16 Go;Intact
+109;Smartphone;Samsung Galaxy A3 (2017) 16 Go;Samsung;Galaxy A3 (2017);SM-A320F|SM-A320Y|SM-A320FL;16 Go;Intact
+110;Smartphone;Huawei P Smart 2020 128 Go;Huawei;P Smart 2020;POT-LX1A;128 Go;Intact
+111;Smartphone;Huawei P40 Pro+ 512 Go;Huawei;P40 Pro+;ELS-N39;512 Go;Intact
+112;Smartphone;Huawei P40 Pro 256 Go;Huawei;P40 Pro;ELS-NX9;256 Go;Intact
+113;Smartphone;Huawei P40 128 Go;Huawei;P40;ANA-NX9;128 Go;Intact
+114;Smartphone;Huawei P40 Lite 128 Go;Huawei;P40 Lite;JNY-LX2;128 Go;Intact
+115;Smartphone;Huawei P20 Lite 32 Go;Huawei;P20 Lite;ALE-LX1;32 Go;Intact
+116;Smartphone;Huawei P30 Pro 128 Go;Huawei;P30 Pro;VOG-L09;128 Go;Intact
+117;Smartphone;Huawei P30 Lite 128 Go;Huawei;P30 Lite;MAR-LX1A;128 Go;Intact
+118;Smartphone;Huawei P30 64 Go;Huawei;P30;ELE-L29|ELE-L09;64 Go;Intact
+119;Smartphone;Huawei P20 Pro 128 Go;Huawei;P20 Pro;CLT-L04;128 Go;Intact
+120;Smartphone;Huawei P20 128 Go;Huawei;P20;ELM-L29;128 Go;Intact
+121;Smartphone;Huawei P Smart 2019 64 Go;Huawei;P Smart 2019;POT-LX1 | POT-LX3;64 Go;Intact
+122;Smartphone;Huawei P Smart+ 64 Go;Huawei;P Smart+;INE-LX1;64 Go;Intact
+123;Smartphone;Huawei P Smart 32 Go;Huawei;P Smart;FIG-LX1;32 Go;Intact
+124;Smartphone;Huawei P10 Lite 32 Go;Huawei;P10 Lite;WAS-LX1A;32 Go;Intact
+125;Smartphone;Huawei P10 Plus 64 Go;Huawei;P10 Plus;VKY-AL00 |VKY-L09 | VKY-L29;64 Go;Intact
+126;Smartphone;Huawei P10 32 Go;Huawei;P10;VTR-L09;32 Go;Intact
+127;Smartphone;Huawei P9 Lite;Huawei;P9 Lite;PRA-LA1;;Intact
+128;Smartphone;Huawei P9 Plus;Huawei;P9 Plus;VIE-AL10 | VIE-L09 | VIE-L29;;Intact
+129;Smartphone;Huawei P9;Huawei;P9;EVA-L09;;Intact
+130;Smartphone;Huawei P8 Lite (2017);Huawei;P8 Lite (2017);VNS-L31;;Intact
+131;Smartphone;Huawei P8 Lite;Huawei;P8 Lite;ALE-L21;;Intact
+132;Smartphone;Huawei P8;Huawei;P8;GRA-L09;;Intact
+133;Smartphone;Huawei Mate 30 Pro 128 Go;Huawei;Mate 30 Pro;LIO-AL00| LIO-TL00;128 Go;Intact
+134;Smartphone;Huawei Mate 30 128 Go;Huawei;Mate 30;TAS-L09|TAS-L29|TAS-AL00|TAS-TL00;128 Go;Intact
+135;Smartphone;Huawei Mate 20 RS Porsche Design 256 Go;Huawei;Mate 20 RS Porsche Design;LYA-L29|LYA-AL00P;256 Go;Intact
+136;Smartphone;Huawei Mate 20X 128 Go;Huawei;Mate 20X;EVR-L29 | EVR-TL00 | EVR-AL00;128 Go;Intact
+137;Smartphone;Huawei Mate 20 Pro 128 Go;Huawei;Mate 20 Pro;LYA-L09;128 Go;Intact
+138;Smartphone;Huawei Mate 20 Lite 64 Go;Huawei;Mate 20 Lite;SNE-LX1;64 Go;Intact
+139;Smartphone;Huawei Mate 20 64 Go;Huawei;Mate 20;SNE-LX1;64 Go;Intact
+140;Smartphone;Huawei Mate 10 Pro 128 Go;Huawei;Mate 10 Pro;BLA-L09;128 Go;Intact
+141;Smartphone;Huawei Mate 10 Lite 64 Go;Huawei;Mate 10 Lite;RNE-L01 | RNE-L21;64 Go;Intact
+142;Smartphone;Huawei Mate 10 64 Go;Huawei;Mate 10;ALP-L09;64 Go;Intact
+143;Smartphone;Huawei Mate 9 Pro 64 Go;Huawei;Mate 9 Pro;LON-L29 |LON-AL00 |LON-AL10;64 Go;Intact
+144;Smartphone;Huawei Mate 9;Huawei;Mate 9;MHA-L09;;Intact
+145;Smartphone;Huawei Mate 8;Huawei;Mate 8;NXTL29 |NXT-L09;;Intact
+146;Smartphone;Huawei Mate S;Huawei;Mate S;CRR-UL20 | CR-L09;;Intact
+147;Smartphone;Huawei Mate 7 16 Go;Huawei;Mate 7;MHA-L09;16 Go;Intact
+148;Smartphone;Huawei Nova 5T 128 Go;Huawei;Nova 5T;YAL-L21;128 Go;Intact
+149;Smartphone;Huawei Nova Plus;Huawei;Nova Plus;MLA-L01;;Intact
+150;Smartphone;Huawei Y5 (2019) 16 Go;Huawei;Y5 (2019);AMN-LX1;16 Go;Intact
+151;Smartphone;Huawei Y6 (2019) 32 Go;Huawei;Y6 (2019);ATU-L21;32 Go;Intact
+152;Smartphone;Huawei Y7 2019 32 Go;Huawei;Y7 2019;DUB-LX1;32 Go;Intact
+153;Smartphone;Huawei Y5 2018 16 Go;Huawei;Y5 2018;DRA-L21;16 Go;Intact
+154;Smartphone;Huawei Y6 Pro 2017 16 Go;Huawei;Y6 Pro 2017;SLA-L02| SLA-L03|SLA-L22;16 Go;Intact
+155;Smartphone;Huawei Y6 2017 16 Go;Huawei;Y6 2017;MYA-L41| MYA-L11;16 Go;Intact
+156;Smartphone;Huawei Y6 8 Go;Huawei;Y6;ATU-L21;8 Go;Intact
+157;Smartphone;Huawei Y6Il;Huawei;Y6Il;;;Intact
+158;Smartphone;Huawei Y5;Huawei;Y5;DRA-L21;;Intact
+159;Smartphone;Huawei Y5Il;Huawei;Y5Il;AMN-LX1;;Intact
+160;Smartphone;Huawei Y6 2018 16 Go;Huawei;Y6 2018;ATU-L21;16 Go;Intact
+161;Smartphone;Huawei Y7 2018 32 Go;Huawei;Y7 2018;LDN-L21;32 Go;Intact
+162;Smartphone;Xiaomi Mi 10 Pro 256 Go;Xiaomi;Mi 10 Pro;M2001J1G;256 Go;Intact
+163;Smartphone;Xiaomi Mi 10 128 Go;Xiaomi;Mi 10;M2001J2G;128 Go;Intact
+164;Smartphone;Xiaomi Redmi Note 8 Pro 64 Go;Xiaomi;Redmi Note 8 Pro;2015105|M1906G7I|M1906G7G;64 Go;Intact
+165;Smartphone;Xiaomi Redmi Note 8 32 Go;Xiaomi;Redmi Note 8;M1908C3JH|M1908C3JG|M1908C3JI;32 Go;Intact
+166;Smartphone;Xiaomi Mi 9T Pro 64 Go;Xiaomi;Mi 9T Pro;M1903F11G;64 Go;Intact
+167;Smartphone;Xiaomi Mi 9T 64 Go;Xiaomi;Mi 9T;M1903F10G;64 Go;Intact
+168;Smartphone;Xiaomi Mi Note 10 128 Go;Xiaomi;Mi Note 10;M1910F4G;128 Go;Intact
+169;Smartphone;Xiaomi Redmi 4X 16 Go;Xiaomi;Redmi 4X;2016060|2016090|MAG138;16 Go;Intact
+170;Smartphone;Xiaomi Mi Max 2 32 Go;Xiaomi;Mi Max 2;MDE40|MDI40;32 Go;Intact
+171;Smartphone;Xiaomi Mi Max 3 64 Go;Xiaomi;Mi Max 3;M1804E4A;64 Go;Intact
+172;Smartphone;Xiaomi Redmi 7A 16 Go;Xiaomi;Redmi 7A;MZB7995IN;16 Go;Intact
+173;Smartphone;Xiaomi Redmi 6A 16 Go;Xiaomi;Redmi 6A;M1804C3CG;16 Go;Intact
+174;Smartphone;Xiaomi Redmi 4 16 Go;Xiaomi;Redmi 4;;16 Go;Intact
+175;Smartphone;Xiaomi Redmi Note 4 16 Go;Xiaomi;Redmi Note 4;2016100;16 Go;Intact
+176;Smartphone;Xiaomi Redmi Note 3 16 Go;Xiaomi;Redmi Note 3;2015116;16 Go;Intact
+177;Smartphone;Xiaomi Redmi Go 8 Go;Xiaomi;Redmi Go;M1903C3GG|M1903C3GH;8 Go;Intact
+178;Smartphone;Xiaomi Redmi 6 32 Go;Xiaomi;Redmi 6;M1804C3DG;32 Go;Intact
+179;Smartphone;Xiaomi Redmi 3S 16 Go;Xiaomi;Redmi 3S;2016031;16 Go;Intact
+180;Smartphone;Xiaomi Mi5s 32 Go;Xiaomi;Mi5s;Mi5s;32 Go;Intact
+181;Smartphone;Xiaomi Mi5 64 Go;Xiaomi;Mi5;Mi5 | Mi5 StAndArd;64 Go;Intact
+182;Smartphone;Xiaomi Redmi 7 16 Go;Xiaomi;Redmi 7;M1810F6LG;16 Go;Intact
+183;Smartphone;Xiaomi Redmi Note 7 Pro 64 Go;Xiaomi;Redmi Note 7 Pro;M1901F7S;64 Go;Intact
+184;Smartphone;Xiaomi Redmi Note 7 32 Go;Xiaomi;Redmi Note 7;M1901F7G;32 Go;Intact
+185;Smartphone;Xiaomi Mi 9 SE 64 Go;Xiaomi;Mi 9 SE;M1903F2G;64 Go;Intact
+186;Smartphone;Xiaomi Mi 9 64 Go;Xiaomi;Mi 9;M1902F1G;64 Go;Intact
+187;Smartphone;Xiaomi Mi A2 32 Go;Xiaomi;Mi A2;Mi 6X| M1804D2ST;32 Go;Intact
+188;Smartphone;Xiaomi Redmi Note 5 32 Go;Xiaomi;Redmi Note 5;M1803E7SG;32 Go;Intact
+189;Smartphone;Xiaomi Mi A2 Lite 32 Go;Xiaomi;Mi A2 Lite;M1805D1SG;32 Go;Intact
+190;Smartphone;Xiaomi Mi Mix 2s 64 Go;Xiaomi;Mi Mix 2s;M1803D5XA;64 Go;Intact
+191;Smartphone;Xiaomi Mi Mix 3 128 Go;Xiaomi;Mi Mix 3;M1810E5A;128 Go;Intact
+192;Smartphone;Xiaomi Redmi Note 6 Pro 32 Go;Xiaomi;Redmi Note 6 Pro;M1806E7TG;32 Go;Intact
+193;Smartphone;Xiaomi Pocophone F1 64 Go;Xiaomi;Pocophone F1;M1805E10A|POCO F1;64 Go;Intact
+194;Smartphone;Xiaomi Mi 8 Lite 64 Go;Xiaomi;Mi 8 Lite;M1808D2TG;64 Go;Intact
+195;Smartphone;Xiaomi Mi 8 64 Go;Xiaomi;Mi 8;M1803E1A;64 Go;Intact
+196;Smartphone;Xiaomi Mi A1 32 Go;Xiaomi;Mi A1;MDG2;32 Go;Intact
+197;Smartphone;Xiaomi Mi6 64 Go;Xiaomi;Mi6;MCE16;64 Go;Intact
+198;Smartphone;Xiaomi Mi Mix 2 64 Go;Xiaomi;Mi Mix 2;MDE5;64 Go;Intact
+199;Smartphone;Xiaomi Redmi 5 Plus 32 Go;Xiaomi;Redmi 5 Plus;MEG7;32 Go;Intact
+200;Smartphone;Xiaomi Redmi 5 16 Go;Xiaomi;Redmi 5;MDG1;16 Go;Intact
+201;Smartphone;Sony Xperia Z3+ 32 Go;Sony;Xperia Z3+;E6533;32 Go;Intact
+202;Smartphone;Sony Xperia Z5 Premium;Sony;Xperia Z5 Premium;E6853;;Intact
+203;Smartphone;Sony Xperia Z5 Dual;Sony;Xperia Z5 Dual;E6633;;Intact
+204;Smartphone;Sony Xperia Z5 compact;Sony;Xperia Z5 compact;E5803 | E5823;;Intact
+205;Smartphone;Sony Xperia Z5;Sony;Xperia Z5;E6653|SO-01H|SOV32|E6603|501SO;;Intact
+206;Smartphone;Sony Xperia ZR;Sony;Xperia ZR;C5502;;Intact
+207;Smartphone;Sony Xperia Z3 Compact 16 Go;Sony;Xperia Z3 Compact;D5803 | D5833;16 Go;Intact
+208;Smartphone;Sony Xperia Z3 16 Go;Sony;Xperia Z3;H8416;16 Go;Intact
+209;Smartphone;Sony Xperia Z2 16 Go;Sony;Xperia Z2;D6502 | D6503 | D6543;16 Go;Intact
+210;Smartphone;Sony Xperia Z1 compact 16 Go;Sony;Xperia Z1 compact;D5503;16 Go;Intact
+211;Smartphone;Sony Xperia Z1;Sony;Xperia Z1;C6903|C6902|C6906|SO-01F|SOL23;;Intact
+212;Smartphone;Sony Xperia Z Ultra;Sony;Xperia Z Ultra;C6806 | C6833 | C6802;;Intact
+213;Smartphone;Sony Xperia XA2 Plus 32 Go;Sony;Xperia XA2 Plus;H4413|H4493|H3413;32 Go;Intact
+214;Smartphone;Sony Xperia 10 64 Go;Sony;Xperia 10;I3113|I4113|I4193|I3123;64 Go;Intact
+215;Smartphone;Sony Xperia X Performance 32 Go;Sony;Xperia X Performance;F8131;32 Go;Intact
+216;Smartphone;Sony Xperia L1 16 Go;Sony;Xperia L1;;16 Go;Intact
+217;Smartphone;Sony M4 Aqua 8 Go;Sony;M4 Aqua;E2303 | E2306 | E2353;8 Go;Intact
+218;Smartphone;Sony XA 16 Go;Sony;XA;F3111;16 Go;Intact
+219;Smartphone;Sony XZs 32 Go;Sony;XZs;G8231;32 Go;Intact
+220;Smartphone;Sony Xperia XZ1 64 Go;Sony;Xperia XZ1;G8341 | G8343;64 Go;Intact
+221;Smartphone;Sony Xperia 10 Plus 64 Go;Sony;Xperia 10 Plus;i4293;64 Go;Intact
+222;Smartphone;Sony Xperia XZ1 Compact 32 Go;Sony;Xperia XZ1 Compact;SO-02K;32 Go;Intact
+223;Smartphone;Sony X Compact 32 Go;Sony;X Compact;F5321;32 Go;Intact
+224;Smartphone;Sony Xperia XA2 Ultra 32 Go;Sony;Xperia XA2 Ultra;H3213 | H3223;32 Go;Intact
+225;Smartphone;Sony Xperia XA1 Ultra 64 Go;Sony;Xperia XA1 Ultra;G3221;64 Go;Intact
+226;Smartphone;Sony Xperia XA2 32 Go;Sony;Xperia XA2;H3123;32 Go;Intact
+227;Smartphone;Sony Xperia XA1 32 Go;Sony;Xperia XA1;G3123;32 Go;Intact
+228;Smartphone;Sony Xperia XA Ultra 16 Go;Sony;Xperia XA Ultra;F3211 | F3213 | F3215;16 Go;Intact
+229;Smartphone;Sony Xperia XZ3 64 Go;Sony;Xperia XZ3;H8416;64 Go;Intact
+230;Smartphone;Sony Xperia XZ2 Compact 64 Go;Sony;Xperia XZ2 Compact;SO-05K;64 Go;Intact
+231;Smartphone;Sony Xperia XZ Premium 64 Go;Sony;Xperia XZ Premium;G8141;64 Go;Intact
+232;Smartphone;Sony Xperia XZ2 64 Go;Sony;Xperia XZ2;H8266|H8216|H8296|H8276|702SO|SOV37;64 Go;Intact
+233;Smartphone;Sony Xperia E 4G;Sony;Xperia E 4G;E2003;;Intact
+234;Smartphone;Sony Xperia E3 4G 4 Go;Sony;Xperia E3 4G;;4 Go;Intact
+235;Smartphone;Sony Xperia M2;Sony;Xperia M2;;;Intact
+236;Smartphone;Sony Xperia XZ;Sony;Xperia XZ;F8331;;Intact
+237;Smartphone;Sony Xperia X;Sony;Xperia X;F5121;;Intact
+238;Smartphone;Sony Xperia M;Sony;Xperia M;C1904;;Intact
+239;Smartphone;Sony Xperia L 8 Go;Sony;Xperia L;C2105;8 Go;Intact
+240;Smartphone;Sony Xperia E 4 Go;Sony;Xperia E;C1504;4 Go;Intact
+241;Smartphone;Sony Xperia V;Sony;Xperia V;LT25i;;Intact
+242;Smartphone;Sony Xperia T 16 Go;Sony;Xperia T;LT30p;16 Go;Intact
+243;Smartphone;Sony Xperia J;Sony;Xperia J;ST26i;;Intact
+244;Smartphone;Sony Xperia U;Sony;Xperia U;ST25i;;Intact
+245;Smartphone;Sony Xperia P;Sony;Xperia P;LT22i;;Intact
+246;Smartphone;Sony Xperia S;Sony;Xperia S;LT26i;;Intact
+247;Smartphone;Sony Xperia T2 Ultra;Sony;Xperia T2 Ultra;D5303;;Intact
+248;Smartphone;BlackBerry KEY2 LE 32 Go;BlackBerry;KEY2 LE;BBE100-4|BBE100-5|BBE100-1|BBE100-2;32 Go;Intact
+249;Smartphone;BlackBerry Keyone 32 Go;BlackBerry;Keyone;BBB100-2|BBB100-7|BBB100-1|BBB100-5|BBB100-3|BBB100-4;32 Go;Intact
+250;Smartphone;BlackBerry KEY 2 64 Go;BlackBerry;KEY 2;BBF100-6|BBF100-1|BBF100-2|BBF100-4;64 Go;Intact
+251;Smartphone;BlackBerry u;BlackBerry;u;;;Intact
+252;Smartphone;BlackBerry Passport;BlackBerry;Passport;;;Intact
+253;Smartphone;BlackBerry Q5;BlackBerry;Q5;;;Intact
+254;Smartphone;BlackBerry Q10;BlackBerry;Q10;;;Intact
+255;Smartphone;BlackBerry 9320 Curve;BlackBerry;9320 Curve;;;Intact
+256;Smartphone;BlackBerry 9790 Bold;BlackBerry;9790 Bold;;;Intact
+257;Smartphone;BlackBerry 9360 Curve;BlackBerry;9360 Curve;;;Intact
+258;Smartphone;BlackBerry 9900 Bold;BlackBerry;9900 Bold;;;Intact
+259;Smartphone;BlackBerry 9780 Bold;BlackBerry;9780 Bold;;;Intact
+260;Smartphone;BlackBerry 9700 Bold;BlackBerry;9700 Bold;;;Intact
+261;Smartphone;BlackBerry Z30;BlackBerry;Z30;;;Intact
+262;Smartphone;BlackBerry Z10;BlackBerry;Z10;;;Intact
+263;Smartphone;BlackBerry BlackBerry Q10;BlackBerry;BlackBerry Q10;;;Intact
+264;Smartphone;BlackBerry Bold 9930;BlackBerry;Bold 9930;;;Intact
+265;Smartphone;Google Pixel 5 128 Go;Google;Pixel 5;GTT9Q  | G5NZ6;128 Go;Intact
+266;Smartphone;Google Pixel 4a 128 Go;Google;Pixel 4a;G025N;128 Go;Intact
+267;Smartphone;Google Pixel 4 XL 64 Go;Google;Pixel 4 XL;G020J;64 Go;Intact
+268;Smartphone;Google Pixel 4 64 Go;Google;Pixel 4;G020I;64 Go;Intact
+269;Smartphone;Google Pixel 3a XL 64 Go;Google;Pixel 3a XL;G020B;64 Go;Intact
+270;Smartphone;Google Pixel 3a 64 Go;Google;Pixel 3a;G020A | G020E;64 Go;Intact
+271;Smartphone;Google Pixel 3 XL 64 Go;Google;Pixel 3 XL;G013C;64 Go;Intact
+272;Smartphone;Google Pixel 3 64 Go;Google;Pixel 3;G013A;64 Go;Intact
+273;Smartphone;Google Pixel 2 64 Go;Google;Pixel 2;;64 Go;Intact
+274;Smartphone;Google Pixel XL 32 Go;Google;Pixel XL;;32 Go;Intact
+275;Smartphone;Google Pixel 2 XL 64 Go;Google;Pixel 2 XL;;64 Go;Intact
+276;Smartphone;Google Pixel 32 Go;Google;Pixel;;32 Go;Intact
+277;Smartphone;HTC Sensation XL 16 Go;HTC;Sensation XL;;16 Go;Intact
+278;Smartphone;HTC Sensation XE;HTC;Sensation XE;;;Intact
+279;Smartphone;HTC One A9;HTC;One A9;One A9|2PQ93|A9u|2PQ910;;Intact
+280;Smartphone;HTC One M9;HTC;One M9;One M9|M9u|0PJA2|HTC6535LVW|M9pw|M9|0PJA10;;Intact
+281;Smartphone;HTC One Mini 2;HTC;One Mini 2;;;Intact
+282;Smartphone;HTC One XL;HTC;One XL;;;Intact
+283;Smartphone;HTC One X Plus;HTC;One X Plus;;;Intact
+284;Smartphone;HTC One X;HTC;One X;One X;;Intact
+285;Smartphone;HTC One SV LTE;HTC;One SV LTE;;;Intact
+286;Smartphone;HTC One SV;HTC;One SV;;;Intact
+287;Smartphone;HTC One S;HTC;One S;;;Intact
+288;Smartphone;HTC One Mini2;HTC;One Mini2;;;Intact
+289;Smartphone;HTC One Mini;HTC;One Mini;;;Intact
+290;Smartphone;HTC One Max;HTC;One Max;;;Intact
+291;Smartphone;HTC One M8;HTC;One M8;One_M8|M8x|831C;;Intact
+292;Smartphone;HTC Desire C;HTC;Desire C;;;Intact
+293;Smartphone;HTC Desire S;HTC;Desire S;;;Intact
+294;Smartphone;HTC Desire Z;HTC;Desire Z;;;Intact
+295;Smartphone;HTC Desire HD;HTC;Desire HD;;;Intact
+296;Smartphone;HTC Desire X 16 Go;HTC;Desire X;;16 Go;Intact
+297;Smartphone;HTC Desire 816;HTC;Desire 816;;;Intact
+298;Smartphone;HTC Desire 601 Zara;HTC;Desire 601 Zara;;;Intact
+299;Smartphone;HTC Desire 601;HTC;Desire 601;;;Intact
+300;Smartphone;HTC Desire 500;HTC;Desire 500;;;Intact
+301;Smartphone;HTC First;HTC;First;;;Intact
+302;Smartphone;HTC 10;HTC;10;;;Intact
+303;Smartphone;HTC U11 64 Go;HTC;U11;;64 Go;Intact
+304;Smartphone;LG G7 64 Go;LG;G7;G710EM;64 Go;Intact
+305;Smartphone;LG V30 64 Go;LG;V30;H930;64 Go;Intact
+306;Smartphone;LG G3 16 Go;LG;G3;D855;16 Go;Intact
+307;Smartphone;LG G2 16 Go;LG;G2;D802;16 Go;Intact
+308;Smartphone;LG G6;LG;G6;H870|H870DS|H873|H870S|LGM-G600L|H872|H871|LS993|US997|vs988|VS988|LGM-G600K|LGM-G600S|AS993|LGUS997|H870AR|H872PR|H871S;;Intact
+309;Smartphone;LG Nexus 5X 16 Go;LG;Nexus 5X;H791;16 Go;Intact
+310;Smartphone;LG G5;LG;G5;H860|H850|F700L|VS987|H830|H831|H820|H840|LGLS992|LGUS992|F700S|F700K|RS988|LGAS992|H820PR;;Intact
+311;Smartphone;LG G4 32 Go;LG;G4;H815;32 Go;Intact
+312;Smartphone;LG G3S;LG;G3S;D722;;Intact
+313;Smartphone;LG G Flex 2 16 Go;LG;G Flex 2;H955;16 Go;Intact
+314;Smartphone;LG Optimus G;LG;Optimus G;E975;;Intact
+315;Smartphone;LG Optimus G Pro;LG;Optimus G Pro;E985;;Intact
+316;Smartphone;LG Optimus G E975;LG;Optimus G E975;E975;;Intact
+317;Smartphone;LG Optimus 4X HD;LG;Optimus 4X HD;P880;;Intact
+318;Smartphone;LG Nexus 5;LG;Nexus 5;Nexus 5|D820|D821;;Intact
+319;Smartphone;LG Nexus 4;LG;Nexus 4;E960;;Intact
+320;Smartphone;LG G Pro 2;LG;G Pro 2;D838;;Intact
+321;Smartphone;LG G Flex;LG;G Flex;;;Intact
+322;Smartphone;Nokia Lumia 950 Dual Sim 32 Go;Nokia;Lumia 950 Dual Sim;;32 Go;Intact
+323;Smartphone;Nokia Lumia 950 XL Dual Sim 32 Go;Nokia;Lumia 950 XL Dual Sim;;32 Go;Intact
+324;Smartphone;Nokia Lumia 950 32 Go;Nokia;Lumia 950;;32 Go;Intact
+325;Smartphone;Nokia Lumia 535;Nokia;Lumia 535;;;Intact
+326;Smartphone;Nokia Lumia 530;Nokia;Lumia 530;;;Intact
+327;Smartphone;Nokia Lumia 830;Nokia;Lumia 830;;;Intact
+328;Smartphone;Nokia Lumia 735;Nokia;Lumia 735;RM-1038 | RM-1039;;Intact
+329;Smartphone;Nokia Lumia 730;Nokia;Lumia 730;;;Intact
+330;Smartphone;Nokia Lumia 640;Nokia;Lumia 640;;;Intact
+331;Smartphone;Nokia Lumia 930;Nokia;Lumia 930;;;Intact
+332;Smartphone;Nokia Lumia 635;Nokia;Lumia 635;;;Intact
+333;Smartphone;Nokia Lumia 1320;Nokia;Lumia 1320;;;Intact
+334;Smartphone;Nokia Lumia 525;Nokia;Lumia 525;RM-998;;Intact
+335;Smartphone;Nokia Lumia 1520;Nokia;Lumia 1520;;;Intact
+336;Smartphone;Nokia Lumia 625;Nokia;Lumia 625;;;Intact
+337;Smartphone;Nokia Lumia 1020;Nokia;Lumia 1020;RM-875| RM-877 | RM-876;;Intact
+338;Smartphone;Nokia Lumia 720;Nokia;Lumia 720;;;Intact
+339;Smartphone;Nokia Lumia 520 8 Go;Nokia;Lumia 520;;8 Go;Intact
+340;Smartphone;Nokia Lumia 820;Nokia;Lumia 820;;;Intact
+341;Smartphone;Nokia Lumia 620;Nokia;Lumia 620;;;Intact
+342;Smartphone;Nokia Lumia 920;Nokia;Lumia 920;;;Intact
+343;Smartphone;Nokia Lumia 925;Nokia;Lumia 925;;;Intact
+344;Smartphone;Nokia Lumia 900 16 Go;Nokia;Lumia 900;;16 Go;Intact
+345;Smartphone;Nokia Lumia 710 8 Go;Nokia;Lumia 710;;8 Go;Intact
+346;Smartphone;Nokia lumia 610 8 Go;Nokia;lumia 610;;8 Go;Intact
+347;Smartphone;Nokia Lumia 800;Nokia;Lumia 800;;;Intact
+348;Smartphone;Motorola Moto G 8 Go;Motorola;Moto G;X1032|XT1032;8 Go;Intact
+349;Smartphone;Motorola Moto X2;Motorola;Moto X2;XT1097|XT1096|XT1095|XT1092|XT1085|XT1093;;Intact
+350;Smartphone;Wiko Harry2 16 Go;Wiko;Harry2;;16 Go;Intact
+351;Smartphone;Wiko WIM 64 Go;Wiko;WIM;;64 Go;Intact
+352;Smartphone;Wiko sunny 3 8 Go;Wiko;sunny 3;;8 Go;Intact
+353;Smartphone;Wiko Tommy 8 Go;Wiko;Tommy;;8 Go;Intact
+354;Smartphone;Wiko Rainbow Lite Dual Sim 4 Go;Wiko;Rainbow Lite Dual Sim;;4 Go;Intact
+355;Smartphone;Wiko Lenny 3;Wiko;Lenny 3;LENNY3;;Intact
+356;Smartphone;Wiko Ufeel;Wiko;Ufeel;;;Intact
+357;Smartphone;Wiko Rainbow Jam;Wiko;Rainbow Jam;;;Intact
+358;Smartphone;Wiko Lenny 2;Wiko;Lenny 2;;;Intact
+359;Smartphone;Wiko Pulp 4G;Wiko;Pulp 4G;;;Intact
+360;Smartphone;Wiko Ridge;Wiko;Ridge;;;Intact
+361;Smartphone;Wiko Highway 4G;Wiko;Highway 4G;;;Intact
+362;Smartphone;Honor Honor 8X 64 Go;Honor;Honor 8X;JSN-L22|JSN-L42|JSN-L11|JSN-L21|JSN-AL00A;64 Go;Intact
+363;Smartphone;Honor View 20 128 Go;Honor;View 20;PCT-AL10|PCT-TL10;128 Go;Intact
+364;Smartphone;Honor Honor 9 Lite 32 Go;Honor;Honor 9 Lite;LLD-AL00|LLD-AL10|LLD-TL10;32 Go;Intact
+365;Smartphone;Honor Play 64 Go;Honor;Play;COR-L29|COR-L09|COR-AL00;64 Go;Intact
+366;Smartphone;Honor 7A 16 Go;Honor;7A;AUM-AL00IN|AUM-TL20;16 Go;Intact
+367;Smartphone;Honor Honor 10 64 Go;Honor;Honor 10;COL-AL10;64 Go;Intact
+368;Smartphone;Honor 9 Lite 32 Go;Honor;9 Lite;LLD-AL00|LLD-AL10;32 Go;Intact
+369;Smartphone;Honor Honor 6C 32 Go;Honor;Honor 6C;;32 Go;Intact
+370;Smartphone;Honor Honor 7X 64 Go;Honor;Honor 7X;BND-L21;64 Go;Intact
+371;Smartphone;Honor View 10 128 Go;Honor;View 10;BKL-L09;128 Go;Intact
+372;Smartphone;Honor Honor 7 Premium;Honor;Honor 7 Premium;;;Intact
+373;Smartphone;Honor 8 Pro;Honor;8 Pro;;;Intact
+374;Smartphone;Honor Honor 8 32 Go;Honor;Honor 8;;32 Go;Intact
+375;Smartphone;Honor Honor 7;Honor;Honor 7;PLK-L01|PLK-AL10|PLK-UL00|PLK-TL01H|PLK-TL00;;Intact
+376;Smartphone;Honor Honor 6X;Honor;Honor 6X;BLN-AL10|BLL-L22|BLN-L21|BLL-L21|BLN-L22|BLL-L23|BLN-L24|BLN-AL40|BLN-TL10|BLN-AL20;;Intact
+377;Smartphone;Honor Honor 5X;Honor;Honor 5X;KII-L21|KII-L22|KII-L23|KIW-AL10|KIW-CL00|KIW-TL00|KIW-TL00H|KIW-UL00|KIW-L21|KIW-L22|KIW-L24|KII-L05;;Intact
+378;Smartphone;Honor Honor 5C;Honor;Honor 5C;NEM-UL10|NEM-TL00H|NEM-L21|NMO-L31|NMO-L22|NMO-L23|NMO-L01|NEM-L22|NEM-L51|NEM-AL10|NEM-TL00;;Intact
+379;Smartphone;Honor Honor 9;Honor;Honor 9;STF-AL00|STF-AL10|STF-AL10|STF-TL10|STF-L09|STF-L09S;;Intact
+380;Smartphone;Asus Zenfone 5Z 64 Go;Asus;Zenfone 5Z;Z01RD;64 Go;Intact
+381;Smartphone;Asus Zenfone 4 max 32 Go;Asus;Zenfone 4 max;X00ID|X00IS|X00HDA|ZC554KL;32 Go;Intact
+382;Smartphone;Asus Zenfone 3 Max 32 Go;Asus;Zenfone 3 Max;X008DC|X00KD;32 Go;Intact
+383;Smartphone;Asus Zenfone 5 64 Go;Asus;Zenfone 5;X00QD|ZE620KL|ZF620KL;64 Go;Intact
+579;Console;Sony PS4 Pro 1 To;Sony;PS4 Pro;;1 To;Intact
+580;Console;Sony PS3 Slim 120 Go;Sony;PS3 Slim;;120 Go;Intact
+581;Console;Sony PS4 500 Go;Sony;PS4;;500 Go;Intact
+582;Console;Sony PS5 SSD;Sony;PS5;;SSD;Intact
+583;Console;Sony PS5 Edition numérique;Sony;PS5 Edition numérique;;;Intact
+584;Console;Sony Playstation;Sony;Playstation;;;Intact
+585;Console;Sony PS2;Sony;PS2;;;Intact
+586;Console;Sony PS2 Slim;Sony;PS2 Slim;;;Intact
+587;Console;Sony PS4 Slim 500 Go;Sony;PS4 Slim;;500 Go;Intact
+588;Console;Sony PS3 40 Go;Sony;PS3;;40 Go;Intact
+590;Console portable;Sony PS Vita;Sony;PS Vita;;;Intact
+591;Console portable;Sony PS Vita Wifi;Sony;PS Vita Wifi;;;Intact
+592;Console portable;Sony PS Vita Wifi / 3G;Sony;PS Vita Wifi / 3G;;;Intact
+593;Console portable;Sony PS Vita Slim;Sony;PS Vita Slim;;;Intact
+594;Console portable;Sony PSP (1000);Sony;PSP (1000);;;Intact
+595;Console portable;Sony PSP (1004);Sony;PSP (1004);;;Intact
+596;Console portable;Sony PSPBrite (3000);Sony;PSPBrite (3000);;;Intact
+597;Console portable;Sony PSP Brite (3004);Sony;PSP Brite (3004);;;Intact
+598;Console portable;Sony PSP Go (N1000);Sony;PSP Go (N1000);;;Intact
+599;Console portable;Sony PSP Go (N1004);Sony;PSP Go (N1004);;;Intact
+600;Console portable;Sony PSP Slim & lite (2004);Sony;PSP Slim & lite (2004);;;Intact
+601;Console portable;Sony PSP Street (E1000);Sony;PSP Street (E1000);;;Intact
+602;Console portable;Sony PSP Street (E1004);Sony;PSP Street (E1004);;;Intact
+603;Console;Nintendo Switch 32 Go;Nintendo;Switch;;32 Go;Intact
+604;Console;Nintendo 64;Nintendo;64;;;Intact
+605;Console;Nintendo GameCube;Nintendo;GameCube;;;Intact
+606;Console;Nintendo NES;Nintendo;NES;;;Intact
+607;Console;Nintendo NES Mini;Nintendo;NES Mini;;;Intact
+608;Console;Nintendo Super Nintendo;Nintendo;Super Nintendo;;;Intact
+609;Console;Nintendo Super nintendo Classic Mini;Nintendo;Super nintendo Classic Mini;;;Intact
+610;Console;Nintendo Wii;Nintendo;Wii;;;Intact
+611;Console;Nintendo Wii Mini;Nintendo;Wii Mini;;;Intact
+612;Console;Nintendo Wii U 8 Go;Nintendo;Wii U;;8 Go;Intact
+613;Console portable;Nintendo 2DS;Nintendo;2DS;;;Intact
+614;Console portable;Nintendo 3DS;Nintendo;3DS;;;Intact
+615;Console portable;Nintendo 3DS Xl;Nintendo;3DS Xl;;;Intact
+616;Console portable;Nintendo DS;Nintendo;DS;;;Intact
+617;Console portable;Nintendo DS Lite;Nintendo;DS Lite;;;Intact
+618;Console portable;Nintendo Dsi;Nintendo;Dsi;;;Intact
+619;Console portable;Nintendo Dsi XL;Nintendo;Dsi XL;;;Intact
+620;Console portable;Nintendo Game Boy;Nintendo;Game Boy;;;Intact
+621;Console portable;Nintendo Game Boy Advance;Nintendo;Game Boy Advance;;;Intact
+622;Console portable;Nintendo Game Boy Advance SP;Nintendo;Game Boy Advance SP;;;Intact
+623;Console portable;Nintendo Game Boy Color;Nintendo;Game Boy Color;;;Intact
+624;Console portable;Nintendo Game Boy Micro;Nintendo;Game Boy Micro;;;Intact
+625;Console portable;Nintendo Switch Lite;Nintendo;Switch Lite;;;Intact
+626;Console portable;Nintendo New 3DS;Nintendo;New 3DS;;;Intact
+627;Console portable;Nintendo New 2DS XL;Nintendo;New 2DS XL;;;Intact
+628;Console portable;Nintendo New 3DS XL;Nintendo;New 3DS XL;;;Intact
+629;Console;Atari FlashBack  Intact;Atari;FlashBack;;;Intact
+630;Console;Atari FlashBack 7;Atari;FlashBack 7;;;Intact
+631;Console;Atari FlashBack 8;Atari;FlashBack 8;;;Intact
+632;Console;Atari Retro 2600;Atari;Retro 2600;;;Intact
+633;Console;Microsoft Xbox;Microsoft;Xbox;;;Intact
+634;Console;Microsoft Xbox 360 20 Go;Microsoft;Xbox 360;;20 Go;Intact
+635;Console;Microsoft Xbox 360 Arcade 4 Go;Microsoft;Xbox 360 Arcade;;4 Go;Intact
+636;Console;Microsoft Xbox 360 Elite 120 Go;Microsoft;Xbox 360 Elite;;120 Go;Intact
+637;Console;Microsoft Xbox 360 Premium 20 Go;Microsoft;Xbox 360 Premium;;20 Go;Intact
+638;Console;Microsoft Xbox 360 Slim 4 Go;Microsoft;Xbox 360 Slim;;4 Go;Intact
+639;Console;Microsoft Xbox 360 Stingray 4 Go;Microsoft;Xbox 360 Stingray;;4 Go;Intact
+640;Console;Microsoft Xbox One 500 Go;Microsoft;Xbox One;;500 Go;Intact
+641;Console;Microsoft Xbox One Elite 1 To;Microsoft;Xbox One Elite;;1 To;Intact
+642;Console;Microsoft Xbox One S 500 Go;Microsoft;Xbox One S;;500 Go;Intact
+643;Console;Microsoft Xbox One S all Digital 1 To;Microsoft;Xbox One S all Digital;;1 To;Intact
+644;Console;Microsoft Xbox One X 1 To;Microsoft;Xbox One X;;1 To;Intact
+645;Console;Sega Dreamcast;Sega;Dreamcast;;;Intact
+646;Console;Sega Master System;Sega;Master System;;;Intact
+647;Console;Sega master System 2;Sega;master System 2;;;Intact
+648;Console;Sega Mega Drive;Sega;Mega Drive;;;Intact
+649;Console;Sega Mega Drive 2;Sega;Mega Drive 2;;;Intact
+650;Console;Sega Saturn;Sega;Saturn;;;Intact
+651;Console portable;Sega Game Gear;Sega;Game Gear;;;Intact
+652;Console portable;Sega Mega Drive portable;Sega;Mega Drive portable;;;Intact
+653;Smartphone;Samsung A52 5G 128 Go;Samsung;A52 5G;;128 Go;Intact
+654;Smartphone;Samsung A 52 128 Go;Samsung;A 52;SM-A526B|SM-A526B/DS|SM-A5260|SM-A526W|SM-A526U|SM-A526U1;128 Go;Intact
+655;Smartphone;Samsung A 42 5G 128 Go;Samsung;A 42 5G;SM-A426B|SM-A426B/DS|SM-A4260|SM-A426U;128 Go;Intact
+656;Smartphone;Samsung A 12 64 Go;Samsung;A 12;SM-A125F/DS;64 Go;Intact
+656;Smartphone;Samsung A 12 64 Go;Samsung;A 12;SM-A125F/DS;64 Go;Intact
+657;Smartphone;Samsung Galaxy S20+ 5G EE 128 Go;Samsung;Galaxy S20+ 5G EE;SM-G986F;128 Go;Intact
+658;Smartphone;Samsung Galaxy S20 5G Dual Sim 128 Go;Samsung;Galaxy S20 5G Dual Sim;SM-G980|SM-G980F;128 Go;Intact
+660;Smartphone;Samsung Galaxy S20 FE Dual Sim 128 Go;Samsung;Galaxy S20 FE Dual Sim;SM-G780F|SM-G780G;128 Go;Intact
+661;Smartphone;Samsung Galaxy S20 5G FE Dual Sim 128 Go;Samsung;Galaxy S20 5G FE Dual Sim;SM-G781B|SM-G781B/DS;128 Go;Intact
+662;Smartphone;Samsung Galaxy S21 5G 128 Go;Samsung;Galaxy S21 5G;SM-G991B|SM-G991B/DS|SM-G991U|SM-G991U1|SM-G991W|SM-G991N|SM-G9910;128 Go;Intact
+663;Smartphone;Samsung Galaxy S21+ 5G 128 Go;Samsung;Galaxy S21+ 5G;SM-G996B|SM-G996B/DS|SM-G996U|SM-G996U1|SM-G996W|SM-G996N|SM-G9960;128 Go;Intact
+664;Smartphone;Samsung Galaxy S21 Ultra 5G 128 Go;Samsung;Galaxy S21 Ultra 5G;SM-G998B|SM-G998B/DS|SM-G998U|SM-G998U1|SM-G998W|SM-G998N|SM-G9980;128 Go;Intact
+665;Smartphone;Xiaomi Mi 11 128 Go;Xiaomi;Mi 11;;128 Go;Intact
+666;Smartphone;Xiaomi Mi 10T Pro 128 Go;Xiaomi;Mi 10T Pro;M2007J3SG | M2007J3SY | Apollo Pro | MZB07ZDIN | MZB07Z7IN;128 Go;Intact
+667;Smartphone;Xiaomi Redmi note 9 Pro;Xiaomi;Redmi note 9 Pro;;;Intact
+668;Smartphone;Xiaomi Redmi Note 9 32 Go;Xiaomi;Redmi Note 9;;32 Go;Intact
+669;Smartphone;Xiaomi Mi 10T 128 Go;Xiaomi;Mi 10T;MZB07ZCIN;128 Go;Intact
+670;Smartphone;OPPO Find X3 Pro 256 Go;OPPO;Find X3 Pro;CPH2173 | PEEM00 | OPG03;256 Go;Intact
+671;Smartphone;OPPO Find X3 Neo 256 Go;OPPO;Find X3 Neo;CPH2207;256 Go;Intact
+672;Smartphone;OPPO Find X3 lite 128 Go;OPPO;Find X3 lite;CPH2145;128 Go;Intact
+673;Smartphone;OPPO Find X2 Pro 512 Go;OPPO;Find X2 Pro;PDEM30;512 Go;Intact
+674;Smartphone;OPPO Find X2 Neo 256 Go;OPPO;Find X2 Neo;CPH2009;256 Go;Intact
+675;Smartphone;OPPO Find X2 lite 128 Go;OPPO;Find X2 lite;CPH2005;128 Go;Intact
+676;Smartphone;OPPO Find X2 Pro Lamborghini Ed. 512 Go;OPPO;Find X2 Pro Lamborghini Ed.;PDEM30;512 Go;Intact
+677;Smartphone;OPPO Reno4 Pro 5G 128 Go;OPPO;Reno4 Pro 5G;PDNM00 | PDNT00;128 Go;Intact
+678;Smartphone;OPPO Reno4 Z 5G 128 Go;OPPO;Reno4 Z 5G;CPH2065;128 Go;Intact
+679;Smartphone;OPPO Reno 10x Zoom 256 Go;OPPO;Reno 10x Zoom;;256 Go;Intact
+680;Smartphone;OPPO A74 128 Go;OPPO;A74;CPH2219;128 Go;Intact
+681;Smartphone;OPPO A54 5G 64 Go;OPPO;A54 5G;CPH2195;64 Go;Intact
+682;Smartphone;OPPO A94 5G 128 Go;OPPO;A94 5G;CPH2211;128 Go;Intact
+683;Smartphone;OPPO A74 5G 128 Go;OPPO;A74 5G;CPH2197;128 Go;Intact
+684;Smartphone;OPPO A 15 32 Go;OPPO;A 15;CPH2185;32 Go;Intact
+685;Smartphone;OPPO A53 64 Go;OPPO;A53;;64 Go;Intact
+686;Smartphone;OPPO A53s 128 Go;OPPO;A53s;CPH2135;128 Go;Intact
+687;Smartphone;OPPO A72 128 Go;OPPO;A72;CPH2067;128 Go;Intact
+688;Smartphone;OPPO A9 2020 128 Go;OPPO;A9 2020;CPH1937| CPH1939 | PCHM30| PCHT30;128 Go;Intact
+689;Smartphone;OPPO A5 2020 64 Go;OPPO;A5 2020;CPH1931| CPH1959 | CPH1933| CPH1935;64 Go;Intact
+690;Smartphone;OPPO Reno 256 Go;OPPO;Reno;CPH1917;256 Go;Intact
+691;Smartphone;OPPO Reno Z 128 Go;OPPO;Reno Z;PCDM10| PCDT10 | CPH1979;128 Go;Intact
+692;Smartphone;OPPO Find X 256 Go;OPPO;Find X;PAFT00 | PAFM00;256 Go;Intact
+693;Smartphone;OPPO Reno 4 5G 128 Go;OPPO;Reno 4 5G;CPH2065;128 Go;Intact
+694;Smartphone;OPPO Reno4 5G 128 Go;OPPO;Reno4 5G;;128 Go;Intact
+695;Smartphone;Realme GT 5G 256 Go;Realme;GT 5G;RMX2202;256 Go;Intact
+696;Smartphone;Realme 7i 64 Go;Realme;7i;RMX2103;64 Go;Intact
+697;Smartphone;Realme 8 5G 128 Go;Realme;8 5G;RMX3241;128 Go;Intact
+698;Smartphone;Realme 8 64 Go;Realme;8;RMX3085;64 Go;Intact
+699;Smartphone;Realme 8 Pro 128 Go;Realme;8 Pro;;128 Go;Intact
+700;Smartphone;Realme X50 5G 128 Go;Realme;X50 5G;RMX2051;128 Go;Intact
+701;Smartphone;Realme X3 SuperZoom 256 Go;Realme;X3 SuperZoom;RMX2086;256 Go;Intact
+702;Smartphone;Realme X50 Pro 256 Go;Realme;X50 Pro;RMX2076 | RMX2075;256 Go;Intact
+703;Smartphone;Realme X2 Pro 64 Go;Realme;X2 Pro;RMX1931;64 Go;Intact
+704;Smartphone;Realme 6 Pro 128 Go;Realme;6 Pro;RMX2061 | RMX2063 |RBS0626IN| RBS0624IN | RBS0629IN;128 Go;Intact
+705;Smartphone;Realme 6i 128 Go;Realme;6i;RMX2040;128 Go;Intact
+706;Smartphone;Realme 6 128 Go;Realme;6;RMX2001;128 Go;Intact
+707;Smartphone;Realme C21 32 Go;Realme;C21;RMX3201;32 Go;Intact
+708;Smartphone;Realme C11 32 Go;Realme;C11;RMX2185;32 Go;Intact
+709;Smartphone;Realme 7 Pro 128 Go;Realme;7 Pro;RMX2170;128 Go;Intact
+710;Smartphone;Realme 7 64 Go;Realme;7;RMX2151;64 Go;Intact
+711;Smartphone;Vivo X60 Pro 5G 256 Go;Vivo;X60 Pro 5G;V2047A|V2047;256 Go;Intact
+712;Smartphone;Vivo V21 5G 128 Go;Vivo;V21 5G;V2050;128 Go;Intact
+713;Smartphone;Vivo Y72 5G 128 Go;Vivo;Y72 5G;V2041;128 Go;Intact
+714;Smartphone;Vivo X51 5 G 256 Go;Vivo;X51 5 G;XE710;256 Go;Intact
+715;Smartphone;Vivo Y70 128 Go;Vivo;Y70;;128 Go;Intact
+716;Smartphone;Vivo Y20s 128 Go;Vivo;Y20s;;128 Go;Intact
+963;Tablette;Microsoft Surface Book;Microsoft;Surface Book;;;Intact
+964;Smartphone;Huawei Honor 7 Lite;Huawei;Honor 7 Lite;PLK - L01;;Intact
+965;Smartphone;Huawei P Smart S 2020;Huawei;P Smart S 2020;51095RCY;;Intact
+966;Smartphone;Huawei P Smart 2021;Huawei;P Smart 2021;;;Intact
+967;Smartphone;Huawei Honor 9X;Huawei;Honor 9X;STK-LX1|STK-LX3;;Intact
+968;Smartphone;Huawei Honor 9X Pro;Huawei;Honor 9X Pro;HLK-L41;;Intact
+969;Smartphone;Huawei P40 Lite E;Huawei;P40 Lite E;ART-L29N;;Intact
+970;Smartphone;Huawei Honor 20E;Huawei;Honor 20E;;;Intact
+971;Smartphone;Huawei P Smart Z;Huawei;P Smart Z;STK-LX1;;Intact
+972;Smartphone;Huawei P30 Lite XL;Huawei;P30 Lite XL;;;Intact
+973;Smartphone;Huawei Y6s;Huawei;Y6s;;;Intact
+974;Smartphone;LG Velvet;LG;Velvet;LMG910EMW|LM-G910EMW;;Intact
+975;Smartphone;LG K50S;LG;K50S;X540EMW;;Intact
+976;Smartphone;LG K42;LG;K42;K420YMW;;Intact
+977;Smartphone;Motorola Moto G9 Power;Motorola;Moto G9 Power;XT2091-3;;Intact
+978;Smartphone;Motorola Moto G9 Plus;Motorola;Moto G9 Plus;XT2087-2;;Intact
+979;Smartphone;Motorola Moto G9 Play;Motorola;Moto G9 Play;;;Intact
+980;Smartphone;Motorola Moto G8 Power;Motorola;Moto G8 Power;;;Intact
+981;Smartphone;Motorola Moto G8;Motorola;Moto G8;XT2045-2;;Intact
+982;Smartphone;Motorola Moto G30;Motorola;Moto G30;XT2129-1|XT2129-2|PAML0000IN;;Intact
+983;Smartphone;Motorola Moto G10;Motorola;Moto G10;PAMN0021FR;;Intact
+984;Smartphone;Motorola Edge;Motorola;Edge;;;Intact
+985;Smartphone;Motorola Edge Plus;Motorola;Edge Plus;XT2061-3;;Intact
+986;Smartphone;Xiaomi Xiaomi note 10 Pro 64 Go;Xiaomi;Xiaomi note 10 Pro;;64 Go;Intact
+987;Smartphone;Motorola Moto G9;Motorola;Moto G9;XT2083-3;;Intact
+988;Smartphone;Motorola Moto M;Motorola;Moto M;XT1663;;Intact
+989;Smartphone;Motorola Moto G50;Motorola;Moto G50;XT2137-1;;Intact
+990;Smartphone;Motorola Moto G20;Motorola;Moto G20;XT2128-1;;Intact
+991;Smartphone;Motorola Moto G100;Motorola;Moto G100;XT2125-4;;Intact
+992;Smartphone;Nokia 150;Nokia;150;TA-1235;;Intact
+993;Smartphone;Nokia 216;Nokia;216;;;Intact
+997;Smartphone;Nokia G20;Nokia;G20;TA-1336|TA-1343|TA-1347|TA-1372|TA-1365;;Intact
+998;Smartphone;Nokia X20;Nokia;X20;TA-1341|TA-1344;;Intact
+1002;Smartphone;Samsung Galaxy A21s;Samsung;Galaxy A21s;SM-A217F|SM-A217F/DS|SM-A217F/DSN|SM-A217M|SM-A217M/DS|SM-A217N;;Intact
+1003;Smartphone;Samsung Galaxy A22;Samsung;Galaxy A22;SM-A225FZKGXFE;;Intact
+1004;Smartphone;Samsung Galaxy A31;Samsung;Galaxy A31;MT6768;;Intact
+1006;Smartphone;Samsung Galaxy A72;Samsung;Galaxy A72;SM-A725F;;Intact
+1007;Smartphone;Samsung Galaxy A9 (2018);Samsung;Galaxy A9 (2018);SM-A920F/DS;;Intact
+1008;Smartphone;Samsung Galaxy XCover 5 EE;Samsung;Galaxy XCover 5 EE;SM-G525F;;Intact
+1009;Smartphone;Samsung Galaxy XCover Pro;Samsung;Galaxy XCover Pro;SM-G715FZKDE27;;Intact
+1010;Smartphone;Samsung Galaxy Z Flip3;Samsung;Galaxy Z Flip3;SM-F711B|SM-F711N|SM-F711U;;Intact
+1011;Smartphone;Samsung Galaxy A20s;Samsung;Galaxy A20s;SM-A207FZBAXFE;;Intact
+1012;Smartphone;Samsung Galaxy A52;Samsung;Galaxy A52;SM-A526B;;Intact
+1013;Smartphone;Samsung Galaxy A90;Samsung;Galaxy A90;SM-A908B;;Intact
+1014;Smartphone;Samsung Galaxy Xcover 4s;Samsung;Galaxy Xcover 4s;SM-G398F;;Intact
+1015;Smartphone;Samsung Galaxy Z Flip 5;Samsung;Galaxy Z Flip 5;;;Intact
+1016;Smartphone;Samsung Galaxy Z Fold2;Samsung;Galaxy Z Fold2;SM-F916B|SM-F916U|SM-F916U1|SM-F916N;;Intact
+1017;Smartphone;Sony Xperia 1;Sony;Xperia 1;J8110 | J817 | J9110;;Intact
+1018;Smartphone;Sony Xperia 5;Sony;Xperia 5;J8210| J8270| J9210| J9260;;Intact
+1019;Smartphone;Sony Xperia XA;Sony;Xperia XA;F3111;;Intact
+1020;Smartphone;Sony Xperia XZs;Sony;Xperia XZs;G8231;;Intact
+1021;Smartphone;Xiaomi Mi 10 Lite;Xiaomi;Mi 10 Lite;M2007J17G;;Intact
+1022;Smartphone;OPPO A73;OPPO;A73;CPH2099;;Intact
+1023;Smartphone;OPPO A52;OPPO;A52;PDAM10 | CPH2069;;Intact
+1024;Smartphone;OPPO A91;OPPO;A91;PCPM00;;Intact
+1025;Smartphone;Realme 5i;Realme;5i;RMX2030;;Intact
+1026;Smartphone;Realme 6s;Realme;6s;RMX2002;;Intact
+1027;Smartphone;Realme C3;Realme;C3;RMX2027;;Intact
+1028;Smartphone;Realme X2;Realme;X2;RMX1992;;Intact
+1029;Smartphone;Apple Iphone 13 Pro max 128 Go;Apple;Iphone 13 Pro max; A2484|A2641|A2644|A2645|A2643;128 Go;Intact
+1030;Smartphone;Apple Iphone 13 pro 128 Go;Apple;Iphone 13 pro;A2483|A2636| A2639| A2640| A2638;128 Go;Intact
+1031;Smartphone;Apple Iphone 13 Mini 128 Go;Apple;Iphone 13 Mini;A2481|A2626|A2629|A2630|A2481|A2628;128 Go;Intact
+1032;Smartphone;Apple Iphone 13 128 Go;Apple;Iphone 13;A2482|A2631|A2634|A2635|A2633;128 Go;Intact
+1033;Smartphone;Apple iPhone Xr 64 Go;Apple;iPhone Xr;A1984;64 Go;Bon état
+1034;Smartphone;Apple iPhone Xs 64 Go;Apple;iPhone Xs;A2484;64 Go;Bon état
+1035;Smartphone;Apple Iphone 7 32 Go;Apple;Iphone 7;A1660;32 Go;Bon état
+1036;Smartphone;Apple iPhone 4 16 Go;Apple;iPhone 4;A1349;16 Go;Bon état
+1038;Smartphone;Apple iPhone 7 PLUS 32 Go;Apple;iPhone 7 PLUS;A1661;32 Go;Bon état
+1039;Smartphone;Apple iPhone 11 64 Go;Apple;iPhone 11;A2111;64 Go;Bon état
+1040;Smartphone;Apple iPhone 11 Pro 64 Go;Apple;iPhone 11 Pro;A2160;64 Go;Bon état
+1041;Smartphone;Apple iPhone 11 Pro Max 64 Go;Apple;iPhone 11 Pro Max;A2161;64 Go;Bon état
+1042;Smartphone;Apple iPhone 4S 16 Go;Apple;iPhone 4S;A1387;16 Go;Bon état
+1043;Smartphone;Apple iPhone 5 16 Go;Apple;iPhone 5;A1428;16 Go;Bon état
+1044;Smartphone;Apple iPhone 5C 8 Go;Apple;iPhone 5C;A1456;8 Go;Bon état
+1045;Smartphone;Apple iPhone 5S 16 Go;Apple;iPhone 5S;A1453;16 Go;Bon état
+1046;Smartphone;Apple iPhone 6 16 Go;Apple;iPhone 6;A1549;16 Go;Bon état
+1046;Smartphone;Apple iPhone 6 16 Go;Apple;iPhone 6;A1549;16 Go;Bon état
+1047;Smartphone;Apple iPhone 6 PLUS 16 Go;Apple;iPhone 6 PLUS;A1522;16 Go;Bon état
+1047;Smartphone;Apple iPhone 6 PLUS 16 Go;Apple;iPhone 6 PLUS;A1522;16 Go;Bon état
+1049;Smartphone;Apple iPhone 8 64 Go;Apple;iPhone 8;A1863;64 Go;Bon état
+1050;Smartphone;Apple iPhone 8 PLUS 64 Go;Apple;iPhone 8 PLUS;A1864;64 Go;Bon état
+1051;Smartphone;Apple iPhone SE 128 Go;Apple;iPhone SE;A1724;128 Go;Bon état
+1052;Smartphone;Apple iPhone SE 2020 64 Go;Apple;iPhone SE 2020;A2275;64 Go;Bon état
+1053;Smartphone;Apple iPhone X 64 Go;Apple;iPhone X;A1865;64 Go;Bon état
+1054;Smartphone;Apple iPhone XS MAX 64 Go;Apple;iPhone XS MAX;A1921;64 Go;Bon état
+1055;Smartphone;Apple Iphone 12 mini 64 Go;Apple;Iphone 12 mini;A2176;64 Go;Bon état
+1056;Smartphone;Apple Iphone 12 64 Go;Apple;Iphone 12;A2172;64 Go;Bon état
+1057;Smartphone;Apple Iphone 12 Pro 128 Go;Apple;Iphone 12 Pro;A2341;128 Go;Bon état
+1058;Smartphone;Apple Iphone 12 Pro Max 128 Go;Apple;Iphone 12 Pro Max;A2342;128 Go;Bon état
+1059;Smartphone;Samsung Galaxy S20 Ultra 128 Go;Samsung;Galaxy S20 Ultra;SM-G988B;128 Go;Bon état
+1060;Smartphone;Samsung Galaxy S20+ 128 Go;Samsung;Galaxy S20+;SM-G985F;128 Go;Bon état
+1061;Smartphone;Samsung Galaxy S20 128 Go;Samsung;Galaxy S20;SM-G981B;128 Go;Bon état
+1062;Smartphone;Samsung Galaxy S10+ 128 Go;Samsung;Galaxy S10+;SM-G975F/DS;128 Go;Bon état
+1063;Smartphone;Samsung Galaxy S10e 128 Go;Samsung;Galaxy S10e;SM-G970F/DS;128 Go;Bon état
+1064;Smartphone;Samsung Galaxy S10 128 Go;Samsung;Galaxy S10;SM-G973F/DS;128 Go;Bon état
+1065;Smartphone;Samsung Galaxy S11 512 Go;Samsung;Galaxy S11;;512 Go;Bon état
+1066;Smartphone;Samsung Galaxy S9+ 64 Go;Samsung;Galaxy S9+;SM-G965FZPDECT;64 Go;Bon état
+1067;Smartphone;Samsung Galaxy S9 64 Go;Samsung;Galaxy S9;SM-G960F;64 Go;Bon état
+1068;Smartphone;Samsung Galaxy S8+ 64 Go;Samsung;Galaxy S8+;SM-G955F;64 Go;Bon état
+1069;Smartphone;Samsung Galaxy S8 64 Go;Samsung;Galaxy S8;SM-G950F;64 Go;Bon état
+1070;Smartphone;Samsung Galaxy S7 Active 32 Go;Samsung;Galaxy S7 Active;SM-G891A;32 Go;Bon état
+1071;Smartphone;Samsung Galaxy S7 32 Go;Samsung;Galaxy S7;SM-G930F;32 Go;Bon état
+1072;Smartphone;Samsung Galaxy S7 Edge 32 Go;Samsung;Galaxy S7 Edge;SM-G935F;32 Go;Bon état
+1073;Smartphone;Samsung Galaxy S6 Active 32 Go;Samsung;Galaxy S6 Active;SM-G891A;32 Go;Bon état
+1074;Smartphone;Samsung Galaxy S6 Edge Plus 32 Go;Samsung;Galaxy S6 Edge Plus;SM-G928F;32 Go;Bon état
+1075;Smartphone;Samsung Galaxy S6 Edge 32 Go;Samsung;Galaxy S6 Edge;SM-G925F;32 Go;Bon état
+1076;Smartphone;Samsung Galaxy S6 32 Go;Samsung;Galaxy S6;SM-G920F;32 Go;Bon état
+1077;Smartphone;Samsung Galaxy S5 4G+;Samsung;Galaxy S5 4G+;SM-G900;;Bon état
+1078;Smartphone;Samsung Galaxy S4 Active;Samsung;Galaxy S4 Active;GT-i9295;;Bon état
+1079;Smartphone;Samsung Galaxy S3;Samsung;Galaxy S3;GT-i9305;;Bon état
+1080;Smartphone;Samsung Galaxy S2 Plus;Samsung;Galaxy S2 Plus;GT-i9105;;Bon état
+1081;Smartphone;Samsung Galaxy S5 Plus;Samsung;Galaxy S5 Plus;SM-G901F;;Bon état
+1082;Smartphone;Samsung Galaxy S5 Neo;Samsung;Galaxy S5 Neo;SM-G903;;Bon état
+1083;Smartphone;Samsung Galaxy S4 4G (I9505);Samsung;Galaxy S4 4G (I9505);GT-i9505;;Bon état
+1084;Smartphone;Samsung Galaxy S2;Samsung;Galaxy S2;GT-I9100;;Bon état
+1085;Smartphone;Samsung Galaxy S5;Samsung;Galaxy S5;SM-G900;;Bon état
+1086;Smartphone;Samsung Galaxy S5 Active;Samsung;Galaxy S5 Active;SM-G870A;;Bon état
+1087;Smartphone;Samsung Galaxy S4 Zoom;Samsung;Galaxy S4 Zoom;3G SM-C101;;Bon état
+1088;Smartphone;Samsung Galaxy S4 Value Edition;Samsung;Galaxy S4 Value Edition;GT-i9515;;Bon état
+1089;Smartphone;Samsung Galaxy S4;Samsung;Galaxy S4;GT-i9505;;Bon état
+1090;Smartphone;Samsung Galaxy S4 Advance 4G;Samsung;Galaxy S4 Advance 4G;GT-i9506;;Bon état
+1091;Smartphone;Samsung Galaxy S Plus;Samsung;Galaxy S Plus;GT-I9001;;Bon état
+1092;Smartphone;Samsung Galaxy S Duos;Samsung;Galaxy S Duos;GT-S7562;;Bon état
+1093;Smartphone;Samsung Galaxy S5 Mini;Samsung;Galaxy S5 Mini;SM-G800;;Bon état
+1094;Smartphone;Samsung Galaxy S4 Mini 4G;Samsung;Galaxy S4 Mini 4G;GT-i9195;;Bon état
+1095;Smartphone;Samsung Galaxy S4 Mini;Samsung;Galaxy S4 Mini;GT-i9190;;Bon état
+1096;Smartphone;Samsung Galaxy S3 Mini;Samsung;Galaxy S3 Mini;GT-I8190;;Bon état
+1097;Smartphone;Samsung Galaxy Note20 Ultra 256 Go;Samsung;Galaxy Note20 Ultra;SM-N986B;256 Go;Bon état
+1098;Smartphone;Samsung Galaxy Note20 128 Go;Samsung;Galaxy Note20;SM-N981B;128 Go;Bon état
+1099;Smartphone;Samsung Galaxy Note 10+ 256 Go;Samsung;Galaxy Note 10+;SM-N975;256 Go;Bon état
+1100;Smartphone;Samsung Galaxy Note 10 256 Go;Samsung;Galaxy Note 10;SM-N970F/DS;256 Go;Bon état
+1101;Smartphone;Samsung Galaxy Note 9 128 Go;Samsung;Galaxy Note 9;SM-N960F/DS;128 Go;Bon état
+1102;Smartphone;Samsung Galaxy Note 8 64 Go;Samsung;Galaxy Note 8;SM-N950F;64 Go;Bon état
+1103;Smartphone;Samsung Galaxy Note 5 32 Go;Samsung;Galaxy Note 5;SM-N920A;32 Go;Bon état
+1104;Smartphone;Samsung Galaxy Note 4;Samsung;Galaxy Note 4;SM-N910C;;Bon état
+1105;Smartphone;Samsung Galaxy Note Edge 32 Go;Samsung;Galaxy Note Edge;SM-N915F;32 Go;Bon état
+1106;Smartphone;Samsung Galaxy Note 3 Neo 16 Go;Samsung;Galaxy Note 3 Neo;3G SM-N750;16 Go;Bon état
+1107;Smartphone;Samsung Galaxy Note 3 LTE 32 Go;Samsung;Galaxy Note 3 LTE;SM-N9005;32 Go;Bon état
+1108;Smartphone;Samsung Galaxy Note 3 Dual;Samsung;Galaxy Note 3 Dual;SM-N9002;;Bon état
+1109;Smartphone;Samsung Galaxy Note 3;Samsung;Galaxy Note 3;GT-N9005;;Bon état
+1110;Smartphone;Samsung Galaxy Note 2 LTE;Samsung;Galaxy Note 2 LTE;GT-N7105;;Bon état
+1111;Smartphone;Samsung Galaxy Note 2;Samsung;Galaxy Note 2;GT-N7100;;Bon état
+1112;Smartphone;Samsung Galaxy Ace 4 4 Go;Samsung;Galaxy Ace 4;SM-G357FZ;4 Go;Bon état
+1113;Smartphone;Samsung Galaxy Ace 3 S7270;Samsung;Galaxy Ace 3 S7270;GT-S7270;;Bon état
+1114;Smartphone;Samsung Galaxy Ace 3;Samsung;Galaxy Ace 3;GT-S7275;;Bon état
+1116;Smartphone;Samsung Galaxy Grand Prime 8 Go;Samsung;Galaxy Grand Prime;SM-G5306W|SM-G5308W|SM-G5309W|SM-G530BT|SM-G530F|SM-G530FQ|SM-G530FZ|SM-G530FZ|SM-G530H|SM-G531F|SM-G531H|SM-G530T|SM-G530W|SM-G530Y|SM-G530AZ|SM-G531Y|SM-G530T1|SM-G531M|SM-G530A|SM-G530M|SM-G531BT;8 Go;Bon état
+1117;Smartphone;Samsung Grand Plus 8 Go;Samsung;Grand Plus;GT-I960I;8 Go;Bon état
+1118;Smartphone;Samsung Galaxy Grand 2 8 Go;Samsung;Galaxy Grand 2;G7102;8 Go;Bon état
+1119;Smartphone;Samsung Galaxy Grand Neo 8 Go;Samsung;Galaxy Grand Neo;GT-i9060;8 Go;Bon état
+1120;Smartphone;Samsung Galaxy Grand Duos 8 Go;Samsung;Galaxy Grand Duos;GT-I9082;8 Go;Bon état
+1121;Smartphone;Samsung galaxy A80 128 Go;Samsung;galaxy A80;SM-A805F;128 Go;Bon état
+1122;Smartphone;Samsung Galaxy A20 32 Go;Samsung;Galaxy A20;SM-A205WZKAXAC;32 Go;Bon état
+1123;Smartphone;Samsung A20e 32 Go;Samsung;A20e;SM-A202/DS;32 Go;Bon état
+1124;Smartphone;Samsung A10 32 Go;Samsung;A10;SM-A105F/DS;32 Go;Bon état
+1125;Smartphone;Samsung Galaxy A8 2018 32 Go;Samsung;Galaxy A8 2018;SM-A530F;32 Go;Bon état
+1126;Smartphone;Samsung Galaxy A71 128 Go;Samsung;Galaxy A71;SM-A715F/DS;128 Go;Bon état
+1127;Smartphone;Samsung Galaxy A51 64 Go;Samsung;Galaxy A51;SM-A515F;64 Go;Bon état
+1128;Smartphone;Samsung Galaxy A7 (2018) 64 Go;Samsung;Galaxy A7 (2018);SM-A750GN/DS;64 Go;Bon état
+1129;Smartphone;Samsung Galaxy A6 32 Go;Samsung;Galaxy A6;SM-A600FN;32 Go;Bon état
+1130;Smartphone;Samsung Galaxy A6 Plus 32 Go;Samsung;Galaxy A6 Plus;SM-A605FN/DS;32 Go;Bon état
+1131;Smartphone;Samsung Galaxy A9 64 Go;Samsung;Galaxy A9;SM-A920F/DS;64 Go;Bon état
+1132;Smartphone;Samsung Galaxy A8 32 Go;Samsung;Galaxy A8;SM-A530F;32 Go;Bon état
+1133;Smartphone;Samsung Galaxy A7 (2017) 32 Go;Samsung;Galaxy A7 (2017);SM-A720F;32 Go;Bon état
+1134;Smartphone;Samsung Galaxy A3;Samsung;Galaxy A3;SM-A300F;;Bon état
+1135;Smartphone;Samsung Galaxy A3 (2016) 16 Go;Samsung;Galaxy A3 (2016);SM-A310F;16 Go;Bon état
+1136;Smartphone;Samsung Galaxy A7 (2016) 16 Go;Samsung;Galaxy A7 (2016);SM-A710F;16 Go;Bon état
+1137;Smartphone;Samsung Galaxy A5 (2017) 32 Go;Samsung;Galaxy A5 (2017);SM-A520F;32 Go;Bon état
+1138;Smartphone;Samsung Galaxy A5 (2016) 16 Go;Samsung;Galaxy A5 (2016);SM-A500FZDUORX;16 Go;Bon état
+1139;Smartphone;Samsung Galaxy A7 16 Go;Samsung;Galaxy A7;SM-A700F;16 Go;Bon état
+1140;Smartphone;Samsung Galaxy A5 (2015) 16 Go;Samsung;Galaxy A5 (2015);SM-A500F (couleur or);16 Go;Bon état
+1141;Smartphone;Samsung Galaxy A3 (2017) 16 Go;Samsung;Galaxy A3 (2017);SM-A320F|SM-A320Y|SM-A320FL;16 Go;Bon état
+1142;Smartphone;Huawei P Smart 2020 128 Go;Huawei;P Smart 2020;POT-LX1A;128 Go;Bon état
+1143;Smartphone;Huawei P40 Pro+ 512 Go;Huawei;P40 Pro+;ELS-N39;512 Go;Bon état
+1144;Smartphone;Huawei P40 Pro 256 Go;Huawei;P40 Pro;ELS-NX9;256 Go;Bon état
+1145;Smartphone;Huawei P40 128 Go;Huawei;P40;ANA-NX9;128 Go;Bon état
+1146;Smartphone;Huawei P40 Lite 128 Go;Huawei;P40 Lite;JNY-LX2;128 Go;Bon état
+1147;Smartphone;Huawei P20 Lite 32 Go;Huawei;P20 Lite;ALE-LX1;32 Go;Bon état
+1148;Smartphone;Huawei P30 Pro 128 Go;Huawei;P30 Pro;VOG-L09;128 Go;Bon état
+1149;Smartphone;Huawei P30 Lite 128 Go;Huawei;P30 Lite;MAR-LX1A;128 Go;Bon état
+1150;Smartphone;Huawei P30 64 Go;Huawei;P30;ELE-L29|ELE-L09;64 Go;Bon état
+1151;Smartphone;Huawei P20 Pro 128 Go;Huawei;P20 Pro;CLT-L04;128 Go;Bon état
+1152;Smartphone;Huawei P20 128 Go;Huawei;P20;ELM-L29;128 Go;Bon état
+1153;Smartphone;Huawei P Smart 2019 64 Go;Huawei;P Smart 2019;POT-LX1 | POT-LX3;64 Go;Bon état
+1154;Smartphone;Huawei P Smart+ 64 Go;Huawei;P Smart+;INE-LX1;64 Go;Bon état
+1155;Smartphone;Huawei P Smart 32 Go;Huawei;P Smart;FIG-LX1;32 Go;Bon état
+1156;Smartphone;Huawei P10 Lite 32 Go;Huawei;P10 Lite;WAS-LX1A;32 Go;Bon état
+1157;Smartphone;Huawei P10 Plus 64 Go;Huawei;P10 Plus;VKY-AL00 |VKY-L09 | VKY-L29;64 Go;Bon état
+1158;Smartphone;Huawei P10 32 Go;Huawei;P10;VTR-L09;32 Go;Bon état
+1159;Smartphone;Huawei P9 Lite;Huawei;P9 Lite;PRA-LA1;;Bon état
+1160;Smartphone;Huawei P9 Plus;Huawei;P9 Plus;VIE-AL10 | VIE-L09 | VIE-L29;;Bon état
+1161;Smartphone;Huawei P9;Huawei;P9;EVA-L09;;Bon état
+1162;Smartphone;Huawei P8 Lite (2017);Huawei;P8 Lite (2017);VNS-L31;;Bon état
+1163;Smartphone;Huawei P8 Lite;Huawei;P8 Lite;ALE-L21;;Bon état
+1164;Smartphone;Huawei P8;Huawei;P8;GRA-L09;;Bon état
+1165;Smartphone;Huawei Mate 30 Pro 128 Go;Huawei;Mate 30 Pro;LIO-AL00| LIO-TL00;128 Go;Bon état
+1166;Smartphone;Huawei Mate 30 128 Go;Huawei;Mate 30;TAS-L09|TAS-L29|TAS-AL00|TAS-TL00;128 Go;Bon état
+1167;Smartphone;Huawei Mate 20 RS Porsche Design 256 Go;Huawei;Mate 20 RS Porsche Design;LYA-L29|LYA-AL00P;256 Go;Bon état
+1168;Smartphone;Huawei Mate 20X 128 Go;Huawei;Mate 20X;EVR-L29 | EVR-TL00 | EVR-AL00;128 Go;Bon état
+1169;Smartphone;Huawei Mate 20 Pro 128 Go;Huawei;Mate 20 Pro;LYA-L09;128 Go;Bon état
+1170;Smartphone;Huawei Mate 20 Lite 64 Go;Huawei;Mate 20 Lite;SNE-LX1;64 Go;Bon état
+1171;Smartphone;Huawei Mate 20 64 Go;Huawei;Mate 20;SNE-LX1;64 Go;Bon état
+1172;Smartphone;Huawei Mate 10 Pro 128 Go;Huawei;Mate 10 Pro;BLA-L09;128 Go;Bon état
+1173;Smartphone;Huawei Mate 10 Lite 64 Go;Huawei;Mate 10 Lite;RNE-L01 | RNE-L21;64 Go;Bon état
+1174;Smartphone;Huawei Mate 10 64 Go;Huawei;Mate 10;ALP-L09;64 Go;Bon état
+1175;Smartphone;Huawei Mate 9 Pro 64 Go;Huawei;Mate 9 Pro;LON-L29 |LON-AL00 |LON-AL10;64 Go;Bon état
+1176;Smartphone;Huawei Mate 9;Huawei;Mate 9;MHA-L09;;Bon état
+1177;Smartphone;Huawei Mate 8;Huawei;Mate 8;NXTL29 |NXT-L09;;Bon état
+1178;Smartphone;Huawei Mate S;Huawei;Mate S;CRR-UL20 | CR-L09;;Bon état
+1179;Smartphone;Huawei Mate 7 16 Go;Huawei;Mate 7;MHA-L09;16 Go;Bon état
+1180;Smartphone;Huawei Nova 5T 128 Go;Huawei;Nova 5T;YAL-L21;128 Go;Bon état
+1181;Smartphone;Huawei Nova Plus;Huawei;Nova Plus;MLA-L01;;Bon état
+1182;Smartphone;Huawei Y5 (2019) 16 Go;Huawei;Y5 (2019);AMN-LX1;16 Go;Bon état
+1183;Smartphone;Huawei Y6 (2019) 32 Go;Huawei;Y6 (2019);ATU-L21;32 Go;Bon état
+1184;Smartphone;Huawei Y7 2019 32 Go;Huawei;Y7 2019;DUB-LX1;32 Go;Bon état
+1185;Smartphone;Huawei Y5 2018 16 Go;Huawei;Y5 2018;DRA-L21;16 Go;Bon état
+1186;Smartphone;Huawei Y6 Pro 2017 16 Go;Huawei;Y6 Pro 2017;SLA-L02| SLA-L03|SLA-L22;16 Go;Bon état
+1187;Smartphone;Huawei Y6 2017 16 Go;Huawei;Y6 2017;MYA-L41| MYA-L11;16 Go;Bon état
+1188;Smartphone;Huawei Y6 8 Go;Huawei;Y6;ATU-L21;8 Go;Bon état
+1189;Smartphone;Huawei Y6Il;Huawei;Y6Il;;;Bon état
+1190;Smartphone;Huawei Y5;Huawei;Y5;DRA-L21;;Bon état
+1191;Smartphone;Huawei Y5Il;Huawei;Y5Il;AMN-LX1;;Bon état
+1192;Smartphone;Huawei Y6 2018 16 Go;Huawei;Y6 2018;ATU-L21;16 Go;Bon état
+1193;Smartphone;Huawei Y7 2018 32 Go;Huawei;Y7 2018;LDN-L21;32 Go;Bon état
+1194;Smartphone;Xiaomi Mi 10 Pro 256 Go;Xiaomi;Mi 10 Pro;M2001J1G;256 Go;Bon état
+1195;Smartphone;Xiaomi Mi 10 128 Go;Xiaomi;Mi 10;M2001J2G;128 Go;Bon état
+1196;Smartphone;Xiaomi Redmi Note 8 Pro 64 Go;Xiaomi;Redmi Note 8 Pro;2015105|M1906G7I|M1906G7G;64 Go;Bon état
+1197;Smartphone;Xiaomi Redmi Note 8 32 Go;Xiaomi;Redmi Note 8;M1908C3JH|M1908C3JG|M1908C3JI;32 Go;Bon état
+1198;Smartphone;Xiaomi Mi 9T Pro 64 Go;Xiaomi;Mi 9T Pro;M1903F11G;64 Go;Bon état
+1199;Smartphone;Xiaomi Mi 9T 64 Go;Xiaomi;Mi 9T;M1903F10G;64 Go;Bon état
+1200;Smartphone;Xiaomi Mi Note 10 128 Go;Xiaomi;Mi Note 10;M1910F4G;128 Go;Bon état
+1201;Smartphone;Xiaomi Redmi 4X 16 Go;Xiaomi;Redmi 4X;2016060|2016090|MAG138;16 Go;Bon état
+1202;Smartphone;Xiaomi Mi Max 2 32 Go;Xiaomi;Mi Max 2;MDE40|MDI40;32 Go;Bon état
+1203;Smartphone;Xiaomi Mi Max 3 64 Go;Xiaomi;Mi Max 3;M1804E4A;64 Go;Bon état
+1204;Smartphone;Xiaomi Redmi 7A 16 Go;Xiaomi;Redmi 7A;MZB7995IN;16 Go;Bon état
+1205;Smartphone;Xiaomi Redmi 6A 16 Go;Xiaomi;Redmi 6A;M1804C3CG;16 Go;Bon état
+1206;Smartphone;Xiaomi Redmi 4 16 Go;Xiaomi;Redmi 4;;16 Go;Bon état
+1207;Smartphone;Xiaomi Redmi Note 4 16 Go;Xiaomi;Redmi Note 4;2016100;16 Go;Bon état
+1208;Smartphone;Xiaomi Redmi Note 3 16 Go;Xiaomi;Redmi Note 3;2015116;16 Go;Bon état
+1209;Smartphone;Xiaomi Redmi Go 8 Go;Xiaomi;Redmi Go;M1903C3GG|M1903C3GH;8 Go;Bon état
+1210;Smartphone;Xiaomi Redmi 6 32 Go;Xiaomi;Redmi 6;M1804C3DG;32 Go;Bon état
+1211;Smartphone;Xiaomi Redmi 3S 16 Go;Xiaomi;Redmi 3S;2016031;16 Go;Bon état
+1212;Smartphone;Xiaomi Mi5s 32 Go;Xiaomi;Mi5s;Mi5s;32 Go;Bon état
+1213;Smartphone;Xiaomi Mi5 64 Go;Xiaomi;Mi5;Mi5 | Mi5 StAndArd;64 Go;Bon état
+1214;Smartphone;Xiaomi Redmi 7 16 Go;Xiaomi;Redmi 7;M1810F6LG;16 Go;Bon état
+1215;Smartphone;Xiaomi Redmi Note 7 Pro 64 Go;Xiaomi;Redmi Note 7 Pro;M1901F7S;64 Go;Bon état
+1216;Smartphone;Xiaomi Redmi Note 7 32 Go;Xiaomi;Redmi Note 7;M1901F7G;32 Go;Bon état
+1217;Smartphone;Xiaomi Mi 9 SE 64 Go;Xiaomi;Mi 9 SE;M1903F2G;64 Go;Bon état
+1218;Smartphone;Xiaomi Mi 9 64 Go;Xiaomi;Mi 9;M1902F1G;64 Go;Bon état
+1219;Smartphone;Xiaomi Mi A2 32 Go;Xiaomi;Mi A2;Mi 6X| M1804D2ST;32 Go;Bon état
+1220;Smartphone;Xiaomi Redmi Note 5 32 Go;Xiaomi;Redmi Note 5;M1803E7SG;32 Go;Bon état
+1221;Smartphone;Xiaomi Mi A2 Lite 32 Go;Xiaomi;Mi A2 Lite;M1805D1SG;32 Go;Bon état
+1222;Smartphone;Xiaomi Mi Mix 2s 64 Go;Xiaomi;Mi Mix 2s;M1803D5XA;64 Go;Bon état
+1223;Smartphone;Xiaomi Mi Mix 3 128 Go;Xiaomi;Mi Mix 3;M1810E5A;128 Go;Bon état
+1224;Smartphone;Xiaomi Redmi Note 6 Pro 32 Go;Xiaomi;Redmi Note 6 Pro;M1806E7TG;32 Go;Bon état
+1225;Smartphone;Xiaomi Pocophone F1 64 Go;Xiaomi;Pocophone F1;M1805E10A|POCO F1;64 Go;Bon état
+1226;Smartphone;Xiaomi Mi 8 Lite 64 Go;Xiaomi;Mi 8 Lite;M1808D2TG;64 Go;Bon état
+1227;Smartphone;Xiaomi Mi 8 64 Go;Xiaomi;Mi 8;M1803E1A;64 Go;Bon état
+1228;Smartphone;Xiaomi Mi A1 32 Go;Xiaomi;Mi A1;MDG2;32 Go;Bon état
+1229;Smartphone;Xiaomi Mi6 64 Go;Xiaomi;Mi6;MCE16;64 Go;Bon état
+1230;Smartphone;Xiaomi Mi Mix 2 64 Go;Xiaomi;Mi Mix 2;MDE5;64 Go;Bon état
+1231;Smartphone;Xiaomi Redmi 5 Plus 32 Go;Xiaomi;Redmi 5 Plus;MEG7;32 Go;Bon état
+1232;Smartphone;Xiaomi Redmi 5 16 Go;Xiaomi;Redmi 5;MDG1;16 Go;Bon état
+1233;Smartphone;Sony Xperia Z3+ 32 Go;Sony;Xperia Z3+;E6533;32 Go;Bon état
+1234;Smartphone;Sony Xperia Z5 Premium;Sony;Xperia Z5 Premium;E6853;;Bon état
+1235;Smartphone;Sony Xperia Z5 Dual;Sony;Xperia Z5 Dual;E6633;;Bon état
+1236;Smartphone;Sony Xperia Z5 compact;Sony;Xperia Z5 compact;E5803 | E5823;;Bon état
+1237;Smartphone;Sony Xperia Z5;Sony;Xperia Z5;E6653|SO-01H|SOV32|E6603|501SO;;Bon état
+1238;Smartphone;Sony Xperia ZR;Sony;Xperia ZR;C5502;;Bon état
+1239;Smartphone;Sony Xperia Z3 Compact 16 Go;Sony;Xperia Z3 Compact;D5803 | D5833;16 Go;Bon état
+1240;Smartphone;Sony Xperia Z3 16 Go;Sony;Xperia Z3;H8416;16 Go;Bon état
+1241;Smartphone;Sony Xperia Z2 16 Go;Sony;Xperia Z2;D6502 | D6503 | D6543;16 Go;Bon état
+1242;Smartphone;Sony Xperia Z1 compact 16 Go;Sony;Xperia Z1 compact;D5503;16 Go;Bon état
+1243;Smartphone;Sony Xperia Z1;Sony;Xperia Z1;C6903|C6902|C6906|SO-01F|SOL23;;Bon état
+1244;Smartphone;Sony Xperia Z Ultra;Sony;Xperia Z Ultra;C6806 | C6833 | C6802;;Bon état
+1245;Smartphone;Sony Xperia XA2 Plus 32 Go;Sony;Xperia XA2 Plus;H4413|H4493|H3413;32 Go;Bon état
+1246;Smartphone;Sony Xperia 10 64 Go;Sony;Xperia 10;I3113|I4113|I4193|I3123;64 Go;Bon état
+1247;Smartphone;Sony Xperia X Performance 32 Go;Sony;Xperia X Performance;F8131;32 Go;Bon état
+1248;Smartphone;Sony Xperia L1 16 Go;Sony;Xperia L1;;16 Go;Bon état
+1249;Smartphone;Sony M4 Aqua 8 Go;Sony;M4 Aqua;E2303 | E2306 | E2353;8 Go;Bon état
+1250;Smartphone;Sony XA 16 Go;Sony;XA;F3111;16 Go;Bon état
+1251;Smartphone;Sony XZs 32 Go;Sony;XZs;G8231;32 Go;Bon état
+1252;Smartphone;Sony Xperia XZ1 64 Go;Sony;Xperia XZ1;G8341 | G8343;64 Go;Bon état
+1253;Smartphone;Sony Xperia 10 Plus 64 Go;Sony;Xperia 10 Plus;i4293;64 Go;Bon état
+1254;Smartphone;Sony Xperia XZ1 Compact 32 Go;Sony;Xperia XZ1 Compact;SO-02K;32 Go;Bon état
+1255;Smartphone;Sony X Compact 32 Go;Sony;X Compact;F5321;32 Go;Bon état
+1256;Smartphone;Sony Xperia XA2 Ultra 32 Go;Sony;Xperia XA2 Ultra;H3213 | H3223;32 Go;Bon état
+1257;Smartphone;Sony Xperia XA1 Ultra 64 Go;Sony;Xperia XA1 Ultra;G3221;64 Go;Bon état
+1258;Smartphone;Sony Xperia XA2 32 Go;Sony;Xperia XA2;H3123;32 Go;Bon état
+1259;Smartphone;Sony Xperia XA1 32 Go;Sony;Xperia XA1;G3123;32 Go;Bon état
+1260;Smartphone;Sony Xperia XA Ultra 16 Go;Sony;Xperia XA Ultra;F3211 | F3213 | F3215;16 Go;Bon état
+1261;Smartphone;Sony Xperia XZ3 64 Go;Sony;Xperia XZ3;H8416;64 Go;Bon état
+1262;Smartphone;Sony Xperia XZ2 Compact 64 Go;Sony;Xperia XZ2 Compact;SO-05K;64 Go;Bon état
+1263;Smartphone;Sony Xperia XZ Premium 64 Go;Sony;Xperia XZ Premium;G8141;64 Go;Bon état
+1264;Smartphone;Sony Xperia XZ2 64 Go;Sony;Xperia XZ2;H8266|H8216|H8296|H8276|702SO|SOV37;64 Go;Bon état
+1265;Smartphone;Sony Xperia E 4G;Sony;Xperia E 4G;E2003;;Bon état
+1266;Smartphone;Sony Xperia E3 4G 4 Go;Sony;Xperia E3 4G;;4 Go;Bon état
+1267;Smartphone;Sony Xperia M2;Sony;Xperia M2;;;Bon état
+1268;Smartphone;Sony Xperia XZ;Sony;Xperia XZ;F8331;;Bon état
+1269;Smartphone;Sony Xperia X;Sony;Xperia X;F5121;;Bon état
+1270;Smartphone;Sony Xperia M;Sony;Xperia M;C1904;;Bon état
+1271;Smartphone;Sony Xperia L 8 Go;Sony;Xperia L;C2105;8 Go;Bon état
+1272;Smartphone;Sony Xperia E 4 Go;Sony;Xperia E;C1504;4 Go;Bon état
+1273;Smartphone;Sony Xperia V;Sony;Xperia V;LT25i;;Bon état
+1274;Smartphone;Sony Xperia T 16 Go;Sony;Xperia T;LT30p;16 Go;Bon état
+1275;Smartphone;Sony Xperia J;Sony;Xperia J;ST26i;;Bon état
+1276;Smartphone;Sony Xperia U;Sony;Xperia U;ST25i;;Bon état
+1277;Smartphone;Sony Xperia P;Sony;Xperia P;LT22i;;Bon état
+1278;Smartphone;Sony Xperia S;Sony;Xperia S;LT26i;;Bon état
+1279;Smartphone;Sony Xperia T2 Ultra;Sony;Xperia T2 Ultra;D5303;;Bon état
+1280;Smartphone;BlackBerry KEY2 LE 32 Go;BlackBerry;KEY2 LE;BBE100-4|BBE100-5|BBE100-1|BBE100-2;32 Go;Bon état
+1281;Smartphone;BlackBerry Keyone 32 Go;BlackBerry;Keyone;BBB100-2|BBB100-7|BBB100-1|BBB100-5|BBB100-3|BBB100-4;32 Go;Bon état
+1282;Smartphone;BlackBerry KEY 2 64 Go;BlackBerry;KEY 2;BBF100-6|BBF100-1|BBF100-2|BBF100-4;64 Go;Bon état
+1283;Smartphone;BlackBerry u;BlackBerry;u;;;Bon état
+1284;Smartphone;BlackBerry Passport;BlackBerry;Passport;;;Bon état
+1285;Smartphone;BlackBerry Q5;BlackBerry;Q5;;;Bon état
+1286;Smartphone;BlackBerry Q10;BlackBerry;Q10;;;Bon état
+1287;Smartphone;BlackBerry 9320 Curve;BlackBerry;9320 Curve;;;Bon état
+1288;Smartphone;BlackBerry 9790 Bold;BlackBerry;9790 Bold;;;Bon état
+1289;Smartphone;BlackBerry 9360 Curve;BlackBerry;9360 Curve;;;Bon état
+1290;Smartphone;BlackBerry 9900 Bold;BlackBerry;9900 Bold;;;Bon état
+1291;Smartphone;BlackBerry 9780 Bold;BlackBerry;9780 Bold;;;Bon état
+1292;Smartphone;BlackBerry 9700 Bold;BlackBerry;9700 Bold;;;Bon état
+1293;Smartphone;BlackBerry Z30;BlackBerry;Z30;;;Bon état
+1294;Smartphone;BlackBerry Z10;BlackBerry;Z10;;;Bon état
+1295;Smartphone;BlackBerry BlackBerry Q10;BlackBerry;BlackBerry Q10;;;Bon état
+1296;Smartphone;BlackBerry Bold 9930;BlackBerry;Bold 9930;;;Bon état
+1297;Smartphone;Google Pixel 5 128 Go;Google;Pixel 5;GTT9Q  | G5NZ6;128 Go;Bon état
+1298;Smartphone;Google Pixel 4a 128 Go;Google;Pixel 4a;G025N;128 Go;Bon état
+1299;Smartphone;Google Pixel 4 XL 64 Go;Google;Pixel 4 XL;G020J;64 Go;Bon état
+1300;Smartphone;Google Pixel 4 64 Go;Google;Pixel 4;G020I;64 Go;Bon état
+1301;Smartphone;Google Pixel 3a XL 64 Go;Google;Pixel 3a XL;G020B;64 Go;Bon état
+1302;Smartphone;Google Pixel 3a 64 Go;Google;Pixel 3a;G020A | G020E;64 Go;Bon état
+1303;Smartphone;Google Pixel 3 XL 64 Go;Google;Pixel 3 XL;G013C;64 Go;Bon état
+1304;Smartphone;Google Pixel 3 64 Go;Google;Pixel 3;G013A;64 Go;Bon état
+1305;Smartphone;Google Pixel 2 64 Go;Google;Pixel 2;;64 Go;Bon état
+1306;Smartphone;Google Pixel XL 32 Go;Google;Pixel XL;;32 Go;Bon état
+1307;Smartphone;Google Pixel 2 XL 64 Go;Google;Pixel 2 XL;;64 Go;Bon état
+1308;Smartphone;Google Pixel 32 Go;Google;Pixel;;32 Go;Bon état
+1309;Smartphone;HTC Sensation XL 16 Go;HTC;Sensation XL;;16 Go;Bon état
+1310;Smartphone;HTC Sensation XE;HTC;Sensation XE;;;Bon état
+1311;Smartphone;HTC One A9;HTC;One A9;One A9|2PQ93|A9u|2PQ910;;Bon état
+1312;Smartphone;HTC One M9;HTC;One M9;One M9|M9u|0PJA2|HTC6535LVW|M9pw|M9|0PJA10;;Bon état
+1313;Smartphone;HTC One Mini 2;HTC;One Mini 2;;;Bon état
+1314;Smartphone;HTC One XL;HTC;One XL;;;Bon état
+1315;Smartphone;HTC One X Plus;HTC;One X Plus;;;Bon état
+1316;Smartphone;HTC One X;HTC;One X;One X;;Bon état
+1317;Smartphone;HTC One SV LTE;HTC;One SV LTE;;;Bon état
+1318;Smartphone;HTC One SV;HTC;One SV;;;Bon état
+1319;Smartphone;HTC One S;HTC;One S;;;Bon état
+1320;Smartphone;HTC One Mini2;HTC;One Mini2;;;Bon état
+1321;Smartphone;HTC One Mini;HTC;One Mini;;;Bon état
+1322;Smartphone;HTC One Max;HTC;One Max;;;Bon état
+1323;Smartphone;HTC One M8;HTC;One M8;One_M8|M8x|831C;;Bon état
+1324;Smartphone;HTC Desire C;HTC;Desire C;;;Bon état
+1325;Smartphone;HTC Desire S;HTC;Desire S;;;Bon état
+1326;Smartphone;HTC Desire Z;HTC;Desire Z;;;Bon état
+1327;Smartphone;HTC Desire HD;HTC;Desire HD;;;Bon état
+1328;Smartphone;HTC Desire X 16 Go;HTC;Desire X;;16 Go;Bon état
+1329;Smartphone;HTC Desire 816;HTC;Desire 816;;;Bon état
+1330;Smartphone;HTC Desire 601 Zara;HTC;Desire 601 Zara;;;Bon état
+1331;Smartphone;HTC Desire 601;HTC;Desire 601;;;Bon état
+1332;Smartphone;HTC Desire 500;HTC;Desire 500;;;Bon état
+1333;Smartphone;HTC First;HTC;First;;;Bon état
+1334;Smartphone;HTC 10;HTC;10;;;Bon état
+1335;Smartphone;HTC U11 64 Go;HTC;U11;;64 Go;Bon état
+1336;Smartphone;LG G7 64 Go;LG;G7;G710EM;64 Go;Bon état
+1337;Smartphone;LG V30 64 Go;LG;V30;H930;64 Go;Bon état
+1338;Smartphone;LG G3 16 Go;LG;G3;D855;16 Go;Bon état
+1339;Smartphone;LG G2 16 Go;LG;G2;D802;16 Go;Bon état
+1340;Smartphone;LG G6;LG;G6;H870|H870DS|H873|H870S|LGM-G600L|H872|H871|LS993|US997|vs988|VS988|LGM-G600K|LGM-G600S|AS993|LGUS997|H870AR|H872PR|H871S;;Bon état
+1341;Smartphone;LG Nexus 5X 16 Go;LG;Nexus 5X;H791;16 Go;Bon état
+1342;Smartphone;LG G5;LG;G5;H860|H850|F700L|VS987|H830|H831|H820|H840|LGLS992|LGUS992|F700S|F700K|RS988|LGAS992|H820PR;;Bon état
+1343;Smartphone;LG G4 32 Go;LG;G4;H815;32 Go;Bon état
+1344;Smartphone;LG G3S;LG;G3S;D722;;Bon état
+1345;Smartphone;LG G Flex 2 16 Go;LG;G Flex 2;H955;16 Go;Bon état
+1346;Smartphone;LG Optimus G;LG;Optimus G;E975;;Bon état
+1347;Smartphone;LG Optimus G Pro;LG;Optimus G Pro;E985;;Bon état
+1348;Smartphone;LG Optimus G E975;LG;Optimus G E975;E975;;Bon état
+1349;Smartphone;LG Optimus 4X HD;LG;Optimus 4X HD;P880;;Bon état
+1350;Smartphone;LG Nexus 5;LG;Nexus 5;Nexus 5|D820|D821;;Bon état
+1351;Smartphone;LG Nexus 4;LG;Nexus 4;E960;;Bon état
+1352;Smartphone;LG G Pro 2;LG;G Pro 2;D838;;Bon état
+1353;Smartphone;LG G Flex;LG;G Flex;;;Bon état
+1354;Smartphone;Nokia Lumia 950 Dual Sim 32 Go;Nokia;Lumia 950 Dual Sim;;32 Go;Bon état
+1355;Smartphone;Nokia Lumia 950 XL Dual Sim 32 Go;Nokia;Lumia 950 XL Dual Sim;;32 Go;Bon état
+1356;Smartphone;Nokia Lumia 950 32 Go;Nokia;Lumia 950;;32 Go;Bon état
+1357;Smartphone;Nokia Lumia 535;Nokia;Lumia 535;;;Bon état
+1358;Smartphone;Nokia Lumia 530;Nokia;Lumia 530;;;Bon état
+1359;Smartphone;Nokia Lumia 830;Nokia;Lumia 830;;;Bon état
+1360;Smartphone;Nokia Lumia 735;Nokia;Lumia 735;RM-1038 | RM-1039;;Bon état
+1361;Smartphone;Nokia Lumia 730;Nokia;Lumia 730;;;Bon état
+1362;Smartphone;Nokia Lumia 640;Nokia;Lumia 640;;;Bon état
+1363;Smartphone;Nokia Lumia 930;Nokia;Lumia 930;;;Bon état
+1364;Smartphone;Nokia Lumia 635;Nokia;Lumia 635;;;Bon état
+1365;Smartphone;Nokia Lumia 1320;Nokia;Lumia 1320;;;Bon état
+1366;Smartphone;Nokia Lumia 525;Nokia;Lumia 525;RM-998;;Bon état
+1367;Smartphone;Nokia Lumia 1520;Nokia;Lumia 1520;;;Bon état
+1368;Smartphone;Nokia Lumia 625;Nokia;Lumia 625;;;Bon état
+1369;Smartphone;Nokia Lumia 1020;Nokia;Lumia 1020;RM-875| RM-877 | RM-876;;Bon état
+1370;Smartphone;Nokia Lumia 720;Nokia;Lumia 720;;;Bon état
+1371;Smartphone;Nokia Lumia 520 8 Go;Nokia;Lumia 520;;8 Go;Bon état
+1372;Smartphone;Nokia Lumia 820;Nokia;Lumia 820;;;Bon état
+1373;Smartphone;Nokia Lumia 620;Nokia;Lumia 620;;;Bon état
+1374;Smartphone;Nokia Lumia 920;Nokia;Lumia 920;;;Bon état
+1375;Smartphone;Nokia Lumia 925;Nokia;Lumia 925;;;Bon état
+1376;Smartphone;Nokia Lumia 900 16 Go;Nokia;Lumia 900;;16 Go;Bon état
+1377;Smartphone;Nokia Lumia 710 8 Go;Nokia;Lumia 710;;8 Go;Bon état
+1378;Smartphone;Nokia lumia 610 8 Go;Nokia;lumia 610;;8 Go;Bon état
+1379;Smartphone;Nokia Lumia 800;Nokia;Lumia 800;;;Bon état
+1380;Smartphone;Motorola Moto G 8 Go;Motorola;Moto G;X1032|XT1032;8 Go;Bon état
+1381;Smartphone;Motorola Moto X2;Motorola;Moto X2;XT1097|XT1096|XT1095|XT1092|XT1085|XT1093;;Bon état
+1382;Smartphone;Wiko Harry2 16 Go;Wiko;Harry2;;16 Go;Bon état
+1383;Smartphone;Wiko WIM 64 Go;Wiko;WIM;;64 Go;Bon état
+1384;Smartphone;Wiko sunny 3 8 Go;Wiko;sunny 3;;8 Go;Bon état
+1385;Smartphone;Wiko Tommy 8 Go;Wiko;Tommy;;8 Go;Bon état
+1386;Smartphone;Wiko Rainbow Lite Dual Sim 4 Go;Wiko;Rainbow Lite Dual Sim;;4 Go;Bon état
+1387;Smartphone;Wiko Lenny 3;Wiko;Lenny 3;LENNY3;;Bon état
+1388;Smartphone;Wiko Ufeel;Wiko;Ufeel;;;Bon état
+1389;Smartphone;Wiko Rainbow Jam;Wiko;Rainbow Jam;;;Bon état
+1390;Smartphone;Wiko Lenny 2;Wiko;Lenny 2;;;Bon état
+1391;Smartphone;Wiko Pulp 4G;Wiko;Pulp 4G;;;Bon état
+1392;Smartphone;Wiko Ridge;Wiko;Ridge;;;Bon état
+1393;Smartphone;Wiko Highway 4G;Wiko;Highway 4G;;;Bon état
+1394;Smartphone;Honor Honor 8X 64 Go;Honor;Honor 8X;JSN-L22|JSN-L42|JSN-L11|JSN-L21|JSN-AL00A;64 Go;Bon état
+1395;Smartphone;Honor View 20 128 Go;Honor;View 20;PCT-AL10|PCT-TL10;128 Go;Bon état
+1396;Smartphone;Honor Honor 9 Lite 32 Go;Honor;Honor 9 Lite;LLD-AL00|LLD-AL10|LLD-TL10;32 Go;Bon état
+1397;Smartphone;Honor Play 64 Go;Honor;Play;COR-L29|COR-L09|COR-AL00;64 Go;Bon état
+1398;Smartphone;Honor 7A 16 Go;Honor;7A;AUM-AL00IN|AUM-TL20;16 Go;Bon état
+1399;Smartphone;Honor Honor 10 64 Go;Honor;Honor 10;COL-AL10;64 Go;Bon état
+1400;Smartphone;Honor 9 Lite 32 Go;Honor;9 Lite;LLD-AL00|LLD-AL10;32 Go;Bon état
+1401;Smartphone;Honor Honor 6C 32 Go;Honor;Honor 6C;;32 Go;Bon état
+1402;Smartphone;Honor Honor 7X 64 Go;Honor;Honor 7X;BND-L21;64 Go;Bon état
+1403;Smartphone;Honor View 10 128 Go;Honor;View 10;BKL-L09;128 Go;Bon état
+1404;Smartphone;Honor Honor 7 Premium;Honor;Honor 7 Premium;;;Bon état
+1405;Smartphone;Honor 8 Pro;Honor;8 Pro;;;Bon état
+1406;Smartphone;Honor Honor 8 32 Go;Honor;Honor 8;;32 Go;Bon état
+1407;Smartphone;Honor Honor 7;Honor;Honor 7;PLK-L01|PLK-AL10|PLK-UL00|PLK-TL01H|PLK-TL00;;Bon état
+1408;Smartphone;Honor Honor 6X;Honor;Honor 6X;BLN-AL10|BLL-L22|BLN-L21|BLL-L21|BLN-L22|BLL-L23|BLN-L24|BLN-AL40|BLN-TL10|BLN-AL20;;Bon état
+1409;Smartphone;Honor Honor 5X;Honor;Honor 5X;KII-L21|KII-L22|KII-L23|KIW-AL10|KIW-CL00|KIW-TL00|KIW-TL00H|KIW-UL00|KIW-L21|KIW-L22|KIW-L24|KII-L05;;Bon état
+1410;Smartphone;Honor Honor 5C;Honor;Honor 5C;NEM-UL10|NEM-TL00H|NEM-L21|NMO-L31|NMO-L22|NMO-L23|NMO-L01|NEM-L22|NEM-L51|NEM-AL10|NEM-TL00;;Bon état
+1411;Smartphone;Honor Honor 9;Honor;Honor 9;STF-AL00|STF-AL10|STF-AL10|STF-TL10|STF-L09|STF-L09S;;Bon état
+1412;Smartphone;Asus Zenfone 5Z 64 Go;Asus;Zenfone 5Z;Z01RD;64 Go;Bon état
+1413;Smartphone;Asus Zenfone 4 max 32 Go;Asus;Zenfone 4 max;X00ID|X00IS|X00HDA|ZC554KL;32 Go;Bon état
+1414;Smartphone;Asus Zenfone 3 Max 32 Go;Asus;Zenfone 3 Max;X008DC|X00KD;32 Go;Bon état
+1415;Smartphone;Asus Zenfone 5 64 Go;Asus;Zenfone 5;X00QD|ZE620KL|ZF620KL;64 Go;Bon état
+1416;Tablette;Apple Ipad 3 wifi 32 Go;Apple;Ipad 3 wifi;A1416;32 Go;Bon état
+1417;Tablette;Apple Ipad mini 3 wifi 16 Go;Apple;Ipad mini 3 wifi;A1599;16 Go;Bon état
+1418;Tablette;Apple Ipad air 2 wifi 16 Go;Apple;Ipad air 2 wifi;A1566;16 Go;Bon état
+1419;Tablette;Apple Ipad air 2 wifi + 4G 16 Go;Apple;Ipad air 2 wifi + 4G;A1567;16 Go;Bon état
+1420;Tablette;Apple Ipad air wifi 16 Go;Apple;Ipad air wifi;A1474;16 Go;Bon état
+1421;Tablette;Apple Ipad air wifi + 4G 16 Go;Apple;Ipad air wifi + 4G;A1475;16 Go;Bon état
+1422;Tablette;Apple Ipad mini wifi 16 Go;Apple;Ipad mini wifi;A1432;16 Go;Bon état
+1423;Tablette;Apple Ipad mini wifi + 3G 16 Go;Apple;Ipad mini wifi + 3G;A1454;16 Go;Bon état
+1424;Tablette;Apple Ipad mini 2 wifi 16 Go;Apple;Ipad mini 2 wifi;A1489;16 Go;Bon état
+1425;Tablette;Apple Ipad mini 2 wifi + 4G 16 Go;Apple;Ipad mini 2 wifi + 4G;A1490;16 Go;Bon état
+1426;Tablette;Apple Ipad mini 3 wifi + 4G 16 Go;Apple;Ipad mini 3 wifi + 4G;A1600;16 Go;Bon état
+1427;Tablette;Apple Ipad mini 4 wifi 16 Go;Apple;Ipad mini 4 wifi;A1538;16 Go;Bon état
+1428;Tablette;Apple Ipad mini 4 wifi + 4G 16 Go;Apple;Ipad mini 4 wifi + 4G;A1550;16 Go;Bon état
+1429;Tablette;Apple Ipad wifi 16 Go;Apple;Ipad wifi;A1219;16 Go;Bon état
+1430;Tablette;Apple Ipad wifi + 3G 16 Go;Apple;Ipad wifi + 3G;A1337;16 Go;Bon état
+1431;Tablette;Apple Ipad 2 wifi 16 Go;Apple;Ipad 2 wifi;A1395;16 Go;Bon état
+1432;Tablette;Apple Ipad 2 wifi + 3G 16 Go;Apple;Ipad 2 wifi + 3G;A1396;16 Go;Bon état
+1433;Tablette;Apple Ipad 3 wifi + 4G 16 Go;Apple;Ipad 3 wifi + 4G;A1403;16 Go;Bon état
+1434;Tablette;Apple Ipad 4 wifi 16 Go;Apple;Ipad 4 wifi;A1458;16 Go;Bon état
+1435;Tablette;Apple Ipad 4 wifi + 4G 16 Go;Apple;Ipad 4 wifi + 4G;A1459;16 Go;Bon état
+1436;Tablette;Apple Ipad 5 wifi 32 Go;Apple;Ipad 5 wifi;;32 Go;Bon état
+1437;Tablette;Apple Ipad 5 wifi + 4G 32 Go;Apple;Ipad 5 wifi + 4G;;32 Go;Bon état
+1438;Tablette;Apple Ipad 6 (2018)  wifi 32 Go;Apple;Ipad 6 (2018)  wifi;;32 Go;Bon état
+1439;Tablette;"Apple Ipad 9,7"" (2018)  wifi 32 Go";Apple;"Ipad 9,7"" (2018)  wifi";A1893;32 Go;Bon état
+1440;Tablette;Apple Ipad 6 (2018) wifi + 4G 32 Go;Apple;Ipad 6 (2018) wifi + 4G;;32 Go;Bon état
+1441;Tablette;"Apple Ipad 9,7"" (2018) wifi + 4G 32 Go";Apple;"Ipad 9,7"" (2018) wifi + 4G";A1954;32 Go;Bon état
+1442;Tablette;"Apple Ipad 7 10,2"" (2019) wifi 32 Go";Apple;"Ipad 7 10,2"" (2019) wifi";A2197;32 Go;Bon état
+1443;Tablette;"Apple Ipad 7 10,2"" (2019) wifi + 4G 32 Go";Apple;"Ipad 7 10,2"" (2019) wifi + 4G";A2200;32 Go;Bon état
+1444;Tablette;Apple Ipad 8 wifi 32 Go;Apple;Ipad 8 wifi;;32 Go;Bon état
+1445;Tablette;Apple Ipad 8 wifi + 4G 32 Go;Apple;Ipad 8 wifi + 4G;;32 Go;Bon état
+1446;Tablette;"Apple Ipad 8 10,2"" (2020) wifi 32 Go";Apple;"Ipad 8 10,2"" (2020) wifi";A2270;32 Go;Bon état
+1447;Tablette;"Apple Ipad 8 10'2"" (2020) wifi + 4G 32 Go";Apple;"Ipad 8 10'2"" (2020) wifi + 4G";A2428,;32 Go;Bon état
+1448;Tablette;"Apple Ipad pro 9,7"" wifi 32 Go";Apple;"Ipad pro 9,7"" wifi";A1673;32 Go;Bon état
+1449;Tablette;"Apple Ipad pro 9,7"" wifi + 4G 32 Go";Apple;"Ipad pro 9,7"" wifi + 4G";A1674;32 Go;Bon état
+1450;Tablette;Apple Ipad mini 5 wifi 32 Go;Apple;Ipad mini 5 wifi;A2133;32 Go;Bon état
+1451;Tablette;Apple Ipad mini 5 wifi + 4G 32 Go;Apple;Ipad mini 5 wifi + 4G;A2124;32 Go;Bon état
+1452;Tablette;"Apple Ipad pro 10,5"" (2017) wifi 64 Go";Apple;"Ipad pro 10,5"" (2017) wifi";A1701;64 Go;Bon état
+1453;Tablette;"Apple Ipad pro 10,5"" (2017) wifi + 4G 64 Go";Apple;"Ipad pro 10,5"" (2017) wifi + 4G";A1709;64 Go;Bon état
+1454;Tablette;"Apple Ipad pro 12,9"" (2016) wifi 32 Go";Apple;"Ipad pro 12,9"" (2016) wifi";A1701;32 Go;Bon état
+1455;Tablette;"Apple Ipad pro 12,9"" (2016) wifi + 4G 32 Go";Apple;"Ipad pro 12,9"" (2016) wifi + 4G";A1709;32 Go;Bon état
+1456;Tablette;"Apple Ipad pro 12,9"" (2017) wifi 32 Go";Apple;"Ipad pro 12,9"" (2017) wifi";A1584;32 Go;Bon état
+1457;Tablette;"Apple Ipad pro 12,9"" (2017) wifi + 4G 32 Go";Apple;"Ipad pro 12,9"" (2017) wifi + 4G";A1652;32 Go;Bon état
+1458;Tablette;"Apple Ipad pro 12,9"" (2019) wifi 64 Go";Apple;"Ipad pro 12,9"" (2019) wifi";A1670;64 Go;Bon état
+1459;Tablette;"Apple Ipad pro 12,9"" (2019) wifi + 4G 64 Go";Apple;"Ipad pro 12,9"" (2019) wifi + 4G";A1671;64 Go;Bon état
+1460;Tablette;"Apple Ipad pro 11"" (2019) wifi 64 Go";Apple;"Ipad pro 11"" (2019) wifi";A1980;64 Go;Bon état
+1461;Tablette;"Apple Ipad pro 11"" (2019) wifi + 4G 64 Go";Apple;"Ipad pro 11"" (2019) wifi + 4G";A2013;64 Go;Bon état
+1462;Tablette;"Apple Ipad air 3 10,5"" wifi 32 Go";Apple;"Ipad air 3 10,5"" wifi";;32 Go;Bon état
+1463;Tablette;"Apple Ipad air 3 10,5"" wifi + 4G 32 Go";Apple;"Ipad air 3 10,5"" wifi + 4G";;32 Go;Bon état
+1464;Tablette;"Apple Ipad air 4 10,9"" wifi 32 Go";Apple;"Ipad air 4 10,9"" wifi";;32 Go;Bon état
+1465;Tablette;"Apple Ipad air 4 10,9"" wifi + 4G 32 Go";Apple;"Ipad air 4 10,9"" wifi + 4G";;32 Go;Bon état
+1466;Tablette;"Samsung Galaxy Tab 3 10,1"" Wifi + 3G 16 Go";Samsung;"Galaxy Tab 3 10,1"" Wifi + 3G";GT-P5210;16 Go;Bon état
+1467;Tablette;"Samsung Galaxy Tab 3 10,1"" Wifi 16 Go";Samsung;"Galaxy Tab 3 10,1"" Wifi";;16 Go;Bon état
+1468;Tablette;"Samsung Galaxy Tab 3 8"" Wifi 16 Go";Samsung;"Galaxy Tab 3 8"" Wifi";SM-T3100ZWAXEF;16 Go;Bon état
+1469;Tablette;"Samsung Galaxy Tab 3 8"" Wifi + 3G 16 Go";Samsung;"Galaxy Tab 3 8"" Wifi + 3G";;16 Go;Bon état
+1470;Tablette;"Samsung Galaxy Tab 3 7"" Wifi + 3G 8 Go";Samsung;"Galaxy Tab 3 7"" Wifi + 3G";SM-T211;8 Go;Bon état
+1471;Tablette;"Samsung Galaxy Tab 3 7"" Wifi 8 Go";Samsung;"Galaxy Tab 3 7"" Wifi";;8 Go;Bon état
+1472;Tablette;"Samsung Galaxy Tab 3 Lite 7"" Wifi 8 Go";Samsung;"Galaxy Tab 3 Lite 7"" Wifi";SM-T110NDWAXEF;8 Go;Bon état
+1473;Tablette;"Samsung Galaxy Tab 4 10,1"" Wifi + 4G 16 Go";Samsung;"Galaxy Tab 4 10,1"" Wifi + 4G";SM-T535NZWAXEF;16 Go;Bon état
+1474;Tablette;"Samsung Galaxy Tab 4 10,1"" Wifi 16 Go";Samsung;"Galaxy Tab 4 10,1"" Wifi";;16 Go;Bon état
+1475;Tablette;"Samsung Galaxy Tab 4 8"" Wifi + 4G 16 Go";Samsung;"Galaxy Tab 4 8"" Wifi + 4G";SM-T330;16 Go;Bon état
+1476;Tablette;"Samsung Galaxy Tab 4 8"" Wifi 16 Go";Samsung;"Galaxy Tab 4 8"" Wifi";;16 Go;Bon état
+1477;Tablette;"Samsung Galaxy Tab 4 7"" Wifi + 4G 8 Go";Samsung;"Galaxy Tab 4 7"" Wifi + 4G";SM-T230NYKAXEF;8 Go;Bon état
+1478;Tablette;"Samsung Galaxy Tab 4 7"" Wifi 8 Go";Samsung;"Galaxy Tab 4 7"" Wifi";;8 Go;Bon état
+1479;Tablette;Samsung Galaxy Tab Pro S Wifi 128 Go;Samsung;Galaxy Tab Pro S Wifi;SM-W708;128 Go;Bon état
+1480;Tablette;"Samsung Galaxy Tab Pro 12,2"" Wifi + 4G 32 Go";Samsung;"Galaxy Tab Pro 12,2"" Wifi + 4G";SM-P9050ZKAXEF;32 Go;Bon état
+1481;Tablette;"Samsung Galaxy Tab Pro 12,2"" Wifi 32 Go";Samsung;"Galaxy Tab Pro 12,2"" Wifi";SM-T9000ZKAXEF;32 Go;Bon état
+1482;Tablette;"Samsung Galaxy Tab Pro 10,1"" Wifi 16 Go";Samsung;"Galaxy Tab Pro 10,1"" Wifi";SM-T525NZKAXEF;16 Go;Bon état
+1483;Tablette;"Samsung Galaxy Tab Pro 10,1"" Wifi + 4G 16 Go";Samsung;"Galaxy Tab Pro 10,1"" Wifi + 4G";;16 Go;Bon état
+1484;Tablette;"Samsung Galaxy Tab Pro 8.4"" Wifi + 4G 16 Go";Samsung;"Galaxy Tab Pro 8.4"" Wifi + 4G";SM-T320;16 Go;Bon état
+1485;Tablette;"Samsung Galaxy Tab Pro 8.4"" Wifi 16 Go";Samsung;"Galaxy Tab Pro 8.4"" Wifi";;16 Go;Bon état
+1486;Tablette;"Samsung Galaxy Tab S 10,5"" Wifi + 4G 16 Go";Samsung;"Galaxy Tab S 10,5"" Wifi + 4G";SM-T800NZWAXEF;16 Go;Bon état
+1487;Tablette;"Samsung Galaxy Tab S 10,5"" Wifi 16 Go";Samsung;"Galaxy Tab S 10,5"" Wifi";;16 Go;Bon état
+1488;Tablette;"Samsung Galaxy Tab S 8.4"" Wifi + 4G 16 Go";Samsung;"Galaxy Tab S 8.4"" Wifi + 4G";SM-T705NZWAXEF;16 Go;Bon état
+1489;Tablette;"Samsung Galaxy Tab S 8.4"" Wifi 16 Go";Samsung;"Galaxy Tab S 8.4"" Wifi";;16 Go;Bon état
+1490;Tablette;"Samsung Galaxy Tab S2 9,7"" Wifi + 4G 32 Go";Samsung;"Galaxy Tab S2 9,7"" Wifi + 4G";SM-T815;32 Go;Bon état
+1491;Tablette;"Samsung Galaxy Tab S2 8"" Wifi + 4G 32 Go";Samsung;"Galaxy Tab S2 8"" Wifi + 4G";SM-T715;32 Go;Bon état
+1492;Tablette;"Samsung Galaxy Tab S2 9,7"" Wifi 32 Go";Samsung;"Galaxy Tab S2 9,7"" Wifi";sm-t813;32 Go;Bon état
+1493;Tablette;"Samsung Galaxy Tab S2 8"" Wifi 32 Go";Samsung;"Galaxy Tab S2 8"" Wifi";;32 Go;Bon état
+1494;Tablette;"Samsung Galaxy Tab S3 9,7"" Wifi + 4G 32 Go";Samsung;"Galaxy Tab S3 9,7"" Wifi + 4G";SM-T825NZKAXEF;32 Go;Bon état
+1495;Tablette;"Samsung Galaxy Tab S3 9,7"" Wifi 32 Go";Samsung;"Galaxy Tab S3 9,7"" Wifi";;32 Go;Bon état
+1496;Tablette;"Samsung Galaxy Tab E 9.6"" Wifi 8 Go";Samsung;"Galaxy Tab E 9.6"" Wifi";SM-T560NZKAXEF;8 Go;Bon état
+1497;Tablette;"Samsung Galaxy Tab E 9.6"" Wifi + 3G 8 Go";Samsung;"Galaxy Tab E 9.6"" Wifi + 3G";;8 Go;Bon état
+1498;Tablette;"Samsung Galaxy Tab A (2019) 10,1"" Wifi + 4G 32 Go";Samsung;"Galaxy Tab A (2019) 10,1"" Wifi + 4G";SM-T515NZKDXEF;32 Go;Bon état
+1499;Tablette;"Samsung Galaxy Tab A (2019) 10,1"" Wifi 32 Go";Samsung;"Galaxy Tab A (2019) 10,1"" Wifi";;32 Go;Bon état
+1500;Tablette;"Samsung Galaxy Tab A (2019) 8"" Wifi + 4G 32 Go";Samsung;"Galaxy Tab A (2019) 8"" Wifi + 4G";SM-T295NZKAXEF;32 Go;Bon état
+1501;Tablette;"Samsung Galaxy Tab A (2019) 8"" Wifi 32 Go";Samsung;"Galaxy Tab A (2019) 8"" Wifi";;32 Go;Bon état
+1502;Tablette;"Samsung Galaxy Tab A (2018) 10,5"" Wifi + 4G 32 Go";Samsung;"Galaxy Tab A (2018) 10,5"" Wifi + 4G";SM-T595;32 Go;Bon état
+1503;Tablette;"Samsung Galaxy Tab A (2018) 10,5"" Wifi 32 Go";Samsung;"Galaxy Tab A (2018) 10,5"" Wifi";SM-T590NZKAXEF.;32 Go;Bon état
+1504;Tablette;"Samsung Galaxy Tab A6 (2016) 10,1"" Wifi+ 4G 8 Go";Samsung;"Galaxy Tab A6 (2016) 10,1"" Wifi+ 4G";SM-T285;8 Go;Bon état
+1505;Tablette;"Samsung Galaxy Tab A6 (2016) 10,1"" Wifi 8 Go";Samsung;"Galaxy Tab A6 (2016) 10,1"" Wifi";SM-T280;8 Go;Bon état
+1506;Tablette;"Samsung Galaxy Tab A (2015) 9,7"" Wifi + 4G 16 Go";Samsung;"Galaxy Tab A (2015) 9,7"" Wifi + 4G";;16 Go;Bon état
+1507;Tablette;"Samsung Galaxy Tab A (2015) 9,7"" Wifi 16 Go";Samsung;"Galaxy Tab A (2015) 9,7"" Wifi";SM-T550;16 Go;Bon état
+1508;Tablette;"Samsung Galaxy Tab A (2016) 7"" Wifi + 4G 8 Go";Samsung;"Galaxy Tab A (2016) 7"" Wifi + 4G";SM-T285;8 Go;Bon état
+1509;Tablette;"Samsung Galaxy Tab A (2016) 7"" Wifi 8 Go";Samsung;"Galaxy Tab A (2016) 7"" Wifi";SM-T285;8 Go;Bon état
+1510;Tablette;"Samsung Galaxy Tab 2 10,1"" Wifi + 3G 16 Go";Samsung;"Galaxy Tab 2 10,1"" Wifi + 3G";;16 Go;Bon état
+1511;Tablette;"Samsung Galaxy Tab 2 10,1"" Wifi 16 Go";Samsung;"Galaxy Tab 2 10,1"" Wifi";GT-P5110TSADBT;16 Go;Bon état
+1512;Tablette;"Samsung Galaxy Tab 2 7"" Wifi + 3G 8 Go";Samsung;"Galaxy Tab 2 7"" Wifi + 3G";GT-P3100ZWAITV;8 Go;Bon état
+1513;Tablette;"Samsung Galaxy Tab 2 7"" Wifi 8 Go";Samsung;"Galaxy Tab 2 7"" Wifi";;8 Go;Bon état
+1514;Tablette;"Samsung Galaxy Tab 10,1"" Wifi + 3G 16 Go";Samsung;"Galaxy Tab 10,1"" Wifi + 3G";GT-P7500UWDXEF;16 Go;Bon état
+1515;Tablette;"Samsung Galaxy Tab 10,1"" Wifi 16 Go";Samsung;"Galaxy Tab 10,1"" Wifi";;16 Go;Bon état
+1516;Tablette;"Samsung Galaxy Tab 8,9"" Wifi + 3G 16 Go";Samsung;"Galaxy Tab 8,9"" Wifi + 3G";GT-P7300;16 Go;Bon état
+1517;Tablette;"Samsung Galaxy Tab 8,9"" Wifi 16 Go";Samsung;"Galaxy Tab 8,9"" Wifi";;16 Go;Bon état
+1518;Tablette;"Samsung Galaxy Tab 8,9"" Wifi + 4G 16 Go";Samsung;"Galaxy Tab 8,9"" Wifi + 4G";;16 Go;Bon état
+1519;Tablette;"Samsung Galaxy Tab 7"" Wifi 16 Go";Samsung;"Galaxy Tab 7"" Wifi";;16 Go;Bon état
+1520;Tablette;"Samsung Galaxy Tab 7"" Wifi + 3G 16 Go";Samsung;"Galaxy Tab 7"" Wifi + 3G";GT-P1000;16 Go;Bon état
+1521;Tablette;Samsung Galaxy Tab S4 Wifi 64 Go;Samsung;Galaxy Tab S4 Wifi;SM-T830;64 Go;Bon état
+1522;Tablette;Samsung Galaxy Tab S4 Wifi + 4G 64 Go;Samsung;Galaxy Tab S4 Wifi + 4G;;64 Go;Bon état
+1523;Tablette;Samsung Galaxy Tab S5e Wifi 64 Go;Samsung;Galaxy Tab S5e Wifi;SM-T720NZSAXEF;64 Go;Bon état
+1524;Tablette;Samsung Galaxy Tab S5e Wifi + 64 Go;Samsung;Galaxy Tab S5e Wifi +;;64 Go;Bon état
+1525;Tablette;Samsung Galaxy Tab S6 Lite Wifi 64 Go;Samsung;Galaxy Tab S6 Lite Wifi;SM-P610NZBAXE;64 Go;Bon état
+1526;Tablette;Samsung Galaxy Tab S6 Lite Wifi + 4G 64 Go;Samsung;Galaxy Tab S6 Lite Wifi + 4G;;64 Go;Bon état
+1527;Tablette;Samsung Galaxy Tab S6 Wifi 128 Go;Samsung;Galaxy Tab S6 Wifi;SM-T860N;128 Go;Bon état
+1528;Tablette;Samsung Galaxy Tab S6 Wifi + 4G 128 Go;Samsung;Galaxy Tab S6 Wifi + 4G;;128 Go;Bon état
+1529;Tablette;Samsung Galaxy Tab Active Lte Wifi 16 Go;Samsung;Galaxy Tab Active Lte Wifi;SM-T365;16 Go;Bon état
+1530;Tablette;Samsung Galaxy Tab Active Lte Wifi + 4G 16 Go;Samsung;Galaxy Tab Active Lte Wifi + 4G;;16 Go;Bon état
+1531;Tablette;Samsung Galaxy Tab Active2 Wifi 16 Go;Samsung;Galaxy Tab Active2 Wifi;sm-t395 N;16 Go;Bon état
+1532;Tablette;Samsung Galaxy Tab Active2 Wifi + 4G 16 Go;Samsung;Galaxy Tab Active2 Wifi + 4G;;16 Go;Bon état
+1533;Tablette;Samsung Galaxy Tab Active Wifi 16 Go;Samsung;Galaxy Tab Active Wifi;;16 Go;Bon état
+1534;Tablette;Samsung Galaxy Tab Active Wifi + 4G 16 Go;Samsung;Galaxy Tab Active Wifi + 4G;;16 Go;Bon état
+1535;Tablette;Samsung Galaxy Tab Note Pro Wifi + 4G 32 Go;Samsung;Galaxy Tab Note Pro Wifi + 4G;;32 Go;Bon état
+1536;Tablette;Samsung Galaxy Tab Note Pro Wifi 32 Go;Samsung;Galaxy Tab Note Pro Wifi;SM-P900;32 Go;Bon état
+1537;Tablette;Samsung Galaxy Tab Note Wifi + 4G 16 Go;Samsung;Galaxy Tab Note Wifi + 4G;;16 Go;Bon état
+1538;Tablette;Samsung Galaxy Tab Note Wifi 16 Go;Samsung;Galaxy Tab Note Wifi;GT-N5110;16 Go;Bon état
+1539;Tablette;Samsung Galaxy View wifi 32 Go;Samsung;Galaxy View wifi;SM-T670;32 Go;Bon état
+1540;Tablette;Huawei MediaPad M6 32 Go;Huawei;MediaPad M6;SCM-AL09;32 Go;Bon état
+1541;Tablette;"Huawei MediaPad M5 Lite 10,1"" 32 Go";Huawei;"MediaPad M5 Lite 10,1""";53010NBK;32 Go;Bon état
+1542;Tablette;"Huawei MediaPad T5 10,1"" 32 Go";Huawei;"MediaPad T5 10,1""";53010DJF;32 Go;Bon état
+1543;Tablette;"Huawei MediaPad M5 10,8"" 32 Go";Huawei;"MediaPad M5 10,8""";SHT-W09;32 Go;Bon état
+1544;Tablette;"Huawei MediaPad M5 8,5"""" 32 Go";Huawei;"MediaPad M5 8,5""""";;32 Go;Bon état
+1545;Tablette;"Huawei MediaPad M5 pro 10,8"" 64 Go";Huawei;"MediaPad M5 pro 10,8""";CMR-AL19|CMR-W19;64 Go;Bon état
+1546;Tablette;Huawei MediaPad T3 32 Go;Huawei;MediaPad T3;AGS-W09|AGS-L09|AGS-L03;32 Go;Bon état
+1547;Tablette;"Huawei MatePad Pro 10,8"" 128 Go";Huawei;"MatePad Pro 10,8""";MRR-W29;128 Go;Bon état
+1548;Tablette;"Huawei MatePad 10,4"" 64 Go";Huawei;"MatePad 10,4""";BAH3-W09|BAH3-AL00|BAH3-L09;64 Go;Bon état
+1549;Tablette;"Huawei MatePad T 10s 10,1"" 32 Go";Huawei;"MatePad T 10s 10,1""";AGS3-L09|AGS3-W09;32 Go;Bon état
+1550;Tablette;"Huawei MatePad T 10 9,7"" 16 Go";Huawei;"MatePad T 10 9,7""";;16 Go;Bon état
+1551;Tablette;"Huawei MatePad T 8 8"" 16 Go";Huawei;"MatePad T 8 8""";Kobe2-L09|Kobe2-L03|KOB2-L09|KOB2-W09;16 Go;Bon état
+1552;Tablette;"Huawei MediaPad T3 10 10'1"" 32 Go";Huawei;"MediaPad T3 10 10'1""";AGS-W09|AGS-L09|AGS-L03;32 Go;Bon état
+1553;Tablette;"Huawei MediaPad M5 lite 8"" 32 Go";Huawei;"MediaPad M5 lite 8""";JDN2-L09;32 Go;Bon état
+1554;Tablette;Microsoft Surface pro 7 128 Go;Microsoft;Surface pro 7;;128 Go;Bon état
+1555;Tablette;Microsoft Surface Go 2 64 Go;Microsoft;Surface Go 2;;64 Go;Bon état
+1556;Tablette;Microsoft Surface pro X 128 Go;Microsoft;Surface pro X;;128 Go;Bon état
+1557;Tablette;Microsoft Surface 2 32 Go;Microsoft;Surface 2;;32 Go;Bon état
+1558;Tablette;Microsoft Surface 3 32 Go;Microsoft;Surface 3;;32 Go;Bon état
+1559;Tablette;Microsoft Surface pro 64 Go;Microsoft;Surface pro;;64 Go;Bon état
+1560;Tablette;Microsoft Surface pro 2 64 Go;Microsoft;Surface pro 2;;64 Go;Bon état
+1561;Tablette;Microsoft Surface pro 3 64 Go;Microsoft;Surface pro 3;;64 Go;Bon état
+1562;Tablette;Microsoft Surface pro 4 128 Go;Microsoft;Surface pro 4;;128 Go;Bon état
+1563;Tablette;Lenovo Tab M10 HD 10.1'' WiFi 32 Go;Lenovo;Tab M10 HD 10.1'' WiFi;TB-X606F-ZA5W0130SE;32 Go;Bon état
+1564;Tablette;Lenovo Tab M10 FHD Plus 10.3'' Wifi 128 Go;Lenovo;Tab M10 FHD Plus 10.3'' Wifi;ZA6F0009FR;128 Go;Bon état
+1565;Tablette;"Lenovo IdeaPad Duet 10.1"" Mediatek 64 Go";Lenovo;"IdeaPad Duet 10.1"" Mediatek";ZA550065SE;64 Go;Bon état
+1566;Tablette;Lenovo Tab M7 7'' Wifi 16 Go;Lenovo;Tab M7 7'' Wifi;ZA4G0035SE;16 Go;Bon état
+1567;Tablette;Lenovo Yoga Smart Tab 10.1'' 32 Go;Lenovo;Yoga Smart Tab 10.1'';ZA5T0302SE;32 Go;Bon état
+1568;Tablette;"Lenovo Tab M10 Plus 10.3"" Mediatek 64 Go";Lenovo;"Tab M10 Plus 10.3"" Mediatek";ZA8E0005SE;64 Go;Bon état
+1569;Tablette;Lenovo Tab E7 WF 16 Go;Lenovo;Tab E7 WF;ZA470043SE;16 Go;Bon état
+1570;Tablette;"Lenovo E10 10.1"" 16 Go Noir 16 Go";Lenovo;"E10 10.1"" 16 Go Noir";ZA2B0037SE;16 Go;Bon état
+1571;Tablette;"Lenovo Tab4 8 8"" - Qualcom 1.4Ghz - 16 Go";Lenovo;"Tab4 8 8"" - Qualcom 1.4Ghz -";;16 Go;Bon état
+1572;Tablette;Lenovo TB-8304F1 8'' 16 Go;Lenovo;TB-8304F1 8'';ZA6W0066SE;16 Go;Bon état
+1573;Tablette;Lenovo P10 10.1'' 64 Go;Lenovo;P10 10.1'';ZA4Y0072SE;64 Go;Bon état
+1574;Tablette;"Lenovo A10-70 10,1""";Lenovo;"A10-70 10,1""";;;Bon état
+1575;Tablette;"Lenovo Tab 10 X103F 10.1"" wifi 16 Go";Lenovo;"Tab 10 X103F 10.1"" wifi";ZA0G0103DE;16 Go;Bon état
+1575;Tablette;"Lenovo Tab 10 X103F 10.1"" wifi 16 Go";Lenovo;"Tab 10 X103F 10.1"" wifi";ZA0G0103DE;16 Go;Bon état
+1576;Tablette;"Lenovo Yoga Tab 3 Pro 10""";Lenovo;"Yoga Tab 3 Pro 10""";;;Bon état
+1577;Tablette;"Lenovo Yoga Tablet 2 Pro 13,3"" 32 Go";Lenovo;"Yoga Tablet 2 Pro 13,3""";;32 Go;Bon état
+1578;Tablette;"Lenovo Miix 310-10ICR 10.1"" WiFi 32 Go";Lenovo;"Miix 310-10ICR 10.1"" WiFi";ZA4G0035SE;32 Go;Bon état
+1580;Tablette;"Lenovo Tab TBX104F E10 10.1"" 16 Go";Lenovo;"Tab TBX104F E10 10.1""";;16 Go;Bon état
+1582;Tablette;"Lenovo Yoga 10,1""";Lenovo;"Yoga 10,1""";;;Bon état
+1583;Tablette;"Lenovo Yoga Book Android 10.1""";Lenovo;"Yoga Book Android 10.1""";;;Bon état
+1584;Tablette;Lenovo TAB P10 10.1 64 Go;Lenovo;TAB P10 10.1;ZA1U0031SE;64 Go;Bon état
+1585;Tablette;Lenovo TB-X103F ZA1U0031SE 10.1'' 16 Go;Lenovo;TB-X103F ZA1U0031SE 10.1'';ZA0F0050US;16 Go;Bon état
+1586;Tablette;Lenovo Yoga 3 Pro 10.1'' 32 Go;Lenovo;Yoga 3 Pro 10.1'';;32 Go;Bon état
+1587;Tablette;Lenovo Tab 4 7504F 7'' 16 Go;Lenovo;Tab 4 7504F 7'';;16 Go;Bon état
+1588;Tablette;"Lenovo Yoga Tab 3 Pro 10.1"" 32 Go";Lenovo;"Yoga Tab 3 Pro 10.1""";;32 Go;Bon état
+1589;Tablette;"Lenovo Tab 4 10 Plus X704F 10"" WiFi 64 Go";Lenovo;"Tab 4 10 Plus X704F 10"" WiFi";ZA1K0012DE;64 Go;Bon état
+1590;Tablette;Lenovo Tab 3 7 Plus 16 Go;Lenovo;Tab 3 7 Plus;ZA4G0035SE;16 Go;Bon état
+1591;Tablette;Lenovo TAB M10 PLUS 2 32 Go;Lenovo;TAB M10 PLUS 2;TB-X606X | TB-X606V;32 Go;Bon état
+1592;Tablette;Lenovo Tab E10 10.1'' 16 Go;Lenovo;Tab E10 10.1'';;16 Go;Bon état
+1593;Tablette;"Lenovo A10 10,1""";Lenovo;"A10 10,1""";ZA0C0092SE;;Bon état
+1594;Tablette;"Lenovo Tab 2 A10-30 10"" 16 Go";Lenovo;"Tab 2 A10-30 10""";;16 Go;Bon état
+1595;Tablette;Lenovo Yoga 2-1050 10.1'' 16 Go;Lenovo;Yoga 2-1050 10.1'';ZA110186SE-G;16 Go;Bon état
+1611;Console;Sony PS4 Pro 1 To;Sony;PS4 Pro;;1 To;Bon état
+1612;Console;Sony PS3 Slim 120 Go;Sony;PS3 Slim;;120 Go;Bon état
+1613;Console;Sony PS4 500 Go;Sony;PS4;;500 Go;Bon état
+1614;Console;Sony PS5 SSD;Sony;PS5;;SSD;Bon état
+1615;Console;Sony PS5 Edition numérique;Sony;PS5 Edition numérique;;;Bon état
+1616;Console;Sony Playstation;Sony;Playstation;;;Bon état
+1617;Console;Sony PS2;Sony;PS2;;;Bon état
+1618;Console;Sony PS2 Slim;Sony;PS2 Slim;;;Bon état
+1619;Console;Sony PS4 Slim 500 Go;Sony;PS4 Slim;;500 Go;Bon état
+1620;Console;Sony PS3 40 Go;Sony;PS3;;40 Go;Bon état
+1622;Console portable;Sony PS Vita;Sony;PS Vita;;;Bon état
+1623;Console portable;Sony PS Vita Wifi;Sony;PS Vita Wifi;;;Bon état
+1624;Console portable;Sony PS Vita Wifi / 3G;Sony;PS Vita Wifi / 3G;;;Bon état
+1625;Console portable;Sony PS Vita Slim;Sony;PS Vita Slim;;;Bon état
+1626;Console portable;Sony PSP (1000);Sony;PSP (1000);;;Bon état
+1627;Console portable;Sony PSP (1004);Sony;PSP (1004);;;Bon état
+1628;Console portable;Sony PSPBrite (3000);Sony;PSPBrite (3000);;;Bon état
+1629;Console portable;Sony PSP Brite (3004);Sony;PSP Brite (3004);;;Bon état
+1630;Console portable;Sony PSP Go (N1000);Sony;PSP Go (N1000);;;Bon état
+1631;Console portable;Sony PSP Go (N1004);Sony;PSP Go (N1004);;;Bon état
+1632;Console portable;Sony PSP Slim & lite (2004);Sony;PSP Slim & lite (2004);;;Bon état
+1633;Console portable;Sony PSP Street (E1000);Sony;PSP Street (E1000);;;Bon état
+1634;Console portable;Sony PSP Street (E1004);Sony;PSP Street (E1004);;;Bon état
+1635;Console;Nintendo Switch 32 Go;Nintendo;Switch;;32 Go;Bon état
+1636;Console;Nintendo 64;Nintendo;64;;;Bon état
+1637;Console;Nintendo GameCube;Nintendo;GameCube;;;Bon état
+1638;Console;Nintendo NES;Nintendo;NES;;;Bon état
+1639;Console;Nintendo NES Mini;Nintendo;NES Mini;;;Bon état
+1640;Console;Nintendo Super Nintendo;Nintendo;Super Nintendo;;;Bon état
+1641;Console;Nintendo Super nintendo Classic Mini;Nintendo;Super nintendo Classic Mini;;;Bon état
+1642;Console;Nintendo Wii;Nintendo;Wii;;;Bon état
+1643;Console;Nintendo Wii Mini;Nintendo;Wii Mini;;;Bon état
+1644;Console;Nintendo Wii U 8 Go;Nintendo;Wii U;;8 Go;Bon état
+1645;Console portable;Nintendo 2DS;Nintendo;2DS;;;Bon état
+1646;Console portable;Nintendo 3DS;Nintendo;3DS;;;Bon état
+1647;Console portable;Nintendo 3DS Xl;Nintendo;3DS Xl;;;Bon état
+1648;Console portable;Nintendo DS;Nintendo;DS;;;Bon état
+1649;Console portable;Nintendo DS Lite;Nintendo;DS Lite;;;Bon état
+1650;Console portable;Nintendo Dsi;Nintendo;Dsi;;;Bon état
+1651;Console portable;Nintendo Dsi XL;Nintendo;Dsi XL;;;Bon état
+1652;Console portable;Nintendo Game Boy;Nintendo;Game Boy;;;Bon état
+1653;Console portable;Nintendo Game Boy Advance;Nintendo;Game Boy Advance;;;Bon état
+1654;Console portable;Nintendo Game Boy Advance SP;Nintendo;Game Boy Advance SP;;;Bon état
+1655;Console portable;Nintendo Game Boy Color;Nintendo;Game Boy Color;;;Bon état
+1656;Console portable;Nintendo Game Boy Micro;Nintendo;Game Boy Micro;;;Bon état
+1657;Console portable;Nintendo Switch Lite;Nintendo;Switch Lite;;;Bon état
+1658;Console portable;Nintendo New 3DS;Nintendo;New 3DS;;;Bon état
+1659;Console portable;Nintendo New 2DS XL;Nintendo;New 2DS XL;;;Bon état
+1660;Console portable;Nintendo New 3DS XL;Nintendo;New 3DS XL;;;Bon état
+1661;Console;Atari FlashBack  Bon état;Atari;FlashBack;;;Bon état
+1662;Console;Atari FlashBack 7;Atari;FlashBack 7;;;Bon état
+1663;Console;Atari FlashBack 8;Atari;FlashBack 8;;;Bon état
+1664;Console;Atari Retro 2600;Atari;Retro 2600;;;Bon état
+1665;Console;Microsoft Xbox;Microsoft;Xbox;;;Bon état
+1666;Console;Microsoft Xbox 360 20 Go;Microsoft;Xbox 360;;20 Go;Bon état
+1667;Console;Microsoft Xbox 360 Arcade 4 Go;Microsoft;Xbox 360 Arcade;;4 Go;Bon état
+1668;Console;Microsoft Xbox 360 Elite 120 Go;Microsoft;Xbox 360 Elite;;120 Go;Bon état
+1669;Console;Microsoft Xbox 360 Premium 20 Go;Microsoft;Xbox 360 Premium;;20 Go;Bon état
+1670;Console;Microsoft Xbox 360 Slim 4 Go;Microsoft;Xbox 360 Slim;;4 Go;Bon état
+1671;Console;Microsoft Xbox 360 Stingray 4 Go;Microsoft;Xbox 360 Stingray;;4 Go;Bon état
+1672;Console;Microsoft Xbox One 500 Go;Microsoft;Xbox One;;500 Go;Bon état
+1673;Console;Microsoft Xbox One Elite 1 To;Microsoft;Xbox One Elite;;1 To;Bon état
+1674;Console;Microsoft Xbox One S 500 Go;Microsoft;Xbox One S;;500 Go;Bon état
+1675;Console;Microsoft Xbox One S all Digital 1 To;Microsoft;Xbox One S all Digital;;1 To;Bon état
+1676;Console;Microsoft Xbox One X 1 To;Microsoft;Xbox One X;;1 To;Bon état
+1677;Console;Sega Dreamcast;Sega;Dreamcast;;;Bon état
+1678;Console;Sega Master System;Sega;Master System;;;Bon état
+1679;Console;Sega master System 2;Sega;master System 2;;;Bon état
+1680;Console;Sega Mega Drive;Sega;Mega Drive;;;Bon état
+1681;Console;Sega Mega Drive 2;Sega;Mega Drive 2;;;Bon état
+1682;Console;Sega Saturn;Sega;Saturn;;;Bon état
+1683;Console portable;Sega Game Gear;Sega;Game Gear;;;Bon état
+1684;Console portable;Sega Mega Drive portable;Sega;Mega Drive portable;;;Bon état
+1685;Smartphone;Samsung A52 5G 128 Go;Samsung;A52 5G;;128 Go;Bon état
+1686;Smartphone;Samsung A 52 128 Go;Samsung;A 52;SM-A526B|SM-A526B/DS|SM-A5260|SM-A526W|SM-A526U|SM-A526U1;128 Go;Bon état
+1687;Smartphone;Samsung A 42 5G 128 Go;Samsung;A 42 5G;SM-A426B|SM-A426B/DS|SM-A4260|SM-A426U;128 Go;Bon état
+1688;Smartphone;Samsung A 12 64 Go;Samsung;A 12;SM-A125F/DS;64 Go;Bon état
+1688;Smartphone;Samsung A 12 64 Go;Samsung;A 12;SM-A125F/DS;64 Go;Bon état
+1689;Smartphone;Samsung Galaxy S20+ 5G EE 128 Go;Samsung;Galaxy S20+ 5G EE;SM-G986F;128 Go;Bon état
+1690;Smartphone;Samsung Galaxy S20 5G Dual Sim 128 Go;Samsung;Galaxy S20 5G Dual Sim;SM-G980|SM-G980F;128 Go;Bon état
+1692;Smartphone;Samsung Galaxy S20 FE Dual Sim 128 Go;Samsung;Galaxy S20 FE Dual Sim;SM-G780F|SM-G780G;128 Go;Bon état
+1693;Smartphone;Samsung Galaxy S20 5G FE Dual Sim 128 Go;Samsung;Galaxy S20 5G FE Dual Sim;SM-G781B|SM-G781B/DS;128 Go;Bon état
+1694;Smartphone;Samsung Galaxy S21 5G 128 Go;Samsung;Galaxy S21 5G;SM-G991B|SM-G991B/DS|SM-G991U|SM-G991U1|SM-G991W|SM-G991N|SM-G9910;128 Go;Bon état
+1695;Smartphone;Samsung Galaxy S21+ 5G 128 Go;Samsung;Galaxy S21+ 5G;SM-G996B|SM-G996B/DS|SM-G996U|SM-G996U1|SM-G996W|SM-G996N|SM-G9960;128 Go;Bon état
+1696;Smartphone;Samsung Galaxy S21 Ultra 5G 128 Go;Samsung;Galaxy S21 Ultra 5G;SM-G998B|SM-G998B/DS|SM-G998U|SM-G998U1|SM-G998W|SM-G998N|SM-G9980;128 Go;Bon état
+1697;Smartphone;Xiaomi Mi 11 128 Go;Xiaomi;Mi 11;;128 Go;Bon état
+1698;Smartphone;Xiaomi Mi 10T Pro 128 Go;Xiaomi;Mi 10T Pro;M2007J3SG | M2007J3SY | Apollo Pro | MZB07ZDIN | MZB07Z7IN;128 Go;Bon état
+1699;Smartphone;Xiaomi Redmi note 9 Pro;Xiaomi;Redmi note 9 Pro;;;Bon état
+1700;Smartphone;Xiaomi Redmi Note 9 32 Go;Xiaomi;Redmi Note 9;;32 Go;Bon état
+1701;Smartphone;Xiaomi Mi 10T 128 Go;Xiaomi;Mi 10T;MZB07ZCIN;128 Go;Bon état
+1702;Smartphone;OPPO Find X3 Pro 256 Go;OPPO;Find X3 Pro;CPH2173 | PEEM00 | OPG03;256 Go;Bon état
+1703;Smartphone;OPPO Find X3 Neo 256 Go;OPPO;Find X3 Neo;CPH2207;256 Go;Bon état
+1704;Smartphone;OPPO Find X3 lite 128 Go;OPPO;Find X3 lite;CPH2145;128 Go;Bon état
+1705;Smartphone;OPPO Find X2 Pro 512 Go;OPPO;Find X2 Pro;PDEM30;512 Go;Bon état
+1706;Smartphone;OPPO Find X2 Neo 256 Go;OPPO;Find X2 Neo;CPH2009;256 Go;Bon état
+1707;Smartphone;OPPO Find X2 lite 128 Go;OPPO;Find X2 lite;CPH2005;128 Go;Bon état
+1708;Smartphone;OPPO Find X2 Pro Lamborghini Ed. 512 Go;OPPO;Find X2 Pro Lamborghini Ed.;PDEM30;512 Go;Bon état
+1709;Smartphone;OPPO Reno4 Pro 5G 128 Go;OPPO;Reno4 Pro 5G;PDNM00 | PDNT00;128 Go;Bon état
+1710;Smartphone;OPPO Reno4 Z 5G 128 Go;OPPO;Reno4 Z 5G;CPH2065;128 Go;Bon état
+1711;Smartphone;OPPO Reno 10x Zoom 256 Go;OPPO;Reno 10x Zoom;;256 Go;Bon état
+1712;Smartphone;OPPO A74 128 Go;OPPO;A74;CPH2219;128 Go;Bon état
+1713;Smartphone;OPPO A54 5G 64 Go;OPPO;A54 5G;CPH2195;64 Go;Bon état
+1714;Smartphone;OPPO A94 5G 128 Go;OPPO;A94 5G;CPH2211;128 Go;Bon état
+1715;Smartphone;OPPO A74 5G 128 Go;OPPO;A74 5G;CPH2197;128 Go;Bon état
+1716;Smartphone;OPPO A 15 32 Go;OPPO;A 15;CPH2185;32 Go;Bon état
+1717;Smartphone;OPPO A53 64 Go;OPPO;A53;;64 Go;Bon état
+1718;Smartphone;OPPO A53s 128 Go;OPPO;A53s;CPH2135;128 Go;Bon état
+1719;Smartphone;OPPO A72 128 Go;OPPO;A72;CPH2067;128 Go;Bon état
+1720;Smartphone;OPPO A9 2020 128 Go;OPPO;A9 2020;CPH1937| CPH1939 | PCHM30| PCHT30;128 Go;Bon état
+1721;Smartphone;OPPO A5 2020 64 Go;OPPO;A5 2020;CPH1931| CPH1959 | CPH1933| CPH1935;64 Go;Bon état
+1722;Smartphone;OPPO Reno 256 Go;OPPO;Reno;CPH1917;256 Go;Bon état
+1723;Smartphone;OPPO Reno Z 128 Go;OPPO;Reno Z;PCDM10| PCDT10 | CPH1979;128 Go;Bon état
+1724;Smartphone;OPPO Find X 256 Go;OPPO;Find X;PAFT00 | PAFM00;256 Go;Bon état
+1725;Smartphone;OPPO Reno 4 5G 128 Go;OPPO;Reno 4 5G;CPH2065;128 Go;Bon état
+1726;Smartphone;OPPO Reno4 5G 128 Go;OPPO;Reno4 5G;;128 Go;Bon état
+1727;Smartphone;Realme GT 5G 256 Go;Realme;GT 5G;RMX2202;256 Go;Bon état
+1728;Smartphone;Realme 7i 64 Go;Realme;7i;RMX2103;64 Go;Bon état
+1729;Smartphone;Realme 8 5G 128 Go;Realme;8 5G;RMX3241;128 Go;Bon état
+1730;Smartphone;Realme 8 64 Go;Realme;8;RMX3085;64 Go;Bon état
+1731;Smartphone;Realme 8 Pro 128 Go;Realme;8 Pro;;128 Go;Bon état
+1732;Smartphone;Realme X50 5G 128 Go;Realme;X50 5G;RMX2051;128 Go;Bon état
+1733;Smartphone;Realme X3 SuperZoom 256 Go;Realme;X3 SuperZoom;RMX2086;256 Go;Bon état
+1734;Smartphone;Realme X50 Pro 256 Go;Realme;X50 Pro;RMX2076 | RMX2075;256 Go;Bon état
+1735;Smartphone;Realme X2 Pro 64 Go;Realme;X2 Pro;RMX1931;64 Go;Bon état
+1736;Smartphone;Realme 6 Pro 128 Go;Realme;6 Pro;RMX2061 | RMX2063 |RBS0626IN| RBS0624IN | RBS0629IN;128 Go;Bon état
+1737;Smartphone;Realme 6i 128 Go;Realme;6i;RMX2040;128 Go;Bon état
+1738;Smartphone;Realme 6 128 Go;Realme;6;RMX2001;128 Go;Bon état
+1739;Smartphone;Realme C21 32 Go;Realme;C21;RMX3201;32 Go;Bon état
+1740;Smartphone;Realme C11 32 Go;Realme;C11;RMX2185;32 Go;Bon état
+1741;Smartphone;Realme 7 Pro 128 Go;Realme;7 Pro;RMX2170;128 Go;Bon état
+1742;Smartphone;Realme 7 64 Go;Realme;7;RMX2151;64 Go;Bon état
+1743;Smartphone;Vivo X60 Pro 5G 256 Go;Vivo;X60 Pro 5G;V2047A|V2047;256 Go;Bon état
+1744;Smartphone;Vivo V21 5G 128 Go;Vivo;V21 5G;V2050;128 Go;Bon état
+1745;Smartphone;Vivo Y72 5G 128 Go;Vivo;Y72 5G;V2041;128 Go;Bon état
+1746;Smartphone;Vivo X51 5 G 256 Go;Vivo;X51 5 G;XE710;256 Go;Bon état
+1747;Smartphone;Vivo Y70 128 Go;Vivo;Y70;;128 Go;Bon état
+1748;Smartphone;Vivo Y20s 128 Go;Vivo;Y20s;;128 Go;Bon état
+1995;Tablette;Microsoft Surface Book;Microsoft;Surface Book;;;Bon état
+1996;Smartphone;Huawei Honor 7 Lite;Huawei;Honor 7 Lite;PLK - L01;;Bon état
+1997;Smartphone;Huawei P Smart S 2020;Huawei;P Smart S 2020;51095RCY;;Bon état
+1998;Smartphone;Huawei P Smart 2021;Huawei;P Smart 2021;;;Bon état
+1999;Smartphone;Huawei Honor 9X;Huawei;Honor 9X;STK-LX1|STK-LX3;;Bon état
+2000;Smartphone;Huawei Honor 9X Pro;Huawei;Honor 9X Pro;HLK-L41;;Bon état
+2001;Smartphone;Huawei P40 Lite E;Huawei;P40 Lite E;ART-L29N;;Bon état
+2002;Smartphone;Huawei Honor 20E;Huawei;Honor 20E;;;Bon état
+2003;Smartphone;Huawei P Smart Z;Huawei;P Smart Z;STK-LX1;;Bon état
+2004;Smartphone;Huawei P30 Lite XL;Huawei;P30 Lite XL;;;Bon état
+2005;Smartphone;Huawei Y6s;Huawei;Y6s;;;Bon état
+2006;Smartphone;LG Velvet;LG;Velvet;LMG910EMW|LM-G910EMW;;Bon état
+2007;Smartphone;LG K50S;LG;K50S;X540EMW;;Bon état
+2008;Smartphone;LG K42;LG;K42;K420YMW;;Bon état
+2009;Smartphone;Motorola Moto G9 Power;Motorola;Moto G9 Power;XT2091-3;;Bon état
+2010;Smartphone;Motorola Moto G9 Plus;Motorola;Moto G9 Plus;XT2087-2;;Bon état
+2011;Smartphone;Motorola Moto G9 Play;Motorola;Moto G9 Play;;;Bon état
+2012;Smartphone;Motorola Moto G8 Power;Motorola;Moto G8 Power;;;Bon état
+2013;Smartphone;Motorola Moto G8;Motorola;Moto G8;XT2045-2;;Bon état
+2014;Smartphone;Motorola Moto G30;Motorola;Moto G30;XT2129-1|XT2129-2|PAML0000IN;;Bon état
+2015;Smartphone;Motorola Moto G10;Motorola;Moto G10;PAMN0021FR;;Bon état
+2016;Smartphone;Motorola Edge;Motorola;Edge;;;Bon état
+2017;Smartphone;Motorola Edge Plus;Motorola;Edge Plus;XT2061-3;;Bon état
+2018;Smartphone;Xiaomi Xiaomi note 10 Pro 64 Go;Xiaomi;Xiaomi note 10 Pro;;64 Go;Bon état
+2019;Smartphone;Motorola Moto G9;Motorola;Moto G9;XT2083-3;;Bon état
+2020;Smartphone;Motorola Moto M;Motorola;Moto M;XT1663;;Bon état
+2021;Smartphone;Motorola Moto G50;Motorola;Moto G50;XT2137-1;;Bon état
+2022;Smartphone;Motorola Moto G20;Motorola;Moto G20;XT2128-1;;Bon état
+2023;Smartphone;Motorola Moto G100;Motorola;Moto G100;XT2125-4;;Bon état
+2024;Smartphone;Nokia 150;Nokia;150;TA-1235;;Bon état
+2025;Smartphone;Nokia 216;Nokia;216;;;Bon état
+2029;Smartphone;Nokia G20;Nokia;G20;TA-1336|TA-1343|TA-1347|TA-1372|TA-1365;;Bon état
+2030;Smartphone;Nokia X20;Nokia;X20;TA-1341|TA-1344;;Bon état
+2034;Smartphone;Samsung Galaxy A21s;Samsung;Galaxy A21s;SM-A217F|SM-A217F/DS|SM-A217F/DSN|SM-A217M|SM-A217M/DS|SM-A217N;;Bon état
+2035;Smartphone;Samsung Galaxy A22;Samsung;Galaxy A22;SM-A225FZKGXFE;;Bon état
+2036;Smartphone;Samsung Galaxy A31;Samsung;Galaxy A31;MT6768;;Bon état
+2038;Smartphone;Samsung Galaxy A72;Samsung;Galaxy A72;SM-A725F;;Bon état
+2039;Smartphone;Samsung Galaxy A9 (2018);Samsung;Galaxy A9 (2018);SM-A920F/DS;;Bon état
+2040;Smartphone;Samsung Galaxy XCover 5 EE;Samsung;Galaxy XCover 5 EE;SM-G525F;;Bon état
+2041;Smartphone;Samsung Galaxy XCover Pro;Samsung;Galaxy XCover Pro;SM-G715FZKDE27;;Bon état
+2042;Smartphone;Samsung Galaxy Z Flip3;Samsung;Galaxy Z Flip3;SM-F711B|SM-F711N|SM-F711U;;Bon état
+2043;Smartphone;Samsung Galaxy A20s;Samsung;Galaxy A20s;SM-A207FZBAXFE;;Bon état
+2044;Smartphone;Samsung Galaxy A52;Samsung;Galaxy A52;SM-A526B;;Bon état
+2045;Smartphone;Samsung Galaxy A90;Samsung;Galaxy A90;SM-A908B;;Bon état
+2046;Smartphone;Samsung Galaxy Xcover 4s;Samsung;Galaxy Xcover 4s;SM-G398F;;Bon état
+2047;Smartphone;Samsung Galaxy Z Flip 5;Samsung;Galaxy Z Flip 5;;;Bon état
+2048;Smartphone;Samsung Galaxy Z Fold2;Samsung;Galaxy Z Fold2;SM-F916B|SM-F916U|SM-F916U1|SM-F916N;;Bon état
+2049;Smartphone;Sony Xperia 1;Sony;Xperia 1;J8110 | J817 | J9110;;Bon état
+2050;Smartphone;Sony Xperia 5;Sony;Xperia 5;J8210| J8270| J9210| J9260;;Bon état
+2051;Smartphone;Sony Xperia XA;Sony;Xperia XA;F3111;;Bon état
+2052;Smartphone;Sony Xperia XZs;Sony;Xperia XZs;G8231;;Bon état
+2053;Smartphone;Xiaomi Mi 10 Lite;Xiaomi;Mi 10 Lite;M2007J17G;;Bon état
+2054;Smartphone;OPPO A73;OPPO;A73;CPH2099;;Bon état
+2055;Smartphone;OPPO A52;OPPO;A52;PDAM10 | CPH2069;;Bon état
+2056;Smartphone;OPPO A91;OPPO;A91;PCPM00;;Bon état
+2057;Smartphone;Realme 5i;Realme;5i;RMX2030;;Bon état
+2058;Smartphone;Realme 6s;Realme;6s;RMX2002;;Bon état
+2059;Smartphone;Realme C3;Realme;C3;RMX2027;;Bon état
+2060;Smartphone;Realme X2;Realme;X2;RMX1992;;Bon état
+2061;Smartphone;Apple Iphone 13 Pro max 128 Go;Apple;Iphone 13 Pro max; A2484|A2641|A2644|A2645|A2643;128 Go;Bon état
+2062;Smartphone;Apple Iphone 13 pro 128 Go;Apple;Iphone 13 pro;A2483|A2636| A2639| A2640| A2638;128 Go;Bon état
+2063;Smartphone;Apple Iphone 13 Mini 128 Go;Apple;Iphone 13 Mini;A2481|A2626|A2629|A2630|A2481|A2628;128 Go;Bon état
+2064;Smartphone;Apple Iphone 13 128 Go;Apple;Iphone 13;A2482|A2631|A2634|A2635|A2633;128 Go;Bon état
+2065;Smartphone;Apple iPhone Xr 64 Go;Apple;iPhone Xr;A1984;64 Go;Etat Correct
+2066;Smartphone;Apple iPhone Xs 64 Go;Apple;iPhone Xs;A2484;64 Go;Etat Correct
+2067;Smartphone;Apple Iphone 7 32 Go;Apple;Iphone 7;A1660;32 Go;Etat Correct
+2068;Smartphone;Apple iPhone 4 16 Go;Apple;iPhone 4;A1349;16 Go;Etat Correct
+2070;Smartphone;Apple iPhone 7 PLUS 32 Go;Apple;iPhone 7 PLUS;A1661;32 Go;Etat Correct
+2071;Smartphone;Apple iPhone 11 64 Go;Apple;iPhone 11;A2111;64 Go;Etat Correct
+2072;Smartphone;Apple iPhone 11 Pro 64 Go;Apple;iPhone 11 Pro;A2160;64 Go;Etat Correct
+2073;Smartphone;Apple iPhone 11 Pro Max 64 Go;Apple;iPhone 11 Pro Max;A2161;64 Go;Etat Correct
+2074;Smartphone;Apple iPhone 4S 16 Go;Apple;iPhone 4S;A1387;16 Go;Etat Correct
+2075;Smartphone;Apple iPhone 5 16 Go;Apple;iPhone 5;A1428;16 Go;Etat Correct
+2076;Smartphone;Apple iPhone 5C 8 Go;Apple;iPhone 5C;A1456;8 Go;Etat Correct
+2077;Smartphone;Apple iPhone 5S 16 Go;Apple;iPhone 5S;A1453;16 Go;Etat Correct
+2078;Smartphone;Apple iPhone 6 16 Go;Apple;iPhone 6;A1549;16 Go;Etat Correct
+2078;Smartphone;Apple iPhone 6 16 Go;Apple;iPhone 6;A1549;16 Go;Etat Correct
+2079;Smartphone;Apple iPhone 6 PLUS 16 Go;Apple;iPhone 6 PLUS;A1522;16 Go;Etat Correct
+2079;Smartphone;Apple iPhone 6 PLUS 16 Go;Apple;iPhone 6 PLUS;A1522;16 Go;Etat Correct
+2081;Smartphone;Apple iPhone 8 64 Go;Apple;iPhone 8;A1863;64 Go;Etat Correct
+2082;Smartphone;Apple iPhone 8 PLUS 64 Go;Apple;iPhone 8 PLUS;A1864;64 Go;Etat Correct
+2083;Smartphone;Apple iPhone SE 128 Go;Apple;iPhone SE;A1724;128 Go;Etat Correct
+2084;Smartphone;Apple iPhone SE 2020 64 Go;Apple;iPhone SE 2020;A2275;64 Go;Etat Correct
+2085;Smartphone;Apple iPhone X 64 Go;Apple;iPhone X;A1865;64 Go;Etat Correct
+2086;Smartphone;Apple iPhone XS MAX 64 Go;Apple;iPhone XS MAX;A1921;64 Go;Etat Correct
+2087;Smartphone;Apple Iphone 12 mini 64 Go;Apple;Iphone 12 mini;A2176;64 Go;Etat Correct
+2088;Smartphone;Apple Iphone 12 64 Go;Apple;Iphone 12;A2172;64 Go;Etat Correct
+2089;Smartphone;Apple Iphone 12 Pro 128 Go;Apple;Iphone 12 Pro;A2341;128 Go;Etat Correct
+2090;Smartphone;Apple Iphone 12 Pro Max 128 Go;Apple;Iphone 12 Pro Max;A2342;128 Go;Etat Correct
+2091;Smartphone;Samsung Galaxy S20 Ultra 128 Go;Samsung;Galaxy S20 Ultra;SM-G988B;128 Go;Etat Correct
+2092;Smartphone;Samsung Galaxy S20+ 128 Go;Samsung;Galaxy S20+;SM-G985F;128 Go;Etat Correct
+2093;Smartphone;Samsung Galaxy S20 128 Go;Samsung;Galaxy S20;SM-G981B;128 Go;Etat Correct
+2094;Smartphone;Samsung Galaxy S10+ 128 Go;Samsung;Galaxy S10+;SM-G975F/DS;128 Go;Etat Correct
+2095;Smartphone;Samsung Galaxy S10e 128 Go;Samsung;Galaxy S10e;SM-G970F/DS;128 Go;Etat Correct
+2096;Smartphone;Samsung Galaxy S10 128 Go;Samsung;Galaxy S10;SM-G973F/DS;128 Go;Etat Correct
+2097;Smartphone;Samsung Galaxy S11 512 Go;Samsung;Galaxy S11;;512 Go;Etat Correct
+2098;Smartphone;Samsung Galaxy S9+ 64 Go;Samsung;Galaxy S9+;SM-G965FZPDECT;64 Go;Etat Correct
+2099;Smartphone;Samsung Galaxy S9 64 Go;Samsung;Galaxy S9;SM-G960F;64 Go;Etat Correct
+2100;Smartphone;Samsung Galaxy S8+ 64 Go;Samsung;Galaxy S8+;SM-G955F;64 Go;Etat Correct
+2101;Smartphone;Samsung Galaxy S8 64 Go;Samsung;Galaxy S8;SM-G950F;64 Go;Etat Correct
+2102;Smartphone;Samsung Galaxy S7 Active 32 Go;Samsung;Galaxy S7 Active;SM-G891A;32 Go;Etat Correct
+2103;Smartphone;Samsung Galaxy S7 32 Go;Samsung;Galaxy S7;SM-G930F;32 Go;Etat Correct
+2104;Smartphone;Samsung Galaxy S7 Edge 32 Go;Samsung;Galaxy S7 Edge;SM-G935F;32 Go;Etat Correct
+2105;Smartphone;Samsung Galaxy S6 Active 32 Go;Samsung;Galaxy S6 Active;SM-G891A;32 Go;Etat Correct
+2106;Smartphone;Samsung Galaxy S6 Edge Plus 32 Go;Samsung;Galaxy S6 Edge Plus;SM-G928F;32 Go;Etat Correct
+2107;Smartphone;Samsung Galaxy S6 Edge 32 Go;Samsung;Galaxy S6 Edge;SM-G925F;32 Go;Etat Correct
+2108;Smartphone;Samsung Galaxy S6 32 Go;Samsung;Galaxy S6;SM-G920F;32 Go;Etat Correct
+2109;Smartphone;Samsung Galaxy S5 4G+;Samsung;Galaxy S5 4G+;SM-G900;;Etat Correct
+2110;Smartphone;Samsung Galaxy S4 Active;Samsung;Galaxy S4 Active;GT-i9295;;Etat Correct
+2111;Smartphone;Samsung Galaxy S3;Samsung;Galaxy S3;GT-i9305;;Etat Correct
+2112;Smartphone;Samsung Galaxy S2 Plus;Samsung;Galaxy S2 Plus;GT-i9105;;Etat Correct
+2113;Smartphone;Samsung Galaxy S5 Plus;Samsung;Galaxy S5 Plus;SM-G901F;;Etat Correct
+2114;Smartphone;Samsung Galaxy S5 Neo;Samsung;Galaxy S5 Neo;SM-G903;;Etat Correct
+2115;Smartphone;Samsung Galaxy S4 4G (I9505);Samsung;Galaxy S4 4G (I9505);GT-i9505;;Etat Correct
+2116;Smartphone;Samsung Galaxy S2;Samsung;Galaxy S2;GT-I9100;;Etat Correct
+2117;Smartphone;Samsung Galaxy S5;Samsung;Galaxy S5;SM-G900;;Etat Correct
+2118;Smartphone;Samsung Galaxy S5 Active;Samsung;Galaxy S5 Active;SM-G870A;;Etat Correct
+2119;Smartphone;Samsung Galaxy S4 Zoom;Samsung;Galaxy S4 Zoom;3G SM-C101;;Etat Correct
+2120;Smartphone;Samsung Galaxy S4 Value Edition;Samsung;Galaxy S4 Value Edition;GT-i9515;;Etat Correct
+2121;Smartphone;Samsung Galaxy S4;Samsung;Galaxy S4;GT-i9505;;Etat Correct
+2122;Smartphone;Samsung Galaxy S4 Advance 4G;Samsung;Galaxy S4 Advance 4G;GT-i9506;;Etat Correct
+2123;Smartphone;Samsung Galaxy S Plus;Samsung;Galaxy S Plus;GT-I9001;;Etat Correct
+2124;Smartphone;Samsung Galaxy S Duos;Samsung;Galaxy S Duos;GT-S7562;;Etat Correct
+2125;Smartphone;Samsung Galaxy S5 Mini;Samsung;Galaxy S5 Mini;SM-G800;;Etat Correct
+2126;Smartphone;Samsung Galaxy S4 Mini 4G;Samsung;Galaxy S4 Mini 4G;GT-i9195;;Etat Correct
+2127;Smartphone;Samsung Galaxy S4 Mini;Samsung;Galaxy S4 Mini;GT-i9190;;Etat Correct
+2128;Smartphone;Samsung Galaxy S3 Mini;Samsung;Galaxy S3 Mini;GT-I8190;;Etat Correct
+2129;Smartphone;Samsung Galaxy Note20 Ultra 256 Go;Samsung;Galaxy Note20 Ultra;SM-N986B;256 Go;Etat Correct
+2130;Smartphone;Samsung Galaxy Note20 128 Go;Samsung;Galaxy Note20;SM-N981B;128 Go;Etat Correct
+2131;Smartphone;Samsung Galaxy Note 10+ 256 Go;Samsung;Galaxy Note 10+;SM-N975;256 Go;Etat Correct
+2132;Smartphone;Samsung Galaxy Note 10 256 Go;Samsung;Galaxy Note 10;SM-N970F/DS;256 Go;Etat Correct
+2133;Smartphone;Samsung Galaxy Note 9 128 Go;Samsung;Galaxy Note 9;SM-N960F/DS;128 Go;Etat Correct
+2134;Smartphone;Samsung Galaxy Note 8 64 Go;Samsung;Galaxy Note 8;SM-N950F;64 Go;Etat Correct
+2135;Smartphone;Samsung Galaxy Note 5 32 Go;Samsung;Galaxy Note 5;SM-N920A;32 Go;Etat Correct
+2136;Smartphone;Samsung Galaxy Note 4;Samsung;Galaxy Note 4;SM-N910C;;Etat Correct
+2137;Smartphone;Samsung Galaxy Note Edge 32 Go;Samsung;Galaxy Note Edge;SM-N915F;32 Go;Etat Correct
+2138;Smartphone;Samsung Galaxy Note 3 Neo 16 Go;Samsung;Galaxy Note 3 Neo;3G SM-N750;16 Go;Etat Correct
+2139;Smartphone;Samsung Galaxy Note 3 LTE 32 Go;Samsung;Galaxy Note 3 LTE;SM-N9005;32 Go;Etat Correct
+2140;Smartphone;Samsung Galaxy Note 3 Dual;Samsung;Galaxy Note 3 Dual;SM-N9002;;Etat Correct
+2141;Smartphone;Samsung Galaxy Note 3;Samsung;Galaxy Note 3;GT-N9005;;Etat Correct
+2142;Smartphone;Samsung Galaxy Note 2 LTE;Samsung;Galaxy Note 2 LTE;GT-N7105;;Etat Correct
+2143;Smartphone;Samsung Galaxy Note 2;Samsung;Galaxy Note 2;GT-N7100;;Etat Correct
+2144;Smartphone;Samsung Galaxy Ace 4 4 Go;Samsung;Galaxy Ace 4;SM-G357FZ;4 Go;Etat Correct
+2145;Smartphone;Samsung Galaxy Ace 3 S7270;Samsung;Galaxy Ace 3 S7270;GT-S7270;;Etat Correct
+2146;Smartphone;Samsung Galaxy Ace 3;Samsung;Galaxy Ace 3;GT-S7275;;Etat Correct
+2148;Smartphone;Samsung Galaxy Grand Prime 8 Go;Samsung;Galaxy Grand Prime;SM-G5306W|SM-G5308W|SM-G5309W|SM-G530BT|SM-G530F|SM-G530FQ|SM-G530FZ|SM-G530FZ|SM-G530H|SM-G531F|SM-G531H|SM-G530T|SM-G530W|SM-G530Y|SM-G530AZ|SM-G531Y|SM-G530T1|SM-G531M|SM-G530A|SM-G530M|SM-G531BT;8 Go;Etat Correct
+2149;Smartphone;Samsung Grand Plus 8 Go;Samsung;Grand Plus;GT-I960I;8 Go;Etat Correct
+2150;Smartphone;Samsung Galaxy Grand 2 8 Go;Samsung;Galaxy Grand 2;G7102;8 Go;Etat Correct
+2151;Smartphone;Samsung Galaxy Grand Neo 8 Go;Samsung;Galaxy Grand Neo;GT-i9060;8 Go;Etat Correct
+2152;Smartphone;Samsung Galaxy Grand Duos 8 Go;Samsung;Galaxy Grand Duos;GT-I9082;8 Go;Etat Correct
+2153;Smartphone;Samsung galaxy A80 128 Go;Samsung;galaxy A80;SM-A805F;128 Go;Etat Correct
+2154;Smartphone;Samsung Galaxy A20 32 Go;Samsung;Galaxy A20;SM-A205WZKAXAC;32 Go;Etat Correct
+2155;Smartphone;Samsung A20e 32 Go;Samsung;A20e;SM-A202/DS;32 Go;Etat Correct
+2156;Smartphone;Samsung A10 32 Go;Samsung;A10;SM-A105F/DS;32 Go;Etat Correct
+2157;Smartphone;Samsung Galaxy A8 2018 32 Go;Samsung;Galaxy A8 2018;SM-A530F;32 Go;Etat Correct
+2158;Smartphone;Samsung Galaxy A71 128 Go;Samsung;Galaxy A71;SM-A715F/DS;128 Go;Etat Correct
+2159;Smartphone;Samsung Galaxy A51 64 Go;Samsung;Galaxy A51;SM-A515F;64 Go;Etat Correct
+2160;Smartphone;Samsung Galaxy A7 (2018) 64 Go;Samsung;Galaxy A7 (2018);SM-A750GN/DS;64 Go;Etat Correct
+2161;Smartphone;Samsung Galaxy A6 32 Go;Samsung;Galaxy A6;SM-A600FN;32 Go;Etat Correct
+2162;Smartphone;Samsung Galaxy A6 Plus 32 Go;Samsung;Galaxy A6 Plus;SM-A605FN/DS;32 Go;Etat Correct
+2163;Smartphone;Samsung Galaxy A9 64 Go;Samsung;Galaxy A9;SM-A920F/DS;64 Go;Etat Correct
+2164;Smartphone;Samsung Galaxy A8 32 Go;Samsung;Galaxy A8;SM-A530F;32 Go;Etat Correct
+2165;Smartphone;Samsung Galaxy A7 (2017) 32 Go;Samsung;Galaxy A7 (2017);SM-A720F;32 Go;Etat Correct
+2166;Smartphone;Samsung Galaxy A3;Samsung;Galaxy A3;SM-A300F;;Etat Correct
+2167;Smartphone;Samsung Galaxy A3 (2016) 16 Go;Samsung;Galaxy A3 (2016);SM-A310F;16 Go;Etat Correct
+2168;Smartphone;Samsung Galaxy A7 (2016) 16 Go;Samsung;Galaxy A7 (2016);SM-A710F;16 Go;Etat Correct
+2169;Smartphone;Samsung Galaxy A5 (2017) 32 Go;Samsung;Galaxy A5 (2017);SM-A520F;32 Go;Etat Correct
+2170;Smartphone;Samsung Galaxy A5 (2016) 16 Go;Samsung;Galaxy A5 (2016);SM-A500FZDUORX;16 Go;Etat Correct
+2171;Smartphone;Samsung Galaxy A7 16 Go;Samsung;Galaxy A7;SM-A700F;16 Go;Etat Correct
+2172;Smartphone;Samsung Galaxy A5 (2015) 16 Go;Samsung;Galaxy A5 (2015);SM-A500F (couleur or);16 Go;Etat Correct
+2173;Smartphone;Samsung Galaxy A3 (2017) 16 Go;Samsung;Galaxy A3 (2017);SM-A320F|SM-A320Y|SM-A320FL;16 Go;Etat Correct
+2174;Smartphone;Huawei P Smart 2020 128 Go;Huawei;P Smart 2020;POT-LX1A;128 Go;Etat Correct
+2175;Smartphone;Huawei P40 Pro+ 512 Go;Huawei;P40 Pro+;ELS-N39;512 Go;Etat Correct
+2176;Smartphone;Huawei P40 Pro 256 Go;Huawei;P40 Pro;ELS-NX9;256 Go;Etat Correct
+2177;Smartphone;Huawei P40 128 Go;Huawei;P40;ANA-NX9;128 Go;Etat Correct
+2178;Smartphone;Huawei P40 Lite 128 Go;Huawei;P40 Lite;JNY-LX2;128 Go;Etat Correct
+2179;Smartphone;Huawei P20 Lite 32 Go;Huawei;P20 Lite;ALE-LX1;32 Go;Etat Correct
+2180;Smartphone;Huawei P30 Pro 128 Go;Huawei;P30 Pro;VOG-L09;128 Go;Etat Correct
+2181;Smartphone;Huawei P30 Lite 128 Go;Huawei;P30 Lite;MAR-LX1A;128 Go;Etat Correct
+2182;Smartphone;Huawei P30 64 Go;Huawei;P30;ELE-L29|ELE-L09;64 Go;Etat Correct
+2183;Smartphone;Huawei P20 Pro 128 Go;Huawei;P20 Pro;CLT-L04;128 Go;Etat Correct
+2184;Smartphone;Huawei P20 128 Go;Huawei;P20;ELM-L29;128 Go;Etat Correct
+2185;Smartphone;Huawei P Smart 2019 64 Go;Huawei;P Smart 2019;POT-LX1 | POT-LX3;64 Go;Etat Correct
+2186;Smartphone;Huawei P Smart+ 64 Go;Huawei;P Smart+;INE-LX1;64 Go;Etat Correct
+2187;Smartphone;Huawei P Smart 32 Go;Huawei;P Smart;FIG-LX1;32 Go;Etat Correct
+2188;Smartphone;Huawei P10 Lite 32 Go;Huawei;P10 Lite;WAS-LX1A;32 Go;Etat Correct
+2189;Smartphone;Huawei P10 Plus 64 Go;Huawei;P10 Plus;VKY-AL00 |VKY-L09 | VKY-L29;64 Go;Etat Correct
+2190;Smartphone;Huawei P10 32 Go;Huawei;P10;VTR-L09;32 Go;Etat Correct
+2191;Smartphone;Huawei P9 Lite;Huawei;P9 Lite;PRA-LA1;;Etat Correct
+2192;Smartphone;Huawei P9 Plus;Huawei;P9 Plus;VIE-AL10 | VIE-L09 | VIE-L29;;Etat Correct
+2193;Smartphone;Huawei P9;Huawei;P9;EVA-L09;;Etat Correct
+2194;Smartphone;Huawei P8 Lite (2017);Huawei;P8 Lite (2017);VNS-L31;;Etat Correct
+2195;Smartphone;Huawei P8 Lite;Huawei;P8 Lite;ALE-L21;;Etat Correct
+2196;Smartphone;Huawei P8;Huawei;P8;GRA-L09;;Etat Correct
+2197;Smartphone;Huawei Mate 30 Pro 128 Go;Huawei;Mate 30 Pro;LIO-AL00| LIO-TL00;128 Go;Etat Correct
+2198;Smartphone;Huawei Mate 30 128 Go;Huawei;Mate 30;TAS-L09|TAS-L29|TAS-AL00|TAS-TL00;128 Go;Etat Correct
+2199;Smartphone;Huawei Mate 20 RS Porsche Design 256 Go;Huawei;Mate 20 RS Porsche Design;LYA-L29|LYA-AL00P;256 Go;Etat Correct
+2200;Smartphone;Huawei Mate 20X 128 Go;Huawei;Mate 20X;EVR-L29 | EVR-TL00 | EVR-AL00;128 Go;Etat Correct
+2201;Smartphone;Huawei Mate 20 Pro 128 Go;Huawei;Mate 20 Pro;LYA-L09;128 Go;Etat Correct
+2202;Smartphone;Huawei Mate 20 Lite 64 Go;Huawei;Mate 20 Lite;SNE-LX1;64 Go;Etat Correct
+2203;Smartphone;Huawei Mate 20 64 Go;Huawei;Mate 20;SNE-LX1;64 Go;Etat Correct
+2204;Smartphone;Huawei Mate 10 Pro 128 Go;Huawei;Mate 10 Pro;BLA-L09;128 Go;Etat Correct
+2205;Smartphone;Huawei Mate 10 Lite 64 Go;Huawei;Mate 10 Lite;RNE-L01 | RNE-L21;64 Go;Etat Correct
+2206;Smartphone;Huawei Mate 10 64 Go;Huawei;Mate 10;ALP-L09;64 Go;Etat Correct
+2207;Smartphone;Huawei Mate 9 Pro 64 Go;Huawei;Mate 9 Pro;LON-L29 |LON-AL00 |LON-AL10;64 Go;Etat Correct
+2208;Smartphone;Huawei Mate 9;Huawei;Mate 9;MHA-L09;;Etat Correct
+2209;Smartphone;Huawei Mate 8;Huawei;Mate 8;NXTL29 |NXT-L09;;Etat Correct
+2210;Smartphone;Huawei Mate S;Huawei;Mate S;CRR-UL20 | CR-L09;;Etat Correct
+2211;Smartphone;Huawei Mate 7 16 Go;Huawei;Mate 7;MHA-L09;16 Go;Etat Correct
+2212;Smartphone;Huawei Nova 5T 128 Go;Huawei;Nova 5T;YAL-L21;128 Go;Etat Correct
+2213;Smartphone;Huawei Nova Plus;Huawei;Nova Plus;MLA-L01;;Etat Correct
+2214;Smartphone;Huawei Y5 (2019) 16 Go;Huawei;Y5 (2019);AMN-LX1;16 Go;Etat Correct
+2215;Smartphone;Huawei Y6 (2019) 32 Go;Huawei;Y6 (2019);ATU-L21;32 Go;Etat Correct
+2216;Smartphone;Huawei Y7 2019 32 Go;Huawei;Y7 2019;DUB-LX1;32 Go;Etat Correct
+2217;Smartphone;Huawei Y5 2018 16 Go;Huawei;Y5 2018;DRA-L21;16 Go;Etat Correct
+2218;Smartphone;Huawei Y6 Pro 2017 16 Go;Huawei;Y6 Pro 2017;SLA-L02| SLA-L03|SLA-L22;16 Go;Etat Correct
+2219;Smartphone;Huawei Y6 2017 16 Go;Huawei;Y6 2017;MYA-L41| MYA-L11;16 Go;Etat Correct
+2220;Smartphone;Huawei Y6 8 Go;Huawei;Y6;ATU-L21;8 Go;Etat Correct
+2221;Smartphone;Huawei Y6Il;Huawei;Y6Il;;;Etat Correct
+2222;Smartphone;Huawei Y5;Huawei;Y5;DRA-L21;;Etat Correct
+2223;Smartphone;Huawei Y5Il;Huawei;Y5Il;AMN-LX1;;Etat Correct
+2224;Smartphone;Huawei Y6 2018 16 Go;Huawei;Y6 2018;ATU-L21;16 Go;Etat Correct
+2225;Smartphone;Huawei Y7 2018 32 Go;Huawei;Y7 2018;LDN-L21;32 Go;Etat Correct
+2226;Smartphone;Xiaomi Mi 10 Pro 256 Go;Xiaomi;Mi 10 Pro;M2001J1G;256 Go;Etat Correct
+2227;Smartphone;Xiaomi Mi 10 128 Go;Xiaomi;Mi 10;M2001J2G;128 Go;Etat Correct
+2228;Smartphone;Xiaomi Redmi Note 8 Pro 64 Go;Xiaomi;Redmi Note 8 Pro;2015105|M1906G7I|M1906G7G;64 Go;Etat Correct
+2229;Smartphone;Xiaomi Redmi Note 8 32 Go;Xiaomi;Redmi Note 8;M1908C3JH|M1908C3JG|M1908C3JI;32 Go;Etat Correct
+2230;Smartphone;Xiaomi Mi 9T Pro 64 Go;Xiaomi;Mi 9T Pro;M1903F11G;64 Go;Etat Correct
+2231;Smartphone;Xiaomi Mi 9T 64 Go;Xiaomi;Mi 9T;M1903F10G;64 Go;Etat Correct
+2232;Smartphone;Xiaomi Mi Note 10 128 Go;Xiaomi;Mi Note 10;M1910F4G;128 Go;Etat Correct
+2233;Smartphone;Xiaomi Redmi 4X 16 Go;Xiaomi;Redmi 4X;2016060|2016090|MAG138;16 Go;Etat Correct
+2234;Smartphone;Xiaomi Mi Max 2 32 Go;Xiaomi;Mi Max 2;MDE40|MDI40;32 Go;Etat Correct
+2235;Smartphone;Xiaomi Mi Max 3 64 Go;Xiaomi;Mi Max 3;M1804E4A;64 Go;Etat Correct
+2236;Smartphone;Xiaomi Redmi 7A 16 Go;Xiaomi;Redmi 7A;MZB7995IN;16 Go;Etat Correct
+2237;Smartphone;Xiaomi Redmi 6A 16 Go;Xiaomi;Redmi 6A;M1804C3CG;16 Go;Etat Correct
+2238;Smartphone;Xiaomi Redmi 4 16 Go;Xiaomi;Redmi 4;;16 Go;Etat Correct
+2239;Smartphone;Xiaomi Redmi Note 4 16 Go;Xiaomi;Redmi Note 4;2016100;16 Go;Etat Correct
+2240;Smartphone;Xiaomi Redmi Note 3 16 Go;Xiaomi;Redmi Note 3;2015116;16 Go;Etat Correct
+2241;Smartphone;Xiaomi Redmi Go 8 Go;Xiaomi;Redmi Go;M1903C3GG|M1903C3GH;8 Go;Etat Correct
+2242;Smartphone;Xiaomi Redmi 6 32 Go;Xiaomi;Redmi 6;M1804C3DG;32 Go;Etat Correct
+2243;Smartphone;Xiaomi Redmi 3S 16 Go;Xiaomi;Redmi 3S;2016031;16 Go;Etat Correct
+2244;Smartphone;Xiaomi Mi5s 32 Go;Xiaomi;Mi5s;Mi5s;32 Go;Etat Correct
+2245;Smartphone;Xiaomi Mi5 64 Go;Xiaomi;Mi5;Mi5 | Mi5 StAndArd;64 Go;Etat Correct
+2246;Smartphone;Xiaomi Redmi 7 16 Go;Xiaomi;Redmi 7;M1810F6LG;16 Go;Etat Correct
+2247;Smartphone;Xiaomi Redmi Note 7 Pro 64 Go;Xiaomi;Redmi Note 7 Pro;M1901F7S;64 Go;Etat Correct
+2248;Smartphone;Xiaomi Redmi Note 7 32 Go;Xiaomi;Redmi Note 7;M1901F7G;32 Go;Etat Correct
+2249;Smartphone;Xiaomi Mi 9 SE 64 Go;Xiaomi;Mi 9 SE;M1903F2G;64 Go;Etat Correct
+2250;Smartphone;Xiaomi Mi 9 64 Go;Xiaomi;Mi 9;M1902F1G;64 Go;Etat Correct
+2251;Smartphone;Xiaomi Mi A2 32 Go;Xiaomi;Mi A2;Mi 6X| M1804D2ST;32 Go;Etat Correct
+2252;Smartphone;Xiaomi Redmi Note 5 32 Go;Xiaomi;Redmi Note 5;M1803E7SG;32 Go;Etat Correct
+2253;Smartphone;Xiaomi Mi A2 Lite 32 Go;Xiaomi;Mi A2 Lite;M1805D1SG;32 Go;Etat Correct
+2254;Smartphone;Xiaomi Mi Mix 2s 64 Go;Xiaomi;Mi Mix 2s;M1803D5XA;64 Go;Etat Correct
+2255;Smartphone;Xiaomi Mi Mix 3 128 Go;Xiaomi;Mi Mix 3;M1810E5A;128 Go;Etat Correct
+2256;Smartphone;Xiaomi Redmi Note 6 Pro 32 Go;Xiaomi;Redmi Note 6 Pro;M1806E7TG;32 Go;Etat Correct
+2257;Smartphone;Xiaomi Pocophone F1 64 Go;Xiaomi;Pocophone F1;M1805E10A|POCO F1;64 Go;Etat Correct
+2258;Smartphone;Xiaomi Mi 8 Lite 64 Go;Xiaomi;Mi 8 Lite;M1808D2TG;64 Go;Etat Correct
+2259;Smartphone;Xiaomi Mi 8 64 Go;Xiaomi;Mi 8;M1803E1A;64 Go;Etat Correct
+2260;Smartphone;Xiaomi Mi A1 32 Go;Xiaomi;Mi A1;MDG2;32 Go;Etat Correct
+2261;Smartphone;Xiaomi Mi6 64 Go;Xiaomi;Mi6;MCE16;64 Go;Etat Correct
+2262;Smartphone;Xiaomi Mi Mix 2 64 Go;Xiaomi;Mi Mix 2;MDE5;64 Go;Etat Correct
+2263;Smartphone;Xiaomi Redmi 5 Plus 32 Go;Xiaomi;Redmi 5 Plus;MEG7;32 Go;Etat Correct
+2264;Smartphone;Xiaomi Redmi 5 16 Go;Xiaomi;Redmi 5;MDG1;16 Go;Etat Correct
+2265;Smartphone;Sony Xperia Z3+ 32 Go;Sony;Xperia Z3+;E6533;32 Go;Etat Correct
+2266;Smartphone;Sony Xperia Z5 Premium;Sony;Xperia Z5 Premium;E6853;;Etat Correct
+2267;Smartphone;Sony Xperia Z5 Dual;Sony;Xperia Z5 Dual;E6633;;Etat Correct
+2268;Smartphone;Sony Xperia Z5 compact;Sony;Xperia Z5 compact;E5803 | E5823;;Etat Correct
+2269;Smartphone;Sony Xperia Z5;Sony;Xperia Z5;E6653|SO-01H|SOV32|E6603|501SO;;Etat Correct
+2270;Smartphone;Sony Xperia ZR;Sony;Xperia ZR;C5502;;Etat Correct
+2271;Smartphone;Sony Xperia Z3 Compact 16 Go;Sony;Xperia Z3 Compact;D5803 | D5833;16 Go;Etat Correct
+2272;Smartphone;Sony Xperia Z3 16 Go;Sony;Xperia Z3;H8416;16 Go;Etat Correct
+2273;Smartphone;Sony Xperia Z2 16 Go;Sony;Xperia Z2;D6502 | D6503 | D6543;16 Go;Etat Correct
+2274;Smartphone;Sony Xperia Z1 compact 16 Go;Sony;Xperia Z1 compact;D5503;16 Go;Etat Correct
+2275;Smartphone;Sony Xperia Z1;Sony;Xperia Z1;C6903|C6902|C6906|SO-01F|SOL23;;Etat Correct
+2276;Smartphone;Sony Xperia Z Ultra;Sony;Xperia Z Ultra;C6806 | C6833 | C6802;;Etat Correct
+2277;Smartphone;Sony Xperia XA2 Plus 32 Go;Sony;Xperia XA2 Plus;H4413|H4493|H3413;32 Go;Etat Correct
+2278;Smartphone;Sony Xperia 10 64 Go;Sony;Xperia 10;I3113|I4113|I4193|I3123;64 Go;Etat Correct
+2279;Smartphone;Sony Xperia X Performance 32 Go;Sony;Xperia X Performance;F8131;32 Go;Etat Correct
+2280;Smartphone;Sony Xperia L1 16 Go;Sony;Xperia L1;;16 Go;Etat Correct
+2281;Smartphone;Sony M4 Aqua 8 Go;Sony;M4 Aqua;E2303 | E2306 | E2353;8 Go;Etat Correct
+2282;Smartphone;Sony XA 16 Go;Sony;XA;F3111;16 Go;Etat Correct
+2283;Smartphone;Sony XZs 32 Go;Sony;XZs;G8231;32 Go;Etat Correct
+2284;Smartphone;Sony Xperia XZ1 64 Go;Sony;Xperia XZ1;G8341 | G8343;64 Go;Etat Correct
+2285;Smartphone;Sony Xperia 10 Plus 64 Go;Sony;Xperia 10 Plus;i4293;64 Go;Etat Correct
+2286;Smartphone;Sony Xperia XZ1 Compact 32 Go;Sony;Xperia XZ1 Compact;SO-02K;32 Go;Etat Correct
+2287;Smartphone;Sony X Compact 32 Go;Sony;X Compact;F5321;32 Go;Etat Correct
+2288;Smartphone;Sony Xperia XA2 Ultra 32 Go;Sony;Xperia XA2 Ultra;H3213 | H3223;32 Go;Etat Correct
+2289;Smartphone;Sony Xperia XA1 Ultra 64 Go;Sony;Xperia XA1 Ultra;G3221;64 Go;Etat Correct
+2290;Smartphone;Sony Xperia XA2 32 Go;Sony;Xperia XA2;H3123;32 Go;Etat Correct
+2291;Smartphone;Sony Xperia XA1 32 Go;Sony;Xperia XA1;G3123;32 Go;Etat Correct
+2292;Smartphone;Sony Xperia XA Ultra 16 Go;Sony;Xperia XA Ultra;F3211 | F3213 | F3215;16 Go;Etat Correct
+2293;Smartphone;Sony Xperia XZ3 64 Go;Sony;Xperia XZ3;H8416;64 Go;Etat Correct
+2294;Smartphone;Sony Xperia XZ2 Compact 64 Go;Sony;Xperia XZ2 Compact;SO-05K;64 Go;Etat Correct
+2295;Smartphone;Sony Xperia XZ Premium 64 Go;Sony;Xperia XZ Premium;G8141;64 Go;Etat Correct
+2296;Smartphone;Sony Xperia XZ2 64 Go;Sony;Xperia XZ2;H8266|H8216|H8296|H8276|702SO|SOV37;64 Go;Etat Correct
+2297;Smartphone;Sony Xperia E 4G;Sony;Xperia E 4G;E2003;;Etat Correct
+2298;Smartphone;Sony Xperia E3 4G 4 Go;Sony;Xperia E3 4G;;4 Go;Etat Correct
+2299;Smartphone;Sony Xperia M2;Sony;Xperia M2;;;Etat Correct
+2300;Smartphone;Sony Xperia XZ;Sony;Xperia XZ;F8331;;Etat Correct
+2301;Smartphone;Sony Xperia X;Sony;Xperia X;F5121;;Etat Correct
+2302;Smartphone;Sony Xperia M;Sony;Xperia M;C1904;;Etat Correct
+2303;Smartphone;Sony Xperia L 8 Go;Sony;Xperia L;C2105;8 Go;Etat Correct
+2304;Smartphone;Sony Xperia E 4 Go;Sony;Xperia E;C1504;4 Go;Etat Correct
+2305;Smartphone;Sony Xperia V;Sony;Xperia V;LT25i;;Etat Correct
+2306;Smartphone;Sony Xperia T 16 Go;Sony;Xperia T;LT30p;16 Go;Etat Correct
+2307;Smartphone;Sony Xperia J;Sony;Xperia J;ST26i;;Etat Correct
+2308;Smartphone;Sony Xperia U;Sony;Xperia U;ST25i;;Etat Correct
+2309;Smartphone;Sony Xperia P;Sony;Xperia P;LT22i;;Etat Correct
+2310;Smartphone;Sony Xperia S;Sony;Xperia S;LT26i;;Etat Correct
+2311;Smartphone;Sony Xperia T2 Ultra;Sony;Xperia T2 Ultra;D5303;;Etat Correct
+2312;Smartphone;BlackBerry KEY2 LE 32 Go;BlackBerry;KEY2 LE;BBE100-4|BBE100-5|BBE100-1|BBE100-2;32 Go;Etat Correct
+2313;Smartphone;BlackBerry Keyone 32 Go;BlackBerry;Keyone;BBB100-2|BBB100-7|BBB100-1|BBB100-5|BBB100-3|BBB100-4;32 Go;Etat Correct
+2314;Smartphone;BlackBerry KEY 2 64 Go;BlackBerry;KEY 2;BBF100-6|BBF100-1|BBF100-2|BBF100-4;64 Go;Etat Correct
+2315;Smartphone;BlackBerry u;BlackBerry;u;;;Etat Correct
+2316;Smartphone;BlackBerry Passport;BlackBerry;Passport;;;Etat Correct
+2317;Smartphone;BlackBerry Q5;BlackBerry;Q5;;;Etat Correct
+2318;Smartphone;BlackBerry Q10;BlackBerry;Q10;;;Etat Correct
+2319;Smartphone;BlackBerry 9320 Curve;BlackBerry;9320 Curve;;;Etat Correct
+2320;Smartphone;BlackBerry 9790 Bold;BlackBerry;9790 Bold;;;Etat Correct
+2321;Smartphone;BlackBerry 9360 Curve;BlackBerry;9360 Curve;;;Etat Correct
+2322;Smartphone;BlackBerry 9900 Bold;BlackBerry;9900 Bold;;;Etat Correct
+2323;Smartphone;BlackBerry 9780 Bold;BlackBerry;9780 Bold;;;Etat Correct
+2324;Smartphone;BlackBerry 9700 Bold;BlackBerry;9700 Bold;;;Etat Correct
+2325;Smartphone;BlackBerry Z30;BlackBerry;Z30;;;Etat Correct
+2326;Smartphone;BlackBerry Z10;BlackBerry;Z10;;;Etat Correct
+2327;Smartphone;BlackBerry BlackBerry Q10;BlackBerry;BlackBerry Q10;;;Etat Correct
+2328;Smartphone;BlackBerry Bold 9930;BlackBerry;Bold 9930;;;Etat Correct
+2329;Smartphone;Google Pixel 5 128 Go;Google;Pixel 5;GTT9Q  | G5NZ6;128 Go;Etat Correct
+2330;Smartphone;Google Pixel 4a 128 Go;Google;Pixel 4a;G025N;128 Go;Etat Correct
+2331;Smartphone;Google Pixel 4 XL 64 Go;Google;Pixel 4 XL;G020J;64 Go;Etat Correct
+2332;Smartphone;Google Pixel 4 64 Go;Google;Pixel 4;G020I;64 Go;Etat Correct
+2333;Smartphone;Google Pixel 3a XL 64 Go;Google;Pixel 3a XL;G020B;64 Go;Etat Correct
+2334;Smartphone;Google Pixel 3a 64 Go;Google;Pixel 3a;G020A | G020E;64 Go;Etat Correct
+2335;Smartphone;Google Pixel 3 XL 64 Go;Google;Pixel 3 XL;G013C;64 Go;Etat Correct
+2336;Smartphone;Google Pixel 3 64 Go;Google;Pixel 3;G013A;64 Go;Etat Correct
+2337;Smartphone;Google Pixel 2 64 Go;Google;Pixel 2;;64 Go;Etat Correct
+2338;Smartphone;Google Pixel XL 32 Go;Google;Pixel XL;;32 Go;Etat Correct
+2339;Smartphone;Google Pixel 2 XL 64 Go;Google;Pixel 2 XL;;64 Go;Etat Correct
+2340;Smartphone;Google Pixel 32 Go;Google;Pixel;;32 Go;Etat Correct
+2341;Smartphone;HTC Sensation XL 16 Go;HTC;Sensation XL;;16 Go;Etat Correct
+2342;Smartphone;HTC Sensation XE;HTC;Sensation XE;;;Etat Correct
+2343;Smartphone;HTC One A9;HTC;One A9;One A9|2PQ93|A9u|2PQ910;;Etat Correct
+2344;Smartphone;HTC One M9;HTC;One M9;One M9|M9u|0PJA2|HTC6535LVW|M9pw|M9|0PJA10;;Etat Correct
+2345;Smartphone;HTC One Mini 2;HTC;One Mini 2;;;Etat Correct
+2346;Smartphone;HTC One XL;HTC;One XL;;;Etat Correct
+2347;Smartphone;HTC One X Plus;HTC;One X Plus;;;Etat Correct
+2348;Smartphone;HTC One X;HTC;One X;One X;;Etat Correct
+2349;Smartphone;HTC One SV LTE;HTC;One SV LTE;;;Etat Correct
+2350;Smartphone;HTC One SV;HTC;One SV;;;Etat Correct
+2351;Smartphone;HTC One S;HTC;One S;;;Etat Correct
+2352;Smartphone;HTC One Mini2;HTC;One Mini2;;;Etat Correct
+2353;Smartphone;HTC One Mini;HTC;One Mini;;;Etat Correct
+2354;Smartphone;HTC One Max;HTC;One Max;;;Etat Correct
+2355;Smartphone;HTC One M8;HTC;One M8;One_M8|M8x|831C;;Etat Correct
+2356;Smartphone;HTC Desire C;HTC;Desire C;;;Etat Correct
+2357;Smartphone;HTC Desire S;HTC;Desire S;;;Etat Correct
+2358;Smartphone;HTC Desire Z;HTC;Desire Z;;;Etat Correct
+2359;Smartphone;HTC Desire HD;HTC;Desire HD;;;Etat Correct
+2360;Smartphone;HTC Desire X 16 Go;HTC;Desire X;;16 Go;Etat Correct
+2361;Smartphone;HTC Desire 816;HTC;Desire 816;;;Etat Correct
+2362;Smartphone;HTC Desire 601 Zara;HTC;Desire 601 Zara;;;Etat Correct
+2363;Smartphone;HTC Desire 601;HTC;Desire 601;;;Etat Correct
+2364;Smartphone;HTC Desire 500;HTC;Desire 500;;;Etat Correct
+2365;Smartphone;HTC First;HTC;First;;;Etat Correct
+2366;Smartphone;HTC 10;HTC;10;;;Etat Correct
+2367;Smartphone;HTC U11 64 Go;HTC;U11;;64 Go;Etat Correct
+2368;Smartphone;LG G7 64 Go;LG;G7;G710EM;64 Go;Etat Correct
+2369;Smartphone;LG V30 64 Go;LG;V30;H930;64 Go;Etat Correct
+2370;Smartphone;LG G3 16 Go;LG;G3;D855;16 Go;Etat Correct
+2371;Smartphone;LG G2 16 Go;LG;G2;D802;16 Go;Etat Correct
+2372;Smartphone;LG G6;LG;G6;H870|H870DS|H873|H870S|LGM-G600L|H872|H871|LS993|US997|vs988|VS988|LGM-G600K|LGM-G600S|AS993|LGUS997|H870AR|H872PR|H871S;;Etat Correct
+2373;Smartphone;LG Nexus 5X 16 Go;LG;Nexus 5X;H791;16 Go;Etat Correct
+2374;Smartphone;LG G5;LG;G5;H860|H850|F700L|VS987|H830|H831|H820|H840|LGLS992|LGUS992|F700S|F700K|RS988|LGAS992|H820PR;;Etat Correct
+2375;Smartphone;LG G4 32 Go;LG;G4;H815;32 Go;Etat Correct
+2376;Smartphone;LG G3S;LG;G3S;D722;;Etat Correct
+2377;Smartphone;LG G Flex 2 16 Go;LG;G Flex 2;H955;16 Go;Etat Correct
+2378;Smartphone;LG Optimus G;LG;Optimus G;E975;;Etat Correct
+2379;Smartphone;LG Optimus G Pro;LG;Optimus G Pro;E985;;Etat Correct
+2380;Smartphone;LG Optimus G E975;LG;Optimus G E975;E975;;Etat Correct
+2381;Smartphone;LG Optimus 4X HD;LG;Optimus 4X HD;P880;;Etat Correct
+2382;Smartphone;LG Nexus 5;LG;Nexus 5;Nexus 5|D820|D821;;Etat Correct
+2383;Smartphone;LG Nexus 4;LG;Nexus 4;E960;;Etat Correct
+2384;Smartphone;LG G Pro 2;LG;G Pro 2;D838;;Etat Correct
+2385;Smartphone;LG G Flex;LG;G Flex;;;Etat Correct
+2386;Smartphone;Nokia Lumia 950 Dual Sim 32 Go;Nokia;Lumia 950 Dual Sim;;32 Go;Etat Correct
+2387;Smartphone;Nokia Lumia 950 XL Dual Sim 32 Go;Nokia;Lumia 950 XL Dual Sim;;32 Go;Etat Correct
+2388;Smartphone;Nokia Lumia 950 32 Go;Nokia;Lumia 950;;32 Go;Etat Correct
+2389;Smartphone;Nokia Lumia 535;Nokia;Lumia 535;;;Etat Correct
+2390;Smartphone;Nokia Lumia 530;Nokia;Lumia 530;;;Etat Correct
+2391;Smartphone;Nokia Lumia 830;Nokia;Lumia 830;;;Etat Correct
+2392;Smartphone;Nokia Lumia 735;Nokia;Lumia 735;RM-1038 | RM-1039;;Etat Correct
+2393;Smartphone;Nokia Lumia 730;Nokia;Lumia 730;;;Etat Correct
+2394;Smartphone;Nokia Lumia 640;Nokia;Lumia 640;;;Etat Correct
+2395;Smartphone;Nokia Lumia 930;Nokia;Lumia 930;;;Etat Correct
+2396;Smartphone;Nokia Lumia 635;Nokia;Lumia 635;;;Etat Correct
+2397;Smartphone;Nokia Lumia 1320;Nokia;Lumia 1320;;;Etat Correct
+2398;Smartphone;Nokia Lumia 525;Nokia;Lumia 525;RM-998;;Etat Correct
+2399;Smartphone;Nokia Lumia 1520;Nokia;Lumia 1520;;;Etat Correct
+2400;Smartphone;Nokia Lumia 625;Nokia;Lumia 625;;;Etat Correct
+2401;Smartphone;Nokia Lumia 1020;Nokia;Lumia 1020;RM-875| RM-877 | RM-876;;Etat Correct
+2402;Smartphone;Nokia Lumia 720;Nokia;Lumia 720;;;Etat Correct
+2403;Smartphone;Nokia Lumia 520 8 Go;Nokia;Lumia 520;;8 Go;Etat Correct
+2404;Smartphone;Nokia Lumia 820;Nokia;Lumia 820;;;Etat Correct
+2405;Smartphone;Nokia Lumia 620;Nokia;Lumia 620;;;Etat Correct
+2406;Smartphone;Nokia Lumia 920;Nokia;Lumia 920;;;Etat Correct
+2407;Smartphone;Nokia Lumia 925;Nokia;Lumia 925;;;Etat Correct
+2408;Smartphone;Nokia Lumia 900 16 Go;Nokia;Lumia 900;;16 Go;Etat Correct
+2409;Smartphone;Nokia Lumia 710 8 Go;Nokia;Lumia 710;;8 Go;Etat Correct
+2410;Smartphone;Nokia lumia 610 8 Go;Nokia;lumia 610;;8 Go;Etat Correct
+2411;Smartphone;Nokia Lumia 800;Nokia;Lumia 800;;;Etat Correct
+2412;Smartphone;Motorola Moto G 8 Go;Motorola;Moto G;X1032|XT1032;8 Go;Etat Correct
+2413;Smartphone;Motorola Moto X2;Motorola;Moto X2;XT1097|XT1096|XT1095|XT1092|XT1085|XT1093;;Etat Correct
+2414;Smartphone;Wiko Harry2 16 Go;Wiko;Harry2;;16 Go;Etat Correct
+2415;Smartphone;Wiko WIM 64 Go;Wiko;WIM;;64 Go;Etat Correct
+2416;Smartphone;Wiko sunny 3 8 Go;Wiko;sunny 3;;8 Go;Etat Correct
+2417;Smartphone;Wiko Tommy 8 Go;Wiko;Tommy;;8 Go;Etat Correct
+2418;Smartphone;Wiko Rainbow Lite Dual Sim 4 Go;Wiko;Rainbow Lite Dual Sim;;4 Go;Etat Correct
+2419;Smartphone;Wiko Lenny 3;Wiko;Lenny 3;LENNY3;;Etat Correct
+2420;Smartphone;Wiko Ufeel;Wiko;Ufeel;;;Etat Correct
+2421;Smartphone;Wiko Rainbow Jam;Wiko;Rainbow Jam;;;Etat Correct
+2422;Smartphone;Wiko Lenny 2;Wiko;Lenny 2;;;Etat Correct
+2423;Smartphone;Wiko Pulp 4G;Wiko;Pulp 4G;;;Etat Correct
+2424;Smartphone;Wiko Ridge;Wiko;Ridge;;;Etat Correct
+2425;Smartphone;Wiko Highway 4G;Wiko;Highway 4G;;;Etat Correct
+2426;Smartphone;Honor Honor 8X 64 Go;Honor;Honor 8X;JSN-L22|JSN-L42|JSN-L11|JSN-L21|JSN-AL00A;64 Go;Etat Correct
+2427;Smartphone;Honor View 20 128 Go;Honor;View 20;PCT-AL10|PCT-TL10;128 Go;Etat Correct
+2428;Smartphone;Honor Honor 9 Lite 32 Go;Honor;Honor 9 Lite;LLD-AL00|LLD-AL10|LLD-TL10;32 Go;Etat Correct
+2429;Smartphone;Honor Play 64 Go;Honor;Play;COR-L29|COR-L09|COR-AL00;64 Go;Etat Correct
+2430;Smartphone;Honor 7A 16 Go;Honor;7A;AUM-AL00IN|AUM-TL20;16 Go;Etat Correct
+2431;Smartphone;Honor Honor 10 64 Go;Honor;Honor 10;COL-AL10;64 Go;Etat Correct
+2432;Smartphone;Honor 9 Lite 32 Go;Honor;9 Lite;LLD-AL00|LLD-AL10;32 Go;Etat Correct
+2433;Smartphone;Honor Honor 6C 32 Go;Honor;Honor 6C;;32 Go;Etat Correct
+2434;Smartphone;Honor Honor 7X 64 Go;Honor;Honor 7X;BND-L21;64 Go;Etat Correct
+2435;Smartphone;Honor View 10 128 Go;Honor;View 10;BKL-L09;128 Go;Etat Correct
+2436;Smartphone;Honor Honor 7 Premium;Honor;Honor 7 Premium;;;Etat Correct
+2437;Smartphone;Honor 8 Pro;Honor;8 Pro;;;Etat Correct
+2438;Smartphone;Honor Honor 8 32 Go;Honor;Honor 8;;32 Go;Etat Correct
+2439;Smartphone;Honor Honor 7;Honor;Honor 7;PLK-L01|PLK-AL10|PLK-UL00|PLK-TL01H|PLK-TL00;;Etat Correct
+2440;Smartphone;Honor Honor 6X;Honor;Honor 6X;BLN-AL10|BLL-L22|BLN-L21|BLL-L21|BLN-L22|BLL-L23|BLN-L24|BLN-AL40|BLN-TL10|BLN-AL20;;Etat Correct
+2441;Smartphone;Honor Honor 5X;Honor;Honor 5X;KII-L21|KII-L22|KII-L23|KIW-AL10|KIW-CL00|KIW-TL00|KIW-TL00H|KIW-UL00|KIW-L21|KIW-L22|KIW-L24|KII-L05;;Etat Correct
+2442;Smartphone;Honor Honor 5C;Honor;Honor 5C;NEM-UL10|NEM-TL00H|NEM-L21|NMO-L31|NMO-L22|NMO-L23|NMO-L01|NEM-L22|NEM-L51|NEM-AL10|NEM-TL00;;Etat Correct
+2443;Smartphone;Honor Honor 9;Honor;Honor 9;STF-AL00|STF-AL10|STF-AL10|STF-TL10|STF-L09|STF-L09S;;Etat Correct
+2444;Smartphone;Asus Zenfone 5Z 64 Go;Asus;Zenfone 5Z;Z01RD;64 Go;Etat Correct
+2445;Smartphone;Asus Zenfone 4 max 32 Go;Asus;Zenfone 4 max;X00ID|X00IS|X00HDA|ZC554KL;32 Go;Etat Correct
+2446;Smartphone;Asus Zenfone 3 Max 32 Go;Asus;Zenfone 3 Max;X008DC|X00KD;32 Go;Etat Correct
+2447;Smartphone;Asus Zenfone 5 64 Go;Asus;Zenfone 5;X00QD|ZE620KL|ZF620KL;64 Go;Etat Correct
+2448;Tablette;Apple Ipad 3 wifi 32 Go;Apple;Ipad 3 wifi;A1416;32 Go;Etat Correct
+2449;Tablette;Apple Ipad mini 3 wifi 16 Go;Apple;Ipad mini 3 wifi;A1599;16 Go;Etat Correct
+2450;Tablette;Apple Ipad air 2 wifi 16 Go;Apple;Ipad air 2 wifi;A1566;16 Go;Etat Correct
+2451;Tablette;Apple Ipad air 2 wifi + 4G 16 Go;Apple;Ipad air 2 wifi + 4G;A1567;16 Go;Etat Correct
+2452;Tablette;Apple Ipad air wifi 16 Go;Apple;Ipad air wifi;A1474;16 Go;Etat Correct
+2453;Tablette;Apple Ipad air wifi + 4G 16 Go;Apple;Ipad air wifi + 4G;A1475;16 Go;Etat Correct
+2454;Tablette;Apple Ipad mini wifi 16 Go;Apple;Ipad mini wifi;A1432;16 Go;Etat Correct
+2455;Tablette;Apple Ipad mini wifi + 3G 16 Go;Apple;Ipad mini wifi + 3G;A1454;16 Go;Etat Correct
+2456;Tablette;Apple Ipad mini 2 wifi 16 Go;Apple;Ipad mini 2 wifi;A1489;16 Go;Etat Correct
+2457;Tablette;Apple Ipad mini 2 wifi + 4G 16 Go;Apple;Ipad mini 2 wifi + 4G;A1490;16 Go;Etat Correct
+2458;Tablette;Apple Ipad mini 3 wifi + 4G 16 Go;Apple;Ipad mini 3 wifi + 4G;A1600;16 Go;Etat Correct
+2459;Tablette;Apple Ipad mini 4 wifi 16 Go;Apple;Ipad mini 4 wifi;A1538;16 Go;Etat Correct
+2460;Tablette;Apple Ipad mini 4 wifi + 4G 16 Go;Apple;Ipad mini 4 wifi + 4G;A1550;16 Go;Etat Correct
+2461;Tablette;Apple Ipad wifi 16 Go;Apple;Ipad wifi;A1219;16 Go;Etat Correct
+2462;Tablette;Apple Ipad wifi + 3G 16 Go;Apple;Ipad wifi + 3G;A1337;16 Go;Etat Correct
+2463;Tablette;Apple Ipad 2 wifi 16 Go;Apple;Ipad 2 wifi;A1395;16 Go;Etat Correct
+2464;Tablette;Apple Ipad 2 wifi + 3G 16 Go;Apple;Ipad 2 wifi + 3G;A1396;16 Go;Etat Correct
+2465;Tablette;Apple Ipad 3 wifi + 4G 16 Go;Apple;Ipad 3 wifi + 4G;A1403;16 Go;Etat Correct
+2466;Tablette;Apple Ipad 4 wifi 16 Go;Apple;Ipad 4 wifi;A1458;16 Go;Etat Correct
+2467;Tablette;Apple Ipad 4 wifi + 4G 16 Go;Apple;Ipad 4 wifi + 4G;A1459;16 Go;Etat Correct
+2468;Tablette;Apple Ipad 5 wifi 32 Go;Apple;Ipad 5 wifi;;32 Go;Etat Correct
+2469;Tablette;Apple Ipad 5 wifi + 4G 32 Go;Apple;Ipad 5 wifi + 4G;;32 Go;Etat Correct
+2470;Tablette;Apple Ipad 6 (2018)  wifi 32 Go;Apple;Ipad 6 (2018)  wifi;;32 Go;Etat Correct
+2471;Tablette;"Apple Ipad 9,7"" (2018)  wifi 32 Go";Apple;"Ipad 9,7"" (2018)  wifi";A1893;32 Go;Etat Correct
+2472;Tablette;Apple Ipad 6 (2018) wifi + 4G 32 Go;Apple;Ipad 6 (2018) wifi + 4G;;32 Go;Etat Correct
+2473;Tablette;"Apple Ipad 9,7"" (2018) wifi + 4G 32 Go";Apple;"Ipad 9,7"" (2018) wifi + 4G";A1954;32 Go;Etat Correct
+2474;Tablette;"Apple Ipad 7 10,2"" (2019) wifi 32 Go";Apple;"Ipad 7 10,2"" (2019) wifi";A2197;32 Go;Etat Correct
+2475;Tablette;"Apple Ipad 7 10,2"" (2019) wifi + 4G 32 Go";Apple;"Ipad 7 10,2"" (2019) wifi + 4G";A2200;32 Go;Etat Correct
+2476;Tablette;Apple Ipad 8 wifi 32 Go;Apple;Ipad 8 wifi;;32 Go;Etat Correct
+2477;Tablette;Apple Ipad 8 wifi + 4G 32 Go;Apple;Ipad 8 wifi + 4G;;32 Go;Etat Correct
+2478;Tablette;"Apple Ipad 8 10,2"" (2020) wifi 32 Go";Apple;"Ipad 8 10,2"" (2020) wifi";A2270;32 Go;Etat Correct
+2479;Tablette;"Apple Ipad 8 10'2"" (2020) wifi + 4G 32 Go";Apple;"Ipad 8 10'2"" (2020) wifi + 4G";A2428,;32 Go;Etat Correct
+2480;Tablette;"Apple Ipad pro 9,7"" wifi 32 Go";Apple;"Ipad pro 9,7"" wifi";A1673;32 Go;Etat Correct
+2481;Tablette;"Apple Ipad pro 9,7"" wifi + 4G 32 Go";Apple;"Ipad pro 9,7"" wifi + 4G";A1674;32 Go;Etat Correct
+2482;Tablette;Apple Ipad mini 5 wifi 32 Go;Apple;Ipad mini 5 wifi;A2133;32 Go;Etat Correct
+2483;Tablette;Apple Ipad mini 5 wifi + 4G 32 Go;Apple;Ipad mini 5 wifi + 4G;A2124;32 Go;Etat Correct
+2484;Tablette;"Apple Ipad pro 10,5"" (2017) wifi 64 Go";Apple;"Ipad pro 10,5"" (2017) wifi";A1701;64 Go;Etat Correct
+2485;Tablette;"Apple Ipad pro 10,5"" (2017) wifi + 4G 64 Go";Apple;"Ipad pro 10,5"" (2017) wifi + 4G";A1709;64 Go;Etat Correct
+2486;Tablette;"Apple Ipad pro 12,9"" (2016) wifi 32 Go";Apple;"Ipad pro 12,9"" (2016) wifi";A1701;32 Go;Etat Correct
+2487;Tablette;"Apple Ipad pro 12,9"" (2016) wifi + 4G 32 Go";Apple;"Ipad pro 12,9"" (2016) wifi + 4G";A1709;32 Go;Etat Correct
+2488;Tablette;"Apple Ipad pro 12,9"" (2017) wifi 32 Go";Apple;"Ipad pro 12,9"" (2017) wifi";A1584;32 Go;Etat Correct
+2489;Tablette;"Apple Ipad pro 12,9"" (2017) wifi + 4G 32 Go";Apple;"Ipad pro 12,9"" (2017) wifi + 4G";A1652;32 Go;Etat Correct
+2490;Tablette;"Apple Ipad pro 12,9"" (2019) wifi 64 Go";Apple;"Ipad pro 12,9"" (2019) wifi";A1670;64 Go;Etat Correct
+2491;Tablette;"Apple Ipad pro 12,9"" (2019) wifi + 4G 64 Go";Apple;"Ipad pro 12,9"" (2019) wifi + 4G";A1671;64 Go;Etat Correct
+2492;Tablette;"Apple Ipad pro 11"" (2019) wifi 64 Go";Apple;"Ipad pro 11"" (2019) wifi";A1980;64 Go;Etat Correct
+2493;Tablette;"Apple Ipad pro 11"" (2019) wifi + 4G 64 Go";Apple;"Ipad pro 11"" (2019) wifi + 4G";A2013;64 Go;Etat Correct
+2494;Tablette;"Apple Ipad air 3 10,5"" wifi 32 Go";Apple;"Ipad air 3 10,5"" wifi";;32 Go;Etat Correct
+2495;Tablette;"Apple Ipad air 3 10,5"" wifi + 4G 32 Go";Apple;"Ipad air 3 10,5"" wifi + 4G";;32 Go;Etat Correct
+2496;Tablette;"Apple Ipad air 4 10,9"" wifi 32 Go";Apple;"Ipad air 4 10,9"" wifi";;32 Go;Etat Correct
+2497;Tablette;"Apple Ipad air 4 10,9"" wifi + 4G 32 Go";Apple;"Ipad air 4 10,9"" wifi + 4G";;32 Go;Etat Correct
+2498;Tablette;"Samsung Galaxy Tab 3 10,1"" Wifi + 3G 16 Go";Samsung;"Galaxy Tab 3 10,1"" Wifi + 3G";GT-P5210;16 Go;Etat Correct
+2499;Tablette;"Samsung Galaxy Tab 3 10,1"" Wifi 16 Go";Samsung;"Galaxy Tab 3 10,1"" Wifi";;16 Go;Etat Correct
+2500;Tablette;"Samsung Galaxy Tab 3 8"" Wifi 16 Go";Samsung;"Galaxy Tab 3 8"" Wifi";SM-T3100ZWAXEF;16 Go;Etat Correct
+2501;Tablette;"Samsung Galaxy Tab 3 8"" Wifi + 3G 16 Go";Samsung;"Galaxy Tab 3 8"" Wifi + 3G";;16 Go;Etat Correct
+2502;Tablette;"Samsung Galaxy Tab 3 7"" Wifi + 3G 8 Go";Samsung;"Galaxy Tab 3 7"" Wifi + 3G";SM-T211;8 Go;Etat Correct
+2503;Tablette;"Samsung Galaxy Tab 3 7"" Wifi 8 Go";Samsung;"Galaxy Tab 3 7"" Wifi";;8 Go;Etat Correct
+2504;Tablette;"Samsung Galaxy Tab 3 Lite 7"" Wifi 8 Go";Samsung;"Galaxy Tab 3 Lite 7"" Wifi";SM-T110NDWAXEF;8 Go;Etat Correct
+2505;Tablette;"Samsung Galaxy Tab 4 10,1"" Wifi + 4G 16 Go";Samsung;"Galaxy Tab 4 10,1"" Wifi + 4G";SM-T535NZWAXEF;16 Go;Etat Correct
+2506;Tablette;"Samsung Galaxy Tab 4 10,1"" Wifi 16 Go";Samsung;"Galaxy Tab 4 10,1"" Wifi";;16 Go;Etat Correct
+2507;Tablette;"Samsung Galaxy Tab 4 8"" Wifi + 4G 16 Go";Samsung;"Galaxy Tab 4 8"" Wifi + 4G";SM-T330;16 Go;Etat Correct
+2508;Tablette;"Samsung Galaxy Tab 4 8"" Wifi 16 Go";Samsung;"Galaxy Tab 4 8"" Wifi";;16 Go;Etat Correct
+2509;Tablette;"Samsung Galaxy Tab 4 7"" Wifi + 4G 8 Go";Samsung;"Galaxy Tab 4 7"" Wifi + 4G";SM-T230NYKAXEF;8 Go;Etat Correct
+2510;Tablette;"Samsung Galaxy Tab 4 7"" Wifi 8 Go";Samsung;"Galaxy Tab 4 7"" Wifi";;8 Go;Etat Correct
+2511;Tablette;Samsung Galaxy Tab Pro S Wifi 128 Go;Samsung;Galaxy Tab Pro S Wifi;SM-W708;128 Go;Etat Correct
+2512;Tablette;"Samsung Galaxy Tab Pro 12,2"" Wifi + 4G 32 Go";Samsung;"Galaxy Tab Pro 12,2"" Wifi + 4G";SM-P9050ZKAXEF;32 Go;Etat Correct
+2513;Tablette;"Samsung Galaxy Tab Pro 12,2"" Wifi 32 Go";Samsung;"Galaxy Tab Pro 12,2"" Wifi";SM-T9000ZKAXEF;32 Go;Etat Correct
+2514;Tablette;"Samsung Galaxy Tab Pro 10,1"" Wifi 16 Go";Samsung;"Galaxy Tab Pro 10,1"" Wifi";SM-T525NZKAXEF;16 Go;Etat Correct
+2515;Tablette;"Samsung Galaxy Tab Pro 10,1"" Wifi + 4G 16 Go";Samsung;"Galaxy Tab Pro 10,1"" Wifi + 4G";;16 Go;Etat Correct
+2516;Tablette;"Samsung Galaxy Tab Pro 8.4"" Wifi + 4G 16 Go";Samsung;"Galaxy Tab Pro 8.4"" Wifi + 4G";SM-T320;16 Go;Etat Correct
+2517;Tablette;"Samsung Galaxy Tab Pro 8.4"" Wifi 16 Go";Samsung;"Galaxy Tab Pro 8.4"" Wifi";;16 Go;Etat Correct
+2518;Tablette;"Samsung Galaxy Tab S 10,5"" Wifi + 4G 16 Go";Samsung;"Galaxy Tab S 10,5"" Wifi + 4G";SM-T800NZWAXEF;16 Go;Etat Correct
+2519;Tablette;"Samsung Galaxy Tab S 10,5"" Wifi 16 Go";Samsung;"Galaxy Tab S 10,5"" Wifi";;16 Go;Etat Correct
+2520;Tablette;"Samsung Galaxy Tab S 8.4"" Wifi + 4G 16 Go";Samsung;"Galaxy Tab S 8.4"" Wifi + 4G";SM-T705NZWAXEF;16 Go;Etat Correct
+2521;Tablette;"Samsung Galaxy Tab S 8.4"" Wifi 16 Go";Samsung;"Galaxy Tab S 8.4"" Wifi";;16 Go;Etat Correct
+2522;Tablette;"Samsung Galaxy Tab S2 9,7"" Wifi + 4G 32 Go";Samsung;"Galaxy Tab S2 9,7"" Wifi + 4G";SM-T815;32 Go;Etat Correct
+2523;Tablette;"Samsung Galaxy Tab S2 8"" Wifi + 4G 32 Go";Samsung;"Galaxy Tab S2 8"" Wifi + 4G";SM-T715;32 Go;Etat Correct
+2524;Tablette;"Samsung Galaxy Tab S2 9,7"" Wifi 32 Go";Samsung;"Galaxy Tab S2 9,7"" Wifi";sm-t813;32 Go;Etat Correct
+2525;Tablette;"Samsung Galaxy Tab S2 8"" Wifi 32 Go";Samsung;"Galaxy Tab S2 8"" Wifi";;32 Go;Etat Correct
+2526;Tablette;"Samsung Galaxy Tab S3 9,7"" Wifi + 4G 32 Go";Samsung;"Galaxy Tab S3 9,7"" Wifi + 4G";SM-T825NZKAXEF;32 Go;Etat Correct
+2527;Tablette;"Samsung Galaxy Tab S3 9,7"" Wifi 32 Go";Samsung;"Galaxy Tab S3 9,7"" Wifi";;32 Go;Etat Correct
+2528;Tablette;"Samsung Galaxy Tab E 9.6"" Wifi 8 Go";Samsung;"Galaxy Tab E 9.6"" Wifi";SM-T560NZKAXEF;8 Go;Etat Correct
+2529;Tablette;"Samsung Galaxy Tab E 9.6"" Wifi + 3G 8 Go";Samsung;"Galaxy Tab E 9.6"" Wifi + 3G";;8 Go;Etat Correct
+2530;Tablette;"Samsung Galaxy Tab A (2019) 10,1"" Wifi + 4G 32 Go";Samsung;"Galaxy Tab A (2019) 10,1"" Wifi + 4G";SM-T515NZKDXEF;32 Go;Etat Correct
+2531;Tablette;"Samsung Galaxy Tab A (2019) 10,1"" Wifi 32 Go";Samsung;"Galaxy Tab A (2019) 10,1"" Wifi";;32 Go;Etat Correct
+2532;Tablette;"Samsung Galaxy Tab A (2019) 8"" Wifi + 4G 32 Go";Samsung;"Galaxy Tab A (2019) 8"" Wifi + 4G";SM-T295NZKAXEF;32 Go;Etat Correct
+2533;Tablette;"Samsung Galaxy Tab A (2019) 8"" Wifi 32 Go";Samsung;"Galaxy Tab A (2019) 8"" Wifi";;32 Go;Etat Correct
+2534;Tablette;"Samsung Galaxy Tab A (2018) 10,5"" Wifi + 4G 32 Go";Samsung;"Galaxy Tab A (2018) 10,5"" Wifi + 4G";SM-T595;32 Go;Etat Correct
+2535;Tablette;"Samsung Galaxy Tab A (2018) 10,5"" Wifi 32 Go";Samsung;"Galaxy Tab A (2018) 10,5"" Wifi";SM-T590NZKAXEF.;32 Go;Etat Correct
+2536;Tablette;"Samsung Galaxy Tab A6 (2016) 10,1"" Wifi+ 4G 8 Go";Samsung;"Galaxy Tab A6 (2016) 10,1"" Wifi+ 4G";SM-T285;8 Go;Etat Correct
+2537;Tablette;"Samsung Galaxy Tab A6 (2016) 10,1"" Wifi 8 Go";Samsung;"Galaxy Tab A6 (2016) 10,1"" Wifi";SM-T280;8 Go;Etat Correct
+2538;Tablette;"Samsung Galaxy Tab A (2015) 9,7"" Wifi + 4G 16 Go";Samsung;"Galaxy Tab A (2015) 9,7"" Wifi + 4G";;16 Go;Etat Correct
+2539;Tablette;"Samsung Galaxy Tab A (2015) 9,7"" Wifi 16 Go";Samsung;"Galaxy Tab A (2015) 9,7"" Wifi";SM-T550;16 Go;Etat Correct
+2540;Tablette;"Samsung Galaxy Tab A (2016) 7"" Wifi + 4G 8 Go";Samsung;"Galaxy Tab A (2016) 7"" Wifi + 4G";SM-T285;8 Go;Etat Correct
+2541;Tablette;"Samsung Galaxy Tab A (2016) 7"" Wifi 8 Go";Samsung;"Galaxy Tab A (2016) 7"" Wifi";SM-T285;8 Go;Etat Correct
+2542;Tablette;"Samsung Galaxy Tab 2 10,1"" Wifi + 3G 16 Go";Samsung;"Galaxy Tab 2 10,1"" Wifi + 3G";;16 Go;Etat Correct
+2543;Tablette;"Samsung Galaxy Tab 2 10,1"" Wifi 16 Go";Samsung;"Galaxy Tab 2 10,1"" Wifi";GT-P5110TSADBT;16 Go;Etat Correct
+2544;Tablette;"Samsung Galaxy Tab 2 7"" Wifi + 3G 8 Go";Samsung;"Galaxy Tab 2 7"" Wifi + 3G";GT-P3100ZWAITV;8 Go;Etat Correct
+2545;Tablette;"Samsung Galaxy Tab 2 7"" Wifi 8 Go";Samsung;"Galaxy Tab 2 7"" Wifi";;8 Go;Etat Correct
+2546;Tablette;"Samsung Galaxy Tab 10,1"" Wifi + 3G 16 Go";Samsung;"Galaxy Tab 10,1"" Wifi + 3G";GT-P7500UWDXEF;16 Go;Etat Correct
+2547;Tablette;"Samsung Galaxy Tab 10,1"" Wifi 16 Go";Samsung;"Galaxy Tab 10,1"" Wifi";;16 Go;Etat Correct
+2548;Tablette;"Samsung Galaxy Tab 8,9"" Wifi + 3G 16 Go";Samsung;"Galaxy Tab 8,9"" Wifi + 3G";GT-P7300;16 Go;Etat Correct
+2549;Tablette;"Samsung Galaxy Tab 8,9"" Wifi 16 Go";Samsung;"Galaxy Tab 8,9"" Wifi";;16 Go;Etat Correct
+2550;Tablette;"Samsung Galaxy Tab 8,9"" Wifi + 4G 16 Go";Samsung;"Galaxy Tab 8,9"" Wifi + 4G";;16 Go;Etat Correct
+2551;Tablette;"Samsung Galaxy Tab 7"" Wifi 16 Go";Samsung;"Galaxy Tab 7"" Wifi";;16 Go;Etat Correct
+2552;Tablette;"Samsung Galaxy Tab 7"" Wifi + 3G 16 Go";Samsung;"Galaxy Tab 7"" Wifi + 3G";GT-P1000;16 Go;Etat Correct
+2553;Tablette;Samsung Galaxy Tab S4 Wifi 64 Go;Samsung;Galaxy Tab S4 Wifi;SM-T830;64 Go;Etat Correct
+2554;Tablette;Samsung Galaxy Tab S4 Wifi + 4G 64 Go;Samsung;Galaxy Tab S4 Wifi + 4G;;64 Go;Etat Correct
+2555;Tablette;Samsung Galaxy Tab S5e Wifi 64 Go;Samsung;Galaxy Tab S5e Wifi;SM-T720NZSAXEF;64 Go;Etat Correct
+2556;Tablette;Samsung Galaxy Tab S5e Wifi + 64 Go;Samsung;Galaxy Tab S5e Wifi +;;64 Go;Etat Correct
+2557;Tablette;Samsung Galaxy Tab S6 Lite Wifi 64 Go;Samsung;Galaxy Tab S6 Lite Wifi;SM-P610NZBAXE;64 Go;Etat Correct
+2558;Tablette;Samsung Galaxy Tab S6 Lite Wifi + 4G 64 Go;Samsung;Galaxy Tab S6 Lite Wifi + 4G;;64 Go;Etat Correct
+2559;Tablette;Samsung Galaxy Tab S6 Wifi 128 Go;Samsung;Galaxy Tab S6 Wifi;SM-T860N;128 Go;Etat Correct
+2560;Tablette;Samsung Galaxy Tab S6 Wifi + 4G 128 Go;Samsung;Galaxy Tab S6 Wifi + 4G;;128 Go;Etat Correct
+2561;Tablette;Samsung Galaxy Tab Active Lte Wifi 16 Go;Samsung;Galaxy Tab Active Lte Wifi;SM-T365;16 Go;Etat Correct
+2562;Tablette;Samsung Galaxy Tab Active Lte Wifi + 4G 16 Go;Samsung;Galaxy Tab Active Lte Wifi + 4G;;16 Go;Etat Correct
+2563;Tablette;Samsung Galaxy Tab Active2 Wifi 16 Go;Samsung;Galaxy Tab Active2 Wifi;sm-t395 N;16 Go;Etat Correct
+2564;Tablette;Samsung Galaxy Tab Active2 Wifi + 4G 16 Go;Samsung;Galaxy Tab Active2 Wifi + 4G;;16 Go;Etat Correct
+2565;Tablette;Samsung Galaxy Tab Active Wifi 16 Go;Samsung;Galaxy Tab Active Wifi;;16 Go;Etat Correct
+2566;Tablette;Samsung Galaxy Tab Active Wifi + 4G 16 Go;Samsung;Galaxy Tab Active Wifi + 4G;;16 Go;Etat Correct
+2567;Tablette;Samsung Galaxy Tab Note Pro Wifi + 4G 32 Go;Samsung;Galaxy Tab Note Pro Wifi + 4G;;32 Go;Etat Correct
+2568;Tablette;Samsung Galaxy Tab Note Pro Wifi 32 Go;Samsung;Galaxy Tab Note Pro Wifi;SM-P900;32 Go;Etat Correct
+2569;Tablette;Samsung Galaxy Tab Note Wifi + 4G 16 Go;Samsung;Galaxy Tab Note Wifi + 4G;;16 Go;Etat Correct
+2570;Tablette;Samsung Galaxy Tab Note Wifi 16 Go;Samsung;Galaxy Tab Note Wifi;GT-N5110;16 Go;Etat Correct
+2571;Tablette;Samsung Galaxy View wifi 32 Go;Samsung;Galaxy View wifi;SM-T670;32 Go;Etat Correct
+2572;Tablette;Huawei MediaPad M6 32 Go;Huawei;MediaPad M6;SCM-AL09;32 Go;Etat Correct
+2573;Tablette;"Huawei MediaPad M5 Lite 10,1"" 32 Go";Huawei;"MediaPad M5 Lite 10,1""";53010NBK;32 Go;Etat Correct
+2574;Tablette;"Huawei MediaPad T5 10,1"" 32 Go";Huawei;"MediaPad T5 10,1""";53010DJF;32 Go;Etat Correct
+2575;Tablette;"Huawei MediaPad M5 10,8"" 32 Go";Huawei;"MediaPad M5 10,8""";SHT-W09;32 Go;Etat Correct
+2576;Tablette;"Huawei MediaPad M5 8,5"""" 32 Go";Huawei;"MediaPad M5 8,5""""";;32 Go;Etat Correct
+2577;Tablette;"Huawei MediaPad M5 pro 10,8"" 64 Go";Huawei;"MediaPad M5 pro 10,8""";CMR-AL19|CMR-W19;64 Go;Etat Correct
+2578;Tablette;Huawei MediaPad T3 32 Go;Huawei;MediaPad T3;AGS-W09|AGS-L09|AGS-L03;32 Go;Etat Correct
+2579;Tablette;"Huawei MatePad Pro 10,8"" 128 Go";Huawei;"MatePad Pro 10,8""";MRR-W29;128 Go;Etat Correct
+2580;Tablette;"Huawei MatePad 10,4"" 64 Go";Huawei;"MatePad 10,4""";BAH3-W09|BAH3-AL00|BAH3-L09;64 Go;Etat Correct
+2581;Tablette;"Huawei MatePad T 10s 10,1"" 32 Go";Huawei;"MatePad T 10s 10,1""";AGS3-L09|AGS3-W09;32 Go;Etat Correct
+2582;Tablette;"Huawei MatePad T 10 9,7"" 16 Go";Huawei;"MatePad T 10 9,7""";;16 Go;Etat Correct
+2583;Tablette;"Huawei MatePad T 8 8"" 16 Go";Huawei;"MatePad T 8 8""";Kobe2-L09|Kobe2-L03|KOB2-L09|KOB2-W09;16 Go;Etat Correct
+2584;Tablette;"Huawei MediaPad T3 10 10'1"" 32 Go";Huawei;"MediaPad T3 10 10'1""";AGS-W09|AGS-L09|AGS-L03;32 Go;Etat Correct
+2585;Tablette;"Huawei MediaPad M5 lite 8"" 32 Go";Huawei;"MediaPad M5 lite 8""";JDN2-L09;32 Go;Etat Correct
+2586;Tablette;Microsoft Surface pro 7 128 Go;Microsoft;Surface pro 7;;128 Go;Etat Correct
+2587;Tablette;Microsoft Surface Go 2 64 Go;Microsoft;Surface Go 2;;64 Go;Etat Correct
+2588;Tablette;Microsoft Surface pro X 128 Go;Microsoft;Surface pro X;;128 Go;Etat Correct
+2589;Tablette;Microsoft Surface 2 32 Go;Microsoft;Surface 2;;32 Go;Etat Correct
+2590;Tablette;Microsoft Surface 3 32 Go;Microsoft;Surface 3;;32 Go;Etat Correct
+2591;Tablette;Microsoft Surface pro 64 Go;Microsoft;Surface pro;;64 Go;Etat Correct
+2592;Tablette;Microsoft Surface pro 2 64 Go;Microsoft;Surface pro 2;;64 Go;Etat Correct
+2593;Tablette;Microsoft Surface pro 3 64 Go;Microsoft;Surface pro 3;;64 Go;Etat Correct
+2594;Tablette;Microsoft Surface pro 4 128 Go;Microsoft;Surface pro 4;;128 Go;Etat Correct
+2595;Tablette;Lenovo Tab M10 HD 10.1'' WiFi 32 Go;Lenovo;Tab M10 HD 10.1'' WiFi;TB-X606F-ZA5W0130SE;32 Go;Etat Correct
+2596;Tablette;Lenovo Tab M10 FHD Plus 10.3'' Wifi 128 Go;Lenovo;Tab M10 FHD Plus 10.3'' Wifi;ZA6F0009FR;128 Go;Etat Correct
+2597;Tablette;"Lenovo IdeaPad Duet 10.1"" Mediatek 64 Go";Lenovo;"IdeaPad Duet 10.1"" Mediatek";ZA550065SE;64 Go;Etat Correct
+2598;Tablette;Lenovo Tab M7 7'' Wifi 16 Go;Lenovo;Tab M7 7'' Wifi;ZA4G0035SE;16 Go;Etat Correct
+2599;Tablette;Lenovo Yoga Smart Tab 10.1'' 32 Go;Lenovo;Yoga Smart Tab 10.1'';ZA5T0302SE;32 Go;Etat Correct
+2600;Tablette;"Lenovo Tab M10 Plus 10.3"" Mediatek 64 Go";Lenovo;"Tab M10 Plus 10.3"" Mediatek";ZA8E0005SE;64 Go;Etat Correct
+2601;Tablette;Lenovo Tab E7 WF 16 Go;Lenovo;Tab E7 WF;ZA470043SE;16 Go;Etat Correct
+2602;Tablette;"Lenovo E10 10.1"" 16 Go Noir 16 Go";Lenovo;"E10 10.1"" 16 Go Noir";ZA2B0037SE;16 Go;Etat Correct
+2603;Tablette;"Lenovo Tab4 8 8"" - Qualcom 1.4Ghz - 16 Go";Lenovo;"Tab4 8 8"" - Qualcom 1.4Ghz -";;16 Go;Etat Correct
+2604;Tablette;Lenovo TB-8304F1 8'' 16 Go;Lenovo;TB-8304F1 8'';ZA6W0066SE;16 Go;Etat Correct
+2605;Tablette;Lenovo P10 10.1'' 64 Go;Lenovo;P10 10.1'';ZA4Y0072SE;64 Go;Etat Correct
+2606;Tablette;"Lenovo A10-70 10,1""";Lenovo;"A10-70 10,1""";;;Etat Correct
+2607;Tablette;"Lenovo Tab 10 X103F 10.1"" wifi 16 Go";Lenovo;"Tab 10 X103F 10.1"" wifi";ZA0G0103DE;16 Go;Etat Correct
+2607;Tablette;"Lenovo Tab 10 X103F 10.1"" wifi 16 Go";Lenovo;"Tab 10 X103F 10.1"" wifi";ZA0G0103DE;16 Go;Etat Correct
+2608;Tablette;"Lenovo Yoga Tab 3 Pro 10""";Lenovo;"Yoga Tab 3 Pro 10""";;;Etat Correct
+2609;Tablette;"Lenovo Yoga Tablet 2 Pro 13,3"" 32 Go";Lenovo;"Yoga Tablet 2 Pro 13,3""";;32 Go;Etat Correct
+2610;Tablette;"Lenovo Miix 310-10ICR 10.1"" WiFi 32 Go";Lenovo;"Miix 310-10ICR 10.1"" WiFi";ZA4G0035SE;32 Go;Etat Correct
+2612;Tablette;"Lenovo Tab TBX104F E10 10.1"" 16 Go";Lenovo;"Tab TBX104F E10 10.1""";;16 Go;Etat Correct
+2614;Tablette;"Lenovo Yoga 10,1""";Lenovo;"Yoga 10,1""";;;Etat Correct
+2615;Tablette;"Lenovo Yoga Book Android 10.1""";Lenovo;"Yoga Book Android 10.1""";;;Etat Correct
+2616;Tablette;Lenovo TAB P10 10.1 64 Go;Lenovo;TAB P10 10.1;ZA1U0031SE;64 Go;Etat Correct
+2617;Tablette;Lenovo TB-X103F ZA1U0031SE 10.1'' 16 Go;Lenovo;TB-X103F ZA1U0031SE 10.1'';ZA0F0050US;16 Go;Etat Correct
+2618;Tablette;Lenovo Yoga 3 Pro 10.1'' 32 Go;Lenovo;Yoga 3 Pro 10.1'';;32 Go;Etat Correct
+2619;Tablette;Lenovo Tab 4 7504F 7'' 16 Go;Lenovo;Tab 4 7504F 7'';;16 Go;Etat Correct
+2620;Tablette;"Lenovo Yoga Tab 3 Pro 10.1"" 32 Go";Lenovo;"Yoga Tab 3 Pro 10.1""";;32 Go;Etat Correct
+2621;Tablette;"Lenovo Tab 4 10 Plus X704F 10"" WiFi 64 Go";Lenovo;"Tab 4 10 Plus X704F 10"" WiFi";ZA1K0012DE;64 Go;Etat Correct
+2622;Tablette;Lenovo Tab 3 7 Plus 16 Go;Lenovo;Tab 3 7 Plus;ZA4G0035SE;16 Go;Etat Correct
+2623;Tablette;Lenovo TAB M10 PLUS 2 32 Go;Lenovo;TAB M10 PLUS 2;TB-X606X | TB-X606V;32 Go;Etat Correct
+2624;Tablette;Lenovo Tab E10 10.1'' 16 Go;Lenovo;Tab E10 10.1'';;16 Go;Etat Correct
+2625;Tablette;"Lenovo A10 10,1""";Lenovo;"A10 10,1""";ZA0C0092SE;;Etat Correct
+2626;Tablette;"Lenovo Tab 2 A10-30 10"" 16 Go";Lenovo;"Tab 2 A10-30 10""";;16 Go;Etat Correct
+2627;Tablette;Lenovo Yoga 2-1050 10.1'' 16 Go;Lenovo;Yoga 2-1050 10.1'';ZA110186SE-G;16 Go;Etat Correct
+2643;Console;Sony PS4 Pro 1 To;Sony;PS4 Pro;;1 To;Etat Correct
+2644;Console;Sony PS3 Slim 120 Go;Sony;PS3 Slim;;120 Go;Etat Correct
+2645;Console;Sony PS4 500 Go;Sony;PS4;;500 Go;Etat Correct
+2646;Console;Sony PS5 SSD;Sony;PS5;;SSD;Etat Correct
+2647;Console;Sony PS5 Edition numérique;Sony;PS5 Edition numérique;;;Etat Correct
+2648;Console;Sony Playstation;Sony;Playstation;;;Etat Correct
+2649;Console;Sony PS2;Sony;PS2;;;Etat Correct
+2650;Console;Sony PS2 Slim;Sony;PS2 Slim;;;Etat Correct
+2651;Console;Sony PS4 Slim 500 Go;Sony;PS4 Slim;;500 Go;Etat Correct
+2652;Console;Sony PS3 40 Go;Sony;PS3;;40 Go;Etat Correct
+2654;Console portable;Sony PS Vita;Sony;PS Vita;;;Etat Correct
+2655;Console portable;Sony PS Vita Wifi;Sony;PS Vita Wifi;;;Etat Correct
+2656;Console portable;Sony PS Vita Wifi / 3G;Sony;PS Vita Wifi / 3G;;;Etat Correct
+2657;Console portable;Sony PS Vita Slim;Sony;PS Vita Slim;;;Etat Correct
+2658;Console portable;Sony PSP (1000);Sony;PSP (1000);;;Etat Correct
+2659;Console portable;Sony PSP (1004);Sony;PSP (1004);;;Etat Correct
+2660;Console portable;Sony PSPBrite (3000);Sony;PSPBrite (3000);;;Etat Correct
+2661;Console portable;Sony PSP Brite (3004);Sony;PSP Brite (3004);;;Etat Correct
+2662;Console portable;Sony PSP Go (N1000);Sony;PSP Go (N1000);;;Etat Correct
+2663;Console portable;Sony PSP Go (N1004);Sony;PSP Go (N1004);;;Etat Correct
+2664;Console portable;Sony PSP Slim & lite (2004);Sony;PSP Slim & lite (2004);;;Etat Correct
+2665;Console portable;Sony PSP Street (E1000);Sony;PSP Street (E1000);;;Etat Correct
+2666;Console portable;Sony PSP Street (E1004);Sony;PSP Street (E1004);;;Etat Correct
+2667;Console;Nintendo Switch 32 Go;Nintendo;Switch;;32 Go;Etat Correct
+2668;Console;Nintendo 64;Nintendo;64;;;Etat Correct
+2669;Console;Nintendo GameCube;Nintendo;GameCube;;;Etat Correct
+2670;Console;Nintendo NES;Nintendo;NES;;;Etat Correct
+2671;Console;Nintendo NES Mini;Nintendo;NES Mini;;;Etat Correct
+2672;Console;Nintendo Super Nintendo;Nintendo;Super Nintendo;;;Etat Correct
+2673;Console;Nintendo Super nintendo Classic Mini;Nintendo;Super nintendo Classic Mini;;;Etat Correct
+2674;Console;Nintendo Wii;Nintendo;Wii;;;Etat Correct
+2675;Console;Nintendo Wii Mini;Nintendo;Wii Mini;;;Etat Correct
+2676;Console;Nintendo Wii U 8 Go;Nintendo;Wii U;;8 Go;Etat Correct
+2677;Console portable;Nintendo 2DS;Nintendo;2DS;;;Etat Correct
+2678;Console portable;Nintendo 3DS;Nintendo;3DS;;;Etat Correct
+2679;Console portable;Nintendo 3DS Xl;Nintendo;3DS Xl;;;Etat Correct
+2680;Console portable;Nintendo DS;Nintendo;DS;;;Etat Correct
+2681;Console portable;Nintendo DS Lite;Nintendo;DS Lite;;;Etat Correct
+2682;Console portable;Nintendo Dsi;Nintendo;Dsi;;;Etat Correct
+2683;Console portable;Nintendo Dsi XL;Nintendo;Dsi XL;;;Etat Correct
+2684;Console portable;Nintendo Game Boy;Nintendo;Game Boy;;;Etat Correct
+2685;Console portable;Nintendo Game Boy Advance;Nintendo;Game Boy Advance;;;Etat Correct
+2686;Console portable;Nintendo Game Boy Advance SP;Nintendo;Game Boy Advance SP;;;Etat Correct
+2687;Console portable;Nintendo Game Boy Color;Nintendo;Game Boy Color;;;Etat Correct
+2688;Console portable;Nintendo Game Boy Micro;Nintendo;Game Boy Micro;;;Etat Correct
+2689;Console portable;Nintendo Switch Lite;Nintendo;Switch Lite;;;Etat Correct
+2690;Console portable;Nintendo New 3DS;Nintendo;New 3DS;;;Etat Correct
+2691;Console portable;Nintendo New 2DS XL;Nintendo;New 2DS XL;;;Etat Correct
+2692;Console portable;Nintendo New 3DS XL;Nintendo;New 3DS XL;;;Etat Correct
+2693;Console;Atari FlashBack  Etat Correct;Atari;FlashBack;;;Etat Correct
+2694;Console;Atari FlashBack 7;Atari;FlashBack 7;;;Etat Correct
+2695;Console;Atari FlashBack 8;Atari;FlashBack 8;;;Etat Correct
+2696;Console;Atari Retro 2600;Atari;Retro 2600;;;Etat Correct
+2697;Console;Microsoft Xbox;Microsoft;Xbox;;;Etat Correct
+2698;Console;Microsoft Xbox 360 20 Go;Microsoft;Xbox 360;;20 Go;Etat Correct
+2699;Console;Microsoft Xbox 360 Arcade 4 Go;Microsoft;Xbox 360 Arcade;;4 Go;Etat Correct
+2700;Console;Microsoft Xbox 360 Elite 120 Go;Microsoft;Xbox 360 Elite;;120 Go;Etat Correct
+2701;Console;Microsoft Xbox 360 Premium 20 Go;Microsoft;Xbox 360 Premium;;20 Go;Etat Correct
+2702;Console;Microsoft Xbox 360 Slim 4 Go;Microsoft;Xbox 360 Slim;;4 Go;Etat Correct
+2703;Console;Microsoft Xbox 360 Stingray 4 Go;Microsoft;Xbox 360 Stingray;;4 Go;Etat Correct
+2704;Console;Microsoft Xbox One 500 Go;Microsoft;Xbox One;;500 Go;Etat Correct
+2705;Console;Microsoft Xbox One Elite 1 To;Microsoft;Xbox One Elite;;1 To;Etat Correct
+2706;Console;Microsoft Xbox One S 500 Go;Microsoft;Xbox One S;;500 Go;Etat Correct
+2707;Console;Microsoft Xbox One S all Digital 1 To;Microsoft;Xbox One S all Digital;;1 To;Etat Correct
+2708;Console;Microsoft Xbox One X 1 To;Microsoft;Xbox One X;;1 To;Etat Correct
+2709;Console;Sega Dreamcast;Sega;Dreamcast;;;Etat Correct
+2710;Console;Sega Master System;Sega;Master System;;;Etat Correct
+2711;Console;Sega master System 2;Sega;master System 2;;;Etat Correct
+2712;Console;Sega Mega Drive;Sega;Mega Drive;;;Etat Correct
+2713;Console;Sega Mega Drive 2;Sega;Mega Drive 2;;;Etat Correct
+2714;Console;Sega Saturn;Sega;Saturn;;;Etat Correct
+2715;Console portable;Sega Game Gear;Sega;Game Gear;;;Etat Correct
+2716;Console portable;Sega Mega Drive portable;Sega;Mega Drive portable;;;Etat Correct
+2717;Smartphone;Samsung A52 5G 128 Go;Samsung;A52 5G;;128 Go;Etat Correct
+2718;Smartphone;Samsung A 52 128 Go;Samsung;A 52;SM-A526B|SM-A526B/DS|SM-A5260|SM-A526W|SM-A526U|SM-A526U1;128 Go;Etat Correct
+2719;Smartphone;Samsung A 42 5G 128 Go;Samsung;A 42 5G;SM-A426B|SM-A426B/DS|SM-A4260|SM-A426U;128 Go;Etat Correct
+2720;Smartphone;Samsung A 12 64 Go;Samsung;A 12;SM-A125F/DS;64 Go;Etat Correct
+2720;Smartphone;Samsung A 12 64 Go;Samsung;A 12;SM-A125F/DS;64 Go;Etat Correct
+2721;Smartphone;Samsung Galaxy S20+ 5G EE 128 Go;Samsung;Galaxy S20+ 5G EE;SM-G986F;128 Go;Etat Correct
+2722;Smartphone;Samsung Galaxy S20 5G Dual Sim 128 Go;Samsung;Galaxy S20 5G Dual Sim;SM-G980|SM-G980F;128 Go;Etat Correct
+2724;Smartphone;Samsung Galaxy S20 FE Dual Sim 128 Go;Samsung;Galaxy S20 FE Dual Sim;SM-G780F|SM-G780G;128 Go;Etat Correct
+2725;Smartphone;Samsung Galaxy S20 5G FE Dual Sim 128 Go;Samsung;Galaxy S20 5G FE Dual Sim;SM-G781B|SM-G781B/DS;128 Go;Etat Correct
+2726;Smartphone;Samsung Galaxy S21 5G 128 Go;Samsung;Galaxy S21 5G;SM-G991B|SM-G991B/DS|SM-G991U|SM-G991U1|SM-G991W|SM-G991N|SM-G9910;128 Go;Etat Correct
+2727;Smartphone;Samsung Galaxy S21+ 5G 128 Go;Samsung;Galaxy S21+ 5G;SM-G996B|SM-G996B/DS|SM-G996U|SM-G996U1|SM-G996W|SM-G996N|SM-G9960;128 Go;Etat Correct
+2728;Smartphone;Samsung Galaxy S21 Ultra 5G 128 Go;Samsung;Galaxy S21 Ultra 5G;SM-G998B|SM-G998B/DS|SM-G998U|SM-G998U1|SM-G998W|SM-G998N|SM-G9980;128 Go;Etat Correct
+2729;Smartphone;Xiaomi Mi 11 128 Go;Xiaomi;Mi 11;;128 Go;Etat Correct
+2730;Smartphone;Xiaomi Mi 10T Pro 128 Go;Xiaomi;Mi 10T Pro;M2007J3SG | M2007J3SY | Apollo Pro | MZB07ZDIN | MZB07Z7IN;128 Go;Etat Correct
+2731;Smartphone;Xiaomi Redmi note 9 Pro;Xiaomi;Redmi note 9 Pro;;;Etat Correct
+2732;Smartphone;Xiaomi Redmi Note 9 32 Go;Xiaomi;Redmi Note 9;;32 Go;Etat Correct
+2733;Smartphone;Xiaomi Mi 10T 128 Go;Xiaomi;Mi 10T;MZB07ZCIN;128 Go;Etat Correct
+2734;Smartphone;OPPO Find X3 Pro 256 Go;OPPO;Find X3 Pro;CPH2173 | PEEM00 | OPG03;256 Go;Etat Correct
+2735;Smartphone;OPPO Find X3 Neo 256 Go;OPPO;Find X3 Neo;CPH2207;256 Go;Etat Correct
+2736;Smartphone;OPPO Find X3 lite 128 Go;OPPO;Find X3 lite;CPH2145;128 Go;Etat Correct
+2737;Smartphone;OPPO Find X2 Pro 512 Go;OPPO;Find X2 Pro;PDEM30;512 Go;Etat Correct
+2738;Smartphone;OPPO Find X2 Neo 256 Go;OPPO;Find X2 Neo;CPH2009;256 Go;Etat Correct
+2739;Smartphone;OPPO Find X2 lite 128 Go;OPPO;Find X2 lite;CPH2005;128 Go;Etat Correct
+2740;Smartphone;OPPO Find X2 Pro Lamborghini Ed. 512 Go;OPPO;Find X2 Pro Lamborghini Ed.;PDEM30;512 Go;Etat Correct
+2741;Smartphone;OPPO Reno4 Pro 5G 128 Go;OPPO;Reno4 Pro 5G;PDNM00 | PDNT00;128 Go;Etat Correct
+2742;Smartphone;OPPO Reno4 Z 5G 128 Go;OPPO;Reno4 Z 5G;CPH2065;128 Go;Etat Correct
+2743;Smartphone;OPPO Reno 10x Zoom 256 Go;OPPO;Reno 10x Zoom;;256 Go;Etat Correct
+2744;Smartphone;OPPO A74 128 Go;OPPO;A74;CPH2219;128 Go;Etat Correct
+2745;Smartphone;OPPO A54 5G 64 Go;OPPO;A54 5G;CPH2195;64 Go;Etat Correct
+2746;Smartphone;OPPO A94 5G 128 Go;OPPO;A94 5G;CPH2211;128 Go;Etat Correct
+2747;Smartphone;OPPO A74 5G 128 Go;OPPO;A74 5G;CPH2197;128 Go;Etat Correct
+2748;Smartphone;OPPO A 15 32 Go;OPPO;A 15;CPH2185;32 Go;Etat Correct
+2749;Smartphone;OPPO A53 64 Go;OPPO;A53;;64 Go;Etat Correct
+2750;Smartphone;OPPO A53s 128 Go;OPPO;A53s;CPH2135;128 Go;Etat Correct
+2751;Smartphone;OPPO A72 128 Go;OPPO;A72;CPH2067;128 Go;Etat Correct
+2752;Smartphone;OPPO A9 2020 128 Go;OPPO;A9 2020;CPH1937| CPH1939 | PCHM30| PCHT30;128 Go;Etat Correct
+2753;Smartphone;OPPO A5 2020 64 Go;OPPO;A5 2020;CPH1931| CPH1959 | CPH1933| CPH1935;64 Go;Etat Correct
+2754;Smartphone;OPPO Reno 256 Go;OPPO;Reno;CPH1917;256 Go;Etat Correct
+2755;Smartphone;OPPO Reno Z 128 Go;OPPO;Reno Z;PCDM10| PCDT10 | CPH1979;128 Go;Etat Correct
+2756;Smartphone;OPPO Find X 256 Go;OPPO;Find X;PAFT00 | PAFM00;256 Go;Etat Correct
+2757;Smartphone;OPPO Reno 4 5G 128 Go;OPPO;Reno 4 5G;CPH2065;128 Go;Etat Correct
+2758;Smartphone;OPPO Reno4 5G 128 Go;OPPO;Reno4 5G;;128 Go;Etat Correct
+2759;Smartphone;Realme GT 5G 256 Go;Realme;GT 5G;RMX2202;256 Go;Etat Correct
+2760;Smartphone;Realme 7i 64 Go;Realme;7i;RMX2103;64 Go;Etat Correct
+2761;Smartphone;Realme 8 5G 128 Go;Realme;8 5G;RMX3241;128 Go;Etat Correct
+2762;Smartphone;Realme 8 64 Go;Realme;8;RMX3085;64 Go;Etat Correct
+2763;Smartphone;Realme 8 Pro 128 Go;Realme;8 Pro;;128 Go;Etat Correct
+2764;Smartphone;Realme X50 5G 128 Go;Realme;X50 5G;RMX2051;128 Go;Etat Correct
+2765;Smartphone;Realme X3 SuperZoom 256 Go;Realme;X3 SuperZoom;RMX2086;256 Go;Etat Correct
+2766;Smartphone;Realme X50 Pro 256 Go;Realme;X50 Pro;RMX2076 | RMX2075;256 Go;Etat Correct
+2767;Smartphone;Realme X2 Pro 64 Go;Realme;X2 Pro;RMX1931;64 Go;Etat Correct
+2768;Smartphone;Realme 6 Pro 128 Go;Realme;6 Pro;RMX2061 | RMX2063 |RBS0626IN| RBS0624IN | RBS0629IN;128 Go;Etat Correct
+2769;Smartphone;Realme 6i 128 Go;Realme;6i;RMX2040;128 Go;Etat Correct
+2770;Smartphone;Realme 6 128 Go;Realme;6;RMX2001;128 Go;Etat Correct
+2771;Smartphone;Realme C21 32 Go;Realme;C21;RMX3201;32 Go;Etat Correct
+2772;Smartphone;Realme C11 32 Go;Realme;C11;RMX2185;32 Go;Etat Correct
+2773;Smartphone;Realme 7 Pro 128 Go;Realme;7 Pro;RMX2170;128 Go;Etat Correct
+2774;Smartphone;Realme 7 64 Go;Realme;7;RMX2151;64 Go;Etat Correct
+2775;Smartphone;Vivo X60 Pro 5G 256 Go;Vivo;X60 Pro 5G;V2047A|V2047;256 Go;Etat Correct
+2776;Smartphone;Vivo V21 5G 128 Go;Vivo;V21 5G;V2050;128 Go;Etat Correct
+2777;Smartphone;Vivo Y72 5G 128 Go;Vivo;Y72 5G;V2041;128 Go;Etat Correct
+2778;Smartphone;Vivo X51 5 G 256 Go;Vivo;X51 5 G;XE710;256 Go;Etat Correct
+2779;Smartphone;Vivo Y70 128 Go;Vivo;Y70;;128 Go;Etat Correct
+2780;Smartphone;Vivo Y20s 128 Go;Vivo;Y20s;;128 Go;Etat Correct
+3027;Tablette;Microsoft Surface Book;Microsoft;Surface Book;;;Etat Correct
+3028;Smartphone;Huawei Honor 7 Lite;Huawei;Honor 7 Lite;PLK - L01;;Etat Correct
+3029;Smartphone;Huawei P Smart S 2020;Huawei;P Smart S 2020;51095RCY;;Etat Correct
+3030;Smartphone;Huawei P Smart 2021;Huawei;P Smart 2021;;;Etat Correct
+3031;Smartphone;Huawei Honor 9X;Huawei;Honor 9X;STK-LX1|STK-LX3;;Etat Correct
+3032;Smartphone;Huawei Honor 9X Pro;Huawei;Honor 9X Pro;HLK-L41;;Etat Correct
+3033;Smartphone;Huawei P40 Lite E;Huawei;P40 Lite E;ART-L29N;;Etat Correct
+3034;Smartphone;Huawei Honor 20E;Huawei;Honor 20E;;;Etat Correct
+3035;Smartphone;Huawei P Smart Z;Huawei;P Smart Z;STK-LX1;;Etat Correct
+3036;Smartphone;Huawei P30 Lite XL;Huawei;P30 Lite XL;;;Etat Correct
+3037;Smartphone;Huawei Y6s;Huawei;Y6s;;;Etat Correct
+3038;Smartphone;LG Velvet;LG;Velvet;LMG910EMW|LM-G910EMW;;Etat Correct
+3039;Smartphone;LG K50S;LG;K50S;X540EMW;;Etat Correct
+3040;Smartphone;LG K42;LG;K42;K420YMW;;Etat Correct
+3041;Smartphone;Motorola Moto G9 Power;Motorola;Moto G9 Power;XT2091-3;;Etat Correct
+3042;Smartphone;Motorola Moto G9 Plus;Motorola;Moto G9 Plus;XT2087-2;;Etat Correct
+3043;Smartphone;Motorola Moto G9 Play;Motorola;Moto G9 Play;;;Etat Correct
+3044;Smartphone;Motorola Moto G8 Power;Motorola;Moto G8 Power;;;Etat Correct
+3045;Smartphone;Motorola Moto G8;Motorola;Moto G8;XT2045-2;;Etat Correct
+3046;Smartphone;Motorola Moto G30;Motorola;Moto G30;XT2129-1|XT2129-2|PAML0000IN;;Etat Correct
+3047;Smartphone;Motorola Moto G10;Motorola;Moto G10;PAMN0021FR;;Etat Correct
+3048;Smartphone;Motorola Edge;Motorola;Edge;;;Etat Correct
+3049;Smartphone;Motorola Edge Plus;Motorola;Edge Plus;XT2061-3;;Etat Correct
+3050;Smartphone;Xiaomi Xiaomi note 10 Pro 64 Go;Xiaomi;Xiaomi note 10 Pro;;64 Go;Etat Correct
+3051;Smartphone;Motorola Moto G9;Motorola;Moto G9;XT2083-3;;Etat Correct
+3052;Smartphone;Motorola Moto M;Motorola;Moto M;XT1663;;Etat Correct
+3053;Smartphone;Motorola Moto G50;Motorola;Moto G50;XT2137-1;;Etat Correct
+3054;Smartphone;Motorola Moto G20;Motorola;Moto G20;XT2128-1;;Etat Correct
+3055;Smartphone;Motorola Moto G100;Motorola;Moto G100;XT2125-4;;Etat Correct
+3056;Smartphone;Nokia 150;Nokia;150;TA-1235;;Etat Correct
+3057;Smartphone;Nokia 216;Nokia;216;;;Etat Correct
+3061;Smartphone;Nokia G20;Nokia;G20;TA-1336|TA-1343|TA-1347|TA-1372|TA-1365;;Etat Correct
+3062;Smartphone;Nokia X20;Nokia;X20;TA-1341|TA-1344;;Etat Correct
+3066;Smartphone;Samsung Galaxy A21s;Samsung;Galaxy A21s;SM-A217F|SM-A217F/DS|SM-A217F/DSN|SM-A217M|SM-A217M/DS|SM-A217N;;Etat Correct
+3067;Smartphone;Samsung Galaxy A22;Samsung;Galaxy A22;SM-A225FZKGXFE;;Etat Correct
+3068;Smartphone;Samsung Galaxy A31;Samsung;Galaxy A31;MT6768;;Etat Correct
+3070;Smartphone;Samsung Galaxy A72;Samsung;Galaxy A72;SM-A725F;;Etat Correct
+3071;Smartphone;Samsung Galaxy A9 (2018);Samsung;Galaxy A9 (2018);SM-A920F/DS;;Etat Correct
+3072;Smartphone;Samsung Galaxy XCover 5 EE;Samsung;Galaxy XCover 5 EE;SM-G525F;;Etat Correct
+3073;Smartphone;Samsung Galaxy XCover Pro;Samsung;Galaxy XCover Pro;SM-G715FZKDE27;;Etat Correct
+3074;Smartphone;Samsung Galaxy Z Flip3;Samsung;Galaxy Z Flip3;SM-F711B|SM-F711N|SM-F711U;;Etat Correct
+3075;Smartphone;Samsung Galaxy A20s;Samsung;Galaxy A20s;SM-A207FZBAXFE;;Etat Correct
+3076;Smartphone;Samsung Galaxy A52;Samsung;Galaxy A52;SM-A526B;;Etat Correct
+3077;Smartphone;Samsung Galaxy A90;Samsung;Galaxy A90;SM-A908B;;Etat Correct
+3078;Smartphone;Samsung Galaxy Xcover 4s;Samsung;Galaxy Xcover 4s;SM-G398F;;Etat Correct
+3079;Smartphone;Samsung Galaxy Z Flip 5;Samsung;Galaxy Z Flip 5;;;Etat Correct
+3080;Smartphone;Samsung Galaxy Z Fold2;Samsung;Galaxy Z Fold2;SM-F916B|SM-F916U|SM-F916U1|SM-F916N;;Etat Correct
+3081;Smartphone;Sony Xperia 1;Sony;Xperia 1;J8110 | J817 | J9110;;Etat Correct
+3082;Smartphone;Sony Xperia 5;Sony;Xperia 5;J8210| J8270| J9210| J9260;;Etat Correct
+3083;Smartphone;Sony Xperia XA;Sony;Xperia XA;F3111;;Etat Correct
+3084;Smartphone;Sony Xperia XZs;Sony;Xperia XZs;G8231;;Etat Correct
+3085;Smartphone;Xiaomi Mi 10 Lite;Xiaomi;Mi 10 Lite;M2007J17G;;Etat Correct
+3086;Smartphone;OPPO A73;OPPO;A73;CPH2099;;Etat Correct
+3087;Smartphone;OPPO A52;OPPO;A52;PDAM10 | CPH2069;;Etat Correct
+3088;Smartphone;OPPO A91;OPPO;A91;PCPM00;;Etat Correct
+3089;Smartphone;Realme 5i;Realme;5i;RMX2030;;Etat Correct
+3090;Smartphone;Realme 6s;Realme;6s;RMX2002;;Etat Correct
+3091;Smartphone;Realme C3;Realme;C3;RMX2027;;Etat Correct
+3092;Smartphone;Realme X2;Realme;X2;RMX1992;;Etat Correct
+3093;Smartphone;Apple Iphone 13 Pro max 128 Go;Apple;Iphone 13 Pro max; A2484|A2641|A2644|A2645|A2643;128 Go;Etat Correct
+3094;Smartphone;Apple Iphone 13 pro 128 Go;Apple;Iphone 13 pro;A2483|A2636| A2639| A2640| A2638;128 Go;Etat Correct
+3095;Smartphone;Apple Iphone 13 Mini 128 Go;Apple;Iphone 13 Mini;A2481|A2626|A2629|A2630|A2481|A2628;128 Go;Etat Correct
+3096;Smartphone;Apple Iphone 13 128 Go;Apple;Iphone 13;A2482|A2631|A2634|A2635|A2633;128 Go;Etat Correct
+4129;Smartphone;Apple iPhone Xr 128 Go;Apple;iPhone Xr;A1984;128 Go;Intact
+4130;Smartphone;Apple iPhone Xr 128 Go;Apple;iPhone Xr;A1984;128 Go;Bon état
+4131;Smartphone;Apple iPhone Xr 128 Go;Apple;iPhone Xr;A1984;128 Go;Etat Correct
+4133;Smartphone;Apple iPhone Xr 256 Go;Apple;iPhone Xr;A1984;256 Go;Intact
+4134;Smartphone;Apple iPhone Xr 256 Go;Apple;iPhone Xr;A1984;256 Go;Bon état
+4135;Smartphone;Apple iPhone Xr 256 Go;Apple;iPhone Xr;A1984;256 Go;Etat Correct
+4137;Smartphone;Apple iPhone Xs 256 Go;Apple;iPhone Xs;A2484;256 Go;Intact
+4138;Smartphone;Apple iPhone Xs 256 Go;Apple;iPhone Xs;A2484;256 Go;Bon état
+4139;Smartphone;Apple iPhone Xs 256 Go;Apple;iPhone Xs;A2484;256 Go;Etat Correct
+4145;Smartphone;Apple Iphone 7 128 Go;Apple;Iphone 7;A1660;128 Go;Intact
+4146;Smartphone;Apple Iphone 7 128 Go;Apple;Iphone 7;A1660;128 Go;Bon état
+4147;Smartphone;Apple Iphone 7 128 Go;Apple;Iphone 7;A1660;128 Go;Etat Correct
+4169;Smartphone;Apple iPhone 7 PLUS 128 Go;Apple;iPhone 7 PLUS;A1661;128 Go;Intact
+4170;Smartphone;Apple iPhone 7 PLUS 128 Go;Apple;iPhone 7 PLUS;A1661;128 Go;Bon état
+4171;Smartphone;Apple iPhone 7 PLUS 128 Go;Apple;iPhone 7 PLUS;A1661;128 Go;Etat Correct
+4177;Smartphone;Apple iPhone 11 128 Go;Apple;iPhone 11;A2111;128 Go;Intact
+4178;Smartphone;Apple iPhone 11 128 Go;Apple;iPhone 11;A2111;128 Go;Bon état
+4179;Smartphone;Apple iPhone 11 128 Go;Apple;iPhone 11;A2111;128 Go;Etat Correct
+4181;Smartphone;Apple iPhone 11 256 Go;Apple;iPhone 11;A2111;256 Go;Intact
+4182;Smartphone;Apple iPhone 11 256 Go;Apple;iPhone 11;A2111;256 Go;Bon état
+4183;Smartphone;Apple iPhone 11 256 Go;Apple;iPhone 11;A2111;256 Go;Etat Correct
+4185;Smartphone;Apple iPhone 11 Pro 256 Go;Apple;iPhone 11 Pro;A2160;256 Go;Intact
+4186;Smartphone;Apple iPhone 11 Pro 256 Go;Apple;iPhone 11 Pro;A2160;256 Go;Bon état
+4187;Smartphone;Apple iPhone 11 Pro 256 Go;Apple;iPhone 11 Pro;A2160;256 Go;Etat Correct
+4193;Smartphone;Apple iPhone 11 Pro Max 256 Go;Apple;iPhone 11 Pro Max;A2161;256 Go;Intact
+4194;Smartphone;Apple iPhone 11 Pro Max 256 Go;Apple;iPhone 11 Pro Max;A2161;256 Go;Bon état
+4195;Smartphone;Apple iPhone 11 Pro Max 256 Go;Apple;iPhone 11 Pro Max;A2161;256 Go;Etat Correct
+4197;Smartphone;Apple iPhone 11 Pro Max 512 Go;Apple;iPhone 11 Pro Max;A2161;512 Go;Intact
+4198;Smartphone;Apple iPhone 11 Pro Max 512 Go;Apple;iPhone 11 Pro Max;A2161;512 Go;Bon état
+4199;Smartphone;Apple iPhone 11 Pro Max 512 Go;Apple;iPhone 11 Pro Max;A2161;512 Go;Etat Correct
+4237;Smartphone;Apple iPhone 6 32 Go;Apple;iPhone 6;A1549;32 Go;Intact
+4237;Smartphone;Apple iPhone 6 32 Go;Apple;iPhone 6;A1549;32 Go;Intact
+4238;Smartphone;Apple iPhone 6 32 Go;Apple;iPhone 6;A1549;32 Go;Bon état
+4238;Smartphone;Apple iPhone 6 32 Go;Apple;iPhone 6;A1549;32 Go;Bon état
+4239;Smartphone;Apple iPhone 6 32 Go;Apple;iPhone 6;A1549;32 Go;Etat Correct
+4239;Smartphone;Apple iPhone 6 32 Go;Apple;iPhone 6;A1549;32 Go;Etat Correct
+4241;Smartphone;Apple iPhone 6 64 Go;Apple;iPhone 6;A1549;64 Go;Intact
+4241;Smartphone;Apple iPhone 6 64 Go;Apple;iPhone 6;A1549;64 Go;Intact
+4242;Smartphone;Apple iPhone 6 64 Go;Apple;iPhone 6;A1549;64 Go;Bon état
+4242;Smartphone;Apple iPhone 6 64 Go;Apple;iPhone 6;A1549;64 Go;Bon état
+4243;Smartphone;Apple iPhone 6 64 Go;Apple;iPhone 6;A1549;64 Go;Etat Correct
+4243;Smartphone;Apple iPhone 6 64 Go;Apple;iPhone 6;A1549;64 Go;Etat Correct
+4249;Smartphone;Apple iPhone 6 PLUS 64 Go;Apple;iPhone 6 PLUS;A1522;64 Go;Intact
+4249;Smartphone;Apple iPhone 6 PLUS 64 Go;Apple;iPhone 6 PLUS;A1522;64 Go;Intact
+4250;Smartphone;Apple iPhone 6 PLUS 64 Go;Apple;iPhone 6 PLUS;A1522;64 Go;Bon état
+4250;Smartphone;Apple iPhone 6 PLUS 64 Go;Apple;iPhone 6 PLUS;A1522;64 Go;Bon état
+4251;Smartphone;Apple iPhone 6 PLUS 64 Go;Apple;iPhone 6 PLUS;A1522;64 Go;Etat Correct
+4251;Smartphone;Apple iPhone 6 PLUS 64 Go;Apple;iPhone 6 PLUS;A1522;64 Go;Etat Correct
+4269;Smartphone;Apple iPhone 8 128 Go;Apple;iPhone 8;A1863;128 Go;Intact
+4270;Smartphone;Apple iPhone 8 128 Go;Apple;iPhone 8;A1863;128 Go;Bon état
+4271;Smartphone;Apple iPhone 8 128 Go;Apple;iPhone 8;A1863;128 Go;Etat Correct
+4273;Smartphone;Apple iPhone 8 256 Go;Apple;iPhone 8;A1863;256 Go;Intact
+4274;Smartphone;Apple iPhone 8 256 Go;Apple;iPhone 8;A1863;256 Go;Bon état
+4275;Smartphone;Apple iPhone 8 256 Go;Apple;iPhone 8;A1863;256 Go;Etat Correct
+4277;Smartphone;Apple iPhone 8 PLUS 256 Go;Apple;iPhone 8 PLUS;A1864;256 Go;Intact
+4278;Smartphone;Apple iPhone 8 PLUS 256 Go;Apple;iPhone 8 PLUS;A1864;256 Go;Bon état
+4279;Smartphone;Apple iPhone 8 PLUS 256 Go;Apple;iPhone 8 PLUS;A1864;256 Go;Etat Correct
+4281;Smartphone;Apple iPhone SE 16 Go;Apple;iPhone SE;A1724;16 Go;Intact
+4282;Smartphone;Apple iPhone SE 16 Go;Apple;iPhone SE;A1724;16 Go;Bon état
+4283;Smartphone;Apple iPhone SE 16 Go;Apple;iPhone SE;A1724;16 Go;Etat Correct
+4285;Smartphone;Apple iPhone SE 32 Go;Apple;iPhone SE;A1724;32 Go;Intact
+4286;Smartphone;Apple iPhone SE 32 Go;Apple;iPhone SE;A1724;32 Go;Bon état
+4287;Smartphone;Apple iPhone SE 32 Go;Apple;iPhone SE;A1724;32 Go;Etat Correct
+4289;Smartphone;Apple iPhone SE 64 Go;Apple;iPhone SE;A1724;64 Go;Intact
+4290;Smartphone;Apple iPhone SE 64 Go;Apple;iPhone SE;A1724;64 Go;Bon état
+4291;Smartphone;Apple iPhone SE 64 Go;Apple;iPhone SE;A1724;64 Go;Etat Correct
+4293;Smartphone;Apple iPhone SE 2020 128 Go;Apple;iPhone SE 2020;A2275;128 Go;Intact
+4294;Smartphone;Apple iPhone SE 2020 128 Go;Apple;iPhone SE 2020;A2275;128 Go;Bon état
+4295;Smartphone;Apple iPhone SE 2020 128 Go;Apple;iPhone SE 2020;A2275;128 Go;Etat Correct
+4297;Smartphone;Apple iPhone SE 2020 256 Go;Apple;iPhone SE 2020;A2275;256 Go;Intact
+4298;Smartphone;Apple iPhone SE 2020 256 Go;Apple;iPhone SE 2020;A2275;256 Go;Bon état
+4299;Smartphone;Apple iPhone SE 2020 256 Go;Apple;iPhone SE 2020;A2275;256 Go;Etat Correct
+4301;Smartphone;Apple iPhone X 256 Go;Apple;iPhone X;A1865;256 Go;Intact
+4302;Smartphone;Apple iPhone X 256 Go;Apple;iPhone X;A1865;256 Go;Bon état
+4303;Smartphone;Apple iPhone X 256 Go;Apple;iPhone X;A1865;256 Go;Etat Correct
+4305;Smartphone;Apple iPhone XS MAX 256 Go;Apple;iPhone XS MAX;A1921;256 Go;Intact
+4306;Smartphone;Apple iPhone XS MAX 256 Go;Apple;iPhone XS MAX;A1921;256 Go;Bon état
+4307;Smartphone;Apple iPhone XS MAX 256 Go;Apple;iPhone XS MAX;A1921;256 Go;Etat Correct
+4313;Smartphone;Apple Iphone 12 mini 128 Go;Apple;Iphone 12 mini;A2176;128 Go;Intact
+4314;Smartphone;Apple Iphone 12 mini 128 Go;Apple;Iphone 12 mini;A2176;128 Go;Bon état
+4315;Smartphone;Apple Iphone 12 mini 128 Go;Apple;Iphone 12 mini;A2176;128 Go;Etat Correct
+4317;Smartphone;Apple Iphone 12 mini 256 Go;Apple;Iphone 12 mini;A2176;256 Go;Intact
+4318;Smartphone;Apple Iphone 12 mini 256 Go;Apple;Iphone 12 mini;A2176;256 Go;Bon état
+4319;Smartphone;Apple Iphone 12 mini 256 Go;Apple;Iphone 12 mini;A2176;256 Go;Etat Correct
+4321;Smartphone;Apple Iphone 12 128 Go;Apple;Iphone 12;A2172;128 Go;Intact
+4322;Smartphone;Apple Iphone 12 128 Go;Apple;Iphone 12;A2172;128 Go;Bon état
+4323;Smartphone;Apple Iphone 12 128 Go;Apple;Iphone 12;A2172;128 Go;Etat Correct
+4325;Smartphone;Apple Iphone 12 256 Go;Apple;Iphone 12;A2172;256 Go;Intact
+4326;Smartphone;Apple Iphone 12 256 Go;Apple;Iphone 12;A2172;256 Go;Bon état
+4327;Smartphone;Apple Iphone 12 256 Go;Apple;Iphone 12;A2172;256 Go;Etat Correct
+4329;Smartphone;Apple Iphone 12 Pro 256 Go;Apple;Iphone 12 Pro;A2341;256 Go;Intact
+4330;Smartphone;Apple Iphone 12 Pro 256 Go;Apple;Iphone 12 Pro;A2341;256 Go;Bon état
+4331;Smartphone;Apple Iphone 12 Pro 256 Go;Apple;Iphone 12 Pro;A2341;256 Go;Etat Correct
+4333;Smartphone;Apple Iphone 12 Pro 512 Go;Apple;Iphone 12 Pro;A2341;512 Go;Intact
+4334;Smartphone;Apple Iphone 12 Pro 512 Go;Apple;Iphone 12 Pro;A2341;512 Go;Bon état
+4335;Smartphone;Apple Iphone 12 Pro 512 Go;Apple;Iphone 12 Pro;A2341;512 Go;Etat Correct
+4337;Smartphone;Apple Iphone 12 Pro Max 256 Go;Apple;Iphone 12 Pro Max;A2342;256 Go;Intact
+4338;Smartphone;Apple Iphone 12 Pro Max 256 Go;Apple;Iphone 12 Pro Max;A2342;256 Go;Bon état
+4339;Smartphone;Apple Iphone 12 Pro Max 256 Go;Apple;Iphone 12 Pro Max;A2342;256 Go;Etat Correct
+4341;Smartphone;Apple Iphone 12 Pro Max 512 Go;Apple;Iphone 12 Pro Max;A2342;512 Go;Intact
+4342;Smartphone;Apple Iphone 12 Pro Max 512 Go;Apple;Iphone 12 Pro Max;A2342;512 Go;Bon état
+4343;Smartphone;Apple Iphone 12 Pro Max 512 Go;Apple;Iphone 12 Pro Max;A2342;512 Go;Etat Correct
+4977;Tablette;"Apple Ipad pro 11"" (2019) wifi 64 Go";Apple;"Ipad pro 11"" (2019) wifi";A1980;64 Go;Intact
+5611;Console;Sony PS3 Slim 160 Go;Sony;PS3 Slim;;160 Go;Intact
+5613;Console;Sony PS3 Slim 320 Go;Sony;PS3 Slim;;320 Go;Intact
+5617;Console;Sony PS3 Slim 160 Go;Sony;PS3 Slim;;160 Go;Bon état
+5619;Console;Sony PS3 Slim 320 Go;Sony;PS3 Slim;;320 Go;Bon état
+5623;Console;Sony PS3 Slim 160 Go;Sony;PS3 Slim;;160 Go;Etat Correct
+5625;Console;Sony PS3 Slim 320 Go;Sony;PS3 Slim;;320 Go;Etat Correct
+5635;Console;Sony PS4 1 To;Sony;PS4;;1 To;Intact
+5638;Console;Sony PS4 1 To;Sony;PS4;;1 To;Bon état
+5641;Console;Sony PS4 1 To;Sony;PS4;;1 To;Etat Correct
+5651;Console;Sony PS4 Slim 1 To;Sony;PS4 Slim;;1 To;Intact
+5653;Console;Sony PS4 Slim 1 To;Sony;PS4 Slim;;1 To;Bon état
+5655;Console;Sony PS4 Slim 1 To;Sony;PS4 Slim;;1 To;Etat Correct
+5659;Console;sony ps3 60 Go;sony;ps3;;60 Go;Intact
+5660;Console;Sony Ps3 80 Go;Sony;Ps3;;80 Go;Intact
+5668;Console;sony ps3 60 Go;sony;ps3;;60 Go;Bon état
+5669;Console;Sony Ps3 80 Go;Sony;Ps3;;80 Go;Bon état
+5677;Console;sony ps3 60 Go;sony;ps3;;60 Go;Etat Correct
+5678;Console;Sony Ps3 80 Go;Sony;Ps3;;80 Go;Etat Correct
+5698;Console;Sony PS3 Ultra Slim 500 Go;Sony;PS3 Ultra Slim;;500 Go;Intact
+5704;Console;Sony PS3 Ultra Slim 500 Go;Sony;PS3 Ultra Slim;;500 Go;Bon état
+5710;Console;Sony PS3 Ultra Slim 500 Go;Sony;PS3 Ultra Slim;;500 Go;Etat Correct
+5723;Console;Nintendo Wii U 32 Go;Nintendo;Wii U;;32 Go;Intact
+5725;Console;Nintendo Wii U 32 Go;Nintendo;Wii U;;32 Go;Bon état
+5727;Console;Nintendo Wii U 32 Go;Nintendo;Wii U;;32 Go;Etat Correct
+5730;Console;Nintendo Switch Lite 32 Go;Nintendo;Switch Lite;;32 Go;Intact
+5731;Console;Nintendo Switch Lite 32 Go;Nintendo;Switch Lite;;32 Go;Bon état
+5732;Console;Nintendo Switch Lite 32 Go;Nintendo;Switch Lite;;32 Go;Etat Correct
+5819;Console;Microsoft Xbox One 1 To;Microsoft;Xbox One;;1 To;Intact
+5821;Console;Microsoft Xbox One 1 To;Microsoft;Xbox One;;1 To;Bon état
+5823;Console;Microsoft Xbox One 1 To;Microsoft;Xbox One;;1 To;Etat Correct
+5831;Console;Microsoft Xbox One S 1 To;Microsoft;Xbox One S;;1 To;Intact
+5834;Console;Microsoft Xbox One S 1 To;Microsoft;Xbox One S;;1 To;Bon état
+5837;Console;Microsoft Xbox One S 1 To;Microsoft;Xbox One S;;1 To;Etat Correct
+5850;Console;Nintendo Switch OLED 32 Go;Nintendo;Switch OLED;;32 Go;Intact
+5851;Console;Nintendo Switch OLED 32 Go;Nintendo;Switch OLED;;32 Go;Bon état
+5852;Console;Nintendo Switch OLED 32 Go;Nintendo;Switch OLED;;32 Go;Etat Correct
+5862;Smartphone;Apple Iphone 13 Pro max 512 Go;Apple;Iphone 13 Pro max; A2484|A2641|A2644|A2645|A2643;512 Go;Intact
+5863;Smartphone;Apple Iphone 13 Pro max 256 Go;Apple;Iphone 13 Pro max; A2484|A2641|A2644|A2645|A2643;256 Go;Intact
+5865;Smartphone;Apple Iphone 13 Pro max 512 Go;Apple;Iphone 13 Pro max; A2484|A2641|A2644|A2645|A2643;512 Go;Bon état
+5866;Smartphone;Apple Iphone 13 Pro max 256 Go;Apple;Iphone 13 Pro max; A2484|A2641|A2644|A2645|A2643;256 Go;Bon état
+5868;Smartphone;Apple Iphone 13 Pro max 512 Go;Apple;Iphone 13 Pro max; A2484|A2641|A2644|A2645|A2643;512 Go;Etat Correct
+5869;Smartphone;Apple Iphone 13 Pro max 256 Go;Apple;Iphone 13 Pro max; A2484|A2641|A2644|A2645|A2643;256 Go;Etat Correct
+5874;Smartphone;Apple Iphone 13 pro 512 Go;Apple;Iphone 13 pro;A2483|A2636| A2639| A2640| A2638;512 Go;Intact
+5875;Smartphone;Apple Iphone 13 pro 256 Go;Apple;Iphone 13 pro;A2483|A2636| A2639| A2640| A2638;256 Go;Intact
+5877;Smartphone;Apple Iphone 13 pro 512 Go;Apple;Iphone 13 pro;A2483|A2636| A2639| A2640| A2638;512 Go;Bon état
+5878;Smartphone;Apple Iphone 13 pro 256 Go;Apple;Iphone 13 pro;A2483|A2636| A2639| A2640| A2638;256 Go;Bon état
+5880;Smartphone;Apple Iphone 13 pro 512 Go;Apple;Iphone 13 pro;A2483|A2636| A2639| A2640| A2638;512 Go;Etat Correct
+5881;Smartphone;Apple Iphone 13 pro 256 Go;Apple;Iphone 13 pro;A2483|A2636| A2639| A2640| A2638;256 Go;Etat Correct
+5886;Smartphone;Apple Iphone 13 Mini 512 Go;Apple;Iphone 13 Mini;A2481|A2626|A2629|A2630|A2481|A2628;512 Go;Intact
+5887;Smartphone;Apple Iphone 13 Mini 256 Go;Apple;Iphone 13 Mini;A2481|A2626|A2629|A2630|A2481|A2628;256 Go;Intact
+5889;Smartphone;Apple Iphone 13 Mini 512 Go;Apple;Iphone 13 Mini;A2481|A2626|A2629|A2630|A2481|A2628;512 Go;Bon état
+5890;Smartphone;Apple Iphone 13 Mini 256 Go;Apple;Iphone 13 Mini;A2481|A2626|A2629|A2630|A2481|A2628;256 Go;Bon état
+5892;Smartphone;Apple Iphone 13 Mini 512 Go;Apple;Iphone 13 Mini;A2481|A2626|A2629|A2630|A2481|A2628;512 Go;Etat Correct
+5893;Smartphone;Apple Iphone 13 Mini 256 Go;Apple;Iphone 13 Mini;A2481|A2626|A2629|A2630|A2481|A2628;256 Go;Etat Correct
+5898;Smartphone;Apple Iphone 13 512 Go;Apple;Iphone 13;A2482|A2631|A2634|A2635|A2633;512 Go;Intact
+5899;Smartphone;Apple Iphone 13 256 Go;Apple;Iphone 13;A2482|A2631|A2634|A2635|A2633;256 Go;Intact
+5901;Smartphone;Apple Iphone 13 512 Go;Apple;Iphone 13;A2482|A2631|A2634|A2635|A2633;512 Go;Bon état
+5902;Smartphone;Apple Iphone 13 256 Go;Apple;Iphone 13;A2482|A2631|A2634|A2635|A2633;256 Go;Bon état
+5904;Smartphone;Apple Iphone 13 512 Go;Apple;Iphone 13;A2482|A2631|A2634|A2635|A2633;512 Go;Etat Correct
+5905;Smartphone;Apple Iphone 13 256 Go;Apple;Iphone 13;A2482|A2631|A2634|A2635|A2633;256 Go;Etat Correct
+5926;Smartphone;Apple Iphone 14 128 Go;Apple;Iphone 14;A2882;128 Go;Intact
+5927;Smartphone;Apple Iphone 14 256 Go;Apple;Iphone 14;A2882;256 Go;Intact
+5928;Smartphone;Apple Iphone 14 512 Go;Apple;Iphone 14;A2882;512 Go;Intact
+5929;Smartphone;Apple Iphone 14 128 Go;Apple;Iphone 14;A2882;128 Go;Bon état
+5930;Smartphone;Apple Iphone 14 256 Go;Apple;Iphone 14;A2882;256 Go;Bon état
+5931;Smartphone;Apple Iphone 14 512 Go;Apple;Iphone 14;A2882;512 Go;Bon état
+5932;Smartphone;Apple Iphone 14 128 Go;Apple;Iphone 14;A2882;128 Go;Etat Correct
+5933;Smartphone;Apple Iphone 14 256 Go;Apple;Iphone 14;A2882;256 Go;Etat Correct
+5934;Smartphone;Apple Iphone 14 512 Go;Apple;Iphone 14;A2882;512 Go;Etat Correct
+5982;Smartphone;Apple Iphone 14 pro 128 Go;Apple;Iphone 14 pro;A2890;128 Go;Intact
+5983;Smartphone;Apple Iphone 14 pro 256 Go;Apple;Iphone 14 pro;A2890;256 Go;Intact
+5984;Smartphone;Apple Iphone 14 pro 512 Go;Apple;Iphone 14 pro;A2890;512 Go;Intact
+5986;Smartphone;Apple Iphone 14 pro 128 Go;Apple;Iphone 14 pro;A2890;128 Go;Bon état
+5987;Smartphone;Apple Iphone 14 pro 256 Go;Apple;Iphone 14 pro;A2890;256 Go;Bon état
+5988;Smartphone;Apple Iphone 14 pro 512 Go;Apple;Iphone 14 pro;A2890;512 Go;Bon état
+5990;Smartphone;Apple Iphone 14 pro 128 Go;Apple;Iphone 14 pro;A2890;128 Go;Etat Correct
+5991;Smartphone;Apple Iphone 14 pro 256 Go;Apple;Iphone 14 pro;A2890;256 Go;Etat Correct
+5992;Smartphone;Apple Iphone 14 pro 512 Go;Apple;Iphone 14 pro;A2890;512 Go;Etat Correct
+5998;Smartphone;Apple Iphone 14 Pro max 128 Go;Apple;Iphone 14 Pro max;A2894;128 Go;Intact
+5999;Smartphone;Apple Iphone 14 Pro max 256 Go;Apple;Iphone 14 Pro max;A2894;256 Go;Intact
+6000;Smartphone;Apple Iphone 14 Pro max 512 Go;Apple;Iphone 14 Pro max;A2894;512 Go;Intact
+6002;Smartphone;Apple Iphone 14 Pro max 128 Go;Apple;Iphone 14 Pro max;A2894;128 Go;Bon état
+6003;Smartphone;Apple Iphone 14 Pro max 256 Go;Apple;Iphone 14 Pro max;A2894;256 Go;Bon état
+6004;Smartphone;Apple Iphone 14 Pro max 512 Go;Apple;Iphone 14 Pro max;A2894;512 Go;Bon état
+6006;Smartphone;Apple Iphone 14 Pro max 128 Go;Apple;Iphone 14 Pro max;A2894;128 Go;Etat Correct
+6007;Smartphone;Apple Iphone 14 Pro max 256 Go;Apple;Iphone 14 Pro max;A2894;256 Go;Etat Correct
+6008;Smartphone;Apple Iphone 14 Pro max 512 Go;Apple;Iphone 14 Pro max;A2894;512 Go;Etat Correct
+6054;Smartphone;Samsung Galaxy S22 5G 128 Go;Samsung;Galaxy S22 5G;SM-S901x;128 Go;Intact
+6061;Smartphone;Samsung Galaxy S22 5G 128 Go;Samsung;Galaxy S22 5G;SM-S901x;128 Go;Bon état
+6068;Smartphone;Samsung Galaxy S22 5G 128 Go;Samsung;Galaxy S22 5G;SM-S901x;128 Go;Etat Correct
+6202;Smartphone;Samsung a03s 32 Go;Samsung;a03s;SM-A037G;32 Go;Intact
+6207;Smartphone;Samsung a03s 32 Go;Samsung;a03s;SM-A037G;32 Go;Bon état
+6212;Smartphone;Samsung a03s 32 Go;Samsung;a03s;SM-A037G;32 Go;Etat Correct
+6222;Smartphone;Samsung a13 32 Go;Samsung;a13;SM-A137F;32 Go;Intact
+6227;Smartphone;Samsung a13 32 Go;Samsung;a13;SM-A137F;32 Go;Bon état
+6232;Smartphone;Samsung a13 32 Go;Samsung;a13;SM-A137F;32 Go;Etat Correct
+6242;Smartphone;Samsung A 02s 64 Go;Samsung;A 02s;SM-A025G;64 Go;Intact
+6247;Smartphone;Samsung A 02s 64 Go;Samsung;A 02s;SM-A025G;64 Go;Bon état
+6252;Smartphone;Samsung A 02s 64 Go;Samsung;A 02s;SM-A025G;64 Go;Etat Correct
+6262;Smartphone;Samsung A 03 64 Go;Samsung;A 03;SM-A035G;64 Go;Intact
+6266;Smartphone;Samsung A 03 64 Go;Samsung;A 03;SM-A035G;64 Go;Bon état
+6270;Smartphone;Samsung A 03 64 Go;Samsung;A 03;SM-A035G;64 Go;Etat Correct
+6278;Smartphone;Samsung A 04 64 Go;Samsung;A 04;SM-A045F;64 Go;Intact
+6283;Smartphone;Samsung A 04 64 Go;Samsung;A 04;SM-A045F;64 Go;Bon état
+6288;Smartphone;Samsung A 04 64 Go;Samsung;A 04;SM-A045F;64 Go;Etat Correct
+6298;Smartphone;Samsung A 04e 64 Go;Samsung;A 04e;SM-A042F;64 Go;Intact
+6302;Smartphone;Samsung A 04e 64 Go;Samsung;A 04e;SM-A042F;64 Go;Bon état
+6306;Smartphone;Samsung A 04e 64 Go;Samsung;A 04e;SM-A042F;64 Go;Etat Correct
+6314;Smartphone;Samsung A 04s 64 Go;Samsung;A 04s;SM-A047;64 Go;Intact
+6319;Smartphone;Samsung A 04s 64 Go;Samsung;A 04s;SM-A047;64 Go;Bon état
+6324;Smartphone;Samsung A 04s 64 Go;Samsung;A 04s;SM-A047;64 Go;Etat Correct
+6334;Smartphone;Samsung Galaxy S21 FE Dual Sim 128 Go;Samsung;Galaxy S21 FE Dual Sim;;128 Go;Intact
+6340;Smartphone;Samsung Galaxy S21 FE Dual Sim 128 Go;Samsung;Galaxy S21 FE Dual Sim;;128 Go;Bon état
+6346;Smartphone;Samsung Galaxy S21 FE Dual Sim 128 Go;Samsung;Galaxy S21 FE Dual Sim;;128 Go;Etat Correct
+6358;Smartphone;Samsung Galaxy S22 Ultra 5G 128 Go;Samsung;Galaxy S22 Ultra 5G;SM-S908x;128 Go;Intact
+6361;Smartphone;Samsung Galaxy S22 Ultra 5G 128 Go;Samsung;Galaxy S22 Ultra 5G;SM-S908x;128 Go;Bon état
+6364;Smartphone;Samsung Galaxy S22 Ultra 5G 128 Go;Samsung;Galaxy S22 Ultra 5G;SM-S908x;128 Go;Etat Correct
+6370;Smartphone;Samsung Galaxy S22+ 5G 128 Go;Samsung;Galaxy S22+ 5G;SM-S906x;128 Go;Intact
+6377;Smartphone;Samsung Galaxy S22+ 5G 128 Go;Samsung;Galaxy S22+ 5G;SM-S906x;128 Go;Bon état
+6384;Smartphone;Samsung Galaxy S22+ 5G 128 Go;Samsung;Galaxy S22+ 5G;SM-S906x;128 Go;Etat Correct
+6398;Smartphone;Samsung Galaxy S23+ 5G 128 Go;Samsung;Galaxy S23+ 5G;SM-S916;128 Go;Intact
+6401;Smartphone;Samsung Galaxy S23+ 5G 128 Go;Samsung;Galaxy S23+ 5G;SM-S916;128 Go;Bon état
+6404;Smartphone;Samsung Galaxy S23+ 5G 128 Go;Samsung;Galaxy S23+ 5G;SM-S916;128 Go;Etat Correct
+6410;Smartphone;Samsung a22 5g 128 Go;Samsung;a22 5g;SM-A226B;128 Go;Intact
+6411;Smartphone;Samsung a22 5g 128 Go;Samsung;a22 5g;SM-A226B;128 Go;Bon état
+6412;Smartphone;Samsung a22 5g 128 Go;Samsung;a22 5g;SM-A226B;128 Go;Etat Correct
+6418;Smartphone;Samsung a34 5g 128 Go;Samsung;a34 5g;SM-A346B;128 Go;Intact
+6419;Smartphone;Samsung a34 5g 128 Go;Samsung;a34 5g;SM-A346B;128 Go;Bon état
+6420;Smartphone;Samsung a34 5g 128 Go;Samsung;a34 5g;SM-A346B;128 Go;Etat Correct
+6422;Smartphone;Samsung a42 5g 128 Go;Samsung;a42 5g;SM-A426B;128 Go;Intact
+6423;Smartphone;Samsung a42 5g 128 Go;Samsung;a42 5g;SM-A426B;128 Go;Bon état
+6424;Smartphone;Samsung a42 5g 128 Go;Samsung;a42 5g;SM-A426B;128 Go;Etat Correct
+6426;Smartphone;Samsung a52s 128 Go;Samsung;a52s;SM-A528B;128 Go;Intact
+6427;Smartphone;Samsung a52s 128 Go;Samsung;a52s;SM-A528B;128 Go;Bon état
+6428;Smartphone;Samsung a52s 128 Go;Samsung;a52s;SM-A528B;128 Go;Etat Correct
+6430;Smartphone;Samsung a53 5g 128 Go;Samsung;a53 5g;SM-A536E;128 Go;Intact
+6431;Smartphone;Samsung a53 5g 128 Go;Samsung;a53 5g;SM-A536E;128 Go;Bon état
+6432;Smartphone;Samsung a53 5g 128 Go;Samsung;a53 5g;SM-A536E;128 Go;Etat Correct
+6434;Smartphone;Samsung a54 5g 128 Go;Samsung;a54 5g;SM-A546B;128 Go;Intact
+6435;Smartphone;Samsung a54 5g 128 Go;Samsung;a54 5g;SM-A546B;128 Go;Bon état
+6436;Smartphone;Samsung a54 5g 128 Go;Samsung;a54 5g;SM-A546B;128 Go;Etat Correct
+6614;Smartphone;Samsung M23 128 Go;Samsung;M23;SM-M236B;128 Go;Intact
+6618;Smartphone;Samsung M23 128 Go;Samsung;M23;SM-M236B;128 Go;Bon état
+6622;Smartphone;Samsung M23 128 Go;Samsung;M23;SM-M236B;128 Go;Etat Correct

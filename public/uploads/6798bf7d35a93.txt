@@ -1,0 +1,8 @@
+Pour corriger l'affichage d'un fichier CSV il faut :
+1. Ouvrir le fichier CSV
+2. Sélectionner le 1er colonne
+3. Cliquer sur l'onglet "Données"
+4. Cliquer sur l'icon "Convertir"
+5. Cocher "Délimité" et cliquer sur le bouton Suivant
+6. Cocher "Virgule" et cliquer sur le bouton Suivant
+7. Cliquer sur le bouton Terminer

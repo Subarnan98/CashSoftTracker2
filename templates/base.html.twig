@@ -128,8 +128,78 @@
 
 
         {% block javascripts %}
-            {# CKEditor CDN #}
-            <script src="https://cdn.ckeditor.com/ckeditor5/39.0.1/classic/ckeditor.js"></script>
+            {# While creating a new ticket we use TinyMCE editor for file and image uploads inside Messages champ  #}
+            <script src="/js/tinymce/tinymce.min.js"></script>
+            
+            {# TinyMCE configuration #}
+            <script>
+                document.addEventListener('DOMContentLoaded', function () {
+                    // We create temporary ids for uploaded files
+                    const tempId = 'temp_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
+                    document.getElementById('temp_id').value = tempId;
+
+                    // We initialize TinyMCE 
+                    tinymce.init({
+                        selector: '.tinymce_editor', // Target all textareas with this class
+                        plugins: 'image link media table code',
+                        toolbar: 'undo redo | bold italic | alignleft aligncenter alignright | link image table | code',
+                        images_upload_url: '/file/upload', // Symfony route for file upload
+                        file_picker_callback: function (callback, value, meta) {
+                            // Triggered when clicking the "browse" button in the file picker
+                            let input = document.createElement('input');
+                            input.setAttribute('type', 'file');
+
+                            // Restrict file types based on meta.filetype
+                            if (meta.filetype === 'file') {
+                                input.setAttribute('accept', '.pdf,.txt,.csv');
+                            } else if (meta.filetype === 'image') {
+                                input.setAttribute('accept', 'image/*');
+                            }
+
+                            input.onchange = function () {
+                                let file = input.files[0];
+
+                                let formData = new FormData();
+                                formData.append('upload', file);
+                                formData.append('temp_id', tempId); 
+
+                                // With JS fetch() API we call uploadFile() method of TinyMCEFileUploadController
+                                fetch('/file/upload', {
+                                    method: 'POST',
+                                    body: formData
+                                })
+                                    .then(response => response.json())
+                                    .then(data => {
+                                        if (data && data.location) {
+                                            // Pass the uploaded file URL to TinyMCE
+                                            callback(data.location, { title: file.name });
+                                        } else {
+                                            alert('Le téléchargement du fichier a échoué.');
+                                        }
+                                    })
+                                    .catch(() => {
+                                        alert('Erreur lors de l\'upload.');
+                                    });
+                            };
+
+                            input.click();
+                        },
+                        setup: function(editor) {
+                            editor.on('change', function() {
+                                    tinymce.triggerSave(); // Ensure TinyMCE saves to the textarea on change
+                            });
+                        },
+                        automatic_uploads: true,
+                        content_style: 'body { font-family:Helvetica,Arial,sans-serif; font-size:14px }'
+                    });
+
+                    // Ensure TinyMCE content syncs with the hidden textarea before submission using tinymce.triggerSave()
+                    document.querySelector('form').addEventListener('submit', function () {
+                        tinymce.triggerSave(); // Sync content to the hidden textarea
+                    });
+                });
+            </script>
+
 
             <!-- Font Awesome kits -->
             <script src="https://kit.fontawesome.com/7bbb385f41.js" crossorigin="anonymous"></script>

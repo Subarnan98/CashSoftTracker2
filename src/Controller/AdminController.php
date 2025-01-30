@@ -504,7 +504,7 @@ class AdminController extends AbstractController
 
         $ticket = new Ticket();
         $message = new Message();
-        
+
         $ticket->getMessage()->add($message);
         $message->setTicket($ticket);
 

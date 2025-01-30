@@ -21,7 +21,7 @@ class CsvExtension extends AbstractExtension
         
         if (($handle = fopen($filePath, 'r')) !== false) 
         {
-            while (($row = fgetcsv($handle, 1000, ',')) !== false) 
+            while (($row = fgetcsv($handle, 1000, ';')) !== false) 
             {
                 $data[] = $row;
             }
